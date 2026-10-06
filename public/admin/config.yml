@@ -1,0 +1,342 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "dmbureau/dmb-website",
+    "branch": "main",
+    "base_url": "https://dmbureau.cloud",
+    "auth_endpoint": "api/cms/auth"
+  },
+  "site_url": "https://dmbureau.cloud",
+  "display_url": "https://dmbureau.cloud",
+  "media_folder": "public/uploads",
+  "public_folder": "/uploads",
+  "collections": [
+    {
+      "name": "website",
+      "label": "Website content",
+      "files": [
+        {
+          "name": "settings",
+          "label": "Contact & homepage",
+          "file": "content/settings.json",
+          "fields": [
+            {
+              "name": "email",
+              "label": "Email",
+              "widget": "string"
+            },
+            {
+              "name": "phone",
+              "label": "Phone",
+              "widget": "string"
+            },
+            {
+              "name": "phoneLabel",
+              "label": "Phone display",
+              "widget": "string"
+            },
+            {
+              "name": "linkedin",
+              "label": "Linkedin",
+              "widget": "string"
+            },
+            {
+              "name": "heroTitle",
+              "label": "Herotitle",
+              "widget": "string"
+            },
+            {
+              "name": "heroHighlight",
+              "label": "Herohighlight",
+              "widget": "string"
+            },
+            {
+              "name": "heroDescription",
+              "label": "Herodescription",
+              "widget": "text"
+            }
+          ]
+        },
+        {
+          "name": "services",
+          "label": "Services",
+          "file": "content/services.json",
+          "fields": [
+            {
+              "name": "services",
+              "label": "Services",
+              "widget": "list",
+              "summary": "{{fields.name}}{{fields.title}}",
+              "fields": [
+                {
+                  "name": "slug",
+                  "label": "Slug",
+                  "widget": "string"
+                },
+                {
+                  "name": "name",
+                  "label": "Name",
+                  "widget": "string"
+                },
+                {
+                  "name": "group",
+                  "label": "Group",
+                  "widget": "string"
+                },
+                {
+                  "name": "headline",
+                  "label": "Headline",
+                  "widget": "string"
+                },
+                {
+                  "name": "summary",
+                  "label": "Summary",
+                  "widget": "text"
+                },
+                {
+                  "name": "body",
+                  "label": "Body",
+                  "widget": "text"
+                },
+                {
+                  "name": "fit",
+                  "label": "Fit",
+                  "widget": "string"
+                },
+                {
+                  "name": "deliverables",
+                  "label": "Deliverables",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "inputs",
+                  "label": "Inputs",
+                  "widget": "string"
+                },
+                {
+                  "name": "measure",
+                  "label": "Measure",
+                  "widget": "string"
+                },
+                {
+                  "name": "related",
+                  "label": "Related",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "industries",
+                  "label": "Industries",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "faq",
+                  "label": "Faq",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "q",
+                      "label": "Q",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "a",
+                      "label": "A",
+                      "widget": "text"
+                    }
+                  ]
+                },
+                {
+                  "name": "number",
+                  "label": "Number",
+                  "widget": "string"
+                },
+                {
+                  "name": "metaDescription",
+                  "label": "Seo description",
+                  "widget": "text"
+                }
+              ],
+              "min": 1
+            }
+          ]
+        },
+        {
+          "name": "industries",
+          "label": "Industries",
+          "file": "content/industries.json",
+          "fields": [
+            {
+              "name": "industries",
+              "label": "Industries",
+              "widget": "list",
+              "summary": "{{fields.name}}{{fields.title}}",
+              "fields": [
+                {
+                  "name": "slug",
+                  "label": "Slug",
+                  "widget": "string"
+                },
+                {
+                  "name": "name",
+                  "label": "Name",
+                  "widget": "string"
+                },
+                {
+                  "name": "headline",
+                  "label": "Headline",
+                  "widget": "string"
+                },
+                {
+                  "name": "summary",
+                  "label": "Summary",
+                  "widget": "text"
+                },
+                {
+                  "name": "body",
+                  "label": "Body",
+                  "widget": "text"
+                },
+                {
+                  "name": "problems",
+                  "label": "Problems",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "related",
+                  "label": "Related",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "approach",
+                  "label": "Approach",
+                  "widget": "text"
+                },
+                {
+                  "name": "measure",
+                  "label": "Measure",
+                  "widget": "string"
+                },
+                {
+                  "name": "inputs",
+                  "label": "Inputs",
+                  "widget": "string"
+                }
+              ],
+              "min": 1
+            }
+          ]
+        },
+        {
+          "name": "articles",
+          "label": "Articles",
+          "file": "content/articles.json",
+          "fields": [
+            {
+              "name": "articles",
+              "label": "Articles",
+              "widget": "list",
+              "summary": "{{fields.name}}{{fields.title}}",
+              "fields": [
+                {
+                  "name": "slug",
+                  "label": "Slug",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "category",
+                  "label": "Category",
+                  "widget": "string"
+                },
+                {
+                  "name": "read",
+                  "label": "Read",
+                  "widget": "string"
+                },
+                {
+                  "name": "summary",
+                  "label": "Summary",
+                  "widget": "text"
+                },
+                {
+                  "name": "sections",
+                  "label": "Sections",
+                  "widget": "list",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Title",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "body",
+                      "label": "Body",
+                      "widget": "text"
+                    }
+                  ]
+                },
+                {
+                  "name": "related",
+                  "label": "Related",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Item",
+                    "widget": "string"
+                  }
+                },
+                {
+                  "name": "source",
+                  "label": "Source",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "url",
+                      "label": "Url",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ],
+              "min": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "articles": [
+    {
+      "slug": "clicks-but-no-leads",
+      "title": "Google Ads clicks but no leads? Check the buying journey.",
+      "category": "Online advertising",
+      "read": "5 min",
+      "summary": "A practical guide to search intent, landing pages and conversion tracking when Google Ads brings visitors but few useful enquiries.",
+      "sections": [
+        {
+          "title": "A click is not proof of buying intent",
+          "body": "Start with the searches or audiences that brought the visitors. Are they looking for your exact service in a location you can serve? Separate commercial requests from research, job searches and unrelated interpretations of your offer. A high click-through rate can still hide a mismatch."
+        },
+        {
+          "title": "Check what people see after clicking your ad",
+          "body": "The page should deliver what the ad promised. Review the offer, service area, suitability and next action. If an ad describes a specific service but opens a broad homepage, visitors have to find their own route. A focused page can make the decision easier."
+        },
+        {
+          "title": "Test the enquiry before judging the campaign",
+          "body": "Submit a test form on mobile and desktop. Confirm that the enquiry reaches the right inbox or customer management tool, the visitor receives a clear acknowledgement and the tracking records the action once. Do not infer the absence of leads only from an advertising dashboard."
+        },
+        {
+          "title": "Choose the fix that matches the problem",
+          "body": "If the issue is intent, review targeting and search terms. If the journey is unclear, improve the page. If the event is unreliable, repair tracking. Keep a record of changes and review enquiries from suitable potential customers after a suitable observation period. Change the part supported by evidence rather than everything at once."
+        }
+      ],
+      "related": [
+        "google-ads-audit",
+        "landing-page-design",
+        "conversion-tracking-setup"
+      ],
+      "source": {
+        "label": "Google Ads: About conversion tracking",
+        "url": "https://support.google.com/google-ads/answer/1722022"
+      }
+    },
+    {
+      "slug": "traffic-but-no-enquiries",
+      "title": "Website traffic but no enquiries? Find the missing next step.",
+      "category": "Website improvements",
+      "read": "4 min",
+      "summary": "Review your offer, mobile experience and form journey before investing in more traffic. Connect each finding to a practical website improvement.",
+      "sections": [
+        {
+          "title": "Check who visits before changing the design",
+          "body": "Compare pages about your products and services and ways visitors find you. Visitors reading a broad guide may have a different intention from someone reviewing your service price. Assess whether the pages attracting traffic serve buyers you can help."
+        },
+        {
+          "title": "Answer the questions before the form",
+          "body": "A buyer should understand what you do, who the service suits, what is included and what happens next. Show evidence you can verify. If work included or process is unclear, a prominent button alone may not resolve the uncertainty."
+        },
+        {
+          "title": "Make it easier to contact you",
+          "body": "Review mobile usability, broken links, form errors and unnecessary required fields. Ask for enough information to qualify an enquiry without demanding details the buyer cannot reasonably provide yet. Explain the next step after submission."
+        },
+        {
+          "title": "Make changes you can evaluate",
+          "body": "Prioritise a small set of improvements tied to the observed problem. Review enquiry rate and quality together. Formal A/B testing needs enough suitable traffic; where it is insufficient, use usability evidence and careful observation without claiming statistical certainty."
+        }
+      ],
+      "related": [
+        "conversion-rate-audit",
+        "landing-page-design",
+        "analytics-dashboards"
+      ],
+      "source": {
+        "label": "Google Analytics: Events and key events",
+        "url": "https://support.google.com/analytics/answer/9267568"
+      }
+    },
+    {
+      "slug": "measure-qualified-leads",
+      "title": "How to measure lead quality before increasing your budget.",
+      "category": "Tracking & reports",
+      "read": "4 min",
+      "summary": "Use clear qualification criteria, enquiry sources and sales feedback to understand which marketing brings suitable prospects.",
+      "sections": [
+        {
+          "title": "Decide what makes an enquiry suitable",
+          "body": "Agree the basic fit criteria with sales: service need, location, company or customer profile and readiness. Keep the definition practical enough for consistent use. A property enquiry and a software demo need different qualification rules."
+        },
+        {
+          "title": "Count enquiries and check whether they are useful",
+          "body": "Record enquiries, accepted leads, opportunities and sales as distinct stages. Review quality by source and campaign where tracking allows. A channel with fewer enquiries may be more useful if a larger share reaches a serious sales conversation."
+        },
+        {
+          "title": "Feed the learning back into acquisition",
+          "body": "Use common rejection reasons to improve targeting, copy and qualification. Advertising platforms may support offline conversion imports, subject to account configuration and consent requirements. Confirm the technical setup before treating customer management tool outcomes as campaign signals."
+        },
+        {
+          "title": "Respect measurement limits",
+          "body": "Attribution does not capture every influence on a purchase. Missing integrations, duplicate records and delayed sales can distort the view. Document data gaps and review a suitable sales-cycle window before comparing channels."
+        }
+      ],
+      "related": [
+        "lead-quality-optimization",
+        "conversion-tracking-setup",
+        "analytics-dashboards"
+      ],
+      "source": {
+        "label": "Google Ads: About offline conversion imports",
+        "url": "https://support.google.com/google-ads/answer/2998031"
+      }
+    },
+    {
+      "slug": "international-service-pages",
+      "title": "International SEO: build pages for customers, not just countries.",
+      "category": "Google search & content",
+      "read": "5 min",
+      "summary": "Plan useful market content, genuine service coverage and clear buying information for international customers.",
+      "sections": [
+        {
+          "title": "Start with the market you can actually serve",
+          "body": "Be explicit about service delivery, language, time zones and commercial arrangements. Your website should not imply a local office or presence that does not exist. A clear global offer can be more useful than dozens of interchangeable country pages."
+        },
+        {
+          "title": "Create a regional page when the offer changes",
+          "body": "A distinct page is useful when pricing, availability, terminology, evidence or delivery differs meaningfully by market. Copying a page and replacing a country name adds little value for the buyer. Build a page around the actual differences."
+        },
+        {
+          "title": "Keep the technical signals aligned",
+          "body": "Each distinct page needs a stable URL, a clear title and a canonical that reflects the intended version. If genuine language or regional equivalents exist, hreflang can describe those relationships. It is not a replacement for relevant local content."
+        },
+        {
+          "title": "Measure the enquiries that fit",
+          "body": "Review business enquiries by operating market where the visitor shares that information. Use those signals to prioritise localisation. Do not expand the site only because a country has impressions; confirm the offer can serve that buyer well."
+        }
+      ],
+      "related": [
+        "on-page-seo",
+        "content-strategy",
+        "technical-seo-audit"
+      ],
+      "source": {
+        "label": "Google Search: Managing multilingual and multiregional sites",
+        "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites"
+      }
+    }
+  ]
+}

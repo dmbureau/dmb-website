@@ -1,0 +1,256 @@
+{
+  "industries": [
+    {
+      "slug": "real-estate",
+      "name": "Real Estate",
+      "headline": "Help property buyers find you and request a viewing.",
+      "summary": "Real estate SEO and advertising for estate agents, developers and property businesses. Help suitable buyers compare properties and request viewings.",
+      "body": "A high enquiry count can hide buyers outside your location, price range or property type. We align listings, advertising and follow-up with the inventory you actually sell. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Budget and location mismatch in enquiries",
+        "Property campaigns leading to generic pages",
+        "Slow follow-up after forms and brochure downloads"
+      ],
+      "related": [
+        "lead-quality-optimization",
+        "google-ads-management",
+        "landing-page-design",
+        "email-lead-nurturing"
+      ],
+      "approach": "Create project or listing pages with location, property type, price context where approved, availability and a specific viewing or enquiry action. Qualification questions should help your team respond with the right property. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Qualified property enquiries, booked viewings and progression to serious sales conversations.",
+      "inputs": "Project details, service areas, approved property assets and your definition of a qualified buyer."
+    },
+    {
+      "slug": "hospitality",
+      "name": "Hospitality",
+      "headline": "Help guests find your hotel and enquire about a stay.",
+      "summary": "Hotel and hospitality marketing through SEO, local search and paid campaigns. Help guests understand your rooms, location and direct booking options.",
+      "body": "Guests compare location, experience, availability and value before booking. An attractive website still needs a clear offer and a reliable route to reserve or enquire. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Website visits that do not reach the booking engine",
+        "Campaigns that overlook seasonality and guest intent",
+        "Local profiles with incomplete booking information"
+      ],
+      "related": [
+        "conversion-rate-audit",
+        "local-seo",
+        "google-ads-management",
+        "analytics-dashboards"
+      ],
+      "approach": "Match pages and campaigns to the stay, dining or event being considered. Show approved amenities, location details and booking conditions, then reduce friction between your website and reservation system. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Direct booking progression, reservation enquiries and attributable booking value where integration allows.",
+      "inputs": "Property or venue details, booking platform information, target guest segments and seasonal priorities."
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "headline": "Help patients find your services and request an appointment.",
+      "summary": "Healthcare marketing for clinics and eligible medical businesses. Build accurate service content, local visibility and clear appointment enquiry journeys.",
+      "body": "Patients need trustworthy information about services, locations and appointments. Marketing should make access easier while keeping claims accurate and protecting personal information. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Service pages that do not explain appointment suitability",
+        "Weak local visibility for genuine clinic locations",
+        "Forms requesting unnecessary sensitive information"
+      ],
+      "related": [
+        "local-seo",
+        "on-page-seo",
+        "google-business-profile",
+        "conversion-tracking-setup"
+      ],
+      "approach": "Build accurate service and location pages using provider-approved information. Keep appointment forms simple and avoid collecting medical details in advertising or analytics events. Content approval and platform eligibility are checked before campaigns. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Relevant appointment enquiries, booking journey completion and local contact actions.",
+      "inputs": "Approved services, provider credentials, clinic locations and appointment platform details."
+    },
+    {
+      "slug": "travel",
+      "name": "Travel & Tourism",
+      "headline": "Help travellers discover your trips and ask for a quote.",
+      "summary": "Travel agency SEO and digital marketing for destination and package enquiries. Explain inclusions, suitability and the next step towards a booking.",
+      "body": "A destination attracts curiosity as well as buyers. Your pages need to answer dates, inclusions, suitability and booking questions so qualified travellers can move forward. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Destination traffic with little package interest",
+        "Unclear inclusions, availability or booking conditions",
+        "Enquiries that stall while travellers compare options"
+      ],
+      "related": [
+        "content-strategy",
+        "on-page-seo",
+        "paid-social-advertising",
+        "email-lead-nurturing"
+      ],
+      "approach": "Connect destination guides to actual tours and packages. Commercial pages should explain the experience, inclusions, schedule, suitability and enquiry process with approved terms. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Qualified package enquiries, booking progression and campaign contribution to bookings.",
+      "inputs": "Current packages, operating destinations, approved itinerary details and booking conditions."
+    },
+    {
+      "slug": "saas",
+      "name": "SaaS & Technology",
+      "headline": "Help businesses understand your software and request a demo.",
+      "summary": "SaaS marketing and B2B lead generation for software companies. Explain product fit and guide relevant decision-makers towards a demo or sales enquiry.",
+      "body": "A signup only matters when the user fits your product and reaches value. We align use-case pages, paid acquisition and measurement with the buyers and accounts you can serve. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Paid campaigns generating poor-fit demos",
+        "Feature pages without clear use cases",
+        "Disconnected trial, customer management system and campaign reporting"
+      ],
+      "related": [
+        "b2b-lead-generation",
+        "linkedin-advertising",
+        "landing-page-design",
+        "ai-search-visibility"
+      ],
+      "approach": "Create distinct pages for core use cases and buyer roles. Match your trial or demo action to purchase complexity and connect acquisition data to qualification where your systems allow. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Qualified demos, activated trials and opportunity creation rather than signup volume alone.",
+      "inputs": "Product positioning, target accounts, key use cases and current trial or sales journey."
+    },
+    {
+      "slug": "ecommerce",
+      "name": "Ecommerce",
+      "headline": "Help shoppers find your products and complete their purchase.",
+      "summary": "Ecommerce SEO and performance marketing for online stores. Connect product discovery, paid campaigns and a clearer route to purchase.",
+      "body": "Paid traffic cannot repair a confusing product page or unreliable checkout. We review acquisition, merchandising journeys and measurement together before scaling spend. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Product visits that do not reach checkout",
+        "Duplicate or missing purchase tracking",
+        "Campaign reporting disconnected from store revenue"
+      ],
+      "related": [
+        "conversion-rate-audit",
+        "conversion-tracking-setup",
+        "paid-social-advertising",
+        "retargeting-campaigns"
+      ],
+      "approach": "Prioritise product information, delivery and return clarity, mobile purchasing and event accuracy. Tests should reflect your available traffic and margins rather than chase a generic conversion target. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Purchase conversion rate, customer acquisition cost and contribution after advertising where data is available.",
+      "inputs": "Store access, catalogue priorities, purchase event setup and commercial margin context."
+    },
+    {
+      "slug": "professional-services",
+      "name": "Professional Services",
+      "headline": "Help potential clients understand your services and contact you.",
+      "summary": "Professional Services marketing services from DMB. SEO, paid ads and conversion improvements planned around your customers and enquiry journey.",
+      "body": "Buyers need to understand fit, expertise and work included before making an enquiry. Broad service lists rarely answer the specific problem that brought them to your website. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Generic service pages with unclear work you receive",
+        "Enquiries outside the firm’s expertise or budget",
+        "Useful content without a route to a commercial service"
+      ],
+      "related": [
+        "on-page-seo",
+        "content-strategy",
+        "b2b-lead-generation",
+        "linkedin-advertising"
+      ],
+      "approach": "Build service pages around the problems you solve, the clients you suit and the process of engagement. Connect supporting articles to a relevant work included request and make qualification practical. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Suitable enquiries, sales-accepted opportunities and pipeline progression.",
+      "inputs": "Service work included, ideal client profile, approved expertise evidence and common sales objections."
+    },
+    {
+      "slug": "home-services",
+      "name": "Home Services",
+      "headline": "Help local customers find your services and request a quote.",
+      "summary": "Home Services marketing services combining relevant SEO, paid ads and conversion improvements. Local demand is highly specific.",
+      "body": "Local demand is highly specific. Location, urgency and service type must line up with your ads, profile and pages so your team receives jobs it can actually take. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Calls from outside the service area",
+        "Paid clicks for services you do not provide",
+        "Weak connection between local pages and enquiry actions"
+      ],
+      "related": [
+        "local-seo",
+        "google-business-profile",
+        "google-ads-management",
+        "conversion-tracking-setup"
+      ],
+      "approach": "Organise pages around real services and coverage. Make contact actions easy on mobile, use accurate availability information and review enquiry quality by location and job type. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Qualified job enquiries, relevant calls and booked jobs where the sales process is tracked.",
+      "inputs": "Service list, genuine coverage areas, operating hours and enquiry handling process."
+    },
+    {
+      "slug": "education",
+      "name": "Education & Training",
+      "headline": "Help students understand your courses and ask about enrolment.",
+      "summary": "Education & Training marketing services from DMB. SEO, paid ads and conversion improvements planned around your customers and enquiry journey.",
+      "body": "Prospective learners compare entry requirements, format, costs and outcomes. Clear course pages help them assess suitability before applying. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Course traffic without suitable applications",
+        "Confusing entry requirements or study formats",
+        "Enquiries that stall before enrolment"
+      ],
+      "related": [
+        "content-strategy",
+        "on-page-seo",
+        "landing-page-design",
+        "email-lead-nurturing"
+      ],
+      "approach": "Build accurate course and programme pages with approved requirements, study format and application steps. Separate student and institutional journeys when their buying decisions differ. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Qualified course enquiries, application progression and enrolment contribution where tracked.",
+      "inputs": "Approved programme information, target learner groups and the application journey."
+    },
+    {
+      "slug": "recruitment",
+      "name": "Recruitment & Staffing",
+      "headline": "Help employers find your recruitment services.",
+      "summary": "Recruitment & Staffing marketing services combining relevant SEO, paid ads and conversion improvements. Employer buyers and job seekers have different needs.",
+      "body": "Employer buyers and job seekers have different needs. Campaigns and website journeys must distinguish hiring services from job applications. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Employer campaigns attracting candidate enquiries",
+        "Specialist recruitment services buried in broad pages",
+        "Unclear information passed to your team of hiring enquiries"
+      ],
+      "related": [
+        "b2b-lead-generation",
+        "linkedin-advertising",
+        "marketing-automation",
+        "on-page-seo"
+      ],
+      "approach": "Create employer service pages around roles, sectors and engagement models. Keep candidate applications on their own path and qualify employer enquiries by hiring need. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Qualified employer enquiries, sales opportunities and time to the first useful response.",
+      "inputs": "Target employers, placement specialisms, service models and customer management system workflow."
+    },
+    {
+      "slug": "logistics",
+      "name": "Logistics & Supply Chain",
+      "headline": "Help businesses understand your delivery services and request a quote.",
+      "summary": "Logistics & Supply Chain marketing services from DMB. SEO, paid ads and conversion improvements planned around your customers and enquiry journey.",
+      "body": "A logistics enquiry needs to fit your geography, cargo requirements and service capacity. Broad traffic can create work without viable opportunities. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Quote requests outside supported routes",
+        "Service pages missing capability and shipment context",
+        "Manual routing of inbound commercial enquiries"
+      ],
+      "related": [
+        "b2b-lead-generation",
+        "on-page-seo",
+        "lead-quality-optimization",
+        "marketing-automation"
+      ],
+      "approach": "Organise commercial pages by actual logistics capabilities and coverage. Quote forms should collect enough business context to route the request without creating excessive friction. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Suitable quote requests, opportunity progression and routing efficiency.",
+      "inputs": "Supported routes, service capabilities, commercial criteria and sales information passed to your team process."
+    },
+    {
+      "slug": "solar-energy",
+      "name": "Solar & Energy Services",
+      "headline": "Qualify the enquiry before the site visit.",
+      "summary": "Solar & Energy Services marketing services from DMB. SEO, paid ads and conversion improvements planned around your customers and enquiry journey.",
+      "body": "Interested customers may fall outside your service area or installation criteria. Clear offers and practical qualification help your team spend time on suitable enquiries. We plan the work around how your customers compare providers, what qualifies an enquiry and the next step your team can fulfil.",
+      "problems": [
+        "Enquiries outside installation coverage",
+        "Campaign promises that do not match the actual offer",
+        "Forms missing essential project suitability information"
+      ],
+      "related": [
+        "lead-quality-optimization",
+        "google-ads-management",
+        "local-seo",
+        "paid-media-strategy"
+      ],
+      "approach": "Explain approved installation services, coverage and the assessment process. Use relevant qualification fields and avoid unsupported claims about savings, grants or eligibility. Service pages, campaigns and enquiry handling are reviewed together, with responsibilities agreed before launch.",
+      "measure": "Suitable assessment enquiries, booked consultations and quote progression.",
+      "inputs": "Coverage areas, installation criteria, approved claims and enquiry assessment process."
+    }
+  ]
+}
