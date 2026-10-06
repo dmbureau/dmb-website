@@ -1,0 +1,3 @@
+export function enquiryCurrency(market:string){return market==='India'?'INR':market==='United Kingdom'?'GBP':['UAE','Dubai','United Arab Emirates'].includes(market)?'AED':market==='Kuwait'?'KWD':market==='Europe'?'EUR':market==='Canada'?'CAD':market==='Australia'?'AUD':'USD'}
+const bands:Record<string,number[]>={USD:[500,1500,5000],INR:[40000,125000,400000],GBP:[400,1200,4000],AED:[2000,5500,18000],KWD:[150,450,1500],EUR:[450,1400,4500],CAD:[700,2000,7000],AUD:[750,2250,7500]};
+export function enquiryBudgetOptions(currency:string){const [a,b,c]=bands[currency]||bands.USD;const n=(v:number)=>new Intl.NumberFormat('en-US').format(v);return ['Not decided',`Under ${n(a)} ${currency}`,`${n(a)}–${n(b)} ${currency}`,`${n(b)}–${n(c)} ${currency}`,`${n(c)}+ ${currency}`]}
