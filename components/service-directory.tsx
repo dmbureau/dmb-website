@@ -1,0 +1,6 @@
+'use client';
+import { useState } from 'react';
+import { Search, ArrowUpRight } from 'lucide-react';
+import { services, groups } from '@/lib/content';
+import { ServiceCard } from './blocks';
+export function ServiceDirectory(){const [group,setGroup]=useState('All services');const [query,setQuery]=useState('');const found=services.filter(s=>(group==='All services'||s.group===group)&&`${s.name} ${s.summary} ${s.headline}`.toLowerCase().includes(query.toLowerCase()));return <><div className="directory-tools"><div className="filter-tabs" aria-label="Service categories">{groups.map(g=><button key={g} className={g===group?'active':''} onClick={()=>setGroup(g)} aria-pressed={g===group}>{g}</button>)}</div><label className="directory-search"><Search size={18}/><input aria-label="Search services" placeholder="Try Google, website, ads or email…" value={query} onChange={e=>setQuery(e.target.value)}/></label></div><p className="results-count" aria-live="polite">{found.length} services available</p><div className="service-grid">{found.map(s=><ServiceCard key={s.slug} service={s}/>)}</div>{!found.length&&<div className="empty-state"><h2>Can’t find what you need?</h2><p>Tell us what you want to improve. We’ll help you choose a service.</p><a href="/contact" className="text-link">Ask us for help <ArrowUpRight size={18}/></a></div>}</>}

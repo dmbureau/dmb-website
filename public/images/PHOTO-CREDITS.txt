@@ -1,0 +1,16 @@
+Real stock photographs from Unsplash. These depict example work settings, not the DMB team or clients.
+License: https://unsplash.com/license
+Source images (downloaded 2026-10-06):
+Hero: https://images.unsplash.com/photo-1522071820081-009f0129c71c
+Website workspace: https://images.unsplash.com/photo-1499750310107-5fef28a66643
+Campaign planning: https://images.unsplash.com/photo-1552664730-d307ca884978
+Website collaboration: https://images.unsplash.com/photo-1556761175-b413da4baf72
+Analytics: https://images.unsplash.com/photo-1460925895917-afdab827c52f
+real-estate: https://images.unsplash.com/photo-1560518883-ce09059eeffa
+hospitality: https://images.unsplash.com/photo-1566073771259-6a8506099945
+healthcare: https://images.unsplash.com/photo-1576091160399-112ba8d25d1d
+travel: https://images.unsplash.com/photo-1488646953014-85cb44e25828
+saas: https://images.unsplash.com/photo-1497366754035-f200968a6e72
+ecommerce: https://images.unsplash.com/photo-1472851294608-062f824d29cc
+
+Hero marketing analytics: Unsplash photo-1551288049-bebda4e38f71, licensed under Unsplash License. Illustrative stock photo, not DMB client results.
