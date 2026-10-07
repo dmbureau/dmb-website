@@ -271,3 +271,9 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 @media(max-width:760px){.section{padding-block:50px}.editorial-intro,.goal-editorial,.home-faq{grid-template-columns:1fr;gap:30px}.editorial-steps{grid-template-columns:1fr;gap:25px}.brew-hero-copy{padding-block:48px 35px}.brew-hero h1{font-size:39px;letter-spacing:-1.2px}.brew-hero-copy>p{font-size:16px}.hero-audit-panel{padding:25px}.hero-audit-panel h2{font-size:26px}.section-heading{margin-bottom:28px}.editorial-intro .editorial-copy{order:-1}.goal-row h3{font-size:19px}.goal-row{gap:14px}.home-faq .section-heading{margin-bottom:0}.page-intro h1{font-size:36px}}
 @media(prefers-reduced-motion:reduce){.goal-row,.button{transition:none}.goal-row:hover{transform:none}:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card):is(:hover,:focus-within){transform:none}}
 
+
+/* Explicit hero contrast and a stable shared text column. */
+.brew-hero .brew-hero-copy>h1{color:#202a24!important;text-align:left;justify-self:start;align-self:start;width:100%;margin-left:0}
+.brew-hero .brew-hero-copy>h1>span{color:#567245!important}
+.brew-hero .brew-hero-copy>p{color:#526352!important;text-align:left;justify-self:start;align-self:start;margin-left:0;width:100%}
+@media(min-width:1100px){.brew-hero-copy{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(360px,1fr);align-items:start}.hero-kicker{grid-row:1}.brew-hero-copy>h1{grid-row:2}.brew-hero-copy>p{grid-row:3}.brew-hero-copy>.hero-buttons{grid-row:4}.brew-hero-copy>.brew-hero-markets{grid-row:5}.hero-audit-panel{grid-column:2;grid-row:1/6!important}}
