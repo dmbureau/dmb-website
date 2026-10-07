@@ -233,3 +233,38 @@ body{background:var(--paper)}
 .brew-services{background:#f5f1e8}.capability-panel{box-shadow:none}.process-section{background:#edf5eb}.process-card>span{color:#507b3e}.insight-section{background:#fff}.cta-band{background:#173e35}
 .section{padding-block:58px}.section-heading{margin-bottom:30px}.section-heading h2{max-width:730px}.footer-contact-band{background:#eef5ea!important}
 @media(max-width:640px){.section{padding-block:38px}.brew-hero-copy>p{font-size:16px}.hero-audit-panel>h2{font-size:25px}}
+
+/* Lightweight service illustrations and connected customer journey. */
+.service-explainer{--visual-accent:#35694d;margin:0;padding:28px;background:#edf5eb;border:1px solid #dce8db;border-radius:18px;overflow:hidden;position:relative;color:#183e35;width:100%;height:auto!important;min-height:0}
+.visual-ads,.visual-audit{--visual-accent:#8b702c;background:#fff6de;border-color:#ece0bf}
+.visual-calendar,.visual-social{--visual-accent:#766097;background:#f2edfa;border-color:#e2d8ef}
+.visual-tracking,.visual-email{--visual-accent:#387b91;background:#eaf4f8;border-color:#d5e6ed}
+.visual-website,.visual-workflow{--visual-accent:#9a654a;background:#fff0e7;border-color:#edddcf}
+.visual-title{display:flex;align-items:center;gap:14px;position:relative;z-index:1}
+.visual-title>span{display:grid;place-items:center;width:52px;height:52px;flex-shrink:0;border-radius:14px;background:#ffffffb8;color:var(--visual-accent)}
+.visual-title strong{font-size:22px;line-height:1.3;max-width:330px}
+.visual-flow{margin:26px 0 18px;padding:16px;border-radius:12px;background:#ffffffb3;font-size:16px;font-weight:600;line-height:1.6}
+.service-explainer ul{list-style:none;margin:0;padding:0;display:grid;gap:13px}
+.service-explainer li{display:flex;align-items:flex-start;gap:10px;font-size:15px;line-height:1.5}
+.service-explainer li svg{flex-shrink:0;margin-top:3px;color:var(--visual-accent)}
+.service-explainer figcaption{margin-top:22px;font-size:11px;line-height:1.6;color:#526d65}
+.business-map{display:block;width:100%;height:auto;margin-top:24px}
+.visual-compact{min-height:142px!important;border:0;border-radius:12px;padding:24px;display:flex;align-items:center}
+.visual-compact .visual-title strong{font-size:18px}
+.visual-compact:after{content:"";position:absolute;width:115px;height:115px;border:1px solid currentColor;border-radius:50%;opacity:.07;right:-35px;bottom:-50px;box-shadow:0 0 0 20px currentColor,0 0 0 40px currentColor}
+.service-card .service-explainer,.problem-card .service-explainer,.insight-card .service-explainer{width:100%}
+.service-visual{height:auto!important;background:transparent!important}
+.capability-image .service-explainer{height:100%!important}
+.bureau-visual{max-width:700px;margin-top:32px}
+.journey-section{background:#fff}.journey-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;position:relative}
+.journey-step{display:flex;flex-direction:column;align-items:flex-start;padding:32px;border:1px solid #dce8da;border-radius:18px;background:#eff6eb;position:relative;transition:transform .25s,box-shadow .25s}
+.journey-step:nth-child(2){background:#f4effb;border-color:#e5ddee}.journey-step:nth-child(3){background:#fff3e3;border-color:#eee1cb}
+.journey-step:hover{transform:translateY(-5px);box-shadow:0 16px 30px #173e350a}
+.journey-node{display:grid;place-items:center;width:60px;height:60px;border-radius:18px;background:#fff;margin-bottom:25px;color:#35694d}
+.journey-step h3{font-size:25px;line-height:1.2;margin:12px 0}
+.journey-step p{font-size:16px;line-height:1.65;margin:0 0 24px}
+.journey-link{display:flex;gap:10px;align-items:center;font-size:14px;font-weight:600;margin-top:auto}
+.journey-node svg{animation:journey-breathe 5s ease-in-out infinite}.journey-step:nth-child(2) svg{animation-delay:1s}.journey-step:nth-child(3) svg{animation-delay:2s}
+@keyframes journey-breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media(max-width:760px){.journey-track{grid-template-columns:1fr}.journey-step{padding:25px}.service-explainer{padding:22px}.visual-title strong{font-size:20px}.visual-compact{min-height:120px!important}.visual-compact .visual-title strong{font-size:16px}.visual-flow{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.journey-node svg{animation:none}.journey-step{transition:none}.journey-step:hover{transform:none}}

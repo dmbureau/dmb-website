@@ -4,9 +4,9 @@
       "slug": "google-ads-audit",
       "name": "Google Ads Audit Services",
       "group": "Online advertising",
-      "headline": "Find what is wasting your Google Ads budget.",
-      "summary": "Get a Google Ads account audit covering search terms, campaign settings, conversion tracking and landing pages. See which fixes deserve attention before you spend more.",
-      "body": "We compare paid searches with what you sell, check whether conversions represent genuine enquiries and review the page customers reach. The audit separates wasted spend, missing measurement and website friction, with a prioritised action plan.",
+      "headline": "Find out why your Google Ads budget is not bringing enquiries.",
+      "summary": "Review search terms, budget use, conversion tracking and landing pages. Get prioritised fixes before spending more.",
+      "body": "We compare paid searches with what you sell, check whether conversions represent genuine enquiries and review the page customers reach. The audit separates wasted spend, missing measurement and website unnecessary effort, with a prioritised action plan.",
       "fit": "Already running Google Ads, but unsure why spending is high or enquiries are low.",
       "deliverables": [
         "Review of the searches you pay for",
@@ -38,15 +38,15 @@
         }
       ],
       "number": "01",
-      "metaDescription": "Google Ads Audit Services from DMB. Find what is wasting your Google Ads budget. Request a tailored scope and quote."
+      "metaDescription": "Review search terms, budget use, conversion tracking and landing pages. Get prioritised fixes before spending more."
     },
     {
       "slug": "google-ads-management",
       "name": "Google Ads Management Services",
       "group": "Online advertising",
-      "headline": "Reach people ready to enquire about your services.",
-      "summary": "Google Ads management for service businesses, B2B companies and online stores. Connect relevant searches, focused landing pages and reliable conversion tracking.",
-      "body": "We build campaigns around your services, locations and buying intent. Search terms, negative keywords, ad messages and budgets are reviewed together. Your feedback on accepted enquiries helps guide optimisation beyond the number of form submissions.",
+      "headline": "Reach people searching for your services.",
+      "summary": "Google Ads campaign setup and management built around your services, locations and useful enquiries.",
+      "body": "We build campaigns around your services, locations and buying intent. Search terms, negative keywords, ad messages and budgets are reviewed together. Your feedback on accepted enquiries helps guide improvements beyond the number of form submissions.",
       "fit": "Businesses with a clear offer, an advertising budget and someone ready to respond to enquiries.",
       "deliverables": [
         "Plan for your ads and relevant customer searches",
@@ -78,14 +78,14 @@
         }
       ],
       "number": "02",
-      "metaDescription": "Google Ads Management Services from DMB. Reach people ready to enquire about your services. Request a tailored scope and quote."
+      "metaDescription": "Google Ads campaign setup and management built around your services, locations and useful enquiries."
     },
     {
       "slug": "paid-social-advertising",
       "name": "Meta Ads & Paid Social Advertising",
       "group": "Online advertising",
-      "headline": "Put the right offer in front of the right audience.",
-      "summary": "Facebook and Instagram advertising services for businesses that need enquiries or online sales. Align audiences, creative, forms and landing pages with one clear offer.",
+      "headline": "Put a clear offer in front of the right social audience.",
+      "summary": "Meta Ads planning, creative testing and campaign management for relevant audiences and clearer enquiries.",
       "body": "We plan Meta Ads around who can buy, what they need to understand and the next action. We review creative and enquiry quality alongside campaign data, then test agreed improvements to targeting, messaging and the website experience.",
       "fit": "Businesses that want to test a clear offer with suitable audiences on social media.",
       "deliverables": [
@@ -118,14 +118,14 @@
         }
       ],
       "number": "03",
-      "metaDescription": "Meta Ads & Paid Social Advertising from DMB. Put the right offer in front of the right audience. Request a tailored scope and quote."
+      "metaDescription": "Meta Ads planning, creative testing and campaign management for relevant audiences and clearer enquiries."
     },
     {
       "slug": "lead-quality-optimization",
       "name": "Lead Quality Optimisation Services",
       "group": "Website improvements",
-      "headline": "Help your sales team spend time on better-fit enquiries.",
-      "summary": "Improve lead quality across Google Ads, paid social and website forms. Review location, budget, service fit and the handover to your sales team.",
+      "headline": "Get fewer poor-fit enquiries.",
+      "summary": "Improve targeting, page messages and enquiry questions so your team spends less time on poor-fit leads.",
       "body": "We define a useful lead with your team, trace poor-fit enquiries to their source and review the promises made in ads and pages. Clear service criteria and carefully chosen form questions help visitors decide whether your offer is suitable.",
       "fit": "Businesses getting enquiries from people outside their service area, budget or customer needs.",
       "deliverables": [
@@ -158,14 +158,14 @@
         }
       ],
       "number": "04",
-      "metaDescription": "Lead Quality Optimisation Services from DMB. Help your sales team spend time on better-fit enquiries. Request a tailored scope and quote."
+      "metaDescription": "Improve targeting, page messages and enquiry questions so your team spends less time on poor-fit leads."
     },
     {
       "slug": "landing-page-design",
       "name": "Landing Page Design Services",
       "group": "Website improvements",
-      "headline": "Give every campaign a clearer next step.",
-      "summary": "Conversion-focused landing page design for Google Ads, Meta Ads and B2B campaigns. Explain one offer, answer buying questions and make the enquiry action easy.",
+      "headline": "Give ad visitors a clear reason to contact you.",
+      "summary": "Focused landing pages with a clear offer, relevant proof, mobile-friendly forms and agreed tracking.",
       "body": "We structure the page around the visitor’s search or ad, explain the offer and scope, and place relevant proof and answers near the decision. Mobile layouts, usable forms and agreed tracking are considered from the start.",
       "fit": "Businesses needing a focused page for an ad campaign or a specific offer.",
       "deliverables": [
@@ -198,14 +198,14 @@
         }
       ],
       "number": "05",
-      "metaDescription": "Landing Page Design Services from DMB. Give every campaign a clearer next step. Request a tailored scope and quote."
+      "metaDescription": "Focused landing pages with a clear offer, relevant proof, mobile-friendly forms and agreed tracking."
     },
     {
       "slug": "conversion-rate-audit",
       "name": "Conversion Rate Optimisation Audit",
       "group": "Website improvements",
-      "headline": "Find why website visitors leave without enquiring.",
-      "summary": "A website conversion audit for businesses getting traffic but too few enquiries. Review mobile usability, offer clarity, trust information and forms.",
+      "headline": "Find what stops website visitors from enquiring.",
+      "summary": "Review your website journey, unanswered buying questions and form friction. Get practical conversion recommendations.",
       "body": "We follow the route from entry page to enquiry, looking for unanswered questions, unclear buttons and unnecessary effort. Analytics and recordings, where access is available, support the review. Recommendations explain what to change and how to evaluate it.",
       "fit": "Businesses with website visitors who rarely enquire or buy.",
       "deliverables": [
@@ -238,14 +238,14 @@
         }
       ],
       "number": "06",
-      "metaDescription": "Conversion Rate Optimisation Audit from DMB. Find why website visitors leave without enquiring. Request a tailored scope and quote."
+      "metaDescription": "Review your website journey, unanswered buying questions and form friction. Get practical conversion recommendations."
     },
     {
       "slug": "conversion-tracking-setup",
       "name": "GA4 & Conversion Tracking Setup",
       "group": "Tracking & reports",
-      "headline": "Know which campaigns bring enquiries.",
-      "summary": "GA4, Google Tag Manager and conversion tracking services for form submissions, calls and agreed sales actions. Make campaign decisions using clearer measurement.",
+      "headline": "Know which actions your marketing actually brings.",
+      "summary": "GA4 and Google Tag Manager setup for verified enquiry events, with testing and a clear event map.",
       "body": "We define the actions that matter, review your current tags and configure the agreed events. Successful submissions must be distinguished from button clicks or form errors. Testing and a documented event map help your team understand what is being counted.",
       "fit": "Businesses unsure whether forms, bookings, purchases or call clicks are recorded correctly.",
       "deliverables": [
@@ -278,15 +278,15 @@
         }
       ],
       "number": "07",
-      "metaDescription": "GA4 & Conversion Tracking Setup from DMB. Know which campaigns bring enquiries. Request a tailored scope and quote."
+      "metaDescription": "GA4 and Google Tag Manager setup for verified enquiry events, with testing and a clear event map."
     },
     {
       "slug": "technical-seo-audit",
       "name": "Technical SEO Audit Services",
       "group": "Google search & content",
-      "headline": "Find the website issues blocking search visibility.",
-      "summary": "Technical SEO audits covering crawling, indexing, redirects, canonicals, internal links and page experience. Get clear priorities for your development team.",
-      "body": "We examine important commercial pages and how search engines reach them. The report explains affected URLs, likely impact and recommended fixes, separating urgent indexing problems from improvements that can be planned later.",
+      "headline": "Find the website issues holding back search visibility.",
+      "summary": "Check crawling, indexing, redirects and canonical signals on important pages. Get an actionable technical SEO report.",
+      "body": "We examine important business pages and how search engines reach them. The report explains affected URLs, likely impact and recommended fixes, separating urgent indexing problems from improvements that can be planned later.",
       "fit": "Websites with missing search results, broken links or technical problems that need investigation.",
       "deliverables": [
         "Check of whether search engines can read important pages",
@@ -318,14 +318,14 @@
         }
       ],
       "number": "08",
-      "metaDescription": "Technical SEO Audit Services from DMB. Find the website issues blocking search visibility. Request a tailored scope and quote."
+      "metaDescription": "Check crawling, indexing, redirects and canonical signals on important pages. Get an actionable technical SEO report."
     },
     {
       "slug": "on-page-seo",
       "name": "On-page SEO Services",
       "group": "Google search & content",
-      "headline": "Make your service pages easier to find and choose.",
-      "summary": "On-page SEO services for businesses that need organic enquiries. Align service-page content, titles, headings and internal links with relevant buying-intent searches.",
+      "headline": "Help customers and search engines understand your services.",
+      "summary": "Improve page intent, headings, service copy and internal links for relevant searches and easier buying decisions.",
       "body": "We map each important page to a distinct customer need, then improve the explanation of your offer, scope and next step. Keywords support useful copy; they do not replace the information buyers need to decide whether to contact you.",
       "fit": "Businesses whose service pages are unclear or attract people looking for something else.",
       "deliverables": [
@@ -358,14 +358,14 @@
         }
       ],
       "number": "09",
-      "metaDescription": "On-page SEO Services from DMB. Make your service pages easier to find and choose. Request a tailored scope and quote."
+      "metaDescription": "Improve page intent, headings, service copy and internal links for relevant searches and easier buying decisions."
     },
     {
       "slug": "local-seo",
       "name": "Local SEO Services",
       "group": "Google search & content",
-      "headline": "Get found by customers in the areas you serve.",
-      "summary": "Local SEO services for clinics, property businesses, hotels and service companies. Connect Google Maps visibility with useful location and service pages.",
+      "headline": "Help nearby customers find and contact your business.",
+      "summary": "Local SEO and Google Business Profile support for genuine service areas, useful local pages and clear contact options.",
       "body": "We check your genuine service areas, business information, local pages and Google Business Profile. The plan focuses on relevant local demand and clear contact options, without inventing locations or producing identical city pages.",
       "fit": "Businesses serving genuine towns, cities or local service areas.",
       "deliverables": [
@@ -398,14 +398,14 @@
         }
       ],
       "number": "10",
-      "metaDescription": "Local SEO Services from DMB. Get found by customers in the areas you serve. Request a tailored scope and quote."
+      "metaDescription": "Local SEO and Google Business Profile support for genuine service areas, useful local pages and clear contact options."
     },
     {
       "slug": "google-business-profile",
       "name": "Google Business Profile Optimisation",
       "group": "Google search & content",
-      "headline": "Turn your Google listing into a clearer first impression.",
-      "summary": "Google Business Profile optimisation for eligible businesses. Improve categories, services, contact details and useful information on Google Search and Maps.",
+      "headline": "Make your Google business listing clear and useful.",
+      "summary": "Improve approved business information, categories, services, photos and website links on Google Business Profile.",
       "body": "We review profile eligibility, approved business details, categories, services and images. Website and booking links are checked so interested customers can reach the right next step. Recommendations cover gaps and ongoing maintenance.",
       "fit": "Local businesses with incomplete or outdated Google business listings.",
       "deliverables": [
@@ -438,14 +438,14 @@
         }
       ],
       "number": "11",
-      "metaDescription": "Google Business Profile Optimisation from DMB. Turn your Google listing into a clearer first impression. Request a tailored scope and quote."
+      "metaDescription": "Improve approved business information, categories, services, photos and website links on Google Business Profile."
     },
     {
       "slug": "seo-migration-support",
       "name": "SEO Website Migration Services",
       "group": "Google search & content",
-      "headline": "Protect important search journeys when your website changes.",
-      "summary": "SEO migration support for domain, CMS and website redesign projects. Plan URL mapping, redirects, canonical checks and post-launch monitoring.",
+      "headline": "Move your website with a clear SEO plan.",
+      "summary": "Plan URL mappings, redirects and launch checks when your domain, CMS or website structure changes.",
       "body": "We identify valuable existing URLs, map suitable replacements and review the proposed site before launch. After launch, checks cover redirects, indexing signals and internal links so problems can be addressed promptly.",
       "fit": "Businesses changing their domain, website platform, design or page structure.",
       "deliverables": [
@@ -478,14 +478,14 @@
         }
       ],
       "number": "12",
-      "metaDescription": "SEO Website Migration Services from DMB. Protect important search journeys when your website changes. Request a tailored scope and quote."
+      "metaDescription": "Plan URL mappings, redirects and launch checks when your domain, CMS or website structure changes."
     },
     {
       "slug": "organic-traffic-recovery",
       "name": "Organic Traffic Recovery Services",
       "group": "Google search & content",
-      "headline": "Understand why your search traffic dropped.",
-      "summary": "SEO traffic recovery services after a redesign, migration or unexplained decline. Investigate indexing, affected pages and content changes before choosing fixes.",
+      "headline": "Understand why your search traffic has dropped.",
+      "summary": "Investigate search traffic drops using available Search Console data, analytics and website change history.",
       "body": "We compare the timing and scope of the decline using available Search Console and analytics data. Technical changes, lost pages and changes in customer demand are examined before recommending a recovery plan.",
       "fit": "Businesses that have seen a clear drop in visitors or enquiries from search results.",
       "deliverables": [
@@ -518,15 +518,15 @@
         }
       ],
       "number": "13",
-      "metaDescription": "Organic Traffic Recovery Services from DMB. Understand why your search traffic dropped. Request a tailored scope and quote."
+      "metaDescription": "Investigate search traffic drops using available Search Console data, analytics and website change history."
     },
     {
       "slug": "content-strategy",
       "name": "SEO & Organic Content Strategy",
       "group": "Google search & content",
-      "headline": "Create content that helps customers choose your business.",
-      "summary": "Commercial content strategy for service pages, industry pages and useful articles. Plan buying-intent topics that connect search demand with your offer.",
-      "body": "We map customer problems, comparison questions and service searches to the right pages. Each brief defines the audience, intent, useful answers and internal links. The plan gives commercial pages priority rather than publishing articles without a route to enquiry.",
+      "headline": "Plan content around the questions buyers ask.",
+      "summary": "Prioritise buying-intent topics and useful service pages. Get content briefs with clear audiences and internal links.",
+      "body": "We map customer problems, comparison questions and service searches to the right pages. Each brief defines the audience, intent, useful answers and internal links. The plan gives business pages priority rather than publishing articles without a route to enquiry.",
       "fit": "Businesses publishing content but struggling to connect it with customer questions and services.",
       "deliverables": [
         "Research of customer problems and buying questions",
@@ -558,14 +558,14 @@
         }
       ],
       "number": "14",
-      "metaDescription": "SEO & Organic Content Strategy from DMB. Create content that helps customers choose your business. Request a tailored scope and quote."
+      "metaDescription": "Prioritise buying-intent topics and useful service pages. Get content briefs with clear audiences and internal links."
     },
     {
       "slug": "ai-search-visibility",
       "name": "AI SEO, AEO & GEO Services",
       "group": "Google search & content",
-      "headline": "Make your expertise clearer across search and AI answers.",
-      "summary": "AI search optimisation services combining SEO, answer engine optimisation and generative engine optimisation. Improve accessible, accurate content and business information.",
+      "headline": "Make your services easier to understand in AI search.",
+      "summary": "AI SEO, AEO and GEO work focused on accessible pages, direct answers and consistent business information.",
       "body": "We review whether your pages answer real customer questions, explain your expertise and can be accessed by relevant search systems. Clear answers and consistent business details support the work. AI tools choose their sources, so citations are not promised.",
       "fit": "Businesses wanting a clearer explanation of how their website supports Google and AI search.",
       "deliverables": [
@@ -598,14 +598,14 @@
         }
       ],
       "number": "15",
-      "metaDescription": "AI SEO, AEO & GEO Services from DMB. Make your expertise clearer across search and AI answers. Request a tailored scope and quote."
+      "metaDescription": "AI SEO, AEO and GEO work focused on accessible pages, direct answers and consistent business information."
     },
     {
       "slug": "b2b-lead-generation",
       "name": "B2B Lead Generation Services",
       "group": "Business enquiries & follow-up",
-      "headline": "Reach the businesses most likely to need your offer.",
-      "summary": "B2B lead generation services combining commercial content, LinkedIn campaigns, landing pages and follow-up. Build a clearer route from interest to a sales conversation.",
+      "headline": "Connect your offer with suitable business buyers.",
+      "summary": "Define suitable companies and buying roles, connect a relevant offer and organise qualification and sales handover.",
       "body": "We define target company types, decision-making roles and the problem your offer solves. Agreed channels and content are connected to practical qualification and sales handover. Your team’s feedback helps distinguish genuine opportunities from broad interest.",
       "fit": "Businesses selling to other businesses, with a clear offer and a team able to follow up.",
       "deliverables": [
@@ -638,14 +638,14 @@
         }
       ],
       "number": "16",
-      "metaDescription": "B2B Lead Generation Services from DMB. Reach the businesses most likely to need your offer. Request a tailored scope and quote."
+      "metaDescription": "Define suitable companies and buying roles, connect a relevant offer and organise qualification and sales handover."
     },
     {
       "slug": "linkedin-advertising",
       "name": "LinkedIn Ads Management Services",
       "group": "Online advertising",
-      "headline": "Reach decision-makers with a relevant business offer.",
-      "summary": "LinkedIn advertising services for B2B companies. Align professional audiences, lead forms and landing pages with the sales conversation you want to start.",
+      "headline": "Reach relevant business audiences on LinkedIn.",
+      "summary": "LinkedIn Ads planning and management around relevant roles, company profiles and business needs.",
       "body": "We plan campaigns around suitable roles, company profiles and buying questions. Creative and forms explain who the offer is for, while tracking and sales feedback help assess whether enquiries deserve follow-up.",
       "fit": "Businesses wanting to advertise to particular job roles, companies or industries on LinkedIn.",
       "deliverables": [
@@ -677,14 +677,14 @@
         }
       ],
       "number": "17",
-      "metaDescription": "LinkedIn Ads Management Services from DMB. Reach decision-makers with a relevant business offer. Request a tailored scope and quote."
+      "metaDescription": "LinkedIn Ads planning and management around relevant roles, company profiles and business needs."
     },
     {
       "slug": "retargeting-campaigns",
       "name": "Retargeting & Remarketing Services",
       "group": "Online advertising",
-      "headline": "Give interested visitors a reason to return.",
-      "summary": "Retargeting campaigns across agreed Google and Meta advertising placements. Help eligible past visitors revisit your offer and take the next step.",
+      "headline": "Give interested visitors a useful next step.",
+      "summary": "Plan relevant follow-up ads for eligible audiences, with consent settings, exclusions and frequency review.",
       "body": "We organise audiences around meaningful website activity, create relevant follow-up messages and review frequency and exclusions. Consent settings, platform requirements and enough eligible audience data are needed before campaigns can run.",
       "fit": "Businesses with existing interested visitors who may need more time before deciding.",
       "deliverables": [
@@ -717,14 +717,14 @@
         }
       ],
       "number": "18",
-      "metaDescription": "Retargeting & Remarketing Services from DMB. Give interested visitors a reason to return. Request a tailored scope and quote."
+      "metaDescription": "Plan relevant follow-up ads for eligible audiences, with consent settings, exclusions and frequency review."
     },
     {
       "slug": "email-lead-nurturing",
       "name": "Email Lead Nurturing Services",
       "group": "Business enquiries & follow-up",
-      "headline": "Keep useful enquiries moving towards a decision.",
-      "summary": "Email follow-up services for businesses with permission-based contact lists. Answer common questions and guide prospects towards the appropriate next action.",
+      "headline": "Answer the questions that hold up an enquiry.",
+      "summary": "Build agreed email sequences that answer buying questions and support timely follow-up.",
       "body": "We plan messages around why people enquired and what they still need to know. Agreed sequences can explain scope, answer objections and support handover to your team, with review of delivery and meaningful responses.",
       "fit": "Businesses with contacts who have agreed to hear from them and need helpful follow-up.",
       "deliverables": [
@@ -757,15 +757,15 @@
         }
       ],
       "number": "19",
-      "metaDescription": "Email Lead Nurturing Services from DMB. Keep useful enquiries moving towards a decision. Request a tailored scope and quote."
+      "metaDescription": "Build agreed email sequences that answer buying questions and support timely follow-up."
     },
     {
       "slug": "analytics-dashboards",
       "name": "Marketing Analytics & Reporting Services",
       "group": "Tracking & reports",
-      "headline": "See the marketing numbers that matter to your business.",
-      "summary": "Marketing dashboards and reporting services connecting available website, campaign and lead data. Understand enquiry sources, spend and sales progression.",
-      "body": "We agree definitions for enquiries and useful leads, then organise the available data into a report your team can use. Where sales data is connected, the view can include later outcomes. Missing information and attribution limits are explained.",
+      "headline": "See your marketing results in one clear report.",
+      "summary": "Connect available marketing data into clear reports for enquiries, lead quality and outcomes where tracked.",
+      "body": "We agree definitions for enquiries and useful leads, then organise the available data into a report your team can use. Where sales data is connected, the view can include later outcomes. Missing information and how credit is assigned limits are explained.",
       "fit": "Businesses using several marketing tools but struggling to understand the results.",
       "deliverables": [
         "Agreement on the questions the report should answer",
@@ -797,14 +797,14 @@
         }
       ],
       "number": "20",
-      "metaDescription": "Marketing Analytics & Reporting Services from DMB. See the marketing numbers that matter to your business. Request a tailored scope and quote."
+      "metaDescription": "Connect available marketing data into clear reports for enquiries, lead quality and outcomes where tracked."
     },
     {
       "slug": "website-speed-optimization",
       "name": "Website Speed & Core Web Vitals Services",
       "group": "Website improvements",
-      "headline": "Make important pages easier to use on mobile.",
-      "summary": "Website performance optimisation for slow pages and Core Web Vitals issues. Review images, scripts and loading behaviour across priority customer journeys.",
+      "headline": "Make your website faster and easier to use.",
+      "summary": "Diagnose loading, interaction and layout issues. Improve performance and review Core Web Vitals where data is available.",
       "body": "We diagnose performance bottlenecks and agree changes that fit your platform. Lab tests guide investigation, while real-user data is reviewed where available. Usability and working forms remain part of the evaluation.",
       "fit": "Businesses with slow website pages, especially on mobile.",
       "deliverables": [
@@ -837,15 +837,15 @@
         }
       ],
       "number": "21",
-      "metaDescription": "Website Speed & Core Web Vitals Services from DMB. Make important pages easier to use on mobile. Request a tailored scope and quote."
+      "metaDescription": "Diagnose loading, interaction and layout issues. Improve performance and review Core Web Vitals where data is available."
     },
     {
       "slug": "seo-second-opinion",
       "name": "Independent SEO Review Services",
       "group": "Google search & content",
-      "headline": "Get a clearer second opinion on your SEO.",
-      "summary": "Independent SEO consulting and review services for business owners. Check current recommendations, reporting and priorities before committing more budget.",
-      "body": "We review the available reports, important pages and current work against your commercial goals. You receive an explanation of what appears useful, what needs evidence and which priorities deserve clarification with your existing team.",
+      "headline": "Get an independent view of your SEO priorities.",
+      "summary": "Review current SEO work, reports and commercial pages. Get a clear view of useful work and missing evidence.",
+      "body": "We review the available reports, important pages and current work against your business goals. You receive an explanation of what appears useful, what needs evidence and which priorities deserve clarification with your existing team.",
       "fit": "Businesses unsure whether their current SEO work is addressing the right problems.",
       "deliverables": [
         "Review of your current plan and reports",
@@ -877,14 +877,14 @@
         }
       ],
       "number": "22",
-      "metaDescription": "Independent SEO Review Services from DMB. Get a clearer second opinion on your SEO. Request a tailored scope and quote."
+      "metaDescription": "Review current SEO work, reports and commercial pages. Get a clear view of useful work and missing evidence."
     },
     {
       "slug": "marketing-automation",
       "name": "Marketing Automation Services",
       "group": "Business enquiries & follow-up",
-      "headline": "Make enquiry follow-up easier to manage.",
-      "summary": "Marketing automation for forms, email tools and agreed CRM workflows. Route enquiries, acknowledge requests and support timely sales follow-up.",
+      "headline": "Keep enquiries moving to the right person.",
+      "summary": "Set up and test enquiry routing, follow-up workflows and failure handling using your agreed tools.",
       "body": "We map what should happen after a customer enquires and identify where manual handovers break down. Agreed workflows are configured and tested with failure handling, ownership and clear records for your team.",
       "fit": "Businesses where enquiries are passed manually between tools or follow-up is often missed.",
       "deliverables": [
@@ -917,14 +917,14 @@
         }
       ],
       "number": "23",
-      "metaDescription": "Marketing Automation Services from DMB. Make enquiry follow-up easier to manage. Request a tailored scope and quote."
+      "metaDescription": "Set up and test enquiry routing, follow-up workflows and failure handling using your agreed tools."
     },
     {
       "slug": "paid-media-strategy",
       "name": "Performance Marketing Strategy Services",
       "group": "Online advertising",
-      "headline": "Build an advertising plan around your buying journey.",
-      "summary": "Paid media strategy for Google Ads, Meta Ads and LinkedIn. Choose channels, offers, landing pages and measurement around your business goals and budget.",
+      "headline": "Know where to advertise and what to measure.",
+      "summary": "Choose suitable paid channels, define the offer and agree launch requirements, budgets and review criteria.",
       "body": "We assess demand, audience fit and the information buyers need before enquiring. The plan sets out channel roles, launch requirements and review criteria, including what needs to be fixed on the website or tracking first.",
       "fit": "Businesses choosing where to advertise or reconsidering ads that are not working.",
       "deliverables": [
@@ -957,7 +957,7 @@
         }
       ],
       "number": "24",
-      "metaDescription": "Performance Marketing Strategy Services from DMB. Build an advertising plan around your buying journey. Request a tailored scope and quote."
+      "metaDescription": "Choose suitable paid channels, define the offer and agree launch requirements, budgets and review criteria."
     },
     {
       "group": "Social media",
@@ -978,7 +978,7 @@
       "slug": "social-media-strategy",
       "name": "Social Media Marketing Strategy",
       "headline": "Give your social media a clear purpose.",
-      "summary": "Social media marketing strategy for businesses that need a clearer message and useful enquiries. Choose platforms, content themes and realistic posting priorities.",
+      "summary": "Plan social platforms, content themes and next steps around your offer and real customer questions.",
       "body": "We connect your offer and customer questions with suitable content formats. The plan explains what to publish, which next actions to include and how organic social differs from paid advertising.",
       "fit": "For businesses starting social media or posting without a clear direction.",
       "deliverables": [
@@ -1001,7 +1001,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "metaDescription": "Social Media Marketing Strategy from DMB. Give your social media a clear purpose. Request a tailored scope and quote."
+      "metaDescription": "Plan social platforms, content themes and next steps around your offer and real customer questions."
     },
     {
       "group": "Social media",
@@ -1021,8 +1021,8 @@
       "number": "26",
       "slug": "social-profile-setup",
       "name": "Social Media Profile Setup Services",
-      "headline": "Make your business easy to understand on every profile.",
-      "summary": "Business social media profile setup and optimisation. Align descriptions, branding, service information and contact links across agreed platforms.",
+      "headline": "Make your business easy to understand on social media.",
+      "summary": "Organise approved brand assets, business information and working contact links across agreed social profiles.",
       "body": "We check who owns each profile, organise approved brand assets and improve the information customers see first. Links and enquiry options are tested so visitors can reach the correct website or contact route.",
       "fit": "For new businesses or businesses with incomplete, outdated or inconsistent profiles.",
       "deliverables": [
@@ -1045,7 +1045,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "metaDescription": "Social Media Profile Setup Services from DMB. Make your business easy to understand on every profile. Request a tailored scope and quote."
+      "metaDescription": "Organise approved brand assets, business information and working contact links across agreed social profiles."
     },
     {
       "group": "Social media",
@@ -1065,8 +1065,8 @@
       "number": "27",
       "slug": "social-media-content-management",
       "name": "Social Media Management Services",
-      "headline": "Publish content that answers real customer questions.",
-      "summary": "Organic social media management for agreed platforms. Plan, write, design and schedule content that explains your services and guides interested customers.",
+      "headline": "Keep your social content useful and consistent.",
+      "summary": "Manage agreed content planning, drafts, approvals, publishing and meaningful reporting.",
       "body": "We build the content plan around your offer, useful advice and approved business information. Drafts, revisions and posting schedules are agreed in advance. Reporting reviews meaningful engagement and available website or enquiry activity.",
       "fit": "For businesses that need regular social content but do not have the time or team to create it consistently.",
       "deliverables": [
@@ -1089,7 +1089,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "metaDescription": "Social Media Management Services from DMB. Publish content that answers real customer questions. Request a tailored scope and quote."
+      "metaDescription": "Manage agreed content planning, drafts, approvals, publishing and meaningful reporting."
     }
   ]
 }

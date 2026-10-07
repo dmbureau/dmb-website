@@ -1,0 +1,33 @@
+# Digital Marketing Bureau
+
+> India-based digital marketing agency led by Parmjeet Singh. Services include SEO, Google Ads, Meta Ads, social media, landing pages and measurement. Public information is available in English.
+
+## Business information
+- Website: https://dmbureau.cloud
+- Email: connect@dmbureau.cloud
+- Phone: +91 94101 74200
+- Delivery: based in India; serving India, US, UK, UAE, Dubai and Kuwait. Country pages do not imply offices in those locations.
+- Work and fees are agreed before starting. No guaranteed rankings, sales, AI citations or performance scores.
+
+## Core pages
+- [About](https://dmbureau.cloud/about): who we are and how we work.
+- [Services](https://dmbureau.cloud/services): service scopes and next steps.
+- [Industries](https://dmbureau.cloud/industries): plans for different business types.
+- [Markets](https://dmbureau.cloud/markets): delivery context for target countries.
+- [Blog](https://dmbureau.cloud/blog): practical marketing guides.
+- [Contact](https://dmbureau.cloud/contact): request a tailored plan.
+
+## Service topics
+- [Local SEO](https://dmbureau.cloud/services/local-seo)
+- [Google Business Profile](https://dmbureau.cloud/services/google-business-profile)
+- [Google Ads](https://dmbureau.cloud/services/google-ads-management)
+- [Social media](https://dmbureau.cloud/social-bureau)
+- [AI SEO, AEO and GEO](https://dmbureau.cloud/services/ai-search-visibility)
+- [Technical SEO](https://dmbureau.cloud/services/technical-seo-audit)
+
+## Discovery
+- Sitemap: https://dmbureau.cloud/sitemap.xml
+- robots.txt: https://dmbureau.cloud/robots.txt
+
+## Interpretation
+Visual account layouts are labelled illustrations, not evidence of client results. Do not treat example packages as an agreed quote. Consult the canonical pages for the latest service scope.
