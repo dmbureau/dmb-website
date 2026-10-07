@@ -302,3 +302,30 @@ body{background:var(--paper)}
 :is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card,.progress-card,.journey-step){transition:transform .5s ease,box-shadow .5s ease,border-color .5s ease}
 :is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card,.progress-card,.journey-step):is(:hover,:focus-within){transform:translateY(-5px);box-shadow:0 14px 28px #173e350c}
 @media(prefers-reduced-motion:reduce){.ticker-track{animation:none}.ticker-window{overflow-x:auto}.ticker-group[aria-hidden="true"]{display:none}:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card,.progress-card,.journey-step){transition:none;transform:none!important}}
+
+/* Modern light surfaces and restrained CSS depth. */
+:root{--depth-shadow:0 10px 30px #173e3509,0 2px 6px #173e3505}
+.brew-hero{background:radial-gradient(ellipse at 8% 8%,#dff1d7 0,transparent 46%),radial-gradient(ellipse at 88% 20%,#ebe3fc 0,transparent 45%),radial-gradient(ellipse at 63% 92%,#ffe7d0 0,transparent 48%),#f8fbf4;color:#173e35;border-bottom:1px solid #e4eadd}
+.brew-hero:before{background:linear-gradient(130deg,#ffffff70,transparent 60%);z-index:-1}
+.brew-hero:after{content:"";position:absolute;right:-100px;top:-120px;width:450px;height:450px;border-radius:50%;background:linear-gradient(145deg,#ffffffa0,#d9cbee35);border:1px solid #ffffffc7;box-shadow:inset 18px 18px 60px #ffffff80,inset -24px -24px 60px #b7a6d520;z-index:-1;pointer-events:none;animation:hero-surface-float 18s ease-in-out infinite}
+.brew-hero h1{color:#173e35}.brew-hero h1>span{color:#447c3b}
+.brew-hero-copy>p{color:#4c665c}.brew-hero .hero-service-link,.brew-hero .text-link{color:#284e3d}
+.brew-hero-markets{border-top-color:#cbdaca}.brew-hero-markets>span{color:#5d7367}.brew-hero-markets a{color:#294d3c}
+.hero-audit-panel{background:linear-gradient(145deg,#fff,#fffffaf0);border:1px solid #fff;border-radius:22px;box-shadow:0 20px 55px #34533414,0 4px 12px #52624e08,inset 0 1px 0 #fff;color:#173e35}
+.hero-audit-panel>.eyebrow{color:#527340}.hero-audit-panel>h2{color:#173e35}.hero-audit-note{color:#617567}
+.page-intro{position:relative;background:radial-gradient(ellipse at 92% 0%,#e7e0f652,transparent 50%),radial-gradient(ellipse at 8% 95%,#e0efd857,transparent 50%),#fafcf7;border-bottom:1px solid #e6ecdf}
+.service-photograph{border:1px solid #ffffffb8;box-shadow:0 14px 32px #173e3510,inset 0 1px 0 #fff}
+.service-photograph img{transition:transform .5s ease}.service-photograph:hover img{transform:scale(1.025)}
+.service-card .service-photograph,.problem-card .service-photograph,.insight-card .service-photograph,.blog-card .service-photograph{box-shadow:none}
+:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.journey-step,.process-card){border:1px solid #e0e8dc;box-shadow:var(--depth-shadow);transform-origin:center center}
+:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.journey-step,.process-card):is(:hover,:focus-within){transform:perspective(1000px) translateY(-5px) rotateX(1deg) rotateY(-1deg);box-shadow:0 22px 38px #173e3512,0 3px 7px #173e3506;border-color:#b9d3ae}
+.growth-path:nth-child(1),.journey-step:nth-child(1){background:linear-gradient(145deg,#f5faef,#eaf2e0)}
+.growth-path:nth-child(2),.journey-step:nth-child(2){background:linear-gradient(145deg,#faf7ff,#eee7f7)}
+.growth-path:nth-child(3),.journey-step:nth-child(3){background:linear-gradient(145deg,#fffaf0,#faecd8)}
+.button{box-shadow:inset 0 1px 0 #ffffff80,0 4px 0 #173e3514,0 8px 15px #173e3508;transition:transform .25s ease,box-shadow .25s ease,background .25s ease}
+.button:hover{transform:translateY(-2px);box-shadow:inset 0 1px 0 #ffffff80,0 5px 0 #173e3514,0 12px 20px #173e350b}
+.button:active{transform:translateY(1px);box-shadow:inset 0 1px 0 #ffffff80,0 2px 0 #173e3514}
+.scope-aside,.measurement-panel{border:1px solid #e0e8dc;border-radius:18px;box-shadow:var(--depth-shadow)}
+@keyframes hero-surface-float{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(-18px,20px,0)}}
+@media(max-width:640px){.brew-hero:after{width:280px;height:280px;right:-120px;top:-90px}.hero-audit-panel{box-shadow:0 12px 28px #34533412}.page-intro{background:linear-gradient(145deg,#f5f9ef,#f5f1fb)}}
+@media(prefers-reduced-motion:reduce){.brew-hero:after{animation:none}.service-photograph img,.button{transition:none}.service-photograph:hover img,.button:hover,.button:active{transform:none}:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.journey-step,.process-card):is(:hover,:focus-within){transform:none}}
