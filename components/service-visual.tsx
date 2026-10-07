@@ -1,3 +1,4 @@
+import media from '@/content/media.json';
 import {MapPin,Search,MousePointer2,ChartNoAxesCombined,Workflow,Mail,CalendarDays,Globe,Check,ArrowRight,Building2} from 'lucide-react';
 const details:Record<string,[string,string,string,string[]]>={
 'google-ads-audit':['Google Ads review','audit','Searches → spend → enquiries',['Search terms','Conversion checks','Priority fixes']],
@@ -28,11 +29,42 @@ const details:Record<string,[string,string,string,string[]]>={
 'social-profile-setup':['Social profile essentials','social','Brand → services → contact',['Approved brand assets','Clear profile details','Working links']],
 'social-media-content-management':['Social content calendar','calendar','Brief → approval → publish',['Useful topics','Approved posts','Regular reporting']]
 };
-export function ServiceVisual({slug,compact=false}:{slug:string;compact?:boolean}){
-const v=details[slug]||['Marketing plan','workflow','Goal → action → review',['Customer needs','Agreed work','Progress review']];
-const Icon=v[1]==='map'?MapPin:v[1]==='search'?Search:v[1]==='tracking'?ChartNoAxesCombined:v[1]==='calendar'?CalendarDays:v[1]==='email'?Mail:v[1]==='website'?MousePointer2:v[1]==='ads'?Globe:Workflow;
-return <figure className={'service-explainer visual-'+v[1]+(compact?' visual-compact':'')} aria-label={v[0]+' illustration'}>
-<div className="visual-title"><span><Icon size={compact?23:28}/></span><strong>{v[0]}</strong></div>
-{!compact&&<>{v[1]==='map'&&<svg className="business-map" viewBox="0 0 440 110" role="img" aria-label="Illustration of a local business on a map"><rect width="440" height="110" rx="10" fill="#e8eee5"/><path d="M0 40H440M100 0V110M315 0V110M0 100L400 0" stroke="#fff" strokeWidth="12"/><path d="M220 23c-16 0-28 12-28 28 0 22 28 44 28 44s28-22 28-44c0-16-12-28-28-28Z" fill="#376747"/><circle cx="220" cy="50" r="9" fill="#fff"/></svg>}<div className="visual-flow">{v[2]}</div><ul>{v[3].map(x=><li key={x}><Check size={16}/>{x}</li>)}</ul><figcaption>Illustration of the work—not a client account or result.</figcaption></>}
-</figure>}
-export function IndustryVisual({name,issues}:{name:string;issues:string[]}){return <figure className="service-explainer industry-explainer"><div className="visual-title"><span><Building2 size={28}/></span><strong>{name}</strong></div><div className="visual-flow">Customer need → relevant offer → enquiry</div><ul>{issues.slice(0,3).map(x=><li key={x}><ArrowRight size={16}/>{x}</li>)}</ul><figcaption>Marketing priorities for this business type.</figcaption></figure>}
+
+const imageByService:Record<string,[string,string]>={
+'google-ads-audit':['data-review','Reviewing campaign numbers and advertising costs'],
+'google-ads-management':['campaign-analysis','Analytics screen used to illustrate campaign measurement'],
+'paid-social-advertising':['mobile-experience','Social media apps on a smartphone'],
+'lead-quality-optimization':['customer-conversation','Discussing customer needs and suitable enquiries'],
+'landing-page-design':['website-design','Website design displayed alongside development tools'],
+'conversion-rate-audit':['email-work','Reviewing a website experience on a laptop'],
+'conversion-tracking-setup':['technical-code','Code review for website event tracking'],
+'technical-seo-audit':['computer-work','Technical website work on a computer'],
+'on-page-seo':['search-work','Laptop and notebook used for reviewing website content'],
+'local-seo':['gbp-local','Illustrated Google Business Profile and local map; example business'],
+'google-business-profile':['gbp-profile','Illustrated business profile information; example business'],
+'seo-migration-support':['laptop-design','Planning website changes across connected devices'],
+'organic-traffic-recovery':['understand-marketing-results','Reviewing website analytics trends'],
+'content-strategy':['content-planning','Writing and planning useful website content'],
+'ai-search-visibility':['technical-code','Website code used to illustrate accessible online content'],
+'b2b-lead-generation':['business-meeting','Business team discussing customer requirements'],
+'linkedin-advertising':['customer-conversation','Professional discussion about a business offer'],
+'retargeting-campaigns':['mobile-experience','Mobile experience used to illustrate returning customer journeys'],
+'email-lead-nurturing':['email-work','Reviewing digital content and customer follow-up'],
+'analytics-dashboards':['campaign-analysis','Data dashboard illustrating marketing measurement'],
+'website-speed-optimization':['computer-work','Technical work to improve website performance'],
+'seo-second-opinion':['data-review','Independent review of business data and reports'],
+'marketing-automation':['laptop-design','Connected devices used in a digital working process'],
+'paid-media-strategy':['strategy-board','Planning business priorities and advertising work'],
+'social-media-strategy':['content-planning','Planning content topics before publishing'],
+'social-profile-setup':['mobile-experience','Social apps and business communication on mobile'],
+'social-media-content-management':['creative-camera','Camera equipment for producing social media content']
+};
+export function EditorialImage({name,alt,eager=false}:{name:string;alt:string;eager?:boolean}){
+const override=media.images.find(i=>i.name===name);return <img src={override?.image||'/images/'+name+'-960.webp'} srcSet={override?.image?undefined:'/images/'+name+'-480.webp 480w, /images/'+name+'-960.webp 960w'} sizes="(max-width:640px) 92vw, (max-width:1000px) 46vw, 560px" width={960} height={640} alt={override?.alt||alt} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} decoding="async"/>;
+}
+export function ServiceVisual({slug,compact=false,eager=false}:{slug:string;compact?:boolean;eager?:boolean}){
+const [name,alt]=imageByService[slug]||['strategy-board','Planning a focused marketing strategy'];
+return <figure className={'service-photograph'+(compact?' photograph-compact':'')}><EditorialImage name={name} alt={alt} eager={eager}/>{!compact&&<figcaption>{name.startsWith('gbp-')?'Illustration of profile features. Example business; no client results.':'Illustrative stock photograph; not a DMB team or client account.'}</figcaption>}</figure>;
+}
+const industryImages:Record<string,string>={'Real Estate':'industry-real-estate','Hospitality':'industry-hospitality','Healthcare':'industry-healthcare','Travel & Tourism':'industry-travel','SaaS & Technology':'computer-work','Ecommerce':'industry-ecommerce','Professional Services':'legal','Home Services':'construction','Education & Training':'education','Recruitment & Staffing':'business-meeting','Logistics & Supply Chain':'logistics','Solar & Energy Services':'solar-energy'};
+export function IndustryVisual({name,issues}:{name:string;issues:string[]}){return <figure className="service-photograph industry-photograph"><EditorialImage name={industryImages[name]||'customer-conversation'} alt={name+' business setting'} eager/><figcaption>Illustrative industry photograph.</figcaption></figure>;}

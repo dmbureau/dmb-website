@@ -268,3 +268,37 @@ body{background:var(--paper)}
 @keyframes journey-breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 @media(max-width:760px){.journey-track{grid-template-columns:1fr}.journey-step{padding:25px}.service-explainer{padding:22px}.visual-title strong{font-size:20px}.visual-compact{min-height:120px!important}.visual-compact .visual-title strong{font-size:16px}.visual-flow{font-size:14px}}
 @media(prefers-reduced-motion:reduce){.journey-node svg{animation:none}.journey-step{transition:none}.journey-step:hover{transform:none}}
+
+/* Real editorial photography with responsive WebP assets. */
+.service-photograph{margin:0;overflow:hidden;border-radius:14px;background:#edf2ed;width:100%}
+.service-photograph img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.service-photograph figcaption{font-size:11px;line-height:1.5;color:#64766e;padding:10px 14px;background:#f6f8f4}
+.service-card{background:#fff!important;padding:24px!important;border-radius:16px!important;border:1px solid #dde6df;box-shadow:none}
+.service-card .service-photograph{margin:0 0 22px}
+.service-card .card-top{margin-bottom:12px}
+.service-card h3{font-size:22px;line-height:1.35;margin-bottom:12px}
+.service-card p{font-size:15px;line-height:1.7}
+.service-card .card-bottom{padding-top:18px;border-top:1px solid #edf1ec;margin-top:auto}
+.capability-image .service-photograph{height:100%;display:flex;flex-direction:column}
+.capability-image .service-photograph img{flex:1;min-height:0;object-fit:cover}
+.problem-card .service-photograph,.insight-card .service-photograph,.blog-card .service-photograph{border-radius:12px 12px 0 0}
+.blog-feature>.service-photograph{height:100%;min-height:260px}
+.blog-feature>.service-photograph img{height:auto}
+.about-photo-section{padding-top:0}.about-photo-section .service-photograph{max-width:1100px;margin:auto}
+.about-photo-section img{max-height:480px}
+.article-image{max-width:900px;margin:30px auto 0}
+@media(max-width:640px){.service-card{padding:20px!important}.service-card h3{font-size:20px}.service-photograph figcaption{font-size:10px}.capability-image .service-photograph img{min-height:220px}}
+
+/* All industries, continuous right-to-left movement: 0.5 seconds per card. */
+.industry-ticker{width:100%;min-width:0}.ticker-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:18px;font-size:13px;color:#526d65}
+.ticker-toolbar button{display:flex;align-items:center;gap:7px;border:1px solid #d8e3d8;background:#fff;padding:8px 13px;border-radius:25px;color:#173e35}
+.ticker-window{overflow:hidden;border-radius:14px}
+.ticker-track{display:flex;width:max-content;animation:industry-ticker-run var(--ticker-duration) linear infinite}
+.ticker-group{display:flex;gap:16px;padding-right:16px}
+.industry-ticker-card{width:250px;min-height:104px;padding:24px;background:#eef5e8;border:1px solid #dbe7d6;border-radius:14px;display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:17px;font-weight:650}
+.industry-ticker-card:nth-child(3n+2){background:#f1edfa;border-color:#e4daee}.industry-ticker-card:nth-child(3n){background:#fff4df;border-color:#ede2c7}
+.industry-ticker:hover .ticker-track,.industry-ticker:focus-within .ticker-track,.ticker-paused .ticker-track{animation-play-state:paused}
+@keyframes industry-ticker-run{to{transform:translateX(-50%)}}
+:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card,.progress-card,.journey-step){transition:transform .5s ease,box-shadow .5s ease,border-color .5s ease}
+:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card,.progress-card,.journey-step):is(:hover,:focus-within){transform:translateY(-5px);box-shadow:0 14px 28px #173e350c}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}.ticker-window{overflow-x:auto}.ticker-group[aria-hidden="true"]{display:none}:is(.service-card,.industry-card,.problem-card,.blog-card,.insight-card,.division-card,.growth-path,.process-card,.progress-card,.journey-step){transition:none;transform:none!important}}
