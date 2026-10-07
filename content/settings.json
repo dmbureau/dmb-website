@@ -3,7 +3,24 @@
   "phone": "+919410174200",
   "phoneLabel": "+91 94101 74200",
   "linkedin": "https://in.linkedin.com/company/digitalmarketingbureau-global",
-  "heroTitle": "Get found by the right customers.",
-  "heroHighlight": "Give them a reason to choose you.",
-  "heroDescription": "Your performance marketing and SEO partner for search, paid ads and social media. We connect your message, website and tracking to help turn interest into useful enquiries."
+  "heroTitle": "Make your next customer",
+  "heroHighlight": "more likely to find you.",
+  "heroDescription": "SEO, Google Ads and social media for businesses that want better enquiries.",
+  "instagram": "https://www.instagram.com/digitalmarketingbureau_global/",
+  "facebook": "https://www.facebook.com/digitalmarketingbureau.global/",
+  "x": "https://x.com/dm_bureau",
+  "heroBackground": "#173e35",
+  "buttonBackground": "#b4fd83",
+  "buttonText": "#173e35",
+  "headingColour": "#173e35",
+  "hideHomepageSections": [],
+  "homepageSectionOrder": [
+    "growth",
+    "problems",
+    "services",
+    "industries",
+    "process",
+    "faq",
+    "guides"
+  ]
 }

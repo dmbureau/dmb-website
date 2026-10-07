@@ -225,3 +225,11 @@ body{background:var(--paper)}
 @media(prefers-reduced-motion:reduce){.social-links a{transition:none}}
 
 .mobile-socials{display:none}@media(max-width:900px){.nav.mobile-open .mobile-socials{display:block}.header .brand-full{display:none}}
+/* Selective colour accents, with a shorter homepage. */
+.brew-hero{background:linear-gradient(120deg,#123b35,#17463d)}.brew-hero h1>span{color:#d7efa7}.brew-hero-copy>p{max-width:530px;font-size:18px;line-height:1.65}
+.hero-audit-panel{background:#fff9e8;border-color:#e4d9b6;box-shadow:none}.hero-audit-panel>.eyebrow{color:#796527}.hero-audit-panel>h2{font-size:28px}
+.growth-path,.growth-path:nth-child(2),.growth-path:nth-child(3){box-shadow:none;background:#f4f8ef;border-radius:12px}.growth-path:nth-child(2){background:#f3effb}.growth-path:nth-child(3){background:#fff2e8}
+.brew-problems{background:#fff}.problem-card:nth-child(1){background:#eef5eb}.problem-card:nth-child(2){background:#fff5dc}.problem-card:nth-child(3){background:#f1edfa}.problem-card:nth-child(4){background:#eaf3f7}
+.brew-services{background:#f5f1e8}.capability-panel{box-shadow:none}.process-section{background:#edf5eb}.process-card>span{color:#507b3e}.insight-section{background:#fff}.cta-band{background:#173e35}
+.section{padding-block:58px}.section-heading{margin-bottom:30px}.section-heading h2{max-width:730px}.footer-contact-band{background:#eef5ea!important}
+@media(max-width:640px){.section{padding-block:38px}.brew-hero-copy>p{font-size:16px}.hero-audit-panel>h2{font-size:25px}}
