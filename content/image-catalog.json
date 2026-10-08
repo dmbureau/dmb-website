@@ -38,7 +38,7 @@
     },
     "card-local-seo": {
       "photoId": "1485217988980-11786ced9454",
-      "alt": "Person using a laptop in a caf\u00e9"
+      "alt": "Person using a laptop in a café"
     },
     "card-google-business-profile": {
       "photoId": "1556742049-0cfed4f6a45d",
@@ -341,16 +341,16 @@
       "alt": "Customer paying at a shop counter"
     },
     "guide-card-clicks-but-no-leads": {
-      "photoId": "1518600506278-4e8ef466b810",
-      "alt": "Discussing business requirements around a laptop"
+      "local": "guide-ad-enquiries",
+      "alt": "Three checks from an ad click to an enquiry: audience, clear website offer and next step"
     },
     "guide-card-traffic-but-no-enquiries": {
-      "photoId": "1515168833906-d2a3b82b302a",
-      "alt": "People discussing ideas at a business event"
+      "local": "guide-website-clarity",
+      "alt": "Website layout showing a clear service offer, contact button and mobile usability checks"
     },
     "guide-card-measure-qualified-leads": {
-      "photoId": "1556761175-5973dc0f32e7",
-      "alt": "Collaborative business workspace"
+      "local": "guide-lead-quality",
+      "alt": "Checklist for a useful enquiry: service fit, customer fit and a real need with a next step"
     },
     "guide-card-international-service-pages": {
       "photoId": "1581091226825-a6a2a5aee158",
