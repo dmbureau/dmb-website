@@ -289,13 +289,13 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 @media(max-width:390px){.header .header-cta{display:none}}
 
 /* One decorative brand label per page, with no repeated section backgrounds. */
-.page-brand-watermark{position:fixed;left:0;bottom:9vh;width:max-content;font-size:clamp(42px,7vw,110px);line-height:1.1;font-weight:800;letter-spacing:-.04em;color:#173e35;opacity:.035;pointer-events:none;user-select:none;z-index:2;white-space:nowrap;animation:brand-page-drift 38s linear infinite;will-change:transform}
-@keyframes brand-page-drift{from{transform:translateX(100vw)}to{transform:translateX(-100%)}}
-@media(prefers-reduced-motion:reduce){.page-brand-watermark{animation:none;transform:translateX(0);font-size:clamp(24px,6vw,80px)}}
 
-.page-brand-watermark>span{display:inline-block;animation:brand-letter-wave 4.8s ease-in-out infinite}
-@keyframes brand-letter-wave{0%,18%,55%,100%{transform:translateY(0)}35%{transform:translateY(-8px)}}
-@media(prefers-reduced-motion:reduce){.page-brand-watermark>span{animation:none;transform:none}}
+
+
+
+
+
+
 
 /* Give the full brand a distinct space before the first navigation item. */
 .header>a:first-child{flex:0 0 auto;margin-right:24px}
