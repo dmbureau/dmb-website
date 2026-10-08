@@ -445,3 +445,15 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .audit-ai-result{padding:22px;border:1px solid #dce4e3;background:white;border-radius:14px}.audit-ai-text{white-space:pre-wrap}.audit-ai-result a{text-decoration:underline;color:#28614b}.audit-ai-result ul{font-size:13px;line-height:1.8}
 .audit-paid-preview{margin-top:22px;border-top:1px solid #cddbd2;padding-top:20px}.audit-paid-preview h4{margin:10px 0;font-size:19px}
 @media(max-width:640px){.audit-ai{padding:18px}.audit-ai h3{font-size:22px}.audit-ai-controls{align-items:stretch;flex-direction:column}.audit-ai-controls select{width:100%}.audit-ai-result{padding:16px}}
+
+/* Keep the homepage headline in balanced, readable lines. */
+.brew-hero .brew-hero-copy>h1{font-size:clamp(32px,3.65vw,50px);line-height:1.16;letter-spacing:-.035em;max-width:660px;text-wrap:balance;overflow-wrap:normal}
+@media(max-width:760px){.brew-hero .brew-hero-copy>h1{font-size:clamp(28px,7.4vw,39px);max-width:580px}}
+
+/* Readable supporting text across public pages. */
+main .eyebrow{font-size:13px;line-height:1.6;letter-spacing:.08em}
+main .blog-read,main .hero-audit-note,main .service-photograph figcaption,main .service-card p,main .industry-card p{font-size:15px;line-height:1.7}
+main .audit-helper,main .hero-audit label,main .expert-eyebrow,main .audit-priority,main .crawl-stats span,main .site-crawl small{font-size:13px!important;line-height:1.6}
+main .expert-file-grid p,main .expert-file-grid a,main .expert-file-grid summary,main .expert-metadata th,main .expert-metadata td,main .site-crawl th,main .site-crawl td{font-size:14px;line-height:1.6}
+.footer-end{font-size:14px;line-height:1.6}
+@media(max-width:760px){main .service-photograph figcaption{font-size:13px}main .hero-audit-panel{padding:22px}}
