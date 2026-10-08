@@ -438,3 +438,10 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 
 @media(min-width:901px){.detail-title{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:48px}.detail-title>div{min-width:0}.detail-title h1{font-size:clamp(36px,4.2vw,60px)}}
 @media(min-width:641px) and (max-width:900px){.detail-title{grid-template-columns:1fr;gap:28px}.detail-title .service-visual{margin-top:0}}
+
+.audit-ai{margin:28px 0;padding:26px;background:linear-gradient(125deg,#edf5e8,#edf1fb);border:1px solid #d7e3df;border-radius:20px}
+.audit-ai h3{font-size:26px;margin:10px 0}.audit-ai p{font-size:14px;line-height:1.7;margin:10px 0}
+.audit-ai-controls{display:flex;align-items:end;gap:16px;margin:20px 0}.audit-ai-controls label{display:grid;gap:7px;font-size:13px}.audit-ai-controls select{background:white;border:1px solid #cbdad3;padding:12px;border-radius:9px;min-width:200px}
+.audit-ai-result{padding:22px;border:1px solid #dce4e3;background:white;border-radius:14px}.audit-ai-text{white-space:pre-wrap}.audit-ai-result a{text-decoration:underline;color:#28614b}.audit-ai-result ul{font-size:13px;line-height:1.8}
+.audit-paid-preview{margin-top:22px;border-top:1px solid #cddbd2;padding-top:20px}.audit-paid-preview h4{margin:10px 0;font-size:19px}
+@media(max-width:640px){.audit-ai{padding:18px}.audit-ai h3{font-size:22px}.audit-ai-controls{align-items:stretch;flex-direction:column}.audit-ai-controls select{width:100%}.audit-ai-result{padding:16px}}
