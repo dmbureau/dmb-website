@@ -25,9 +25,13 @@
 - [AI SEO, AEO and GEO](https://dmbureau.cloud/services/ai-search-visibility)
 - [Technical SEO](https://dmbureau.cloud/services/technical-seo-audit)
 
+- [Free SEO audit](https://dmbureau.cloud/free-seo-audit): run website checks and read the audit methodology.
+- [Privacy](https://dmbureau.cloud/privacy): website audit and enquiry data handling.
+
 ## Discovery
 - Sitemap: https://dmbureau.cloud/sitemap.xml
 - robots.txt: https://dmbureau.cloud/robots.txt
 
 ## Interpretation
 Visual account layouts are labelled illustrations, not evidence of client results. Do not treat example packages as an agreed quote. Consult the canonical pages for the latest service scope.
+
