@@ -13,5 +13,11 @@
       "database_id": "e1416ead-2ac5-4ae7-954f-12376fa07852",
       "migrations_dir": "drizzle"
     }
+  ],
+  "services": [
+    {
+      "binding": "DMB_PUBLIC_SITE",
+      "service": "dmb-website"
+    }
   ]
 }
