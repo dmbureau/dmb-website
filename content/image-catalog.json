@@ -129,8 +129,8 @@
       "alt": "Website design on a desktop screen beside development tools"
     },
     "feature-service-conversion-rate-audit": {
-      "local": "email-work",
-      "alt": "Two people reviewing information on a laptop"
+      "local": "conversion-review",
+      "alt": "Conversion review covering a clear offer, useful evidence and easy contact"
     },
     "feature-service-conversion-tracking-setup": {
       "local": "technical-code",
@@ -153,8 +153,8 @@
       "alt": "Example business profile showing contact and location details"
     },
     "feature-service-seo-migration-support": {
-      "local": "laptop-design",
-      "alt": "Overhead view of a team workspace with laptops and notes"
+      "local": "migration-plan",
+      "alt": "SEO migration overview from old URLs through relevant redirects to new URLs"
     },
     "feature-service-organic-traffic-recovery": {
       "local": "understand-marketing-results",
@@ -205,8 +205,8 @@
       "alt": "Reviewing written business plans and charts"
     },
     "feature-service-social-media-strategy": {
-      "photoId": "1467232004584-a241de8bcf5d",
-      "alt": "Website and digital work on a desktop screen"
+      "local": "social-planning",
+      "alt": "Social content plan covering services, customer questions and business expertise"
     },
     "feature-service-social-profile-setup": {
       "local": "explain-social-profile-setup",
@@ -225,8 +225,8 @@
       "alt": "Resort terrace and pool beside a guest building"
     },
     "feature-industry-healthcare": {
-      "local": "industry-healthcare",
-      "alt": "Healthcare professional holding a smartphone"
+      "photoId": "1576091160399-112ba8d25d1d",
+      "alt": "Healthcare professionals discussing care in a clinical setting"
     },
     "feature-industry-travel-&-tourism": {
       "local": "industry-travel",
@@ -237,8 +237,8 @@
       "alt": "Interior of a modern technology workspace"
     },
     "feature-industry-ecommerce": {
-      "local": "industry-ecommerce",
-      "alt": "Open shop sign outside a retail business"
+      "photoId": "1472851294608-062f824d29cc",
+      "alt": "Shopping cart beside a laptop for online shopping"
     },
     "feature-industry-professional-services": {
       "local": "legal",
@@ -277,24 +277,24 @@
       "alt": "Organising project tasks on a planning board"
     },
     "seo-bureau": {
-      "photoId": "1521737604893-d14cc237f11d",
-      "alt": "Professional team discussing a plan"
+      "local": "bureau-search",
+      "alt": "Search visibility overview covering website access, service content and local business details"
     },
     "ppc-bureau": {
-      "photoId": "1504384308090-c894fdcc538d",
-      "alt": "People working in a shared office"
+      "local": "bureau-advertising",
+      "alt": "Paid advertising overview connecting audience, landing page and enquiry review"
     },
     "social-bureau": {
-      "photoId": "1531973576160-7125cd663d86",
-      "alt": "Bright shared workspace"
+      "local": "bureau-social",
+      "alt": "Social media overview covering profile, content and enquiries"
     },
     "organic-marketing": {
-      "photoId": "1600880292203-757bb62b4baf",
-      "alt": "Colleagues celebrating completed work"
+      "local": "organic-journey",
+      "alt": "Organic marketing journey from finding a page to understanding services and making contact"
     },
     "performance-marketing": {
-      "photoId": "1600880292089-90a7e086ee0c",
-      "alt": "Business handshake"
+      "local": "performance-journey",
+      "alt": "Performance marketing overview covering audience reach, conversion and follow-up"
     },
     "blog": {
       "photoId": "1559136555-9303baea8ebd",
