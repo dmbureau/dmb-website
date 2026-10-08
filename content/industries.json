@@ -3,7 +3,7 @@
     {
       "slug": "real-estate",
       "name": "Real Estate",
-      "headline": "Help property buyers find you and request a viewing.",
+      "headline": "Digital Marketing for Real Estate Businesses",
       "summary": "Real Estate marketing: Budget and location mismatch in enquiries? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "A high enquiry count can hide buyers outside your location, price range or property type. We align listings, advertising and follow-up with the inventory you actually sell.",
       "problems": [
@@ -24,7 +24,7 @@
     {
       "slug": "hospitality",
       "name": "Hospitality",
-      "headline": "Help guests find your hotel and enquire about a stay.",
+      "headline": "Digital Marketing for Hospitality Businesses",
       "summary": "Hospitality marketing: Website visits that do not reach the booking engine? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Guests compare location, experience, availability and value before booking. An attractive website still needs a clear offer and a reliable route to reserve or enquire.",
       "problems": [
@@ -45,7 +45,7 @@
     {
       "slug": "healthcare",
       "name": "Healthcare",
-      "headline": "Help patients find your services and request an appointment.",
+      "headline": "Digital Marketing for Healthcare Businesses",
       "summary": "Healthcare marketing: Service pages that do not explain appointment suitability? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Patients need trustworthy information about services, locations and appointments. Marketing should make access easier while keeping claims accurate and protecting personal information.",
       "problems": [
@@ -66,7 +66,7 @@
     {
       "slug": "travel",
       "name": "Travel & Tourism",
-      "headline": "Help travellers discover your trips and ask for a quote.",
+      "headline": "Digital Marketing for Travel & Tourism Businesses",
       "summary": "Travel & Tourism marketing: Destination traffic with little package interest? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "A destination attracts curiosity as well as buyers. Your pages need to answer dates, inclusions, suitability and booking questions so qualified travellers can move forward.",
       "problems": [
@@ -87,7 +87,7 @@
     {
       "slug": "saas",
       "name": "SaaS & Technology",
-      "headline": "Help businesses understand your software and request a demo.",
+      "headline": "Digital Marketing for SaaS & Technology Businesses",
       "summary": "SaaS & Technology marketing: Paid campaigns generating poor-fit demos? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "A signup only matters when the user fits your product and reaches value. We align use-case pages, paid acquisition and measurement with the buyers and accounts you can serve.",
       "problems": [
@@ -108,7 +108,7 @@
     {
       "slug": "ecommerce",
       "name": "Ecommerce",
-      "headline": "Help shoppers find your products and complete their purchase.",
+      "headline": "Digital Marketing for Ecommerce Businesses",
       "summary": "Ecommerce marketing: Product visits that do not reach checkout? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Paid traffic cannot repair a confusing product page or unreliable checkout. We review acquisition, merchandising journeys and measurement together before scaling spend.",
       "problems": [
@@ -129,7 +129,7 @@
     {
       "slug": "professional-services",
       "name": "Professional Services",
-      "headline": "Help potential clients understand your services and contact you.",
+      "headline": "Digital Marketing for Professional Service Businesses",
       "summary": "SEO, paid advertising and website improvements for professional services. Focus on suitable enquiries and clear buying information.",
       "body": "Buyers need to understand fit, expertise and work included before making an enquiry. Broad service lists rarely answer the specific problem that brought them to your website.",
       "problems": [
@@ -150,7 +150,7 @@
     {
       "slug": "home-services",
       "name": "Home Services",
-      "headline": "Help local customers find your services and request a quote.",
+      "headline": "Digital Marketing for Home Services Businesses",
       "summary": "Home Services marketing: Calls from outside the service area? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Local demand is highly specific. Location, urgency and service type must line up with your ads, profile and pages so your team receives jobs it can actually take.",
       "problems": [
@@ -171,7 +171,7 @@
     {
       "slug": "education",
       "name": "Education & Training",
-      "headline": "Help students understand your courses and ask about enrolment.",
+      "headline": "Digital Marketing for Education & Training Businesses",
       "summary": "Education & Training marketing: Course traffic without suitable applications? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Prospective learners compare entry requirements, format, costs and outcomes. Clear course pages help them assess suitability before applying.",
       "problems": [
@@ -192,7 +192,7 @@
     {
       "slug": "recruitment",
       "name": "Recruitment & Staffing",
-      "headline": "Help employers find your recruitment services.",
+      "headline": "Digital Marketing for Recruitment & Staffing Businesses",
       "summary": "Recruitment & Staffing marketing: Employer campaigns attracting candidate enquiries? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Employer buyers and job seekers have different needs. Campaigns and website journeys must distinguish hiring services from job applications.",
       "problems": [
@@ -213,7 +213,7 @@
     {
       "slug": "logistics",
       "name": "Logistics & Supply Chain",
-      "headline": "Help businesses understand your delivery services and request a quote.",
+      "headline": "Digital Marketing for Logistics & Supply Chain Businesses",
       "summary": "Logistics & Supply Chain marketing: Quote requests outside supported routes? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "A logistics enquiry needs to fit your geography, cargo requirements and service capacity. Broad traffic can create work without viable opportunities.",
       "problems": [
@@ -234,7 +234,7 @@
     {
       "slug": "solar-energy",
       "name": "Solar & Energy Services",
-      "headline": "Qualify the enquiry before the site visit.",
+      "headline": "Digital Marketing for Solar & Energy Services Businesses",
       "summary": "Solar & Energy Services marketing: Enquiries outside installation coverage? Explore SEO, paid ads and website improvements built around your customers.",
       "body": "Interested customers may fall outside your service area or installation criteria. Clear offers and practical qualification help your team spend time on suitable enquiries.",
       "problems": [

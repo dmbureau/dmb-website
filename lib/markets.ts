@@ -3,7 +3,7 @@ export const markets = [
     "slug": "india",
     "name": "India",
     "short": "India",
-    "headline": "SEO & performance marketing for businesses in India.",
+    "headline": "Digital Marketing Services for Businesses in India",
     "summary": "Digital marketing services for businesses in India: SEO, Google Ads, social media and conversion optimisation planned around your customers and service areas.",
     "context": "Your customers may be in one city, several states or across India. We start with the locations you can serve and what people need to know before contacting you. Local services, online shops and businesses selling to other companies need different plans.",
     "priorities": [
@@ -34,7 +34,7 @@ export const markets = [
     "slug": "united-states",
     "name": "United States",
     "short": "US",
-    "headline": "SEO & performance marketing for businesses in the US.",
+    "headline": "Digital Marketing Services for Businesses in United States",
     "summary": "Digital marketing services for the US businesses: SEO, Google Ads, social media and conversion optimisation planned around your customers and service areas.",
     "context": "The US market spans very different regions, service areas and customer segments. A campaign built for one city or buyer profile should not automatically be expanded nationwide. We agree audience, geography and qualification before choosing the channels.",
     "priorities": [
@@ -63,7 +63,7 @@ export const markets = [
     "slug": "united-kingdom",
     "name": "United Kingdom",
     "short": "UK",
-    "headline": "SEO & performance marketing for businesses in the UK.",
+    "headline": "Digital Marketing Services for Businesses in United Kingdom",
     "summary": "Digital marketing services for the UK businesses: SEO, Google Ads, social media and conversion optimisation planned around your customers and service areas.",
     "context": "A UK service business may need a local enquiry strategy, while a consultancy or software company may sell nationally or internationally. We distinguish those journeys and use terminology that matches the offer and buyer.",
     "priorities": [
@@ -92,7 +92,7 @@ export const markets = [
     "slug": "uae",
     "name": "United Arab Emirates",
     "short": "UAE",
-    "headline": "SEO & performance marketing for businesses in the UAE.",
+    "headline": "Digital Marketing Services for Businesses in United Arab Emirates",
     "summary": "Digital marketing services for the UAE businesses: SEO, Google Ads, social media and conversion optimisation planned around your customers and service areas.",
     "context": "Business requirements can vary across emirates and between resident, visitor and business audiences. We separate those needs before building pages or campaigns, with special attention to where the business can deliver its service.",
     "priorities": [
@@ -121,7 +121,7 @@ export const markets = [
     "slug": "dubai",
     "name": "Dubai",
     "short": "Dubai",
-    "headline": "SEO & performance marketing for businesses in Dubai.",
+    "headline": "Digital Marketing Services for Businesses in Dubai",
     "summary": "Digital marketing services for Dubai businesses: SEO, Google Ads, social media and conversion optimisation planned around your customers and service areas.",
     "context": "A Dubai business may attract local residents, international investors, travellers or corporate buyers. Combining these audiences without a clear qualification process can create high lead volume and a weak sales pipeline.",
     "priorities": [
@@ -150,7 +150,7 @@ export const markets = [
     "slug": "kuwait",
     "name": "Kuwait",
     "short": "Kuwait",
-    "headline": "SEO & performance marketing for businesses in Kuwait.",
+    "headline": "Digital Marketing Services for Businesses in Kuwait",
     "summary": "Digital marketing services for Kuwait businesses: SEO, Google Ads, social media and conversion optimisation planned around your customers and service areas.",
     "context": "Your Kuwait offer should be assessed on its own business needs. Copying a campaign from a different market can overlook service coverage, buyer language and the details needed to qualify enquiries.",
     "priorities": [
