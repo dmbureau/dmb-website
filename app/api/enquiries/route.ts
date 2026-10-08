@@ -1,3 +1,4 @@
+import { sendEnquiryToZoho } from '@/lib/zoho-leads';
 import { getDb } from '@/db';
 import { enquiries } from '@/db/schema';
 import { services, industries } from '@/lib/content';
@@ -12,5 +13,5 @@ export async function POST(request:Request){
  const markets=['United States','United Kingdom','Canada','Australia','Europe','UAE','Dubai','Kuwait','Middle East','Asia Pacific','India','Multiple markets','Other'];
  if(!markets.includes(values.market)||(values.service&&!services.some(s=>s.slug===values.service))||(values.industry&&values.industry!=='other'&&!industries.some(i=>i.slug===values.industry))||(values.package&&!['diagnosis','growth-sprint','ongoing-growth'].includes(values.package))||values.budget.length>80)return Response.json({error:'Please select valid service and market options.'},{status:400});
  if(values.website){try{const u=new URL(values.website);if(!['http:','https:'].includes(u.protocol)||values.website.length>300)throw Error('Invalid')}catch{return Response.json({error:'Please enter a full website address starting with https://.'},{status:400})}}
- const id=crypto.randomUUID();try{await getDb().insert(enquiries).values({...values,id,createdAt:Date.now()});return Response.json({reference:'DMB-'+id.slice(0,8).toUpperCase()},{status:201})}catch{return Response.json({error:'We could not save your brief right now. Please try again shortly.'},{status:503})}
+ const id=crypto.randomUUID();try{await getDb().insert(enquiries).values({...values,id,createdAt:Date.now()});const reference='DMB-'+id.slice(0,8).toUpperCase();const crmAcknowledged=await sendEnquiryToZoho(values,reference);if(!crmAcknowledged)console.error('Zoho lead sync not acknowledged',{reference});return Response.json({reference,crmAcknowledged},{status:201})}catch{return Response.json({error:'We could not save your brief right now. Please try again shortly.'},{status:503})}
 }
