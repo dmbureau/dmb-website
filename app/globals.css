@@ -356,13 +356,3 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .insight-card:focus-visible,.blog-card:focus-visible{outline:3px solid #557d44;outline-offset:4px}
 @media(max-width:640px){.insight-card .insight-copy,.blog-card>div{padding:22px;min-height:0}.insight-card .insight-copy{padding-bottom:66px}}
 @media(prefers-reduced-motion:reduce){.insight-card,.blog-card,.insight-card img,.blog-card img,.insight-card .insight-copy>svg{transition:none!important;transform:none!important}}
-
-/* The header name assembles one letter at a time without moving navigation. */
-.brand-line{display:block;white-space:nowrap}.brand-letter{display:inline-block}
-.header .brand-full{font-size:20px!important;letter-spacing:-.55px;font-weight:750;line-height:1.25;color:#173e35}
-.header .brand-letter{animation:header-letter-drop 6s cubic-bezier(.22,.75,.3,1) infinite;transform-origin:center bottom}
-@keyframes header-letter-drop{0%{opacity:0;transform:translateY(-20px) rotate(-5deg)}12%{opacity:1;transform:translateY(2px) rotate(0)}17%,80%{opacity:1;transform:translateY(0)}90%,100%{opacity:0;transform:translateY(0)}}
-@media(max-width:1100px){.header .brand-full{font-size:17px!important}}
-@media(max-width:760px){.header .brand-full{font-size:14px!important;letter-spacing:-.35px}}
-@media(max-width:390px){.header .brand-full{font-size:12px!important}}
-@media(prefers-reduced-motion:reduce){.header .brand-letter{animation:none;opacity:1;transform:none}}
