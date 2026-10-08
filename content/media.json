@@ -189,6 +189,451 @@
       "name": "website-design",
       "image": "",
       "alt": ""
+    },
+    {
+      "name": "card-google-ads-audit",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-google-ads-management",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-paid-social-advertising",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-lead-quality-optimization",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-landing-page-design",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-conversion-rate-audit",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-conversion-tracking-setup",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-technical-seo-audit",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-on-page-seo",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-local-seo",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-google-business-profile",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-seo-migration-support",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-organic-traffic-recovery",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-content-strategy",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-ai-search-visibility",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-b2b-lead-generation",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-linkedin-advertising",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-retargeting-campaigns",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-email-lead-nurturing",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-analytics-dashboards",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-website-speed-optimization",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-seo-second-opinion",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-marketing-automation",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-paid-media-strategy",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-social-media-strategy",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-social-profile-setup",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "card-social-media-content-management",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-google-ads-audit",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-google-ads-management",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-paid-social-advertising",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-lead-quality-optimization",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-landing-page-design",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-conversion-rate-audit",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-conversion-tracking-setup",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-technical-seo-audit",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-on-page-seo",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-local-seo",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-google-business-profile",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-seo-migration-support",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-organic-traffic-recovery",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-content-strategy",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-ai-search-visibility",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-b2b-lead-generation",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-linkedin-advertising",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-retargeting-campaigns",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-email-lead-nurturing",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-analytics-dashboards",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-website-speed-optimization",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-seo-second-opinion",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-marketing-automation",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-paid-media-strategy",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-social-media-strategy",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-social-profile-setup",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-service-social-media-content-management",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-real-estate",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-hospitality",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-healthcare",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-travel-&-tourism",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-saas-&-technology",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-ecommerce",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-professional-services",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-home-services",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-education-&-training",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-recruitment-&-staffing",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-logistics-&-supply-chain",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "feature-industry-solar-&-energy-services",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "home-plan",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "home-priority",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "about",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "seo-bureau",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "ppc-bureau",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "social-bureau",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "organic-marketing",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "performance-marketing",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "blog",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "article-clicks-but-no-leads",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "article-traffic-but-no-enquiries",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "article-measure-qualified-leads",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "article-international-service-pages",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "carousel-real-estate",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "carousel-hospitality",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "carousel-healthcare",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "carousel-travel",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "carousel-saas",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "carousel-ecommerce",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "guide-card-clicks-but-no-leads",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "guide-card-traffic-but-no-enquiries",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "guide-card-measure-qualified-leads",
+      "image": "",
+      "alt": ""
+    },
+    {
+      "name": "guide-card-international-service-pages",
+      "image": "",
+      "alt": ""
     }
   ]
 }

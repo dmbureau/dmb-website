@@ -26,11 +26,11 @@
     },
     "card-conversion-tracking-setup": {
       "photoId": "1515879218367-8466d910aaa4",
-      "alt": "Website code for event tracking"
+      "alt": "Programming code displayed on a screen"
     },
     "card-technical-seo-audit": {
       "photoId": "1504639725590-34d0984388bd",
-      "alt": "Technical screens for website checks"
+      "alt": "Multiple computer screens displaying technical information"
     },
     "card-on-page-seo": {
       "photoId": "1456324504439-367cee3b3c32",
@@ -38,11 +38,11 @@
     },
     "card-local-seo": {
       "photoId": "1485217988980-11786ced9454",
-      "alt": "Local caf\u00e9 business owner"
+      "alt": "Person using a laptop in a caf\u00e9"
     },
     "card-google-business-profile": {
       "photoId": "1556742049-0cfed4f6a45d",
-      "alt": "Customer asking questions at a business counter"
+      "alt": "Shop staff speaking with a customer across a counter"
     },
     "card-seo-migration-support": {
       "photoId": "1484417894907-623942c8ee29",
@@ -70,23 +70,23 @@
     },
     "card-retargeting-campaigns": {
       "photoId": "1556155092-8707de31f9c4",
-      "alt": "Reading a message on a smartphone"
+      "alt": "Smartphone displaying a chat conversation"
     },
     "card-email-lead-nurturing": {
       "photoId": "1515378791036-0648a3ef77b2",
-      "alt": "Preparing customer follow-up on a laptop"
+      "alt": "Person using a laptop at a wooden table"
     },
     "card-analytics-dashboards": {
       "photoId": "1558655146-d09347e92766",
-      "alt": "Digital design and reporting workspace"
+      "alt": "Digital design boards displayed on a desktop screen"
     },
     "card-website-speed-optimization": {
       "photoId": "1517433456452-f9633a875f6f",
-      "alt": "Computer keyboard for performance work"
+      "alt": "Close-up of a computer keyboard illuminated in red"
     },
     "card-seo-second-opinion": {
       "photoId": "1553877522-43269d4ea984",
-      "alt": "Independent website review at a desk"
+      "alt": "Person working at a desk with a laptop"
     },
     "card-marketing-automation": {
       "photoId": "1611224923853-80b023f02d71",
@@ -98,11 +98,11 @@
     },
     "card-social-media-strategy": {
       "photoId": "1562577309-4932fdd64cd1",
-      "alt": "Social media content themes"
+      "alt": "Letters spelling social media on a white surface"
     },
     "card-social-profile-setup": {
       "photoId": "1545239351-1141bd82e8a6",
-      "alt": "Setting up business details on a laptop"
+      "alt": "Hands using a laptop on a bright desk"
     },
     "card-social-media-content-management": {
       "photoId": "1573164713714-d95e436ab8d6",
@@ -165,40 +165,40 @@
       "alt": "Pen on paper for planning written content"
     },
     "feature-service-ai-search-visibility": {
-      "photoId": "1522202176988-66273c2fd55f",
-      "alt": "Team reviewing work around a laptop"
+      "local": "explain-ai-search-visibility",
+      "alt": "Example AI search checklist covering clear answers, business identity, sources and page access"
     },
     "feature-service-b2b-lead-generation": {
       "local": "business-meeting",
       "alt": "People discussing a plan around laptops"
     },
     "feature-service-linkedin-advertising": {
-      "photoId": "1499951360447-b19be8fe80f5",
-      "alt": "Desktop and laptop displaying website layouts"
+      "local": "explain-linkedin-advertising",
+      "alt": "Example LinkedIn advertising plan showing audience, message, offer and enquiry review"
     },
     "feature-service-retargeting-campaigns": {
       "photoId": "1487014679447-9f8336841d58",
       "alt": "Website displayed on a laptop"
     },
     "feature-service-email-lead-nurturing": {
-      "photoId": "1496181133206-80ce9b88a853",
-      "alt": "Laptop in a bright workspace"
+      "local": "explain-email-lead-nurturing",
+      "alt": "Example email follow-up sequence from a new enquiry to a useful next step"
     },
     "feature-service-analytics-dashboards": {
-      "photoId": "1552581234-26160f608093",
-      "alt": "Team planning priorities with sticky notes"
+      "local": "explain-analytics-dashboards",
+      "alt": "Example marketing dashboard comparing search, ads, social media and follow-up"
     },
     "feature-service-website-speed-optimization": {
-      "photoId": "1531482615713-2afd69097998",
-      "alt": "Colleagues reviewing digital work"
+      "local": "explain-website-speed-optimization",
+      "alt": "Example Core Web Vitals checklist explaining LCP, INP and CLS without invented scores"
     },
     "feature-service-seo-second-opinion": {
-      "photoId": "1493612276216-ee3925520721",
-      "alt": "A light bulb representing a new idea"
+      "local": "explain-seo-second-opinion",
+      "alt": "Example SEO review checklist covering access, content, evidence and priorities"
     },
     "feature-service-marketing-automation": {
-      "photoId": "1497366811353-6870744d04b2",
-      "alt": "Modern professional workspace"
+      "local": "explain-marketing-automation",
+      "alt": "Example enquiry automation workflow showing receipt, assignment, response and review"
     },
     "feature-service-paid-media-strategy": {
       "local": "strategy-board",
@@ -209,8 +209,8 @@
       "alt": "Website and digital work on a desktop screen"
     },
     "feature-service-social-profile-setup": {
-      "photoId": "1523240795612-9a054b0db644",
-      "alt": "People learning together with books and a laptop"
+      "local": "explain-social-profile-setup",
+      "alt": "Example social business profile checklist with identity, services, contact and business details"
     },
     "feature-service-social-media-content-management": {
       "local": "creative-camera",
