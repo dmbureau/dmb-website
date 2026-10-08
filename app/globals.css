@@ -253,8 +253,8 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .editorial-step{border-top:1px solid #cdd8c0;padding-top:22px}
 .editorial-step>span{display:block;font-size:13px;color:#8b7a3c;margin-bottom:20px}
 .editorial-step h3{font-size:22px;max-width:310px;margin-bottom:14px}.editorial-step p{font-size:15px;line-height:1.75;max-width:340px}
-.insight-section{background:#fff}.insight-card{background:#fff!important;border:1px solid #e4e8df;border-radius:12px;box-shadow:none}
-.insight-card h3{font-size:21px;line-height:1.4}.insight-copy{padding:25px!important}
+.insight-section{background:#fff}.insight-card{background:#fff;border:1px solid #e4e8df;border-radius:12px;box-shadow:none}
+.insight-card h3{font-size:21px;line-height:1.4}.insight-copy{padding:25px}
 .home-faq{background:#faf9f4;display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}
 .home-faq .section-heading{margin:0}.home-faq .faq-list{margin:0}
 .page-intro{background:linear-gradient(115deg,#f7f8f2,#f2f4ec);padding-inline:max(5%,calc((100vw - 1240px)/2));border-bottom:1px solid #e7eade}
@@ -339,3 +339,20 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .expert-priorities{padding:24px;border:1px solid #e8dfc4;background:#fcfaf2;border-radius:12px;margin:24px 0}.expert-priorities h3,.expert-audit>h3{font-size:23px;margin-bottom:20px}.expert-priorities ol{list-style:none;padding:0;margin:0;display:grid;gap:20px}.expert-priorities li{display:flex;align-items:flex-start;gap:14px}.expert-priorities h4{margin:0 0 7px;font-size:16px}.expert-priorities p{font-size:14px;line-height:1.7}.audit-priority{font-size:11px;font-weight:700;border-radius:20px;padding:5px 10px;flex-shrink:0;background:#eceede}.priority-high{background:#f4e1d9;color:#88442d}.priority-medium{background:#f0e8c9;color:#7a622b}
 .expert-filters{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}.expert-filters button[aria-pressed=true]{background:#28573c;color:white}.expert-page-facts dl{display:grid;gap:12px}.expert-page-facts dl>div{display:grid;grid-template-columns:1fr 2fr;gap:20px;border-bottom:1px solid #e4e9df;padding-bottom:12px}.expert-page-facts dd{margin:0;overflow-wrap:anywhere}.expert-page-facts p{margin:10px 0;line-height:1.6}.expert-page-facts p>strong{margin-right:12px}.audit-report{width:min(1080px,96vw)!important}.audit-report .audit-summary a{overflow-wrap:anywhere}
 @media(max-width:640px){.expert-score-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.expert-score-grid>div{padding:15px}.expert-report-actions{flex-direction:column;align-items:flex-start}.expert-report-actions button{width:100%;justify-content:center}.expert-priorities{padding:18px}.expert-page-facts dl>div{grid-template-columns:1fr;gap:6px}.expert-priorities li{flex-direction:column;gap:8px}.expert-filters button{padding:9px 12px;font-size:12px}}
+
+/* Photo-led guide cards: coloured reading panels and gentle interaction. */
+.insight-grid,.blog-grid{align-items:stretch}
+.insight-card,.blog-card{display:flex;flex-direction:column;overflow:hidden;background:#edf4e8;border:1px solid #dce6d4;border-radius:18px;box-shadow:0 8px 24px #173e3508;transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.insight-card:nth-child(3n+2),.blog-card:nth-child(3n+2){background:#f0edf8;border-color:#e0daec}
+.insight-card:nth-child(3n+3),.blog-card:nth-child(3n+3){background:#eaf2f8;border-color:#d7e4ed}
+.insight-card .insight-copy,.blog-card>div{background:transparent;flex:1;padding:26px;position:relative;min-height:190px}
+.insight-card .insight-copy{padding-bottom:62px}
+.insight-card .insight-copy>svg{position:absolute;bottom:24px;right:24px;background:#fff9;border-radius:50%;padding:9px;width:40px;height:40px;transition:transform .3s ease,background .3s ease}
+.insight-card .service-photograph,.blog-card .service-photograph{margin:0;border-radius:0;overflow:hidden;aspect-ratio:3/2}
+.insight-card .service-photograph img,.blog-card .service-photograph img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.insight-card:is(:hover,:focus-visible),.blog-card:is(:hover,:focus-visible){transform:translateY(-6px);box-shadow:0 18px 32px #173e3514;border-color:#aec695}
+.insight-card:is(:hover,:focus-visible) img,.blog-card:is(:hover,:focus-visible) img{transform:scale(1.035)}
+.insight-card:is(:hover,:focus-visible) .insight-copy>svg{transform:rotate(-8deg);background:#b4f37b}
+.insight-card:focus-visible,.blog-card:focus-visible{outline:3px solid #557d44;outline-offset:4px}
+@media(max-width:640px){.insight-card .insight-copy,.blog-card>div{padding:22px;min-height:0}.insight-card .insight-copy{padding-bottom:66px}}
+@media(prefers-reduced-motion:reduce){.insight-card,.blog-card,.insight-card img,.blog-card img,.insight-card .insight-copy>svg{transition:none!important;transform:none!important}}
