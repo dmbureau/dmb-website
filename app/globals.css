@@ -435,3 +435,6 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .blog-feature>.service-photograph img{width:100%;height:100%;object-fit:cover}
 @media(max-width:900px){.service-visual,.industry-photo-layout>.photograph-feature{max-width:640px;justify-self:center;width:100%}.page-intro .photograph-feature{max-height:360px}.bureau-visual{max-width:640px}}
 @media(max-width:640px){.page-intro .photograph-feature{aspect-ratio:3/2;max-height:300px;border-radius:16px}.service-visual{margin-top:24px}.bureau-visual{margin-top:24px}.article-image .photograph-feature{max-height:300px}}
+
+@media(min-width:901px){.detail-title{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:48px}.detail-title>div{min-width:0}.detail-title h1{font-size:clamp(36px,4.2vw,60px)}}
+@media(min-width:641px) and (max-width:900px){.detail-title{grid-template-columns:1fr;gap:28px}.detail-title .service-visual{margin-top:0}}
