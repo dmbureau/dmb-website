@@ -44,3 +44,7 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Local Windows photo folders are not website assets.
+/Pictures/
+[Dd]esktop.ini
