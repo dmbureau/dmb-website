@@ -303,3 +303,33 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .header>.header-actions{flex-shrink:0}
 @media(min-width:901px) and (max-width:1100px){.header>a:first-child{margin-right:18px}.header>.nav{gap:20px}.header>.nav>details:first-child{margin-left:6px}}
 @media(max-width:900px){.header>a:first-child{margin-right:0}.header>.nav.mobile-open{top:100%;max-height:calc(100dvh - 86px)}}
+
+/* Shared process cards and mobile sections need real inner spacing. */
+.process-grid .process-card{padding:28px;min-height:0;display:flex;flex-direction:column;align-items:flex-start;gap:0}
+.process-grid .process-card>span,.editorial-step>span{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:1px solid #cddac1;border-radius:50%;background:#f3f7ed;color:#557144;font-size:13px;margin:0 0 16px}
+.process-grid .process-card h3{margin:0 0 12px;line-height:1.35}
+.process-grid .process-card p{max-width:none;margin:0;line-height:1.65}
+.home-faq .section-heading{text-align:left;align-items:flex-start;justify-content:flex-start;width:100%}
+.home-faq .section-heading>div{width:100%;margin:0}
+.home-faq .section-heading h2{margin:12px 0 0;text-align:left}
+@media(max-width:760px){
+ .process-grid{gap:16px}
+ .process-grid .process-card{padding:22px}
+ .process-grid .process-card h3{font-size:20px}
+ .process-grid .process-card p{font-size:15px}
+ .editorial-steps{gap:20px}
+ .editorial-step{padding-top:20px}
+ .editorial-step>span{margin-bottom:14px}
+ .editorial-step h3{font-size:20px;max-width:none;margin:0 0 10px;line-height:1.4}
+ .editorial-step p{font-size:15px;line-height:1.65;max-width:none}
+ .process-section .section-heading,.home-faq .section-heading{margin-bottom:24px}
+ .process-section .section-heading h2,.home-faq .section-heading h2{font-size:28px;line-height:1.25;letter-spacing:-.7px}
+ .home-faq{gap:0}
+ .home-faq .faq-list summary{font-size:16px;line-height:1.5;gap:18px;padding:20px 0}
+ .home-faq .faq-list summary>span{flex-shrink:0}
+ .cta-band{padding:28px 24px;gap:22px}
+ .cta-band h2{font-size:30px;line-height:1.2;letter-spacing:-.8px;margin:12px 0}
+ .cta-band p{font-size:15px;line-height:1.65}
+ .cta-band .eyebrow{font-size:11px}
+ .cta-band .button{width:100%;max-width:none}
+}
