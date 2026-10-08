@@ -4,7 +4,7 @@ import Link from '@/components/navigation-link';
 import { useState, useRef, useEffect } from 'react';
 import { ArrowUpRight, ArrowRight, Menu, X, Search, ChevronDown, Mail, Phone } from 'lucide-react';
 import { services, industries } from '@/lib/client-content';
-export function Wordmark() { return <span className="brand"><img className="dmb-logo" src="/dmb-logo.svg" width="118" height="33" alt="DMB"/><span className="brand-full">Digital Marketing<br/>Bureau</span></span>; }
+export function Wordmark() { return <span className="brand"><img className="dmb-logo" src="/dmb-logo.svg" width="118" height="33" alt="DMB"/><span className="brand-full" aria-label="Digital Marketing Bureau">{['Digital Marketing','Bureau'].map((line,row)=><span className="brand-line" aria-hidden="true" key={line}>{Array.from(line).map((letter,index)=><span className="brand-letter" key={index} style={{animationDelay:((row===0?index:18+index)*0.055)+'s'}}>{letter===' '?'\u00a0':letter}</span>)}</span>)}</span></span>; }
 export function Header() {
  const headerRef=useRef<HTMLElement>(null);const [open,setOpen]=useState(false);const [search,setSearch]=useState(false);const [query,setQuery]=useState('');
  useEffect(()=>{const outside=(e:PointerEvent)=>{if(!headerRef.current?.contains(e.target as Node)){setOpen(false);headerRef.current?.querySelectorAll('details[open]').forEach(el=>el.removeAttribute('open'))}};const escape=(e:KeyboardEvent)=>{if(e.key==='Escape'){setOpen(false);headerRef.current?.querySelectorAll('details[open]').forEach(el=>el.removeAttribute('open'))}};document.addEventListener('pointerdown',outside);document.addEventListener('keydown',escape);return()=>{document.removeEventListener('pointerdown',outside);document.removeEventListener('keydown',escape)}},[]);
