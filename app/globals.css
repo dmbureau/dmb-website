@@ -277,3 +277,15 @@ h3{font-size:22px;line-height:1.35;font-weight:650;letter-spacing:-.4px}
 .brew-hero .brew-hero-copy>h1>span{color:#567245!important}
 .brew-hero .brew-hero-copy>p{color:#526352!important;text-align:left;justify-self:start;align-self:start;margin-left:0;width:100%}
 @media(min-width:1100px){.brew-hero-copy{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(360px,1fr);align-items:start}.hero-kicker{grid-row:1}.brew-hero-copy>h1{grid-row:2}.brew-hero-copy>p{grid-row:3}.brew-hero-copy>.hero-buttons{grid-row:4}.brew-hero-copy>.brew-hero-markets{grid-row:5}.hero-audit-panel{grid-column:2;grid-row:1/6!important}}
+
+/* Quiet brand presence without extra layout, interaction or animation work. */
+main section{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 110'%3E%3Ctext x='600' y='83' text-anchor='middle' font-family='Arial,sans-serif' font-size='78' font-weight='700' letter-spacing='-3' fill='%23173e35' fill-opacity='.035'%3EDigital Marketing Bureau%3C/text%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center bottom 12px;background-size:min(1100px,95vw) auto}
+main .brew-hero{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 110'%3E%3Ctext x='600' y='83' text-anchor='middle' font-family='Arial,sans-serif' font-size='78' font-weight='700' letter-spacing='-3' fill='%23173e35' fill-opacity='.035'%3EDigital Marketing Bureau%3C/text%3E%3C/svg%3E"),radial-gradient(ellipse at 100% 0%,#eadfbc66,transparent 52%),linear-gradient(115deg,#f7f8f0,#eff4e8);background-size:min(1100px,95vw) auto,cover,cover;background-position:center bottom 12px,center,center}
+main .page-intro{background-color:#f4f6ee}
+.header .brand-full{display:block;font-size:17px!important;font-weight:750;line-height:1.2;letter-spacing:-.4px;padding-left:13px}
+.header .dmb-logo{width:105px;height:auto}
+.header{gap:24px}.header-socials{display:none}
+.dmb-footer .brand-full{font-size:24px!important;font-weight:750;line-height:1.2}
+@media(max-width:1100px){.header .brand-full{font-size:15px!important}.header{gap:16px}}
+@media(max-width:760px){.header .brand-full{display:block;font-size:13px!important;padding-left:8px}.header .dmb-logo{width:73px}.header .header-cta{font-size:12px;gap:6px;padding-inline:10px}.header .search-btn{display:none}}
+@media(max-width:390px){.header .brand-full{font-size:11px!important}.header .dmb-logo{width:62px}.header .header-cta{font-size:11px;padding-inline:8px}}

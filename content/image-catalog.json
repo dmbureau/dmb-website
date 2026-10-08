@@ -1,0 +1,432 @@
+{
+  "assets": {
+    "card-google-ads-audit": {
+      "photoId": "1560472354-b33ff0c44a43",
+      "alt": "Website analytics overview on a screen"
+    },
+    "card-google-ads-management": {
+      "photoId": "1553484771-371a605b060b",
+      "alt": "Reviewing business charts and reports"
+    },
+    "card-paid-social-advertising": {
+      "photoId": "1432888622747-4eb9a8efeb07",
+      "alt": "Social media planning beside a smartphone"
+    },
+    "card-lead-quality-optimization": {
+      "photoId": "1521791136064-7986c2920216",
+      "alt": "Business handshake after a discussion"
+    },
+    "card-landing-page-design": {
+      "photoId": "1522542550221-31fd19575a2d",
+      "alt": "Website layout sketches"
+    },
+    "card-conversion-rate-audit": {
+      "photoId": "1581291518857-4e27b48ff24e",
+      "alt": "Sketching a clearer website journey"
+    },
+    "card-conversion-tracking-setup": {
+      "photoId": "1515879218367-8466d910aaa4",
+      "alt": "Website code for event tracking"
+    },
+    "card-technical-seo-audit": {
+      "photoId": "1504639725590-34d0984388bd",
+      "alt": "Technical screens for website checks"
+    },
+    "card-on-page-seo": {
+      "photoId": "1456324504439-367cee3b3c32",
+      "alt": "Writing useful website content"
+    },
+    "card-local-seo": {
+      "photoId": "1485217988980-11786ced9454",
+      "alt": "Local caf\u00e9 business owner"
+    },
+    "card-google-business-profile": {
+      "photoId": "1556742049-0cfed4f6a45d",
+      "alt": "Customer asking questions at a business counter"
+    },
+    "card-seo-migration-support": {
+      "photoId": "1484417894907-623942c8ee29",
+      "alt": "Code and devices for website changes"
+    },
+    "card-organic-traffic-recovery": {
+      "photoId": "1486312338219-ce68d2c6f44d",
+      "alt": "Reviewing a website on a laptop"
+    },
+    "card-content-strategy": {
+      "photoId": "1488190211105-8b0e65b80b4e",
+      "alt": "Planning content with a notebook and laptop"
+    },
+    "card-ai-search-visibility": {
+      "photoId": "1559028012-481c04fa702d",
+      "alt": "Digital design tools on a screen"
+    },
+    "card-b2b-lead-generation": {
+      "photoId": "1523958203904-cdcb402031fd",
+      "alt": "Professional meeting about business requirements"
+    },
+    "card-linkedin-advertising": {
+      "photoId": "1517245386807-bb43f82c33c4",
+      "alt": "Discussing a business offer"
+    },
+    "card-retargeting-campaigns": {
+      "photoId": "1556155092-8707de31f9c4",
+      "alt": "Reading a message on a smartphone"
+    },
+    "card-email-lead-nurturing": {
+      "photoId": "1515378791036-0648a3ef77b2",
+      "alt": "Preparing customer follow-up on a laptop"
+    },
+    "card-analytics-dashboards": {
+      "photoId": "1558655146-d09347e92766",
+      "alt": "Digital design and reporting workspace"
+    },
+    "card-website-speed-optimization": {
+      "photoId": "1517433456452-f9633a875f6f",
+      "alt": "Computer keyboard for performance work"
+    },
+    "card-seo-second-opinion": {
+      "photoId": "1553877522-43269d4ea984",
+      "alt": "Independent website review at a desk"
+    },
+    "card-marketing-automation": {
+      "photoId": "1611224923853-80b023f02d71",
+      "alt": "Organising tasks for a follow-up workflow"
+    },
+    "card-paid-media-strategy": {
+      "photoId": "1531403009284-440f080d1e12",
+      "alt": "Planning campaign tasks on a board"
+    },
+    "card-social-media-strategy": {
+      "photoId": "1562577309-4932fdd64cd1",
+      "alt": "Social media content themes"
+    },
+    "card-social-profile-setup": {
+      "photoId": "1545239351-1141bd82e8a6",
+      "alt": "Setting up business details on a laptop"
+    },
+    "card-social-media-content-management": {
+      "photoId": "1573164713714-d95e436ab8d6",
+      "alt": "Creating digital content in a workspace"
+    },
+    "feature-service-google-ads-audit": {
+      "local": "data-review",
+      "alt": "Printed charts and a notebook used for reviewing campaign data"
+    },
+    "feature-service-google-ads-management": {
+      "local": "campaign-analysis",
+      "alt": "Analytics dashboard displaying traffic trends"
+    },
+    "feature-service-paid-social-advertising": {
+      "local": "mobile-experience",
+      "alt": "Smartphone displaying social and communication apps"
+    },
+    "feature-service-lead-quality-optimization": {
+      "local": "customer-conversation",
+      "alt": "Two people discussing customer needs at a desk"
+    },
+    "feature-service-landing-page-design": {
+      "local": "website-design",
+      "alt": "Website design on a desktop screen beside development tools"
+    },
+    "feature-service-conversion-rate-audit": {
+      "local": "email-work",
+      "alt": "Two people reviewing information on a laptop"
+    },
+    "feature-service-conversion-tracking-setup": {
+      "local": "technical-code",
+      "alt": "Website code displayed on a screen"
+    },
+    "feature-service-technical-seo-audit": {
+      "local": "computer-work",
+      "alt": "Laptop and desktop prepared for technical website work"
+    },
+    "feature-service-on-page-seo": {
+      "local": "search-work",
+      "alt": "Laptop, notebook and coffee in a content-review workspace"
+    },
+    "feature-service-local-seo": {
+      "local": "gbp-local",
+      "alt": "Example Google Business Profile with business details and a local map"
+    },
+    "feature-service-google-business-profile": {
+      "local": "gbp-profile",
+      "alt": "Example business profile showing contact and location details"
+    },
+    "feature-service-seo-migration-support": {
+      "local": "laptop-design",
+      "alt": "Overhead view of a team workspace with laptops and notes"
+    },
+    "feature-service-organic-traffic-recovery": {
+      "local": "understand-marketing-results",
+      "alt": "Website traffic dashboard displayed on a laptop"
+    },
+    "feature-service-content-strategy": {
+      "local": "content-planning",
+      "alt": "Pen on paper for planning written content"
+    },
+    "feature-service-ai-search-visibility": {
+      "photoId": "1522202176988-66273c2fd55f",
+      "alt": "Team reviewing work around a laptop"
+    },
+    "feature-service-b2b-lead-generation": {
+      "local": "business-meeting",
+      "alt": "People discussing a plan around laptops"
+    },
+    "feature-service-linkedin-advertising": {
+      "photoId": "1499951360447-b19be8fe80f5",
+      "alt": "Desktop and laptop displaying website layouts"
+    },
+    "feature-service-retargeting-campaigns": {
+      "photoId": "1487014679447-9f8336841d58",
+      "alt": "Website displayed on a laptop"
+    },
+    "feature-service-email-lead-nurturing": {
+      "photoId": "1496181133206-80ce9b88a853",
+      "alt": "Laptop in a bright workspace"
+    },
+    "feature-service-analytics-dashboards": {
+      "photoId": "1552581234-26160f608093",
+      "alt": "Team planning priorities with sticky notes"
+    },
+    "feature-service-website-speed-optimization": {
+      "photoId": "1531482615713-2afd69097998",
+      "alt": "Colleagues reviewing digital work"
+    },
+    "feature-service-seo-second-opinion": {
+      "photoId": "1493612276216-ee3925520721",
+      "alt": "A light bulb representing a new idea"
+    },
+    "feature-service-marketing-automation": {
+      "photoId": "1497366811353-6870744d04b2",
+      "alt": "Modern professional workspace"
+    },
+    "feature-service-paid-media-strategy": {
+      "local": "strategy-board",
+      "alt": "Reviewing written business plans and charts"
+    },
+    "feature-service-social-media-strategy": {
+      "photoId": "1467232004584-a241de8bcf5d",
+      "alt": "Website and digital work on a desktop screen"
+    },
+    "feature-service-social-profile-setup": {
+      "photoId": "1523240795612-9a054b0db644",
+      "alt": "People learning together with books and a laptop"
+    },
+    "feature-service-social-media-content-management": {
+      "local": "creative-camera",
+      "alt": "Close-up of camera equipment for producing content"
+    },
+    "feature-industry-real-estate": {
+      "photoId": "1560448204-e02f11c3d0e2",
+      "alt": "Bright residential living room with large windows and modern furnishings"
+    },
+    "feature-industry-hospitality": {
+      "local": "industry-hospitality",
+      "alt": "Resort terrace and pool beside a guest building"
+    },
+    "feature-industry-healthcare": {
+      "local": "industry-healthcare",
+      "alt": "Healthcare professional holding a smartphone"
+    },
+    "feature-industry-travel-&-tourism": {
+      "local": "industry-travel",
+      "alt": "Travel map, passport and camera"
+    },
+    "feature-industry-saas-&-technology": {
+      "local": "industry-saas",
+      "alt": "Interior of a modern technology workspace"
+    },
+    "feature-industry-ecommerce": {
+      "local": "industry-ecommerce",
+      "alt": "Open shop sign outside a retail business"
+    },
+    "feature-industry-professional-services": {
+      "local": "legal",
+      "alt": "Scales of justice representing professional legal services"
+    },
+    "feature-industry-home-services": {
+      "local": "construction",
+      "alt": "Construction workers at a building site"
+    },
+    "feature-industry-education-&-training": {
+      "local": "education",
+      "alt": "Learning books and classroom materials"
+    },
+    "feature-industry-recruitment-&-staffing": {
+      "local": "turn-visits-into-enquiries",
+      "alt": "Business team reviewing work in an office"
+    },
+    "feature-industry-logistics-&-supply-chain": {
+      "local": "logistics",
+      "alt": "Warehouse storage and distribution floor"
+    },
+    "feature-industry-solar-&-energy-services": {
+      "local": "solar-energy",
+      "alt": "Solar panels in a field beneath a blue sky"
+    },
+    "home-plan": {
+      "photoId": "1555421689-3f034debb7a6",
+      "alt": "Person reviewing work on a laptop"
+    },
+    "home-priority": {
+      "photoId": "1557804506-669a67965ba0",
+      "alt": "Team sharing ideas in a meeting space"
+    },
+    "about": {
+      "photoId": "1512758017271-d7b84c2113f1",
+      "alt": "Organising project tasks on a planning board"
+    },
+    "seo-bureau": {
+      "photoId": "1521737604893-d14cc237f11d",
+      "alt": "Professional team discussing a plan"
+    },
+    "ppc-bureau": {
+      "photoId": "1504384308090-c894fdcc538d",
+      "alt": "People working in a shared office"
+    },
+    "social-bureau": {
+      "photoId": "1531973576160-7125cd663d86",
+      "alt": "Bright shared workspace"
+    },
+    "organic-marketing": {
+      "photoId": "1600880292203-757bb62b4baf",
+      "alt": "Colleagues celebrating completed work"
+    },
+    "performance-marketing": {
+      "photoId": "1600880292089-90a7e086ee0c",
+      "alt": "Business handshake"
+    },
+    "blog": {
+      "photoId": "1559136555-9303baea8ebd",
+      "alt": "Digital team at work"
+    },
+    "article-clicks-but-no-leads": {
+      "photoId": "1557426272-fc759fdf7a8d",
+      "alt": "Discussing ideas on a planning board"
+    },
+    "article-traffic-but-no-enquiries": {
+      "photoId": "1590402494682-cd3fb53b1f70",
+      "alt": "Explaining a project on a whiteboard"
+    },
+    "article-measure-qualified-leads": {
+      "photoId": "1524758631624-e2822e304c36",
+      "alt": "A calm professional workspace"
+    },
+    "article-international-service-pages": {
+      "photoId": "1504384764586-bb4cdc1707b0",
+      "alt": "Professionals attending a digital event"
+    },
+    "carousel-real-estate": {
+      "local": "industry-real-estate",
+      "alt": "House model and keys representing a property purchase"
+    },
+    "carousel-hospitality": {
+      "photoId": "1540518614846-7eded433c457",
+      "alt": "Hospitality guest room"
+    },
+    "carousel-healthcare": {
+      "photoId": "1516549655169-df83a0774514",
+      "alt": "Healthcare treatment room"
+    },
+    "carousel-travel": {
+      "photoId": "1464822759023-fed622ff2c3b",
+      "alt": "Mountain travel destination"
+    },
+    "carousel-saas": {
+      "photoId": "1551434678-e076c223a692",
+      "alt": "Technology professionals working at computers"
+    },
+    "carousel-ecommerce": {
+      "photoId": "1556742111-a301076d9d18",
+      "alt": "Customer paying at a shop counter"
+    },
+    "guide-card-clicks-but-no-leads": {
+      "photoId": "1518600506278-4e8ef466b810",
+      "alt": "Discussing business requirements around a laptop"
+    },
+    "guide-card-traffic-but-no-enquiries": {
+      "photoId": "1515168833906-d2a3b82b302a",
+      "alt": "People discussing ideas at a business event"
+    },
+    "guide-card-measure-qualified-leads": {
+      "photoId": "1556761175-5973dc0f32e7",
+      "alt": "Collaborative business workspace"
+    },
+    "guide-card-international-service-pages": {
+      "photoId": "1581091226825-a6a2a5aee158",
+      "alt": "Technical work in an industrial workspace"
+    }
+  },
+  "cards": {
+    "google-ads-audit": "card-google-ads-audit",
+    "google-ads-management": "card-google-ads-management",
+    "paid-social-advertising": "card-paid-social-advertising",
+    "lead-quality-optimization": "card-lead-quality-optimization",
+    "landing-page-design": "card-landing-page-design",
+    "conversion-rate-audit": "card-conversion-rate-audit",
+    "conversion-tracking-setup": "card-conversion-tracking-setup",
+    "technical-seo-audit": "card-technical-seo-audit",
+    "on-page-seo": "card-on-page-seo",
+    "local-seo": "card-local-seo",
+    "google-business-profile": "card-google-business-profile",
+    "seo-migration-support": "card-seo-migration-support",
+    "organic-traffic-recovery": "card-organic-traffic-recovery",
+    "content-strategy": "card-content-strategy",
+    "ai-search-visibility": "card-ai-search-visibility",
+    "b2b-lead-generation": "card-b2b-lead-generation",
+    "linkedin-advertising": "card-linkedin-advertising",
+    "retargeting-campaigns": "card-retargeting-campaigns",
+    "email-lead-nurturing": "card-email-lead-nurturing",
+    "analytics-dashboards": "card-analytics-dashboards",
+    "website-speed-optimization": "card-website-speed-optimization",
+    "seo-second-opinion": "card-seo-second-opinion",
+    "marketing-automation": "card-marketing-automation",
+    "paid-media-strategy": "card-paid-media-strategy",
+    "social-media-strategy": "card-social-media-strategy",
+    "social-profile-setup": "card-social-profile-setup",
+    "social-media-content-management": "card-social-media-content-management"
+  },
+  "features": {
+    "google-ads-audit": "feature-service-google-ads-audit",
+    "google-ads-management": "feature-service-google-ads-management",
+    "paid-social-advertising": "feature-service-paid-social-advertising",
+    "lead-quality-optimization": "feature-service-lead-quality-optimization",
+    "landing-page-design": "feature-service-landing-page-design",
+    "conversion-rate-audit": "feature-service-conversion-rate-audit",
+    "conversion-tracking-setup": "feature-service-conversion-tracking-setup",
+    "technical-seo-audit": "feature-service-technical-seo-audit",
+    "on-page-seo": "feature-service-on-page-seo",
+    "local-seo": "feature-service-local-seo",
+    "google-business-profile": "feature-service-google-business-profile",
+    "seo-migration-support": "feature-service-seo-migration-support",
+    "organic-traffic-recovery": "feature-service-organic-traffic-recovery",
+    "content-strategy": "feature-service-content-strategy",
+    "ai-search-visibility": "feature-service-ai-search-visibility",
+    "b2b-lead-generation": "feature-service-b2b-lead-generation",
+    "linkedin-advertising": "feature-service-linkedin-advertising",
+    "retargeting-campaigns": "feature-service-retargeting-campaigns",
+    "email-lead-nurturing": "feature-service-email-lead-nurturing",
+    "analytics-dashboards": "feature-service-analytics-dashboards",
+    "website-speed-optimization": "feature-service-website-speed-optimization",
+    "seo-second-opinion": "feature-service-seo-second-opinion",
+    "marketing-automation": "feature-service-marketing-automation",
+    "paid-media-strategy": "feature-service-paid-media-strategy",
+    "social-media-strategy": "feature-service-social-media-strategy",
+    "social-profile-setup": "feature-service-social-profile-setup",
+    "social-media-content-management": "feature-service-social-media-content-management"
+  },
+  "industries": {
+    "Real Estate": "feature-industry-real-estate",
+    "Hospitality": "feature-industry-hospitality",
+    "Healthcare": "feature-industry-healthcare",
+    "Travel & Tourism": "feature-industry-travel-&-tourism",
+    "SaaS & Technology": "feature-industry-saas-&-technology",
+    "Ecommerce": "feature-industry-ecommerce",
+    "Professional Services": "feature-industry-professional-services",
+    "Home Services": "feature-industry-home-services",
+    "Education & Training": "feature-industry-education-&-training",
+    "Recruitment & Staffing": "feature-industry-recruitment-&-staffing",
+    "Logistics & Supply Chain": "feature-industry-logistics-&-supply-chain",
+    "Solar & Energy Services": "feature-industry-solar-&-energy-services"
+  }
+}
