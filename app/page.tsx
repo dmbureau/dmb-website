@@ -7,7 +7,7 @@ import {markets} from '@/lib/markets';
 import {HeroAudit} from '@/components/hero-audit';
 import {IndustryCarousel} from '@/components/industry-carousel';
 import {pageMeta} from '@/lib/site';
-export const metadata=pageMeta('Performance Marketing & SEO Agency | Digital Marketing Bureau','SEO, online advertising and social media marketing for businesses. Get a free website check and a practical plan for clearer customer enquiries.','/');
+export const metadata=pageMeta('Performance Marketing Agency & SEO Services | Digital Marketing Bureau','Grow your business with DMB’s SEO, Google Ads, paid social and landing page optimisation. Get a free website check and a clear marketing plan.','/');
 const goals=[
 {title:'Help customers find my business',text:'SEO, local search and clear service pages.',href:'/seo-bureau'},
 {title:'Get more from my advertising',text:'Google, Meta and LinkedIn ads with useful tracking.',href:'/ppc-bureau'},
