@@ -468,3 +468,28 @@ main .expert-file-grid p,main .expert-file-grid a,main .expert-file-grid summary
 .localized-market-steps li{padding:.5rem 0}
 .localized-market-footer p{max-width:65ch;font-size:1rem}
 @media(max-width:600px){.localized-market-header{align-items:flex-start}.localized-market-header nav{justify-content:flex-end;font-size:.95rem}.localized-market-header .button{font-size:.95rem;padding:.65rem .9rem}.market-language-links{font-size:1rem}}
+
+/* DMB motion illustrations and global market discovery */
+.dmb-motion{position:relative;display:block;width:100%;aspect-ratio:3/2;overflow:hidden;border-radius:18px;background:#eef4ef;isolation:isolate}
+.dmb-motion picture,.dmb-motion img{display:block;width:100%;height:100%;object-fit:contain!important;transform:none!important}
+.motion-control{position:absolute;right:14px;bottom:12px;z-index:4;padding:6px 10px;border:1px solid #c4d9cb;border-radius:20px;background:#fffaf0;color:#173e35;font-size:11px;font-weight:600;cursor:pointer}
+.motion-control:focus-visible,.global-motion-control:focus-visible{outline:3px solid #173e35;outline-offset:4px}
+.service-photograph:has(.dmb-motion){background:#eef4ef;overflow:visible}
+.service-photograph:has(.dmb-motion) figcaption{padding:12px 16px;color:#4e7465;background:#eef4ef;font-size:13px}
+.industry-slide-image:has(.dmb-motion){background:#eef4ef}
+.industry-slide-image .dmb-motion{height:100%;aspect-ratio:auto;border-radius:0}
+.industry-slide-image .motion-control{bottom:112px}
+.market-hero-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);align-items:center;gap:48px;margin-top:24px}
+.market-hero-layout .dmb-motion{max-width:520px;justify-self:end;border:1px solid #d0e0d4}
+.market-hero-layout h1{font-size:clamp(30px,4.2vw,58px)}
+.keyword-service-links{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 32px}
+.keyword-service-links a{display:inline-flex;align-items:center;border:1px solid #c4d9cb;border-radius:30px;padding:10px 16px;color:#173e35;background:#eef4ef;text-decoration:none;font-size:14px}
+.keyword-service-links a:hover{background:#b4fd83}
+.footer-market-row{flex-wrap:wrap;gap:14px!important;padding-top:24px!important;padding-bottom:24px!important}
+.footer-market-row>a{font-size:13px}
+@media(max-width:900px){.market-hero-layout{grid-template-columns:1fr;gap:28px}.market-hero-layout .dmb-motion{width:100%;max-width:600px;justify-self:start}.header-socials{display:none!important}.header-actions{gap:8px!important}}
+@media(max-width:600px){.motion-control{right:8px;bottom:8px;font-size:10px}.dmb-motion{border-radius:12px}.market-hero-layout h1{font-size:34px}.footer-market-row{gap:12px!important}.industry-slide-image .motion-control{bottom:100px}}
+@media(prefers-reduced-motion:reduce){.motion-control,.global-motion-control{display:none}.dmb-motion *{animation:none!important;transition:none!important}}
+.nav-service-group{display:flex;flex-direction:column;gap:4px;min-width:0}
+.nav-group-label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#4e7465;padding:8px 0}
+.mega-links .nav-service-group a{font-size:14px;padding:8px 0;display:flex;align-items:center;justify-content:space-between;gap:8px}

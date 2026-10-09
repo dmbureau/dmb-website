@@ -11,6 +11,16 @@ export function pageMeta(title:string,description:string,path:string):Metadata{
 // Regional versions of the market landing page. Dubai is a distinct city page,
 // so it must not compete with the UAE URL for the same en-AE alternate.
 export const marketLanguages: Record<string,string> = {
+ 'en-CA': origin+'/markets/canada',
+ 'en-AU': origin+'/markets/australia',
+ 'en-NZ': origin+'/markets/new-zealand',
+ 'en-SG': origin+'/markets/singapore',
+ 'en-SA': origin+'/markets/saudi-arabia',
+ 'en-QA': origin+'/markets/qatar',
+ 'en-OM': origin+'/markets/oman',
+ 'en-BH': origin+'/markets/bahrain',
+ 'en-ZA': origin+'/markets/south-africa',
+ 'en-MY': origin+'/markets/malaysia',
  'en-IN': origin+'/markets/india',
  'en-US': origin+'/markets/united-states',
  'en-GB': origin+'/markets/united-kingdom',

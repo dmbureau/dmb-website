@@ -1,0 +1,182 @@
+[
+  {
+    "country": "Canada",
+    "slug": "canada",
+    "locale": "en-CA",
+    "primaryKeyword": "digital marketing services for Canada",
+    "secondaryKeywords": [
+      "SEO services for Canada",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://www.webfx.com/locations/toronto-ca/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Australia",
+    "slug": "australia",
+    "locale": "en-AU",
+    "primaryKeyword": "digital marketing services for Australia",
+    "secondaryKeywords": [
+      "SEO services for Australia",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://firstpage.com.au/llm-info/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "New Zealand",
+    "slug": "new-zealand",
+    "locale": "en-NZ",
+    "primaryKeyword": "digital marketing services for New Zealand",
+    "secondaryKeywords": [
+      "SEO services for New Zealand",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://pureseo.com/seo"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Singapore",
+    "slug": "singapore",
+    "locale": "en-SG",
+    "primaryKeyword": "digital marketing services for Singapore",
+    "secondaryKeywords": [
+      "SEO services for Singapore",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://www.firstpagedigital.sg/seo/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "locale": "en-SA",
+    "primaryKeyword": "digital marketing services for Saudi Arabia",
+    "secondaryKeywords": [
+      "SEO services for Saudi Arabia",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://www.chainreaction.ae/seo-in-saudi-arabia/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Qatar",
+    "slug": "qatar",
+    "locale": "en-QA",
+    "primaryKeyword": "digital marketing services for Qatar",
+    "secondaryKeywords": [
+      "SEO services for Qatar",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://www.chainreaction.ae/seo-in-qatar/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Oman",
+    "slug": "oman",
+    "locale": "en-OM",
+    "primaryKeyword": "digital marketing services for Oman",
+    "secondaryKeywords": [
+      "SEO services for Oman",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://soaloman.com/services/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Bahrain",
+    "slug": "bahrain",
+    "locale": "en-BH",
+    "primaryKeyword": "digital marketing services for Bahrain",
+    "secondaryKeywords": [
+      "SEO services for Bahrain",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://spacetapbh.com/services/digital-marketing"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "South Africa",
+    "slug": "south-africa",
+    "locale": "en-ZA",
+    "primaryKeyword": "digital marketing services for South Africa",
+    "secondaryKeywords": [
+      "SEO services for South Africa",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://seopros.co.za/seo/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  },
+  {
+    "country": "Malaysia",
+    "slug": "malaysia",
+    "locale": "en-MY",
+    "primaryKeyword": "digital marketing services for Malaysia",
+    "secondaryKeywords": [
+      "SEO services for Malaysia",
+      "Google Ads management",
+      "local SEO",
+      "PPC management",
+      "conversion rate optimisation",
+      "lead generation"
+    ],
+    "competitorServicePages": [
+      "https://www.primal.com.my/seo/"
+    ],
+    "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+  }
+]

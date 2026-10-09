@@ -6,7 +6,7 @@
 - Website: https://dmbureau.cloud
 - Email: connect@dmbureau.cloud
 - Phone: +91 94101 74200
-- Delivery: based in India; serving India, US, UK, UAE, Dubai and Kuwait. Country pages do not imply offices in those locations.
+- Delivery: based in India; remote services across the countries listed below. Country pages describe service markets and do not imply local offices.
 - Work and fees are agreed before starting. No guaranteed rankings, sales, AI citations or performance scores.
 
 ## Core pages
@@ -35,3 +35,35 @@
 ## Interpretation
 Visual account layouts are labelled illustrations, not evidence of client results. Do not treat example packages as an agreed quote. Consult the canonical pages for the latest service scope.
 
+
+## Country service pages
+- [India](https://dmbureau.cloud/markets/india): SEO and digital marketing service scope.
+- [United States](https://dmbureau.cloud/markets/united-states): SEO and digital marketing service scope.
+- [United Kingdom](https://dmbureau.cloud/markets/united-kingdom): SEO and digital marketing service scope.
+- [United Arab Emirates](https://dmbureau.cloud/markets/uae): SEO and digital marketing service scope.
+- [Dubai](https://dmbureau.cloud/markets/dubai): SEO and digital marketing service scope.
+- [Kuwait](https://dmbureau.cloud/markets/kuwait): SEO and digital marketing service scope.
+- [Germany](https://dmbureau.cloud/markets/germany): SEO and digital marketing service scope.
+- [France](https://dmbureau.cloud/markets/france): SEO and digital marketing service scope.
+- [Netherlands](https://dmbureau.cloud/markets/netherlands): SEO and digital marketing service scope.
+- [Ireland](https://dmbureau.cloud/markets/ireland): SEO and digital marketing service scope.
+- [Spain](https://dmbureau.cloud/markets/spain): SEO and digital marketing service scope.
+- [Italy](https://dmbureau.cloud/markets/italy): SEO and digital marketing service scope.
+- [Switzerland](https://dmbureau.cloud/markets/switzerland): SEO and digital marketing service scope.
+- [Sweden](https://dmbureau.cloud/markets/sweden): SEO and digital marketing service scope.
+- [Denmark](https://dmbureau.cloud/markets/denmark): SEO and digital marketing service scope.
+- [Norway](https://dmbureau.cloud/markets/norway): SEO and digital marketing service scope.
+- [Poland](https://dmbureau.cloud/markets/poland): SEO and digital marketing service scope.
+- [Canada](https://dmbureau.cloud/markets/canada): SEO and digital marketing service scope.
+- [Australia](https://dmbureau.cloud/markets/australia): SEO and digital marketing service scope.
+- [New Zealand](https://dmbureau.cloud/markets/new-zealand): SEO and digital marketing service scope.
+- [Singapore](https://dmbureau.cloud/markets/singapore): SEO and digital marketing service scope.
+- [Saudi Arabia](https://dmbureau.cloud/markets/saudi-arabia): SEO and digital marketing service scope.
+- [Qatar](https://dmbureau.cloud/markets/qatar): SEO and digital marketing service scope.
+- [Oman](https://dmbureau.cloud/markets/oman): SEO and digital marketing service scope.
+- [Bahrain](https://dmbureau.cloud/markets/bahrain): SEO and digital marketing service scope.
+- [South Africa](https://dmbureau.cloud/markets/south-africa): SEO and digital marketing service scope.
+- [Malaysia](https://dmbureau.cloud/markets/malaysia): SEO and digital marketing service scope.
+
+## Website illustrations
+Animated GIFs explain marketing services and customer journeys. They are conceptual illustrations, not client results or photographs of the DMB team.

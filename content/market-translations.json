@@ -51,7 +51,33 @@
       "costA": "Der Preis hängt von Ihrer Website, Ihren Zielen und dem Arbeitsumfang ab. Sie erhalten vor Beginn ein Angebot. Werbebudget und kostenpflichtige Tools sind separat, sofern das Angebot nichts anderes enthält.",
       "primary": "SEO und Online-Marketing",
       "intro": "Wir helfen Unternehmen, online gefunden zu werden und mehr passende Anfragen zu erhalten. Sie bekommen klare Erklärungen und einen Plan, der zu Ihrem Budget passt."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "SEO Beratung",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "SEO Audit",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "lokale SEO",
+        "slug": "local-seo"
+      },
+      {
+        "label": "Google Ads Betreuung",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "Conversion Optimierung",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "KI-Sichtbarkeit",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "france",
@@ -105,7 +131,33 @@
       "costA": "Le prix dépend de votre site, de vos objectifs et des tâches retenues. Vous recevez un devis avant de commencer. Le budget publicitaire et les outils payants sont séparés, sauf indication contraire.",
       "primary": "SEO et marketing digital",
       "intro": "Nous aidons les entreprises à être trouvées en ligne et à recevoir des demandes pertinentes. Vous obtenez des explications simples et un plan adapté à votre budget."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "audit SEO",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "SEO local",
+        "slug": "local-seo"
+      },
+      {
+        "label": "gestion Google Ads",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "optimisation des conversions",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "marketing digital",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "visibilité dans les recherches avec IA",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "netherlands",
@@ -159,7 +211,33 @@
       "costA": "De prijs hangt af van je website, doelen en gekozen werkzaamheden. Je krijgt vooraf een offerte. Advertentiebudget en betaalde tools zijn apart, tenzij de offerte anders vermeldt.",
       "primary": "SEO en online marketing",
       "intro": "We helpen bedrijven online gevonden te worden en relevante aanvragen te ontvangen. Je krijgt eenvoudige uitleg en een plan dat bij je budget past."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "SEO advies",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "SEO audit",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "lokale SEO",
+        "slug": "local-seo"
+      },
+      {
+        "label": "Google Ads beheer",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "conversie optimalisatie",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "AI vindbaarheid",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "spain",
@@ -213,7 +291,33 @@
       "costA": "El precio depende de tu web, tus objetivos y el trabajo elegido. Recibes un presupuesto antes de empezar. La inversión publicitaria y las herramientas de pago son aparte, salvo que el presupuesto indique lo contrario.",
       "primary": "SEO y marketing digital",
       "intro": "Ayudamos a las empresas a aparecer en las búsquedas y recibir consultas relevantes. Tendrás explicaciones sencillas y un plan adaptado a tu presupuesto."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "auditoría SEO",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "SEO local",
+        "slug": "local-seo"
+      },
+      {
+        "label": "gestión Google Ads",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "marketing digital",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "optimización de conversiones",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "visibilidad en búsquedas con IA",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "italy",
@@ -267,7 +371,33 @@
       "costA": "Il prezzo dipende dal sito, dagli obiettivi e dalle attività scelte. Ricevi un preventivo prima di iniziare. Il budget pubblicitario e gli strumenti a pagamento sono separati, salvo diversa indicazione.",
       "primary": "SEO e marketing digitale",
       "intro": "Aiutiamo le aziende a farsi trovare online e a ricevere richieste pertinenti. Avrai spiegazioni semplici e un piano adatto al tuo budget."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "consulenza SEO",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "audit SEO",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "SEO locale",
+        "slug": "local-seo"
+      },
+      {
+        "label": "gestione Google Ads",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "ottimizzazione delle conversioni",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "visibilità nelle ricerche con IA",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "sweden",
@@ -321,7 +451,33 @@
       "costA": "Priset beror på din webbplats, dina mål och de uppgifter du väljer. Du får en offert innan arbetet börjar. Annonsbudget och betalda verktyg ingår bara om det står i offerten.",
       "primary": "SEO och digital marknadsföring",
       "intro": "Vi hjälper företag att hittas på nätet och få relevanta förfrågningar. Du får enkla förklaringar och en plan som passar din budget."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "SEO analys",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "lokal SEO",
+        "slug": "local-seo"
+      },
+      {
+        "label": "Google Ads hantering",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "digital marknadsföring",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "konverteringsoptimering",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "synlighet i AI-sökningar",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "denmark",
@@ -375,7 +531,33 @@
       "costA": "Prisen afhænger af din hjemmeside, dine mål og de valgte opgaver. Du får et tilbud før start. Annoncebudget og betalte værktøjer er separate, medmindre tilbuddet siger noget andet.",
       "primary": "SEO og digital markedsføring",
       "intro": "Vi hjælper virksomheder med at blive fundet online og få relevante henvendelser. Du får enkle forklaringer og en plan, der passer til dit budget."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "SEO analyse",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "lokal SEO",
+        "slug": "local-seo"
+      },
+      {
+        "label": "Google Ads administration",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "digital markedsføring",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "konverteringsoptimering",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "synlighed i AI-søgninger",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "norway",
@@ -429,7 +611,33 @@
       "costA": "Prisen avhenger av nettstedet ditt, målene og oppgavene du velger. Du får et tilbud før oppstart. Annonsebudsjett og betalte verktøy er separate, med mindre tilbudet sier noe annet.",
       "primary": "SEO og digital markedsføring",
       "intro": "Vi hjelper bedrifter med å bli funnet på nettet og få relevante henvendelser. Du får enkle forklaringer og en plan som passer budsjettet ditt."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "SEO analyse",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "lokal SEO",
+        "slug": "local-seo"
+      },
+      {
+        "label": "Google Ads administrasjon",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "digital markedsføring",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "konverteringsoptimalisering",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "synlighet i KI-søk",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "poland",
@@ -483,7 +691,33 @@
       "costA": "Cena zależy od strony, celów i wybranych działań. Przed rozpoczęciem otrzymasz wycenę. Budżet reklamowy i płatne narzędzia są osobne, chyba że oferta wskazuje inaczej.",
       "primary": "SEO i marketing internetowy",
       "intro": "Pomagamy firmom być widocznymi w internecie i otrzymywać wartościowe zapytania. Dostaniesz proste wyjaśnienia i plan dopasowany do budżetu."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "audyt SEO",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "pozycjonowanie lokalne",
+        "slug": "local-seo"
+      },
+      {
+        "label": "prowadzenie Google Ads",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "marketing internetowy",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "optymalizacja konwersji",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "widoczność w wyszukiwaniu z AI",
+        "slug": "on-page-seo"
+      }
+    ]
   },
   {
     "slug": "switzerland",
@@ -537,7 +771,33 @@
       "costA": "Der Preis hängt von Ihrer Website, Ihren Zielen und dem Arbeitsumfang ab. Sie erhalten vor Beginn ein Angebot. Werbebudget und kostenpflichtige Tools sind separat, sofern das Angebot nichts anderes enthält.",
       "primary": "SEO und Online-Marketing",
       "intro": "Wir helfen Unternehmen, online gefunden zu werden und mehr passende Anfragen zu erhalten. Sie bekommen klare Erklärungen und einen Plan, der zu Ihrem Budget passt."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "SEO Beratung",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "SEO Audit",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "lokale SEO",
+        "slug": "local-seo"
+      },
+      {
+        "label": "Google Ads Betreuung",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "Conversion Optimierung",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "KI-Sichtbarkeit",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "switzerland",
@@ -591,7 +851,33 @@
       "costA": "Le prix dépend de votre site, de vos objectifs et des tâches retenues. Vous recevez un devis avant de commencer. Le budget publicitaire et les outils payants sont séparés, sauf indication contraire.",
       "primary": "SEO et marketing digital",
       "intro": "Nous aidons les entreprises à être trouvées en ligne et à recevoir des demandes pertinentes. Vous obtenez des explications simples et un plan adapté à votre budget."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "audit SEO",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "SEO local",
+        "slug": "local-seo"
+      },
+      {
+        "label": "gestion Google Ads",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "optimisation des conversions",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "marketing digital",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "visibilité dans les recherches avec IA",
+        "slug": "ai-search-visibility"
+      }
+    ]
   },
   {
     "slug": "switzerland",
@@ -645,6 +931,32 @@
       "costA": "Il prezzo dipende dal sito, dagli obiettivi e dalle attività scelte. Ricevi un preventivo prima di iniziare. Il budget pubblicitario e gli strumenti a pagamento sono separati, salvo diversa indicazione.",
       "primary": "SEO e marketing digitale",
       "intro": "Aiutiamo le aziende a farsi trovare online e a ricevere richieste pertinenti. Avrai spiegazioni semplici e un piano adatto al tuo budget."
-    }
+    },
+    "keywordServices": [
+      {
+        "label": "consulenza SEO",
+        "slug": "on-page-seo"
+      },
+      {
+        "label": "audit SEO",
+        "slug": "technical-seo-audit"
+      },
+      {
+        "label": "SEO locale",
+        "slug": "local-seo"
+      },
+      {
+        "label": "gestione Google Ads",
+        "slug": "google-ads-management"
+      },
+      {
+        "label": "ottimizzazione delle conversioni",
+        "slug": "conversion-rate-audit"
+      },
+      {
+        "label": "visibilità nelle ricerche con IA",
+        "slug": "ai-search-visibility"
+      }
+    ]
   }
 ]

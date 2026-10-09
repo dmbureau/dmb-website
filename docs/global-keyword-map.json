@@ -1,0 +1,1166 @@
+{
+  "updated": "2026-10-09",
+  "basis": "Earlier regional competitor service-page research and European keyword map, extended with competitor service pages for ten new markets. Candidate intent themes, not verified volume or ranking exports.",
+  "homepage": {
+    "primary": "performance marketing agency",
+    "secondary": [
+      "SEO services",
+      "Google Ads management",
+      "social media marketing",
+      "conversion rate optimisation"
+    ]
+  },
+  "services": [
+    {
+      "url": "/services/google-ads-audit",
+      "primary": "Google Ads Audit Services",
+      "supportingTopic": "We compare paid searches with what you sell, check whether conversions represent genuine enquiries and review the page customers reach. The audit separates wasted spend, missing measurement and website friction, with a prioritised action plan. A PPC audit checks whether search terms, advertising settings and conversion tracking support the same business goal. Findings are tied to account evidence and a prioritised action plan."
+    },
+    {
+      "url": "/services/google-ads-management",
+      "primary": "Google Ads Management Services",
+      "supportingTopic": "We build campaigns around your services, locations and buying intent. Search terms, negative keywords, ad messages and budgets are reviewed together. Your feedback on accepted enquiries helps guide improvements beyond the number of form submissions. Google Ads management includes paid search targeting, ad messages and the landing page after the click. PPC management should be assessed against useful enquiries and the quality of your available conversion data."
+    },
+    {
+      "url": "/services/paid-social-advertising",
+      "primary": "Meta Ads & Paid Social Advertising",
+      "supportingTopic": "We plan Meta Ads around who can buy, what they need to understand and the next action. We review creative and enquiry quality alongside campaign data, then test agreed improvements to targeting, messaging and the website experience. Paid social campaigns connect audience targeting, creative and landing pages. We agree the enquiry or purchase action to measure before reviewing campaign performance."
+    },
+    {
+      "url": "/services/lead-quality-optimization",
+      "primary": "Lead Quality Optimisation Services",
+      "supportingTopic": "We define a useful lead with your team, trace poor-fit enquiries to their source and review the promises made in ads and pages. Clear service criteria and carefully chosen form questions help visitors decide whether your offer is suitable. Lead qualification starts with your definition of a suitable customer. We compare campaign sources, form responses and sales feedback to identify where irrelevant enquiries enter the journey."
+    },
+    {
+      "url": "/services/landing-page-design",
+      "primary": "Landing Page Design Services",
+      "supportingTopic": "We structure the page around the visitor’s search or ad, explain the offer and scope, and place relevant proof and answers near the decision. Mobile layouts, usable forms and agreed tracking are considered from the start. Landing page design brings the offer, proof, contact form and next step together. A Google Ads landing page should answer the need expressed by the search or ad that brought the visitor."
+    },
+    {
+      "url": "/services/conversion-rate-audit",
+      "primary": "Conversion Rate Optimisation Audit",
+      "supportingTopic": "We follow the route from entry page to enquiry, looking for unanswered questions, unclear buttons and friction. Analytics and recordings, where access is available, support the review. Recommendations explain what to change and how to evaluate it. Conversion rate optimisation begins with evidence about where visitors hesitate or leave. The audit examines page clarity, mobile usability and enquiry steps, then separates observed barriers from changes that need testing."
+    },
+    {
+      "url": "/services/conversion-tracking-setup",
+      "primary": "GA4 & Conversion Tracking Setup",
+      "supportingTopic": "We define the actions that matter, review your current tags and configure the agreed events. Successful submissions must be distinguished from button clicks or form errors. Testing and a documented event map help your team understand what is being counted. Conversion tracking setup connects enquiry forms, calls or other agreed customer actions with analytics and advertising reports. We test the measurement path and explain which actions can be confirmed."
+    },
+    {
+      "url": "/services/technical-seo-audit",
+      "primary": "Technical SEO Audit Services",
+      "supportingTopic": "We examine important business pages and how search engines reach them. The report explains affected URLs, likely impact and recommended fixes, separating urgent indexing problems from improvements that can be planned later. A technical SEO audit reviews crawlability, indexing, canonical URLs and site structure. Each recommendation identifies the affected page or pattern and the implementation priority."
+    },
+    {
+      "url": "/services/on-page-seo",
+      "primary": "On-page SEO Services",
+      "supportingTopic": "We map each important page to a distinct customer need, then improve the explanation of your offer, scope and next step. Keywords support useful copy; they do not replace the information buyers need to decide whether to contact you. On-page SEO connects search intent, headings, page copy and internal links. The focus is a useful service explanation that both customers and search engines can understand."
+    },
+    {
+      "url": "/services/local-seo",
+      "primary": "Local SEO Services",
+      "supportingTopic": "We check your genuine service areas, business information, local pages and Google Business Profile. The plan focuses on relevant local demand and clear contact options, without inventing locations or producing identical city pages. Local SEO connects your genuine service area, eligible Google Business Profile and relevant website pages. Location targeting follows where you operate and can serve customers."
+    },
+    {
+      "url": "/services/google-business-profile",
+      "primary": "Google Business Profile Optimisation",
+      "supportingTopic": "We review profile eligibility, approved business details, categories, services and images. Website and booking links are checked so interested customers can reach the right next step. Recommendations cover gaps and ongoing maintenance. Google Business Profile optimisation focuses on accurate business information, relevant categories and useful customer actions. Access, eligibility and the business details you can substantiate are reviewed before changes."
+    },
+    {
+      "url": "/services/seo-migration-support",
+      "primary": "SEO Website Migration Services",
+      "supportingTopic": "We identify valuable existing URLs, map suitable replacements and review the proposed site before launch. After launch, checks cover redirects, indexing signals and internal links so problems can be addressed promptly. SEO migration support preserves the connection between old URLs and their suitable replacements. Redirect mapping, canonical URLs and indexability checks help search engines understand the new website structure."
+    },
+    {
+      "url": "/services/organic-traffic-recovery",
+      "primary": "Organic Traffic Recovery Services",
+      "supportingTopic": "We compare the timing and scope of the decline using available Search Console and analytics data. Technical changes, lost pages and changes in customer demand are examined before recommending a recovery plan. Organic traffic recovery starts by separating indexing, content, migration and measurement problems. Search Console and website evidence guide the investigation before a recovery plan is proposed."
+    },
+    {
+      "url": "/services/content-strategy",
+      "primary": "SEO & Organic Content Strategy",
+      "supportingTopic": "We map customer problems, comparison questions and service searches to the right pages. Each brief defines the audience, intent, useful answers and internal links. The plan gives business pages priority rather than publishing articles without a route to enquiry. SEO content strategy assigns a clear customer question and search intent to each page. Commercial service pages and supporting guides work together through relevant internal links."
+    },
+    {
+      "url": "/services/ai-search-visibility",
+      "primary": "AI SEO, AEO & GEO Services",
+      "supportingTopic": "We review whether your pages answer real customer questions, explain your expertise and can be accessed by relevant search systems. Clear answers and consistent business details support the work. AI tools choose their sources, so citations are not promised. AI search optimisation, answer engine optimisation (AEO) and generative engine optimisation (GEO) focus on clear, accessible and consistent business information. We review entity definitions, structured data and answer content without promising AI citations."
+    },
+    {
+      "url": "/services/b2b-lead-generation",
+      "primary": "B2B Lead Generation Services",
+      "supportingTopic": "We define target company types, decision-making roles and the problem your offer solves. Agreed channels and content are connected to practical qualification and sales handover. Your team’s feedback helps distinguish genuine opportunities from broad interest. B2B lead generation should reflect the buyer role, company fit and sales process. We agree qualification criteria and the follow-up handoff so that enquiry volume can be assessed alongside relevance."
+    },
+    {
+      "url": "/services/linkedin-advertising",
+      "primary": "LinkedIn Ads Management Services",
+      "supportingTopic": "We plan campaigns around suitable roles, company profiles and buying questions. Creative and forms explain who the offer is for, while tracking and sales feedback help assess whether enquiries deserve follow-up. LinkedIn Ads management connects professional audience targeting with a clear business offer. Campaign evaluation considers buyer fit, landing pages and the follow-up process."
+    },
+    {
+      "url": "/services/retargeting-campaigns",
+      "primary": "Retargeting & Remarketing Services",
+      "supportingTopic": "We organise audiences around meaningful website activity, create relevant follow-up messages and review frequency and exclusions. Consent settings, platform requirements and enough eligible audience data are needed before campaigns can run. Retargeting campaigns revisit an agreed audience with a relevant next message. Audience definitions, exclusions and conversion tracking are checked against your existing data and consent setup."
+    },
+    {
+      "url": "/services/email-lead-nurturing",
+      "primary": "Email Lead Nurturing Services",
+      "supportingTopic": "We plan messages around why people enquired and what they still need to know. Agreed sequences can explain scope, answer objections and support handover to your team, with review of delivery and meaningful responses. Email lead nurturing gives an existing enquiry useful information for its next decision. Messages, triggers and sales handoff are scoped around your approved contact data and customer journey."
+    },
+    {
+      "url": "/services/analytics-dashboards",
+      "primary": "Marketing Analytics & Reporting Services",
+      "supportingTopic": "We agree definitions for enquiries and useful leads, then organise the available data into a report your team can use. Where sales data is connected, the view can include later outcomes. Missing information and how credit is assigned limits are explained. Marketing analytics dashboards connect channel activity with the customer actions your tools can measure. Reports define each metric and distinguish useful enquiry signals from traffic and engagement."
+    },
+    {
+      "url": "/services/website-speed-optimization",
+      "primary": "Website Speed & Core Web Vitals Services",
+      "supportingTopic": "We diagnose performance bottlenecks and agree changes that fit your platform. Lab tests guide investigation, while real-user data is reviewed where available. Usability and working forms remain part of the evaluation. Website speed optimisation reviews loading, interaction and layout stability using the evidence available. We prioritise changes to assets and page delivery, then compare results after implementation."
+    },
+    {
+      "url": "/services/seo-second-opinion",
+      "primary": "Independent SEO Review Services",
+      "supportingTopic": "We review the available reports, important pages and current work against your business goals. You receive an explanation of what appears useful, what needs evidence and which priorities deserve clarification with your existing team. An SEO second opinion reviews the evidence behind an existing recommendation. We explain priorities, dependencies and questions to resolve before you commit to further work."
+    },
+    {
+      "url": "/services/marketing-automation",
+      "primary": "Marketing Automation Services",
+      "supportingTopic": "We map what should happen after a customer enquires and identify where manual handovers break down. Agreed workflows are configured and tested with failure handling, ownership and clear records for your team. Marketing automation connects enquiry capture, routing and follow-up through agreed workflows. Triggers and failure handling are tested so that the process is understandable to your team."
+    },
+    {
+      "url": "/services/paid-media-strategy",
+      "primary": "Performance Marketing Strategy Services",
+      "supportingTopic": "We assess demand, audience fit and the information buyers need before enquiring. The plan sets out channel roles, launch requirements and review criteria, including what needs to be fixed on the website or tracking first. Paid media strategy assigns a role to search ads, paid social and retargeting. Budget decisions follow the customer journey, measurement quality and the business outcome you want to improve."
+    },
+    {
+      "url": "/services/social-media-strategy",
+      "primary": "Social Media Marketing Strategy",
+      "supportingTopic": "We connect your offer and customer questions with suitable content formats. The plan explains what to publish, which next actions to include and how organic social differs from paid advertising. Social media strategy connects audience needs, useful content and a realistic publishing plan. We agree the role of each channel and the actions that matter to your business."
+    },
+    {
+      "url": "/services/social-profile-setup",
+      "primary": "Social Media Profile Setup Services",
+      "supportingTopic": "We check who owns each profile, organise approved brand assets and improve the information customers see first. Links and enquiry options are tested so visitors can reach the correct website or contact route. Social media profile setup aligns your business name, offer, links and contact details across agreed channels. Consistent information helps visitors recognise the brand and choose a next step."
+    },
+    {
+      "url": "/services/social-media-content-management",
+      "primary": "Social Media Management Services",
+      "supportingTopic": "We build the content plan around your offer, useful advice and approved business information. Drafts, revisions and posting schedules are agreed in advance. Reporting reviews meaningful engagement and available website or enquiry activity. Social media content management turns an agreed strategy into reviewed posts and a publishing schedule. Content explains the offer, answers customer questions and supports relevant conversations."
+    }
+  ],
+  "industries": [
+    {
+      "url": "/industries/real-estate",
+      "primary": "Real Estate marketing services",
+      "secondary": [
+        "Real Estate SEO",
+        "Real Estate lead generation"
+      ]
+    },
+    {
+      "url": "/industries/hospitality",
+      "primary": "Hospitality marketing services",
+      "secondary": [
+        "Hospitality SEO",
+        "Hospitality lead generation"
+      ]
+    },
+    {
+      "url": "/industries/healthcare",
+      "primary": "Healthcare marketing services",
+      "secondary": [
+        "Healthcare SEO",
+        "Healthcare lead generation"
+      ]
+    },
+    {
+      "url": "/industries/travel",
+      "primary": "Travel & Tourism marketing services",
+      "secondary": [
+        "Travel & Tourism SEO",
+        "Travel & Tourism lead generation"
+      ]
+    },
+    {
+      "url": "/industries/saas",
+      "primary": "SaaS & Technology marketing services",
+      "secondary": [
+        "SaaS & Technology SEO",
+        "SaaS & Technology lead generation"
+      ]
+    },
+    {
+      "url": "/industries/ecommerce",
+      "primary": "Ecommerce marketing services",
+      "secondary": [
+        "Ecommerce SEO",
+        "Ecommerce lead generation"
+      ]
+    },
+    {
+      "url": "/industries/professional-services",
+      "primary": "Professional Services marketing services",
+      "secondary": [
+        "Professional Services SEO",
+        "Professional Services lead generation"
+      ]
+    },
+    {
+      "url": "/industries/home-services",
+      "primary": "Home Services marketing services",
+      "secondary": [
+        "Home Services SEO",
+        "Home Services lead generation"
+      ]
+    },
+    {
+      "url": "/industries/education",
+      "primary": "Education & Training marketing services",
+      "secondary": [
+        "Education & Training SEO",
+        "Education & Training lead generation"
+      ]
+    },
+    {
+      "url": "/industries/recruitment",
+      "primary": "Recruitment & Staffing marketing services",
+      "secondary": [
+        "Recruitment & Staffing SEO",
+        "Recruitment & Staffing lead generation"
+      ]
+    },
+    {
+      "url": "/industries/logistics",
+      "primary": "Logistics & Supply Chain marketing services",
+      "secondary": [
+        "Logistics & Supply Chain SEO",
+        "Logistics & Supply Chain lead generation"
+      ]
+    },
+    {
+      "url": "/industries/solar-energy",
+      "primary": "Solar & Energy Services marketing services",
+      "secondary": [
+        "Solar & Energy Services SEO",
+        "Solar & Energy Services lead generation"
+      ]
+    }
+  ],
+  "englishCountries": [
+    {
+      "url": "/markets/india",
+      "primary": "digital marketing services for India",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-ads-management",
+        "social-media-strategy",
+        "conversion-rate-audit",
+        "on-page-seo"
+      ]
+    },
+    {
+      "url": "/markets/united-states",
+      "primary": "digital marketing services for United States",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "google-ads-management",
+        "local-seo",
+        "lead-quality-optimization",
+        "conversion-tracking-setup"
+      ]
+    },
+    {
+      "url": "/markets/united-kingdom",
+      "primary": "digital marketing services for United Kingdom",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "conversion-rate-audit",
+        "google-ads-audit",
+        "email-lead-nurturing"
+      ]
+    },
+    {
+      "url": "/markets/uae",
+      "primary": "digital marketing services for United Arab Emirates",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "lead-quality-optimization",
+        "paid-social-advertising",
+        "landing-page-design",
+        "local-seo"
+      ]
+    },
+    {
+      "url": "/markets/dubai",
+      "primary": "digital marketing services for Dubai",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "google-ads-management",
+        "lead-quality-optimization",
+        "landing-page-design",
+        "marketing-automation"
+      ]
+    },
+    {
+      "url": "/markets/kuwait",
+      "primary": "digital marketing services for Kuwait",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "paid-media-strategy",
+        "on-page-seo",
+        "conversion-tracking-setup",
+        "b2b-lead-generation"
+      ]
+    },
+    {
+      "url": "/markets/germany",
+      "primary": "digital marketing services for Germany",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/france",
+      "primary": "digital marketing services for France",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/netherlands",
+      "primary": "digital marketing services for Netherlands",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/ireland",
+      "primary": "digital marketing services for Ireland",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/spain",
+      "primary": "digital marketing services for Spain",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/italy",
+      "primary": "digital marketing services for Italy",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/switzerland",
+      "primary": "digital marketing services for Switzerland",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/sweden",
+      "primary": "digital marketing services for Sweden",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/denmark",
+      "primary": "digital marketing services for Denmark",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/norway",
+      "primary": "digital marketing services for Norway",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/poland",
+      "primary": "digital marketing services for Poland",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/canada",
+      "primary": "digital marketing services for Canada",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-ads-management",
+        "landing-page-design",
+        "conversion-tracking-setup"
+      ]
+    },
+    {
+      "url": "/markets/australia",
+      "primary": "digital marketing services for Australia",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-business-profile",
+        "google-ads-management",
+        "conversion-rate-audit"
+      ]
+    },
+    {
+      "url": "/markets/new-zealand",
+      "primary": "digital marketing services for New Zealand",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-ads-management",
+        "conversion-tracking-setup",
+        "content-strategy"
+      ]
+    },
+    {
+      "url": "/markets/singapore",
+      "primary": "digital marketing services for Singapore",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "b2b-lead-generation",
+        "linkedin-advertising"
+      ]
+    },
+    {
+      "url": "/markets/saudi-arabia",
+      "primary": "digital marketing services for Saudi Arabia",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-ads-management",
+        "paid-social-advertising",
+        "landing-page-design"
+      ]
+    },
+    {
+      "url": "/markets/qatar",
+      "primary": "digital marketing services for Qatar",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "local-seo",
+        "google-ads-management",
+        "landing-page-design"
+      ]
+    },
+    {
+      "url": "/markets/oman",
+      "primary": "digital marketing services for Oman",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-ads-management",
+        "social-media-strategy",
+        "conversion-tracking-setup"
+      ]
+    },
+    {
+      "url": "/markets/bahrain",
+      "primary": "digital marketing services for Bahrain",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "social-media-strategy",
+        "lead-quality-optimization"
+      ]
+    },
+    {
+      "url": "/markets/south-africa",
+      "primary": "digital marketing services for South Africa",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "local-seo",
+        "google-ads-management",
+        "conversion-rate-audit",
+        "ai-search-visibility"
+      ]
+    },
+    {
+      "url": "/markets/malaysia",
+      "primary": "digital marketing services for Malaysia",
+      "secondary": [
+        "SEO services",
+        "Google Ads management",
+        "local SEO",
+        "conversion rate optimisation"
+      ],
+      "serviceSlugs": [
+        "on-page-seo",
+        "google-ads-management",
+        "paid-social-advertising",
+        "landing-page-design"
+      ]
+    }
+  ],
+  "localizedCompetitorMap": [
+    {
+      "country": "Germany",
+      "locale": "de-DE",
+      "url": "https://dmbureau.cloud/markets/germany/de",
+      "primaryKeyword": "SEO für Unternehmen in Deutschland",
+      "secondaryKeywords": [
+        "SEO Beratung",
+        "SEO Audit",
+        "lokale SEO",
+        "Google Ads Betreuung",
+        "Conversion Optimierung",
+        "KI-Sichtbarkeit"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.seo-kueche.de/agentur/",
+        "https://www.sumax.de/",
+        "https://www.sem-deutschland.de/",
+        "https://www.semtrix.de/",
+        "https://www.beyond-media.de/online-marketing-agentur/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "France",
+      "locale": "fr-FR",
+      "url": "https://dmbureau.cloud/markets/france/fr",
+      "primaryKeyword": "référencement naturel en France",
+      "secondaryKeywords": [
+        "audit SEO",
+        "SEO local",
+        "gestion Google Ads",
+        "optimisation des conversions",
+        "marketing digital",
+        "visibilité dans les recherches avec IA"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.seo.fr/",
+        "https://www.optimize360.fr/agence-seo/",
+        "https://www.luneos.fr/seo",
+        "https://www.seogreen.fr/",
+        "https://www.pariseo.fr/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Netherlands",
+      "locale": "nl-NL",
+      "url": "https://dmbureau.cloud/markets/netherlands/nl",
+      "primaryKeyword": "zoekmachineoptimalisatie Nederland",
+      "secondaryKeywords": [
+        "SEO advies",
+        "SEO audit",
+        "lokale SEO",
+        "Google Ads beheer",
+        "conversie optimalisatie",
+        "AI vindbaarheid"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.proseo.nl/",
+        "https://www.seohuis.nl/",
+        "https://www.omcbase.nl/zoekmachine-optimalisatie/",
+        "https://oktober.nl/zoekmachine-optimalisatie",
+        "https://www.studioubique.com/nl/seo-bureau-nederland/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Spain",
+      "locale": "es-ES",
+      "url": "https://dmbureau.cloud/markets/spain/es",
+      "primaryKeyword": "posicionamiento web en España",
+      "secondaryKeywords": [
+        "auditoría SEO",
+        "SEO local",
+        "gestión Google Ads",
+        "marketing digital",
+        "optimización de conversiones",
+        "visibilidad en búsquedas con IA"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://seocom.agency/",
+        "https://agenciaseo.eu/",
+        "https://www.profesionalnet.net/",
+        "https://www.webble.es/",
+        "https://marketerlab.es/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Italy",
+      "locale": "it-IT",
+      "url": "https://dmbureau.cloud/markets/italy/it",
+      "primaryKeyword": "servizi SEO in Italia",
+      "secondaryKeywords": [
+        "consulenza SEO",
+        "audit SEO",
+        "SEO locale",
+        "gestione Google Ads",
+        "ottimizzazione delle conversioni",
+        "visibilità nelle ricerche con IA"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.mintense.it/",
+        "https://www.exedere.it/seo/agenzia-seo/",
+        "https://www.dsidesign.it/consulenza-seo/",
+        "https://www.tready.it/agenzia-seo-google/",
+        "https://www.clickable.it/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Sweden",
+      "locale": "sv-SE",
+      "url": "https://dmbureau.cloud/markets/sweden/sv",
+      "primaryKeyword": "sökmotoroptimering i Sverige",
+      "secondaryKeywords": [
+        "SEO analys",
+        "lokal SEO",
+        "Google Ads hantering",
+        "digital marknadsföring",
+        "konverteringsoptimering",
+        "synlighet i AI-sökningar"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.mild.se/tjanster/sokmotoroptimering/",
+        "https://justvalue.se/sokmotoroptimering-sverige/",
+        "https://www.rank.se/seo/",
+        "https://www.beet.se/tjanster/digital-marknadsforing/seo",
+        "https://finemanget.se/sokmotoroptimering"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Denmark",
+      "locale": "da-DK",
+      "url": "https://dmbureau.cloud/markets/denmark/da",
+      "primaryKeyword": "søgemaskineoptimering i Danmark",
+      "secondaryKeywords": [
+        "SEO analyse",
+        "lokal SEO",
+        "Google Ads administration",
+        "digital markedsføring",
+        "konverteringsoptimering",
+        "synlighed i AI-søgninger"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.become.dk/seo/",
+        "https://searchmore.dk/",
+        "https://seo.dk/",
+        "https://seohaj.dk/seo/",
+        "https://clickin.dk/seo/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Norway",
+      "locale": "nb-NO",
+      "url": "https://dmbureau.cloud/markets/norway/nb",
+      "primaryKeyword": "søkemotoroptimalisering i Norge",
+      "secondaryKeywords": [
+        "SEO analyse",
+        "lokal SEO",
+        "Google Ads administrasjon",
+        "digital markedsføring",
+        "konverteringsoptimalisering",
+        "synlighet i KI-søk"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://scalemedia.no/sokemotoroptimalisering",
+        "https://www.frontcode.no/tjenester/seo",
+        "https://optimalnorge.no/tjenester/sokemotoroptimalisering/",
+        "https://www.evco.no/artikler/seo-og-ai-sok/velge-seo-byra",
+        "https://box.no/innsikt/seo-optimalisering"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Poland",
+      "locale": "pl-PL",
+      "url": "https://dmbureau.cloud/markets/poland/pl",
+      "primaryKeyword": "pozycjonowanie stron w Polsce",
+      "secondaryKeywords": [
+        "audyt SEO",
+        "pozycjonowanie lokalne",
+        "prowadzenie Google Ads",
+        "marketing internetowy",
+        "optymalizacja konwersji",
+        "widoczność w wyszukiwaniu z AI"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://ks.pl/",
+        "https://internetica.pl/",
+        "https://obtk.pl/seo/",
+        "https://www.range.pl/seo/pozycjonowanie-stron/",
+        "https://widzialnosc.co.pl/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Switzerland",
+      "locale": "de-CH",
+      "url": "https://dmbureau.cloud/markets/switzerland/de",
+      "primaryKeyword": "Suchmaschinenoptimierung Schweiz",
+      "secondaryKeywords": [
+        "SEO Beratung",
+        "SEO Audit",
+        "lokale SEO",
+        "Google Ads Betreuung",
+        "Conversion Optimierung",
+        "KI-Sichtbarkeit"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://seo-agent.ch/",
+        "https://www.seo.ch/",
+        "https://www.referencement-suisse.ch/",
+        "https://www.e-perspectives.ch/services/seo/",
+        "https://swissdigitalstrategy.com/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Switzerland",
+      "locale": "fr-CH",
+      "url": "https://dmbureau.cloud/markets/switzerland/fr",
+      "primaryKeyword": "référencement naturel en Suisse",
+      "secondaryKeywords": [
+        "audit SEO",
+        "SEO local",
+        "gestion Google Ads",
+        "optimisation des conversions",
+        "marketing digital",
+        "visibilité dans les recherches avec IA"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://seo-agent.ch/",
+        "https://www.seo.ch/",
+        "https://www.referencement-suisse.ch/",
+        "https://www.e-perspectives.ch/services/seo/",
+        "https://swissdigitalstrategy.com/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Switzerland",
+      "locale": "it-CH",
+      "url": "https://dmbureau.cloud/markets/switzerland/it",
+      "primaryKeyword": "servizi SEO in Svizzera",
+      "secondaryKeywords": [
+        "consulenza SEO",
+        "audit SEO",
+        "SEO locale",
+        "gestione Google Ads",
+        "ottimizzazione delle conversioni",
+        "visibilità nelle ricerche con IA"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://seo-agent.ch/",
+        "https://www.seo.ch/",
+        "https://www.referencement-suisse.ch/",
+        "https://www.e-perspectives.ch/services/seo/",
+        "https://swissdigitalstrategy.com/"
+      ],
+      "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+    },
+    {
+      "country": "Ireland",
+      "locale": "en-IE",
+      "url": "https://dmbureau.cloud/markets/ireland",
+      "primaryKeyword": "digital marketing services Ireland",
+      "secondaryKeywords": [
+        "SEO services Ireland",
+        "local SEO Ireland",
+        "Google Ads management Ireland",
+        "PPC management Ireland",
+        "conversion rate optimisation",
+        "AI search visibility"
+      ],
+      "intent": "commercial / service evaluation",
+      "competitorServicePages": [
+        "https://www.globeboss.com/",
+        "https://www.tinderpoint.com/",
+        "https://www.bubblehub.ie/",
+        "https://www.hellodigital.ie/",
+        "https://www.elephantfly.ie/services/digital-marketing-ireland"
+      ],
+      "evidence": "Public indexed service pages; inferred candidate targets, not a ranking export."
+    }
+  ],
+  "newCountryCompetitorMap": [
+    {
+      "country": "Canada",
+      "slug": "canada",
+      "locale": "en-CA",
+      "primaryKeyword": "digital marketing services for Canada",
+      "secondaryKeywords": [
+        "SEO services for Canada",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://www.webfx.com/locations/toronto-ca/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Australia",
+      "slug": "australia",
+      "locale": "en-AU",
+      "primaryKeyword": "digital marketing services for Australia",
+      "secondaryKeywords": [
+        "SEO services for Australia",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://firstpage.com.au/llm-info/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "New Zealand",
+      "slug": "new-zealand",
+      "locale": "en-NZ",
+      "primaryKeyword": "digital marketing services for New Zealand",
+      "secondaryKeywords": [
+        "SEO services for New Zealand",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://pureseo.com/seo"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Singapore",
+      "slug": "singapore",
+      "locale": "en-SG",
+      "primaryKeyword": "digital marketing services for Singapore",
+      "secondaryKeywords": [
+        "SEO services for Singapore",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://www.firstpagedigital.sg/seo/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "locale": "en-SA",
+      "primaryKeyword": "digital marketing services for Saudi Arabia",
+      "secondaryKeywords": [
+        "SEO services for Saudi Arabia",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://www.chainreaction.ae/seo-in-saudi-arabia/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Qatar",
+      "slug": "qatar",
+      "locale": "en-QA",
+      "primaryKeyword": "digital marketing services for Qatar",
+      "secondaryKeywords": [
+        "SEO services for Qatar",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://www.chainreaction.ae/seo-in-qatar/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Oman",
+      "slug": "oman",
+      "locale": "en-OM",
+      "primaryKeyword": "digital marketing services for Oman",
+      "secondaryKeywords": [
+        "SEO services for Oman",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://soaloman.com/services/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Bahrain",
+      "slug": "bahrain",
+      "locale": "en-BH",
+      "primaryKeyword": "digital marketing services for Bahrain",
+      "secondaryKeywords": [
+        "SEO services for Bahrain",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://spacetapbh.com/services/digital-marketing"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "South Africa",
+      "slug": "south-africa",
+      "locale": "en-ZA",
+      "primaryKeyword": "digital marketing services for South Africa",
+      "secondaryKeywords": [
+        "SEO services for South Africa",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://seopros.co.za/seo/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    },
+    {
+      "country": "Malaysia",
+      "slug": "malaysia",
+      "locale": "en-MY",
+      "primaryKeyword": "digital marketing services for Malaysia",
+      "secondaryKeywords": [
+        "SEO services for Malaysia",
+        "Google Ads management",
+        "local SEO",
+        "PPC management",
+        "conversion rate optimisation",
+        "lead generation"
+      ],
+      "competitorServicePages": [
+        "https://www.primal.com.my/seo/"
+      ],
+      "evidence": "Candidate service themes inferred from competitor service pages; no search-volume, difficulty or ranking export verified."
+    }
+  ]
+}
