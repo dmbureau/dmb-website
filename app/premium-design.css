@@ -46,3 +46,13 @@
 @media(min-width:901px) and (max-width:1200px){.header{gap:16px;padding-inline:3%}.header>a:first-child{margin-right:8px}.header .nav{font-size:16px;gap:16px}.header .header-cta{padding-inline:13px}}
 @media(max-width:900px){.header .nav.mobile-open{font-size:20px;gap:8px;padding:22px 5% 30px;background:#f7faf5}.header .nav.mobile-open>a,.header .nav.mobile-open .nav-dropdown>summary{padding:13px 4px;min-height:48px;border-bottom:1px solid #dfe8de}.header .mega-links{gap:0 18px}.header .mega-links a{font-size:16px;padding:12px 4px}.header .nav-group-label{font-size:12px}}
 @media(max-width:480px){.header .mega-links{grid-template-columns:1fr}}
+
+/* Larger navigation with an immediately available market menu. */
+.header .nav{font-size:20px;font-weight:650;gap:26px}
+.header .mega-links a{font-size:18px;line-height:1.5;padding-block:14px}
+.header .country-menu-links{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px}
+.header .mega{max-height:calc(100dvh - 100px);overflow-y:auto}
+@media(min-width:901px){.header .mega{top:100%}.header .nav-dropdown>summary{min-height:52px}.header .nav-dropdown>summary>svg{width:17px;height:17px}}
+@media(min-width:901px) and (max-width:1200px){.header .nav{font-size:18px;gap:16px}.header>a:first-child{margin-right:0}.header .header-cta{font-size:13px;padding-inline:11px}.header .search-btn{display:none}}
+@media(max-width:900px){.header .nav.mobile-open{font-size:23px}.header .mega{max-height:none;overflow:visible}.header .mega-links a{font-size:18px}.header .country-menu-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.header .country-menu-links{grid-template-columns:1fr}}
