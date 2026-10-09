@@ -93,3 +93,22 @@
 @keyframes dmb-headline-arrive{from{transform:translateY(8px)}to{transform:translateY(0)}}
 @keyframes dmb-headline-accent{0%,15%{background-position:-90% 100%}65%,100%{background-position:190% 100%}}
 @media(prefers-reduced-motion:reduce){.brew-hero-copy>h1,.brew-hero-copy>h1>span{animation:none!important;transform:none}.brew-hero-copy>h1>span{background-image:none}}
+
+/* Animated illustrations shared across service, industry, blog and market cards. */
+@media(prefers-reduced-motion:no-preference){
+.premium-animated-scene{animation:dmb-scene-float 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.premium-social .premium-animated-scene>g,.premium-funnel .premium-animated-scene>g,.premium-mail .premium-animated-scene>g{animation:dmb-card-lift 4s ease-in-out infinite}
+.premium-animated-scene>g:nth-of-type(2){animation-delay:-1.3s}.premium-animated-scene>g:nth-of-type(3){animation-delay:-2.6s}
+.premium-chart .premium-animated-scene>rect:not(:first-child){transform-box:fill-box;transform-origin:center bottom;animation:dmb-chart-grow 4s ease-in-out infinite}
+.premium-chart .premium-animated-scene>rect:nth-of-type(even){animation-delay:-1.5s}
+.premium-map .premium-animated-scene>path[stroke-dasharray],.premium-network .premium-animated-scene>path{stroke-dasharray:7 12;animation:dmb-route-flow 3s linear infinite}
+.premium-campaign .premium-pulse,.premium-network .premium-pulse{animation:premium-pulse 3s ease-in-out infinite}
+.premium-speed .premium-animated-scene>path:last-of-type{transform-origin:360px 306px;animation:dmb-gauge-turn 4s ease-in-out infinite}
+.premium-search .premium-animated-scene>g,.premium-document .premium-animated-scene>g{animation:dmb-card-lift 5s ease-in-out infinite}
+}
+@keyframes dmb-scene-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes dmb-card-lift{0%,100%{translate:0 0}50%{translate:0 -7px}}
+@keyframes dmb-chart-grow{0%,100%{scale:1 1}50%{scale:1 .75}}
+@keyframes dmb-route-flow{to{stroke-dashoffset:-57}}
+@keyframes dmb-gauge-turn{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(8deg)}}
+@media(prefers-reduced-motion:reduce){.premium-animated-scene,.premium-animated-scene *{animation:none!important}}
