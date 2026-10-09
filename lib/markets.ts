@@ -4,12 +4,12 @@ export const markets = [
     "name": "India",
     "short": "India",
     "headline": "SEO & Digital Marketing Services in India",
-    "summary": "SEO services in India, Google Ads management, local SEO and performance marketing. Get a tailored plan from India-based DMB for qualified leads.",
-    "context": "Your customers may be in one city, several states or across India. We start with the locations you can serve and what people need to know before contacting you. Local services, online shops and businesses selling to other companies need different plans. For Indian businesses, our SEO services can combine technical SEO audits, on-page optimisation and local SEO. Google Ads management and social media advertising help reach buyers ready to enquire; conversion tracking shows which enquiries fit your business.",
+    "summary": "SEO and digital marketing services for businesses in India. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "context": "Your customers may be in one city or across India. Our SEO services in India help people find your business in search. Local SEO focuses on nearby customers. Google Ads management helps you reach people looking for your services. We check which enquiries are useful to your team.",
     "priorities": [
-      "Choose the cities and service areas you can actually cover",
-      "Explain your offer and make enquiries easy on mobile",
-      "Agree the content language and budget before starting"
+      "Focus on the places where you can serve customers",
+      "Explain your services clearly and make it easy to contact you",
+      "Track useful enquiries, not just website visits"
     ],
     "serviceSlugs": [
       "local-seo",
@@ -25,8 +25,8 @@ export const markets = [
       "ecommerce",
       "professional-services"
     ],
-    "approach": "Tell us what you sell and where your customers are. We help you choose suitable search, advertising and social media services, then explain the tasks and cost. English content is the starting point; Hindi or other regional-language content is included only when agreed.",
-    "coordination": "DMB is based in India. We can discuss service fees in INR and coordinate project updates in Indian Standard Time. Advertising budgets and third-party tools are separate unless included in the agreed work.",
+    "approach": "Tell us what you sell, where you work and your budget. We review your website and recommend a starting point. You receive a clear list of tasks and fees. English content is the starting point; Hindi or other languages are included only when agreed.",
+    "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Do you work with small businesses in India?",
     "answer": "Yes. You can ask about one service or a combination. We recommend work based on your needs and budget; sending an enquiry does not commit you to buying."
   },
@@ -35,12 +35,12 @@ export const markets = [
     "name": "United States",
     "short": "US",
     "headline": "SEO & Digital Marketing Services for US Businesses",
-    "summary": "SEO services, PPC management and digital marketing for US businesses. India-based DMB delivers remotely, focusing on qualified leads and conversion tracking.",
-    "context": "The US market spans very different regions, service areas and customer segments. A campaign built for one city or buyer profile should not automatically be expanded nationwide. We agree audience, geography and qualification before choosing the channels. For US businesses, local SEO and Google Business Profile optimization support genuine service areas. PPC management, landing page design and conversion rate optimization help turn search demand into qualified leads. We agree states, cities and lead criteria before launch.",
+    "summary": "SEO and digital marketing services for businesses in the US. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "context": "A business serving one US city needs a different plan from a business serving several states. Local SEO helps nearby customers find you. PPC management means managing ads you pay for when someone clicks. We also review landing pages—the pages people reach after clicking an ad—to make contacting you easier.",
     "priorities": [
-      "Separate national demand from genuine local coverage",
-      "Make service suitability and enquiry expectations clear",
-      "Connect acquisition data to accepted leads and sales"
+      "Focus on the places where you can serve customers",
+      "Explain your services clearly and make it easy to contact you",
+      "Track useful enquiries, not just website visits"
     ],
     "serviceSlugs": [
       "google-ads-management",
@@ -54,8 +54,8 @@ export const markets = [
       "home-services",
       "healthcare"
     ],
-    "approach": "Start with the states or cities you can serve and a defined offer. We align service pages, campaigns and enquiry routing with your actual footprint. Broader reach is considered when the business and fulfilment process support it.",
-    "coordination": "USD can be used for an agreed quote. Project communication and review windows are coordinated around your team’s US time zone.",
+    "approach": "Start with the cities or states you serve. We review your service pages, Google Ads and enquiry forms. Conversion tracking shows when someone calls, sends a form or completes another useful action. You choose the work that fits your goal and budget.",
+    "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Do you have an office in the United States?",
     "answer": "DMB is based in India and provides services remotely. This page describes our service approach for US businesses; it does not represent a US office."
   },
@@ -64,12 +64,12 @@ export const markets = [
     "name": "United Kingdom",
     "short": "UK",
     "headline": "SEO & Digital Marketing Services for UK Businesses",
-    "summary": "SEO services, PPC management and conversion optimisation for UK businesses. Work remotely with India-based DMB on a plan for useful enquiries.",
-    "context": "A UK service business may need a local enquiry strategy, while a consultancy or software company may sell nationally or internationally. We distinguish those journeys and use terminology that matches the offer and buyer. For UK businesses, technical SEO audits and on-page SEO can improve service-page visibility. PPC management, Google Ads audits and conversion rate optimisation address paid traffic that fails to generate enquiries. B2B lead generation starts with your actual buyer and sales process.",
+    "summary": "SEO and digital marketing services for businesses in the UK. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "context": "Whether you serve a local area or customers across the UK, your website should explain who you help. SEO services improve how people find your pages in search. PPC management covers paid search ads. Conversion rate optimisation means making it easier for visitors to enquire, book or buy.",
     "priorities": [
-      "Align service and location pages with actual UK coverage",
-      "Make enquiries, bookings and quote requests easy to complete",
-      "Use clear tracking definitions and consent-aware implementation"
+      "Focus on the places where you can serve customers",
+      "Explain your services clearly and make it easy to contact you",
+      "Track useful enquiries, not just website visits"
     ],
     "serviceSlugs": [
       "on-page-seo",
@@ -83,8 +83,8 @@ export const markets = [
       "recruitment",
       "travel"
     ],
-    "approach": "Review where the buyer is making a decision: search results, service pages, booking journeys or a longer sales conversation. We prioritise the service pages and campaign messages that answer that decision, using appropriate English terminology.",
-    "coordination": "Quote currency and invoicing arrangements are confirmed in the work we agree. Communication windows are agreed around your UK team and project requirements.",
+    "approach": "We review your website and ads, then explain what is stopping visitors from contacting you. A technical SEO audit checks website problems that affect search. A Google Ads audit checks how your ads are set up. We agree which changes to make first and how to measure them.",
+    "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Will you create separate pages for every UK town?",
     "answer": "Only where your actual services and useful local information justify a distinct page. We avoid interchangeable location pages that add little value for buyers."
   },
@@ -93,12 +93,12 @@ export const markets = [
     "name": "United Arab Emirates",
     "short": "UAE",
     "headline": "SEO & Digital Marketing Services for UAE Businesses",
-    "summary": "SEO services, Google Ads management and digital marketing for UAE businesses. India-based DMB plans remote delivery around your emirates and customers.",
-    "context": "Business requirements can vary across emirates and between resident, visitor and business audiences. We separate those needs before building pages or campaigns, with special attention to where the business can deliver its service. For UAE businesses, local SEO, Google Ads management and paid social advertising should reflect the emirates you serve. Landing page design and lead quality optimisation help distinguish useful enquiries from unsuitable leads. English content is the starting point; Arabic production requires a separately agreed review process.",
+    "summary": "SEO and digital marketing services for businesses in the UAE. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "context": "Your customers may be in Dubai, Abu Dhabi or another emirate. SEO services and local SEO help people find the areas you serve. Google Ads management and paid social advertising can reach people looking for your offer. We help your team tell useful enquiries apart from requests you cannot serve.",
     "priorities": [
-      "Distinguish coverage by emirate and service type",
-      "Qualify location and offer fit before sales follow-up",
-      "Keep English content accurate and plan other languages deliberately"
+      "Focus on the places where you can serve customers",
+      "Explain your services clearly and make it easy to contact you",
+      "Track useful enquiries, not just website visits"
     ],
     "serviceSlugs": [
       "lead-quality-optimization",
@@ -112,8 +112,8 @@ export const markets = [
       "logistics",
       "professional-services"
     ],
-    "approach": "Define your operating emirates, audience and approved offer first. English pages form the initial work we agree. Arabic or other language work requires an agreed translation and review process; it is not implied by an English UAE page.",
-    "coordination": "AED or other quote currency can be discussed during planning. Campaign media spend and service fees are treated separately.",
+    "approach": "Tell us which emirates you serve and who your customers are. We plan clear service pages, ads and contact forms around that information. English content is the starting point. Arabic content needs a separately agreed translation and review process.",
+    "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Does this service include Arabic content?",
     "answer": "Not automatically. Language requirements, translation, review and campaign coverage must be explicitly agreed in the work we agree."
   },
@@ -122,12 +122,12 @@ export const markets = [
     "name": "Dubai",
     "short": "Dubai",
     "headline": "SEO & Digital Marketing Services for Dubai Businesses",
-    "summary": "SEO services, Google Ads management and lead generation for Dubai businesses. India-based DMB delivers remotely with clear audience and campaign scope.",
-    "context": "A Dubai business may attract local residents, international investors, travellers or corporate buyers. Combining these audiences without a clear qualification process can create high lead volume and a weak sales pipeline. For Dubai businesses, SEO services and Google Ads management can support a specific property, booking or service offer. Landing page design, conversion tracking and lead generation connect campaigns to enquiries your sales team can qualify. Local SEO is scoped to genuine service coverage.",
+    "summary": "SEO and digital marketing services for businesses in Dubai. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "context": "A Dubai business may serve residents, visitors or customers overseas. We keep those needs clear. SEO services help people find your offer in search. Google Ads management brings relevant people to your website. Landing page design makes the offer and next step easy to understand.",
     "priorities": [
-      "Separate local and international buyer journeys",
-      "Match campaigns to the specific property, stay or service",
-      "Give sales the context needed to respond usefully"
+      "Focus on the places where you can serve customers",
+      "Explain your services clearly and make it easy to contact you",
+      "Track useful enquiries, not just website visits"
     ],
     "serviceSlugs": [
       "google-ads-management",
@@ -141,8 +141,8 @@ export const markets = [
       "travel",
       "professional-services"
     ],
-    "approach": "Build around your actual Dubai offer and customer type. Property pages, booking pages and service enquiries need different information and next actions. The work we agree defines audience geography, approved proof and a practical information passed to your sales team.",
-    "coordination": "DMB provides remote service from India. Review schedules and project communication can be coordinated with your Dubai team.",
+    "approach": "Tell us about the property, booking or service you want to promote. We review the page people visit and how they contact you. Lead generation means helping interested people enquire. We track whether those enquiries match the customers your team can help.",
+    "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "How is the Dubai page different from the UAE page?",
     "answer": "The UAE page covers emirate-level coverage and broader service planning. The Dubai approach focuses on local versus international ways customers find and choose you for a specific Dubai offer."
   },
@@ -151,12 +151,12 @@ export const markets = [
     "name": "Kuwait",
     "short": "Kuwait",
     "headline": "SEO & Digital Marketing Services for Kuwait Businesses",
-    "summary": "SEO services, PPC management and B2B lead generation for Kuwait businesses. India-based DMB agrees market coverage, language and measurement before delivery.",
-    "context": "Your Kuwait offer should be assessed on its own business needs. Copying a campaign from a different market can overlook service coverage, buyer language and the details needed to qualify enquiries. For Kuwait businesses, SEO services, PPC management and B2B lead generation need an explicit audience and language plan. On-page SEO, landing page optimisation and conversion tracking help connect visits to relevant enquiries. English and Arabic requirements are agreed before content production.",
+    "summary": "SEO and digital marketing services for businesses in Kuwait. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "context": "Your website should explain what you offer and where you work in Kuwait. SEO services help customers find you in search. PPC management covers paid search ads. B2B lead generation means attracting enquiries from other businesses. We agree the audience and content language before starting.",
     "priorities": [
-      "Define genuine service availability and the ideal customer",
-      "Confirm English and Arabic requirements before content production",
-      "Measure relevant enquiries and sales progression"
+      "Focus on the places where you can serve customers",
+      "Explain your services clearly and make it easy to contact you",
+      "Track useful enquiries, not just website visits"
     ],
     "serviceSlugs": [
       "paid-media-strategy",
@@ -170,9 +170,9 @@ export const markets = [
       "ecommerce",
       "healthcare"
     ],
-    "approach": "Start with audience fit, service coverage and an explicit language plan. We scope useful service pages, suitable channels and an enquiry journey your team can support. Market expansion is a deliberate test, with targeting and measurement reviewed before launch.",
-    "coordination": "Quote currency, invoicing, communication and access requirements are agreed before delivery. No local office or local currency checkout is implied by this page.",
+    "approach": "We review your service pages, ads and contact steps. On-page SEO improves the information on each page. Conversion tracking shows when visitors take a useful action, such as sending an enquiry. We explain the changes, cost and language requirements before you decide.",
+    "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Can you reuse our existing campaigns in Kuwait?",
-    "answer": "We can review them, but targeting, language, offer suitability and measurement should be checked before reuse. Changes and testing are defined in the agreed work we agree."
+    "answer": "We can review them, but targeting, language, offer suitability and measurement should be checked before reuse. Changes and testing are defined in the agreed scope."
   }
 ];
