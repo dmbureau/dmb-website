@@ -1,0 +1,2 @@
+/* Keep first-screen copy visible from the first server-rendered paint. */
+.brew-hero-copy>h1,.brew-hero-copy>p{animation:none!important;opacity:1;transform:none}

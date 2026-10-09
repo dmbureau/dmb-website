@@ -5,6 +5,7 @@ import {LocalizedMarketHeader,LocalizedMarketFooter} from '@/components/localize
 import settings from '@/content/settings.json';
 import type { Metadata } from 'next';
 import './globals.css';
+import './initial-paint.css';
 import { Header, Footer } from '@/components/site-shell';
 import { Schema } from '@/components/blocks';
 import {PageMotion} from '@/components/page-motion';
