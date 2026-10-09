@@ -70,3 +70,5 @@ export function PremiumVisual({name,compact=false,alt}:{name:string;compact?:boo
  </g>
  <path d="M34 406H686" stroke={line}/>{s.steps.map((label,i)=><g key={label}><text x={35+i*225} y="441" fill={mint} fontSize="11" fontFamily="Arial">0{i+1}</text><text x={60+i*225} y="441" fill={muted} fontSize="11" fontFamily="Arial">{label}</text></g>)}
  </svg></div>}
+
+export function getVisualStory(name:string){const {title,tag,steps}=resolve(name);return {title,tag,steps};}
