@@ -190,3 +190,14 @@
 .goal-section .goal-preview-copy{padding:23px 26px;flex:1}
 .goal-section .goal-preview-copy h3{font-size:25px}
 @media(max-width:760px){.goal-section .goal-explorer{grid-template-columns:1fr!important}.goal-section .goal-choices{height:auto;grid-template-rows:none}.goal-section .goal-choices button{min-height:82px;padding:17px 19px}.goal-section .goal-preview .hybrid-visual,.goal-section .goal-preview .hybrid-visual>img{height:110px!important;max-height:110px!important;flex-basis:110px!important}}
+
+/* A contained thumbnail instead of an excessively cropped image banner. */
+.goal-section .goal-preview-copy{padding:28px}
+.goal-preview-thumbnail{float:right;width:170px;margin:0 0 18px 22px}
+.goal-section .goal-preview-thumbnail .hybrid-visual{height:auto!important;max-height:none!important;aspect-ratio:3/2!important;flex-basis:auto!important;border-radius:10px;border:1px solid #d9e3d4}
+.goal-section .goal-preview-thumbnail .hybrid-visual>img{height:auto!important;max-height:none!important;aspect-ratio:3/2!important;object-fit:cover!important}
+.goal-section .goal-preview-copy>.eyebrow{padding-top:6px}
+.goal-section .goal-preview-copy>p{clear:both;padding-top:8px}
+.goal-section .goal-preview-copy h3{font-size:27px;line-height:1.25}
+@media(max-width:1000px){.goal-preview-thumbnail{width:130px;margin-left:16px}.goal-section .goal-preview-copy h3{font-size:24px}}
+@media(max-width:480px){.goal-preview-thumbnail{float:none;width:150px;margin:0 0 20px}.goal-section .goal-preview-copy{padding:23px}.goal-section .goal-preview-copy>p{padding-top:0}}
