@@ -1,0 +1,650 @@
+[
+  {
+    "slug": "germany",
+    "country": "Germany",
+    "region": "DE",
+    "language": "de",
+    "locale": "de-DE",
+    "name": "Deutschland",
+    "headline": "SEO für Unternehmen in Deutschland",
+    "summary": "SEO für Unternehmen in Deutschland. Wir helfen Unternehmen, online gefunden zu werden und mehr passende Anfragen zu erhalten.",
+    "context": "Für Unternehmen in Deutschland prüfen wir, ob Ihre Kunden regional oder bundesweit suchen. Wir stimmen Suchbegriffe und Angebotsseiten auf diese Reichweite ab.",
+    "primaryKeyword": "SEO für Unternehmen in Deutschland",
+    "ui": {
+      "label": "Deutsch",
+      "markets": "Märkte",
+      "language": "Sprache wählen",
+      "skip": "Zum Inhalt",
+      "quote": "Angebot anfragen",
+      "help": "So helfen wir Ihrem Unternehmen",
+      "process": "So läuft die Zusammenarbeit ab",
+      "faq": "Häufige Fragen",
+      "remote": "Zusammenarbeit aus der Ferne",
+      "english": "Weitere Leistungen und das Kontaktformular sind auf Englisch.",
+      "privacy": "Datenschutz (Englisch)",
+      "steps": [
+        "Senden Sie uns Ihre Website, Ihr Ziel und die Regionen, die Sie bedienen.",
+        "Wir prüfen Ihre Website und Anzeigen. Sie erhalten einen verständlichen Plan mit Aufgaben, Preis und Zeitrahmen.",
+        "Sie entscheiden, welche Arbeiten wir umsetzen. Wir verfolgen relevante Anfragen und erklären die Ergebnisse."
+      ],
+      "services": [
+        [
+          "Suchmaschinenoptimierung (SEO)",
+          "Wir prüfen Technik, Inhalte und Seitenstruktur. So können Suchmaschinen und Kunden Ihr Angebot besser verstehen."
+        ],
+        [
+          "Google Ads betreuen",
+          "Wir prüfen Suchbegriffe, Anzeigen und Budget. Ziel sind Anfragen von Menschen, denen Ihr Unternehmen helfen kann."
+        ],
+        [
+          "Website und Anfragen verbessern",
+          "Klare Seiten und einfache Kontaktwege helfen Besuchern, den nächsten Schritt zu machen."
+        ],
+        [
+          "Sichtbarkeit in KI-Suchen",
+          "Wir strukturieren Antworten auf Kundenfragen und machen Informationen überprüfbar. Eine Nennung durch KI-Systeme können wir nicht garantieren."
+        ]
+      ],
+      "question": "Hat DMB ein Büro vor Ort?",
+      "answer": "DMB sitzt in Indien und arbeitet online mit Ihrem Team. Diese Seite stellt keinen lokalen Standort dar. Projektsprachen und Übersetzungsprüfung werden vor Beginn vereinbart.",
+      "costQ": "Was kostet die Zusammenarbeit?",
+      "costA": "Der Preis hängt von Ihrer Website, Ihren Zielen und dem Arbeitsumfang ab. Sie erhalten vor Beginn ein Angebot. Werbebudget und kostenpflichtige Tools sind separat, sofern das Angebot nichts anderes enthält.",
+      "primary": "SEO und Online-Marketing",
+      "intro": "Wir helfen Unternehmen, online gefunden zu werden und mehr passende Anfragen zu erhalten. Sie bekommen klare Erklärungen und einen Plan, der zu Ihrem Budget passt."
+    }
+  },
+  {
+    "slug": "france",
+    "country": "France",
+    "region": "FR",
+    "language": "fr",
+    "locale": "fr-FR",
+    "name": "France",
+    "headline": "Référencement naturel en France",
+    "summary": "Référencement naturel en France. Nous aidons les entreprises à être trouvées en ligne et à recevoir des demandes pertinentes.",
+    "context": "Pour une entreprise en France, nous distinguons les recherches locales des demandes nationales. Les pages doivent expliquer vos services et les zones où vous pouvez réellement intervenir.",
+    "primaryKeyword": "référencement naturel en France",
+    "ui": {
+      "label": "Français",
+      "markets": "Marchés",
+      "language": "Choisir la langue",
+      "skip": "Aller au contenu",
+      "quote": "Demander un devis",
+      "help": "Comment nous aidons votre entreprise",
+      "process": "Comment se déroule le projet ?",
+      "faq": "Questions fréquentes",
+      "remote": "Une équipe qui travaille à distance",
+      "english": "Les autres services et le formulaire de contact sont en anglais.",
+      "privacy": "Confidentialité (anglais)",
+      "steps": [
+        "Envoyez votre site, votre objectif et les zones où vous pouvez servir vos clients.",
+        "Nous examinons votre site et vos annonces. Vous recevez un plan clair avec les tâches, le prix et le calendrier.",
+        "Vous choisissez les actions à réaliser. Nous suivons les demandes utiles et expliquons les résultats."
+      ],
+      "services": [
+        [
+          "Référencement naturel (SEO)",
+          "Nous vérifions la technique, le contenu et la structure de vos pages pour aider les moteurs de recherche et les clients à comprendre votre offre."
+        ],
+        [
+          "Gestion Google Ads",
+          "Nous examinons les recherches, les annonces et le budget pour attirer des personnes qui ont besoin de vos services."
+        ],
+        [
+          "Un site plus facile à utiliser",
+          "Des pages claires et un contact simple aident les visiteurs à demander un devis ou à réserver."
+        ],
+        [
+          "Visibilité dans les recherches avec IA",
+          "Nous organisons les réponses aux questions des clients et rendons les informations vérifiables. Les citations par les outils IA ne sont pas garanties."
+        ]
+      ],
+      "question": "DMB possède-t-il un bureau sur place ?",
+      "answer": "DMB est basé en Inde et travaille à distance avec votre équipe. Cette page ne représente pas un bureau local. Les langues du projet et la validation des traductions sont convenues avant le début.",
+      "costQ": "Quel est le prix ?",
+      "costA": "Le prix dépend de votre site, de vos objectifs et des tâches retenues. Vous recevez un devis avant de commencer. Le budget publicitaire et les outils payants sont séparés, sauf indication contraire.",
+      "primary": "SEO et marketing digital",
+      "intro": "Nous aidons les entreprises à être trouvées en ligne et à recevoir des demandes pertinentes. Vous obtenez des explications simples et un plan adapté à votre budget."
+    }
+  },
+  {
+    "slug": "netherlands",
+    "country": "Netherlands",
+    "region": "NL",
+    "language": "nl",
+    "locale": "nl-NL",
+    "name": "Nederland",
+    "headline": "Zoekmachineoptimalisatie Nederland",
+    "summary": "Zoekmachineoptimalisatie Nederland. We helpen bedrijven online gevonden te worden en relevante aanvragen te ontvangen.",
+    "context": "Voor bedrijven in Nederland maken we onderscheid tussen lokale klanten en klanten in het hele land. Zoekwoorden, servicepagina’s en advertenties sluiten aan op de plaatsen waar je echt werkt.",
+    "primaryKeyword": "zoekmachineoptimalisatie Nederland",
+    "ui": {
+      "label": "Nederlands",
+      "markets": "Markten",
+      "language": "Kies een taal",
+      "skip": "Ga naar inhoud",
+      "quote": "Vraag een offerte aan",
+      "help": "Zo helpen we je bedrijf",
+      "process": "Zo werken we samen",
+      "faq": "Veelgestelde vragen",
+      "remote": "Samenwerken op afstand",
+      "english": "De overige diensten en het contactformulier zijn in het Engels.",
+      "privacy": "Privacy (Engels)",
+      "steps": [
+        "Stuur je website, je doel en de gebieden waar je klanten kunt helpen.",
+        "We bekijken je website en advertenties. Je krijgt een duidelijk plan met taken, prijs en planning.",
+        "Jij kiest welke stappen we uitvoeren. We volgen relevante aanvragen en leggen de resultaten uit."
+      ],
+      "services": [
+        [
+          "Zoekmachineoptimalisatie (SEO)",
+          "We controleren techniek, teksten en paginastructuur. Zo begrijpen zoekmachines en klanten beter wat je aanbiedt."
+        ],
+        [
+          "Google Ads beheer",
+          "We bekijken zoekwoorden, advertenties en budget. Het doel is aanvragen van mensen die je bedrijf kan helpen."
+        ],
+        [
+          "Een gebruiksvriendelijke website",
+          "Duidelijke pagina’s en eenvoudige contactmogelijkheden helpen bezoekers een offerte aan te vragen of te boeken."
+        ],
+        [
+          "Vindbaarheid in AI-zoekopdrachten",
+          "We structureren antwoorden op klantvragen en maken informatie controleerbaar. Vermeldingen door AI-tools zijn niet gegarandeerd."
+        ]
+      ],
+      "question": "Heeft DMB een lokaal kantoor?",
+      "answer": "DMB is gevestigd in India en werkt op afstand met je team. Deze pagina vertegenwoordigt geen lokaal kantoor. We spreken de projecttaal en de controle van vertalingen vooraf af.",
+      "costQ": "Wat kost de samenwerking?",
+      "costA": "De prijs hangt af van je website, doelen en gekozen werkzaamheden. Je krijgt vooraf een offerte. Advertentiebudget en betaalde tools zijn apart, tenzij de offerte anders vermeldt.",
+      "primary": "SEO en online marketing",
+      "intro": "We helpen bedrijven online gevonden te worden en relevante aanvragen te ontvangen. Je krijgt eenvoudige uitleg en een plan dat bij je budget past."
+    }
+  },
+  {
+    "slug": "spain",
+    "country": "Spain",
+    "region": "ES",
+    "language": "es",
+    "locale": "es-ES",
+    "name": "España",
+    "headline": "Posicionamiento web en España",
+    "summary": "Posicionamiento web en España. Ayudamos a las empresas a aparecer en las búsquedas y recibir consultas relevantes.",
+    "context": "Para empresas en España, acordamos si el objetivo es una ciudad, varias provincias o todo el país. Si necesitas catalán, euskera o gallego, lo incluiremos solo con un alcance y una revisión acordados.",
+    "primaryKeyword": "posicionamiento web en España",
+    "ui": {
+      "label": "Español",
+      "markets": "Mercados",
+      "language": "Elegir idioma",
+      "skip": "Ir al contenido",
+      "quote": "Solicitar presupuesto",
+      "help": "Cómo ayudamos a tu empresa",
+      "process": "Cómo trabajamos contigo",
+      "faq": "Preguntas frecuentes",
+      "remote": "Un equipo que trabaja a distancia",
+      "english": "Los demás servicios y el formulario de contacto están en inglés.",
+      "privacy": "Privacidad (inglés)",
+      "steps": [
+        "Envíanos tu web, tu objetivo y las zonas donde atiendes a tus clientes.",
+        "Revisamos tu web y tus anuncios. Recibes un plan claro con tareas, precio y plazos.",
+        "Tú eliges qué acciones realizamos. Medimos las consultas útiles y explicamos los resultados."
+      ],
+      "services": [
+        [
+          "Posicionamiento web (SEO)",
+          "Revisamos la parte técnica, los textos y la estructura para que los buscadores y los clientes entiendan tu oferta."
+        ],
+        [
+          "Gestión de Google Ads",
+          "Revisamos las búsquedas, los anuncios y el presupuesto para atraer a personas que necesitan tus servicios."
+        ],
+        [
+          "Una web más fácil de usar",
+          "Las páginas claras y un contacto sencillo ayudan a los visitantes a pedir información, reservar o solicitar presupuesto."
+        ],
+        [
+          "Visibilidad en búsquedas con IA",
+          "Organizamos respuestas a las preguntas de los clientes y hacemos que la información sea verificable. No garantizamos menciones de las herramientas de IA."
+        ]
+      ],
+      "question": "¿DMB tiene una oficina local?",
+      "answer": "DMB tiene su sede en India y trabaja a distancia con tu equipo. Esta página no representa una oficina local. Acordamos el idioma del proyecto y la revisión de traducciones antes de empezar.",
+      "costQ": "¿Cuánto cuesta el servicio?",
+      "costA": "El precio depende de tu web, tus objetivos y el trabajo elegido. Recibes un presupuesto antes de empezar. La inversión publicitaria y las herramientas de pago son aparte, salvo que el presupuesto indique lo contrario.",
+      "primary": "SEO y marketing digital",
+      "intro": "Ayudamos a las empresas a aparecer en las búsquedas y recibir consultas relevantes. Tendrás explicaciones sencillas y un plan adaptado a tu presupuesto."
+    }
+  },
+  {
+    "slug": "italy",
+    "country": "Italy",
+    "region": "IT",
+    "language": "it",
+    "locale": "it-IT",
+    "name": "Italia",
+    "headline": "Servizi SEO in Italia",
+    "summary": "Servizi SEO in Italia. Aiutiamo le aziende a farsi trovare online e a ricevere richieste pertinenti.",
+    "context": "Per le aziende in Italia distinguiamo i clienti locali dalle richieste nazionali. Le pagine dei servizi e gli annunci devono indicare chiaramente dove puoi lavorare e chi puoi aiutare.",
+    "primaryKeyword": "servizi SEO in Italia",
+    "ui": {
+      "label": "Italiano",
+      "markets": "Mercati",
+      "language": "Scegli la lingua",
+      "skip": "Vai al contenuto",
+      "quote": "Richiedi un preventivo",
+      "help": "Come aiutiamo la tua azienda",
+      "process": "Come lavoriamo insieme",
+      "faq": "Domande frequenti",
+      "remote": "Un team che lavora a distanza",
+      "english": "Gli altri servizi e il modulo di contatto sono in inglese.",
+      "privacy": "Privacy (inglese)",
+      "steps": [
+        "Inviaci il sito, il tuo obiettivo e le zone in cui puoi servire i clienti.",
+        "Esaminiamo il sito e gli annunci. Ricevi un piano chiaro con attività, prezzo e tempi.",
+        "Scegli le attività da svolgere. Misuriamo le richieste utili e spieghiamo i risultati."
+      ],
+      "services": [
+        [
+          "Ottimizzazione per i motori di ricerca (SEO)",
+          "Controlliamo gli aspetti tecnici, i testi e la struttura delle pagine per rendere la tua offerta più chiara ai clienti e ai motori di ricerca."
+        ],
+        [
+          "Gestione Google Ads",
+          "Esaminiamo ricerche, annunci e budget per raggiungere persone interessate ai tuoi servizi."
+        ],
+        [
+          "Un sito più facile da usare",
+          "Pagine chiare e contatti semplici aiutano i visitatori a chiedere informazioni, prenotare o richiedere un preventivo."
+        ],
+        [
+          "Visibilità nelle ricerche con IA",
+          "Organizziamo le risposte alle domande dei clienti e rendiamo le informazioni verificabili. Non garantiamo citazioni da parte degli strumenti di IA."
+        ]
+      ],
+      "question": "DMB ha una sede locale?",
+      "answer": "DMB ha sede in India e lavora a distanza con il tuo team. Questa pagina non rappresenta una sede locale. Concordiamo la lingua del progetto e la revisione delle traduzioni prima di iniziare.",
+      "costQ": "Quanto costa il servizio?",
+      "costA": "Il prezzo dipende dal sito, dagli obiettivi e dalle attività scelte. Ricevi un preventivo prima di iniziare. Il budget pubblicitario e gli strumenti a pagamento sono separati, salvo diversa indicazione.",
+      "primary": "SEO e marketing digitale",
+      "intro": "Aiutiamo le aziende a farsi trovare online e a ricevere richieste pertinenti. Avrai spiegazioni semplici e un piano adatto al tuo budget."
+    }
+  },
+  {
+    "slug": "sweden",
+    "country": "Sweden",
+    "region": "SE",
+    "language": "sv",
+    "locale": "sv-SE",
+    "name": "Sverige",
+    "headline": "Sökmotoroptimering i Sverige",
+    "summary": "Sökmotoroptimering i Sverige. Vi hjälper företag att hittas på nätet och få relevanta förfrågningar.",
+    "context": "För företag i Sverige skiljer vi mellan lokala kunder och kunder i hela landet. Vi utgår från de orter där du faktiskt kan leverera och anpassar tjänstesidor och annonser därefter.",
+    "primaryKeyword": "sökmotoroptimering i Sverige",
+    "ui": {
+      "label": "Svenska",
+      "markets": "Marknader",
+      "language": "Välj språk",
+      "skip": "Hoppa till innehållet",
+      "quote": "Begär en offert",
+      "help": "Så hjälper vi ditt företag",
+      "process": "Så arbetar vi tillsammans",
+      "faq": "Vanliga frågor",
+      "remote": "Samarbete på distans",
+      "english": "Övriga tjänster och kontaktformuläret är på engelska.",
+      "privacy": "Integritet (engelska)",
+      "steps": [
+        "Skicka din webbplats, ditt mål och de områden där du kan hjälpa kunder.",
+        "Vi granskar webbplatsen och annonserna. Du får en tydlig plan med uppgifter, pris och tidsram.",
+        "Du väljer vad vi ska göra. Vi följer relevanta förfrågningar och förklarar resultaten."
+      ],
+      "services": [
+        [
+          "Sökmotoroptimering (SEO)",
+          "Vi granskar teknik, texter och sidstruktur så att sökmotorer och kunder förstår ditt erbjudande."
+        ],
+        [
+          "Hantering av Google Ads",
+          "Vi granskar sökord, annonser och budget för att nå personer som behöver dina tjänster."
+        ],
+        [
+          "En webbplats som är lätt att använda",
+          "Tydliga sidor och enkla kontaktvägar hjälper besökare att fråga, boka eller begära en offert."
+        ],
+        [
+          "Synlighet i AI-sökningar",
+          "Vi strukturerar svar på kundfrågor och gör informationen möjlig att kontrollera. Vi garanterar inte omnämnanden i AI-verktyg."
+        ]
+      ],
+      "question": "Har DMB ett lokalt kontor?",
+      "answer": "DMB är baserat i Indien och arbetar på distans med ditt team. Den här sidan representerar inget lokalt kontor. Vi kommer överens om projektspråk och granskning av översättningar innan arbetet börjar.",
+      "costQ": "Vad kostar tjänsten?",
+      "costA": "Priset beror på din webbplats, dina mål och de uppgifter du väljer. Du får en offert innan arbetet börjar. Annonsbudget och betalda verktyg ingår bara om det står i offerten.",
+      "primary": "SEO och digital marknadsföring",
+      "intro": "Vi hjälper företag att hittas på nätet och få relevanta förfrågningar. Du får enkla förklaringar och en plan som passar din budget."
+    }
+  },
+  {
+    "slug": "denmark",
+    "country": "Denmark",
+    "region": "DK",
+    "language": "da",
+    "locale": "da-DK",
+    "name": "Danmark",
+    "headline": "Søgemaskineoptimering i Danmark",
+    "summary": "Søgemaskineoptimering i Danmark. Vi hjælper virksomheder med at blive fundet online og få relevante henvendelser.",
+    "context": "For virksomheder i Danmark skelner vi mellem lokale kunder og kunder i hele landet. Vi tilpasser søgeord og servicesider til de områder, hvor du faktisk kan levere.",
+    "primaryKeyword": "søgemaskineoptimering i Danmark",
+    "ui": {
+      "label": "Dansk",
+      "markets": "Markeder",
+      "language": "Vælg sprog",
+      "skip": "Gå til indhold",
+      "quote": "Få et tilbud",
+      "help": "Sådan hjælper vi din virksomhed",
+      "process": "Sådan arbejder vi sammen",
+      "faq": "Ofte stillede spørgsmål",
+      "remote": "Samarbejde på afstand",
+      "english": "De øvrige ydelser og kontaktformularen er på engelsk.",
+      "privacy": "Privatliv (engelsk)",
+      "steps": [
+        "Send din hjemmeside, dit mål og de områder, hvor du kan hjælpe kunder.",
+        "Vi gennemgår hjemmesiden og annoncerne. Du får en klar plan med opgaver, pris og tidsramme.",
+        "Du vælger, hvad vi skal udføre. Vi følger relevante henvendelser og forklarer resultaterne."
+      ],
+      "services": [
+        [
+          "Søgemaskineoptimering (SEO)",
+          "Vi gennemgår teknik, tekster og sidernes struktur, så søgemaskiner og kunder bedre forstår dit tilbud."
+        ],
+        [
+          "Google Ads administration",
+          "Vi gennemgår søgeord, annoncer og budget for at nå personer, der har brug for dine ydelser."
+        ],
+        [
+          "En hjemmeside, der er nem at bruge",
+          "Tydelige sider og enkle kontaktmuligheder hjælper besøgende med at spørge, booke eller få et tilbud."
+        ],
+        [
+          "Synlighed i AI-søgninger",
+          "Vi strukturerer svar på kundernes spørgsmål og gør oplysningerne mulige at kontrollere. Vi garanterer ikke omtale i AI-værktøjer."
+        ]
+      ],
+      "question": "Har DMB et lokalt kontor?",
+      "answer": "DMB er baseret i Indien og arbejder på afstand med dit team. Denne side repræsenterer ikke et lokalt kontor. Vi aftaler projektets sprog og kontrol af oversættelser før start.",
+      "costQ": "Hvad koster ydelsen?",
+      "costA": "Prisen afhænger af din hjemmeside, dine mål og de valgte opgaver. Du får et tilbud før start. Annoncebudget og betalte værktøjer er separate, medmindre tilbuddet siger noget andet.",
+      "primary": "SEO og digital markedsføring",
+      "intro": "Vi hjælper virksomheder med at blive fundet online og få relevante henvendelser. Du får enkle forklaringer og en plan, der passer til dit budget."
+    }
+  },
+  {
+    "slug": "norway",
+    "country": "Norway",
+    "region": "NO",
+    "language": "nb",
+    "locale": "nb-NO",
+    "name": "Norge",
+    "headline": "Søkemotoroptimalisering i Norge",
+    "summary": "Søkemotoroptimalisering i Norge. Vi hjelper bedrifter med å bli funnet på nettet og få relevante henvendelser.",
+    "context": "For bedrifter i Norge skiller vi mellom lokale kunder og kunder i hele landet. Denne siden er på bokmål. Andre prosjekt- og innholdsspråk avtales før arbeidet starter.",
+    "primaryKeyword": "søkemotoroptimalisering i Norge",
+    "ui": {
+      "label": "Norsk bokmål",
+      "markets": "Markeder",
+      "language": "Velg språk",
+      "skip": "Gå til innhold",
+      "quote": "Be om et tilbud",
+      "help": "Slik hjelper vi bedriften din",
+      "process": "Slik jobber vi sammen",
+      "faq": "Vanlige spørsmål",
+      "remote": "Samarbeid på avstand",
+      "english": "De øvrige tjenestene og kontaktskjemaet er på engelsk.",
+      "privacy": "Personvern (engelsk)",
+      "steps": [
+        "Send oss nettstedet, målet ditt og områdene der du kan hjelpe kunder.",
+        "Vi går gjennom nettstedet og annonsene. Du får en tydelig plan med oppgaver, pris og tidsramme.",
+        "Du velger hva vi skal gjøre. Vi følger relevante henvendelser og forklarer resultatene."
+      ],
+      "services": [
+        [
+          "Søkemotoroptimalisering (SEO)",
+          "Vi gjennomgår teknikk, tekster og sidestruktur, slik at søkemotorer og kunder bedre forstår tilbudet ditt."
+        ],
+        [
+          "Google Ads-administrasjon",
+          "Vi gjennomgår søkeord, annonser og budsjett for å nå personer som trenger tjenestene dine."
+        ],
+        [
+          "Et nettsted som er enkelt å bruke",
+          "Tydelige sider og enkle kontaktmuligheter hjelper besøkende med å spørre, bestille eller be om et tilbud."
+        ],
+        [
+          "Synlighet i KI-søk",
+          "Vi strukturerer svar på kundespørsmål og gjør informasjonen mulig å kontrollere. Vi garanterer ikke omtale i KI-verktøy."
+        ]
+      ],
+      "question": "Har DMB et lokalt kontor?",
+      "answer": "DMB er basert i India og jobber på avstand med teamet ditt. Denne siden representerer ikke et lokalt kontor. Vi avtaler prosjektspråk og kontroll av oversettelser før oppstart.",
+      "costQ": "Hva koster tjenesten?",
+      "costA": "Prisen avhenger av nettstedet ditt, målene og oppgavene du velger. Du får et tilbud før oppstart. Annonsebudsjett og betalte verktøy er separate, med mindre tilbudet sier noe annet.",
+      "primary": "SEO og digital markedsføring",
+      "intro": "Vi hjelper bedrifter med å bli funnet på nettet og få relevante henvendelser. Du får enkle forklaringer og en plan som passer budsjettet ditt."
+    }
+  },
+  {
+    "slug": "poland",
+    "country": "Poland",
+    "region": "PL",
+    "language": "pl",
+    "locale": "pl-PL",
+    "name": "Polska",
+    "headline": "Pozycjonowanie stron w Polsce",
+    "summary": "Pozycjonowanie stron w Polsce. Pomagamy firmom być widocznymi w internecie i otrzymywać wartościowe zapytania.",
+    "context": "Dla firm w Polsce rozróżniamy klientów lokalnych i ogólnopolskich. Dobieramy słowa kluczowe, strony usług i reklamy do obszarów, które faktycznie obsługujesz.",
+    "primaryKeyword": "pozycjonowanie stron w Polsce",
+    "ui": {
+      "label": "Polski",
+      "markets": "Rynki",
+      "language": "Wybierz język",
+      "skip": "Przejdź do treści",
+      "quote": "Poproś o wycenę",
+      "help": "Jak pomagamy Twojej firmie",
+      "process": "Jak wygląda współpraca?",
+      "faq": "Najczęstsze pytania",
+      "remote": "Współpraca zdalna",
+      "english": "Pozostałe usługi i formularz kontaktowy są w języku angielskim.",
+      "privacy": "Prywatność (angielski)",
+      "steps": [
+        "Wyślij adres strony, swój cel i obszary, w których obsługujesz klientów.",
+        "Sprawdzimy stronę i reklamy. Otrzymasz jasny plan z zadaniami, ceną i terminami.",
+        "Wybierzesz działania do wykonania. Będziemy mierzyć wartościowe zapytania i wyjaśniać wyniki."
+      ],
+      "services": [
+        [
+          "Pozycjonowanie stron (SEO)",
+          "Sprawdzamy technikę, treści i strukturę strony, aby klienci i wyszukiwarki lepiej rozumieli Twoją ofertę."
+        ],
+        [
+          "Prowadzenie Google Ads",
+          "Sprawdzamy słowa kluczowe, reklamy i budżet, aby dotrzeć do osób potrzebujących Twoich usług."
+        ],
+        [
+          "Strona łatwa w obsłudze",
+          "Jasne informacje i prosty kontakt pomagają odwiedzającym zapytać o usługę, dokonać rezerwacji lub poprosić o wycenę."
+        ],
+        [
+          "Widoczność w wyszukiwaniu z AI",
+          "Porządkujemy odpowiedzi na pytania klientów i ułatwiamy sprawdzanie informacji. Nie gwarantujemy wzmianek w narzędziach AI."
+        ]
+      ],
+      "question": "Czy DMB ma lokalne biuro?",
+      "answer": "DMB ma siedzibę w Indiach i współpracuje z Twoim zespołem zdalnie. Ta strona nie przedstawia lokalnego biura. Język projektu i weryfikację tłumaczeń ustalamy przed rozpoczęciem.",
+      "costQ": "Ile kosztuje usługa?",
+      "costA": "Cena zależy od strony, celów i wybranych działań. Przed rozpoczęciem otrzymasz wycenę. Budżet reklamowy i płatne narzędzia są osobne, chyba że oferta wskazuje inaczej.",
+      "primary": "SEO i marketing internetowy",
+      "intro": "Pomagamy firmom być widocznymi w internecie i otrzymywać wartościowe zapytania. Dostaniesz proste wyjaśnienia i plan dopasowany do budżetu."
+    }
+  },
+  {
+    "slug": "switzerland",
+    "country": "Switzerland",
+    "region": "CH",
+    "language": "de",
+    "locale": "de-CH",
+    "name": "Schweiz",
+    "headline": "Suchmaschinenoptimierung Schweiz",
+    "summary": "Suchmaschinenoptimierung Schweiz. Wir helfen Unternehmen, online gefunden zu werden und mehr passende Anfragen zu erhalten.",
+    "context": "Für Schweizer Unternehmen planen wir nach Sprachregion und tatsächlichem Einzugsgebiet. Diese Seite ist auf Deutsch. Französische und italienische Versionen sind separat verfügbar; Übersetzungen für Ihr Projekt werden vorab vereinbart.",
+    "primaryKeyword": "Suchmaschinenoptimierung Schweiz",
+    "ui": {
+      "label": "Deutsch",
+      "markets": "Märkte",
+      "language": "Sprache wählen",
+      "skip": "Zum Inhalt",
+      "quote": "Angebot anfragen",
+      "help": "So helfen wir Ihrem Unternehmen",
+      "process": "So läuft die Zusammenarbeit ab",
+      "faq": "Häufige Fragen",
+      "remote": "Zusammenarbeit aus der Ferne",
+      "english": "Weitere Leistungen und das Kontaktformular sind auf Englisch.",
+      "privacy": "Datenschutz (Englisch)",
+      "steps": [
+        "Senden Sie uns Ihre Website, Ihr Ziel und die Regionen, die Sie bedienen.",
+        "Wir prüfen Ihre Website und Anzeigen. Sie erhalten einen verständlichen Plan mit Aufgaben, Preis und Zeitrahmen.",
+        "Sie entscheiden, welche Arbeiten wir umsetzen. Wir verfolgen relevante Anfragen und erklären die Ergebnisse."
+      ],
+      "services": [
+        [
+          "Suchmaschinenoptimierung (SEO)",
+          "Wir prüfen Technik, Inhalte und Seitenstruktur. So können Suchmaschinen und Kunden Ihr Angebot besser verstehen."
+        ],
+        [
+          "Google Ads betreuen",
+          "Wir prüfen Suchbegriffe, Anzeigen und Budget. Ziel sind Anfragen von Menschen, denen Ihr Unternehmen helfen kann."
+        ],
+        [
+          "Website und Anfragen verbessern",
+          "Klare Seiten und einfache Kontaktwege helfen Besuchern, den nächsten Schritt zu machen."
+        ],
+        [
+          "Sichtbarkeit in KI-Suchen",
+          "Wir strukturieren Antworten auf Kundenfragen und machen Informationen überprüfbar. Eine Nennung durch KI-Systeme können wir nicht garantieren."
+        ]
+      ],
+      "question": "Hat DMB ein Büro vor Ort?",
+      "answer": "DMB sitzt in Indien und arbeitet online mit Ihrem Team. Diese Seite stellt keinen lokalen Standort dar. Projektsprachen und Übersetzungsprüfung werden vor Beginn vereinbart.",
+      "costQ": "Was kostet die Zusammenarbeit?",
+      "costA": "Der Preis hängt von Ihrer Website, Ihren Zielen und dem Arbeitsumfang ab. Sie erhalten vor Beginn ein Angebot. Werbebudget und kostenpflichtige Tools sind separat, sofern das Angebot nichts anderes enthält.",
+      "primary": "SEO und Online-Marketing",
+      "intro": "Wir helfen Unternehmen, online gefunden zu werden und mehr passende Anfragen zu erhalten. Sie bekommen klare Erklärungen und einen Plan, der zu Ihrem Budget passt."
+    }
+  },
+  {
+    "slug": "switzerland",
+    "country": "Switzerland",
+    "region": "CH",
+    "language": "fr",
+    "locale": "fr-CH",
+    "name": "Suisse",
+    "headline": "Référencement naturel en Suisse",
+    "summary": "Référencement naturel en Suisse. Nous aidons les entreprises à être trouvées en ligne et à recevoir des demandes pertinentes.",
+    "context": "Pour les entreprises suisses, nous tenons compte de la région linguistique et de la zone desservie. Cette version est en français. Les versions allemande et italienne sont séparées ; les traductions de votre projet sont convenues à l’avance.",
+    "primaryKeyword": "référencement naturel en Suisse",
+    "ui": {
+      "label": "Français",
+      "markets": "Marchés",
+      "language": "Choisir la langue",
+      "skip": "Aller au contenu",
+      "quote": "Demander un devis",
+      "help": "Comment nous aidons votre entreprise",
+      "process": "Comment se déroule le projet ?",
+      "faq": "Questions fréquentes",
+      "remote": "Une équipe qui travaille à distance",
+      "english": "Les autres services et le formulaire de contact sont en anglais.",
+      "privacy": "Confidentialité (anglais)",
+      "steps": [
+        "Envoyez votre site, votre objectif et les zones où vous pouvez servir vos clients.",
+        "Nous examinons votre site et vos annonces. Vous recevez un plan clair avec les tâches, le prix et le calendrier.",
+        "Vous choisissez les actions à réaliser. Nous suivons les demandes utiles et expliquons les résultats."
+      ],
+      "services": [
+        [
+          "Référencement naturel (SEO)",
+          "Nous vérifions la technique, le contenu et la structure de vos pages pour aider les moteurs de recherche et les clients à comprendre votre offre."
+        ],
+        [
+          "Gestion Google Ads",
+          "Nous examinons les recherches, les annonces et le budget pour attirer des personnes qui ont besoin de vos services."
+        ],
+        [
+          "Un site plus facile à utiliser",
+          "Des pages claires et un contact simple aident les visiteurs à demander un devis ou à réserver."
+        ],
+        [
+          "Visibilité dans les recherches avec IA",
+          "Nous organisons les réponses aux questions des clients et rendons les informations vérifiables. Les citations par les outils IA ne sont pas garanties."
+        ]
+      ],
+      "question": "DMB possède-t-il un bureau sur place ?",
+      "answer": "DMB est basé en Inde et travaille à distance avec votre équipe. Cette page ne représente pas un bureau local. Les langues du projet et la validation des traductions sont convenues avant le début.",
+      "costQ": "Quel est le prix ?",
+      "costA": "Le prix dépend de votre site, de vos objectifs et des tâches retenues. Vous recevez un devis avant de commencer. Le budget publicitaire et les outils payants sont séparés, sauf indication contraire.",
+      "primary": "SEO et marketing digital",
+      "intro": "Nous aidons les entreprises à être trouvées en ligne et à recevoir des demandes pertinentes. Vous obtenez des explications simples et un plan adapté à votre budget."
+    }
+  },
+  {
+    "slug": "switzerland",
+    "country": "Switzerland",
+    "region": "CH",
+    "language": "it",
+    "locale": "it-CH",
+    "name": "Svizzera",
+    "headline": "Servizi SEO in Svizzera",
+    "summary": "Servizi SEO in Svizzera. Aiutiamo le aziende a farsi trovare online e a ricevere richieste pertinenti.",
+    "context": "Per le aziende svizzere pianifichiamo in base alla regione linguistica e alle zone servite. Questa pagina è in italiano. Sono disponibili versioni separate in tedesco e francese; le traduzioni del tuo progetto vengono concordate prima.",
+    "primaryKeyword": "servizi SEO in Svizzera",
+    "ui": {
+      "label": "Italiano",
+      "markets": "Mercati",
+      "language": "Scegli la lingua",
+      "skip": "Vai al contenuto",
+      "quote": "Richiedi un preventivo",
+      "help": "Come aiutiamo la tua azienda",
+      "process": "Come lavoriamo insieme",
+      "faq": "Domande frequenti",
+      "remote": "Un team che lavora a distanza",
+      "english": "Gli altri servizi e il modulo di contatto sono in inglese.",
+      "privacy": "Privacy (inglese)",
+      "steps": [
+        "Inviaci il sito, il tuo obiettivo e le zone in cui puoi servire i clienti.",
+        "Esaminiamo il sito e gli annunci. Ricevi un piano chiaro con attività, prezzo e tempi.",
+        "Scegli le attività da svolgere. Misuriamo le richieste utili e spieghiamo i risultati."
+      ],
+      "services": [
+        [
+          "Ottimizzazione per i motori di ricerca (SEO)",
+          "Controlliamo gli aspetti tecnici, i testi e la struttura delle pagine per rendere la tua offerta più chiara ai clienti e ai motori di ricerca."
+        ],
+        [
+          "Gestione Google Ads",
+          "Esaminiamo ricerche, annunci e budget per raggiungere persone interessate ai tuoi servizi."
+        ],
+        [
+          "Un sito più facile da usare",
+          "Pagine chiare e contatti semplici aiutano i visitatori a chiedere informazioni, prenotare o richiedere un preventivo."
+        ],
+        [
+          "Visibilità nelle ricerche con IA",
+          "Organizziamo le risposte alle domande dei clienti e rendiamo le informazioni verificabili. Non garantiamo citazioni da parte degli strumenti di IA."
+        ]
+      ],
+      "question": "DMB ha una sede locale?",
+      "answer": "DMB ha sede in India e lavora a distanza con il tuo team. Questa pagina non rappresenta una sede locale. Concordiamo la lingua del progetto e la revisione delle traduzioni prima di iniziare.",
+      "costQ": "Quanto costa il servizio?",
+      "costA": "Il prezzo dipende dal sito, dagli obiettivi e dalle attività scelte. Ricevi un preventivo prima di iniziare. Il budget pubblicitario e gli strumenti a pagamento sono separati, salvo diversa indicazione.",
+      "primary": "SEO e marketing digitale",
+      "intro": "Aiutiamo le aziende a farsi trovare online e a ricevere richieste pertinenti. Avrai spiegazioni semplici e un piano adatto al tuo budget."
+    }
+  }
+]

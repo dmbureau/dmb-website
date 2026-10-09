@@ -1,0 +1,301 @@
+[
+  {
+    "country": "Germany",
+    "locale": "de-DE",
+    "url": "https://dmbureau.cloud/markets/germany/de",
+    "primaryKeyword": "SEO für Unternehmen in Deutschland",
+    "secondaryKeywords": [
+      "SEO Beratung",
+      "SEO Audit",
+      "lokale SEO",
+      "Google Ads Betreuung",
+      "Conversion Optimierung",
+      "KI-Sichtbarkeit"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.seo-kueche.de/agentur/",
+      "https://www.sumax.de/",
+      "https://www.sem-deutschland.de/",
+      "https://www.semtrix.de/",
+      "https://www.beyond-media.de/online-marketing-agentur/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "France",
+    "locale": "fr-FR",
+    "url": "https://dmbureau.cloud/markets/france/fr",
+    "primaryKeyword": "référencement naturel en France",
+    "secondaryKeywords": [
+      "audit SEO",
+      "SEO local",
+      "gestion Google Ads",
+      "optimisation des conversions",
+      "marketing digital",
+      "visibilité dans les recherches avec IA"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.seo.fr/",
+      "https://www.optimize360.fr/agence-seo/",
+      "https://www.luneos.fr/seo",
+      "https://www.seogreen.fr/",
+      "https://www.pariseo.fr/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Netherlands",
+    "locale": "nl-NL",
+    "url": "https://dmbureau.cloud/markets/netherlands/nl",
+    "primaryKeyword": "zoekmachineoptimalisatie Nederland",
+    "secondaryKeywords": [
+      "SEO advies",
+      "SEO audit",
+      "lokale SEO",
+      "Google Ads beheer",
+      "conversie optimalisatie",
+      "AI vindbaarheid"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.proseo.nl/",
+      "https://www.seohuis.nl/",
+      "https://www.omcbase.nl/zoekmachine-optimalisatie/",
+      "https://oktober.nl/zoekmachine-optimalisatie",
+      "https://www.studioubique.com/nl/seo-bureau-nederland/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Spain",
+    "locale": "es-ES",
+    "url": "https://dmbureau.cloud/markets/spain/es",
+    "primaryKeyword": "posicionamiento web en España",
+    "secondaryKeywords": [
+      "auditoría SEO",
+      "SEO local",
+      "gestión Google Ads",
+      "marketing digital",
+      "optimización de conversiones",
+      "visibilidad en búsquedas con IA"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://seocom.agency/",
+      "https://agenciaseo.eu/",
+      "https://www.profesionalnet.net/",
+      "https://www.webble.es/",
+      "https://marketerlab.es/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Italy",
+    "locale": "it-IT",
+    "url": "https://dmbureau.cloud/markets/italy/it",
+    "primaryKeyword": "servizi SEO in Italia",
+    "secondaryKeywords": [
+      "consulenza SEO",
+      "audit SEO",
+      "SEO locale",
+      "gestione Google Ads",
+      "ottimizzazione delle conversioni",
+      "visibilità nelle ricerche con IA"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.mintense.it/",
+      "https://www.exedere.it/seo/agenzia-seo/",
+      "https://www.dsidesign.it/consulenza-seo/",
+      "https://www.tready.it/agenzia-seo-google/",
+      "https://www.clickable.it/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Sweden",
+    "locale": "sv-SE",
+    "url": "https://dmbureau.cloud/markets/sweden/sv",
+    "primaryKeyword": "sökmotoroptimering i Sverige",
+    "secondaryKeywords": [
+      "SEO analys",
+      "lokal SEO",
+      "Google Ads hantering",
+      "digital marknadsföring",
+      "konverteringsoptimering",
+      "synlighet i AI-sökningar"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.mild.se/tjanster/sokmotoroptimering/",
+      "https://justvalue.se/sokmotoroptimering-sverige/",
+      "https://www.rank.se/seo/",
+      "https://www.beet.se/tjanster/digital-marknadsforing/seo",
+      "https://finemanget.se/sokmotoroptimering"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Denmark",
+    "locale": "da-DK",
+    "url": "https://dmbureau.cloud/markets/denmark/da",
+    "primaryKeyword": "søgemaskineoptimering i Danmark",
+    "secondaryKeywords": [
+      "SEO analyse",
+      "lokal SEO",
+      "Google Ads administration",
+      "digital markedsføring",
+      "konverteringsoptimering",
+      "synlighed i AI-søgninger"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.become.dk/seo/",
+      "https://searchmore.dk/",
+      "https://seo.dk/",
+      "https://seohaj.dk/seo/",
+      "https://clickin.dk/seo/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Norway",
+    "locale": "nb-NO",
+    "url": "https://dmbureau.cloud/markets/norway/nb",
+    "primaryKeyword": "søkemotoroptimalisering i Norge",
+    "secondaryKeywords": [
+      "SEO analyse",
+      "lokal SEO",
+      "Google Ads administrasjon",
+      "digital markedsføring",
+      "konverteringsoptimalisering",
+      "synlighet i KI-søk"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://scalemedia.no/sokemotoroptimalisering",
+      "https://www.frontcode.no/tjenester/seo",
+      "https://optimalnorge.no/tjenester/sokemotoroptimalisering/",
+      "https://www.evco.no/artikler/seo-og-ai-sok/velge-seo-byra",
+      "https://box.no/innsikt/seo-optimalisering"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Poland",
+    "locale": "pl-PL",
+    "url": "https://dmbureau.cloud/markets/poland/pl",
+    "primaryKeyword": "pozycjonowanie stron w Polsce",
+    "secondaryKeywords": [
+      "audyt SEO",
+      "pozycjonowanie lokalne",
+      "prowadzenie Google Ads",
+      "marketing internetowy",
+      "optymalizacja konwersji",
+      "widoczność w wyszukiwaniu z AI"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://ks.pl/",
+      "https://internetica.pl/",
+      "https://obtk.pl/seo/",
+      "https://www.range.pl/seo/pozycjonowanie-stron/",
+      "https://widzialnosc.co.pl/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Switzerland",
+    "locale": "de-CH",
+    "url": "https://dmbureau.cloud/markets/switzerland/de",
+    "primaryKeyword": "Suchmaschinenoptimierung Schweiz",
+    "secondaryKeywords": [
+      "SEO Beratung",
+      "SEO Audit",
+      "lokale SEO",
+      "Google Ads Betreuung",
+      "Conversion Optimierung",
+      "KI-Sichtbarkeit"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://seo-agent.ch/",
+      "https://www.seo.ch/",
+      "https://www.referencement-suisse.ch/",
+      "https://www.e-perspectives.ch/services/seo/",
+      "https://swissdigitalstrategy.com/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Switzerland",
+    "locale": "fr-CH",
+    "url": "https://dmbureau.cloud/markets/switzerland/fr",
+    "primaryKeyword": "référencement naturel en Suisse",
+    "secondaryKeywords": [
+      "audit SEO",
+      "SEO local",
+      "gestion Google Ads",
+      "optimisation des conversions",
+      "marketing digital",
+      "visibilité dans les recherches avec IA"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://seo-agent.ch/",
+      "https://www.seo.ch/",
+      "https://www.referencement-suisse.ch/",
+      "https://www.e-perspectives.ch/services/seo/",
+      "https://swissdigitalstrategy.com/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Switzerland",
+    "locale": "it-CH",
+    "url": "https://dmbureau.cloud/markets/switzerland/it",
+    "primaryKeyword": "servizi SEO in Svizzera",
+    "secondaryKeywords": [
+      "consulenza SEO",
+      "audit SEO",
+      "SEO locale",
+      "gestione Google Ads",
+      "ottimizzazione delle conversioni",
+      "visibilità nelle ricerche con IA"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://seo-agent.ch/",
+      "https://www.seo.ch/",
+      "https://www.referencement-suisse.ch/",
+      "https://www.e-perspectives.ch/services/seo/",
+      "https://swissdigitalstrategy.com/"
+    ],
+    "evidence": "Public indexed service pages; candidate keyword themes inferred from headings and service coverage. Ranking positions, volumes and traffic not verified."
+  },
+  {
+    "country": "Ireland",
+    "locale": "en-IE",
+    "url": "https://dmbureau.cloud/markets/ireland",
+    "primaryKeyword": "digital marketing services Ireland",
+    "secondaryKeywords": [
+      "SEO services Ireland",
+      "local SEO Ireland",
+      "Google Ads management Ireland",
+      "PPC management Ireland",
+      "conversion rate optimisation",
+      "AI search visibility"
+    ],
+    "intent": "commercial / service evaluation",
+    "competitorServicePages": [
+      "https://www.globeboss.com/",
+      "https://www.tinderpoint.com/",
+      "https://www.bubblehub.ie/",
+      "https://www.hellodigital.ie/",
+      "https://www.elephantfly.ie/services/digital-marketing-ireland"
+    ],
+    "evidence": "Public indexed service pages; inferred candidate targets, not a ranking export."
+  }
+]

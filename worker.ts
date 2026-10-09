@@ -9,7 +9,11 @@ export default {
    if(url.pathname!=='/'&&url.pathname.endsWith('/'))url.pathname=url.pathname.replace(/\/+$/,'');
    if(url.pathname!==originalPath)return Response.redirect(url.toString(),301);
   }
-  const response=await handler.fetch(request,env,ctx);
+  // Override client input so the document language follows the actual route.
+  const requestHeaders=new Headers(request.headers);
+  requestHeaders.set('x-dmb-pathname',url.pathname);
+  const routedRequest=new Request(request,{headers:requestHeaders});
+  const response=await handler.fetch(routedRequest,env,ctx);
   const secured=new Response(response.body,response);
   secured.headers.set('X-Content-Type-Options','nosniff');
   secured.headers.set('Referrer-Policy','strict-origin-when-cross-origin');

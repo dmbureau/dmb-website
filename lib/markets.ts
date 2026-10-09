@@ -174,5 +174,313 @@ export const markets = [
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Can you reuse our existing campaigns in Kuwait?",
     "answer": "We can review them, but targeting, language, offer suitability and measurement should be checked before reuse. Changes and testing are defined in the agreed scope."
+  },
+  {
+    "slug": "germany",
+    "name": "Germany",
+    "short": "Germany",
+    "headline": "SEO & Digital Marketing Services for Germany Businesses",
+    "summary": "SEO and digital marketing for businesses in Germany. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Germany, we agree whether you serve one region or customers nationwide. German search terms and English enquiries may need different pages. We plan content language and review before writing.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Germany?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "france",
+    "name": "France",
+    "short": "France",
+    "headline": "SEO & Digital Marketing Services for France Businesses",
+    "summary": "SEO and digital marketing for businesses in France. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in France, we start with the services and areas you cover. French service pages help visitors understand the offer. English-speaking customers can use a separate version without automatic redirects.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in France?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "netherlands",
+    "name": "Netherlands",
+    "short": "Netherlands",
+    "headline": "SEO & Digital Marketing Services for Netherlands Businesses",
+    "summary": "SEO and digital marketing for businesses in Netherlands. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in the Netherlands, we separate local demand from wider coverage. Dutch content explains your services to local buyers; English pages can help international buyers where relevant.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Netherlands?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "ireland",
+    "name": "Ireland",
+    "short": "Ireland",
+    "headline": "SEO & Digital Marketing Services for Ireland Businesses",
+    "summary": "SEO and digital marketing for businesses in Ireland. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Ireland, we agree whether you serve one county or customers nationwide. Local SEO and Google Ads should reflect that coverage. This page uses English; Irish-language project content is separately scoped.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Ireland?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "spain",
+    "name": "Spain",
+    "short": "Spain",
+    "headline": "SEO & Digital Marketing Services for Spain Businesses",
+    "summary": "SEO and digital marketing for businesses in Spain. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Spain, we agree whether you serve a city, several provinces or the whole country. This page has a Spanish version. Catalan, Basque and Galician project content requires an agreed scope and language review.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Spain?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "italy",
+    "name": "Italy",
+    "short": "Italy",
+    "headline": "SEO & Digital Marketing Services for Italy Businesses",
+    "summary": "SEO and digital marketing for businesses in Italy. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Italy, we align service pages with the places you can actually serve. Italian copy explains your offer to local customers. Google Ads and contact forms are checked against the same customer needs.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Italy?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "switzerland",
+    "name": "Switzerland",
+    "short": "Switzerland",
+    "headline": "SEO & Digital Marketing Services for Switzerland Businesses",
+    "summary": "SEO and digital marketing for businesses in Switzerland. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Switzerland, language region matters as well as geography. German, French and Italian landing-page versions are available. We agree the cantons, customers and project languages before delivery.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Switzerland?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "sweden",
+    "name": "Sweden",
+    "short": "Sweden",
+    "headline": "SEO & Digital Marketing Services for Sweden Businesses",
+    "summary": "SEO and digital marketing for businesses in Sweden. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Sweden, we separate nearby customers from national demand. Swedish content and clear contact steps help visitors understand your offer. Campaigns follow your genuine service coverage.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Sweden?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "denmark",
+    "name": "Denmark",
+    "short": "Denmark",
+    "headline": "SEO & Digital Marketing Services for Denmark Businesses",
+    "summary": "SEO and digital marketing for businesses in Denmark. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Denmark, we plan Danish content around the areas you serve. Local enquiries and nationwide campaigns need different targeting. We agree which customer actions to measure.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Denmark?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "norway",
+    "name": "Norway",
+    "short": "Norway",
+    "headline": "SEO & Digital Marketing Services for Norway Businesses",
+    "summary": "SEO and digital marketing for businesses in Norway. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Norway, we plan around your actual service areas. A Norwegian Bokmål page is available. Nynorsk and other project languages are agreed separately, with a suitable review process.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Norway?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
+  },
+  {
+    "slug": "poland",
+    "name": "Poland",
+    "short": "Poland",
+    "headline": "SEO & Digital Marketing Services for Poland Businesses",
+    "summary": "SEO and digital marketing for businesses in Poland. India-based DMB works remotely to help customers find you and make useful enquiries.",
+    "context": "For businesses in Poland, we separate local and national searches. Polish service content explains what you offer and where you work. We connect website and advertising changes to useful enquiries.",
+    "priorities": [
+      "Agree the locations and customers you can serve",
+      "Choose the page and project languages before starting",
+      "Make contacting your team easy and track useful enquiries"
+    ],
+    "serviceSlugs": [
+      "on-page-seo",
+      "google-ads-management",
+      "conversion-rate-audit",
+      "ai-search-visibility"
+    ],
+    "industrySlugs": [
+      "professional-services",
+      "saas",
+      "hospitality"
+    ],
+    "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
+    "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
+    "faq": "Do you have an office in Poland?",
+    "answer": "No local office is represented by this page. DMB provides remote services from India. We agree communication and content languages with you before the project starts."
   }
 ];

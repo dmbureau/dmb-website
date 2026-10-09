@@ -1,3 +1,4 @@
+import {marketTranslations} from '@/lib/market-locales';
 import type {Metadata} from 'next';
 export const origin='https://dmbureau.cloud';
 export function pageMeta(title:string,description:string,path:string):Metadata{
@@ -15,11 +16,23 @@ export const marketLanguages: Record<string,string> = {
  'en-GB': origin+'/markets/united-kingdom',
  'en-AE': origin+'/markets/uae',
  'en-KW': origin+'/markets/kuwait',
+ 'en-DE': origin+'/markets/germany',
+ 'en-FR': origin+'/markets/france',
+ 'en-NL': origin+'/markets/netherlands',
+ 'en-IE': origin+'/markets/ireland',
+ 'en-ES': origin+'/markets/spain',
+ 'en-IT': origin+'/markets/italy',
+ 'en-CH': origin+'/markets/switzerland',
+ 'en-SE': origin+'/markets/sweden',
+ 'en-DK': origin+'/markets/denmark',
+ 'en-NO': origin+'/markets/norway',
+ 'en-PL': origin+'/markets/poland',
+ ...Object.fromEntries(marketTranslations.map(page=>[page.locale,origin+'/markets/'+page.slug+'/'+page.language])),
  'en': origin+'/markets',
  'x-default': origin+'/markets',
 };
-export function marketMeta(title:string,description:string,slug?:string):Metadata {
- const path=slug?'/markets/'+slug:'/markets';
+export function marketMeta(title:string,description:string,slug?:string,language?:string):Metadata {
+ const path=slug?'/markets/'+slug+(language?'/'+language:''):'/markets';
  const metadata=pageMeta(title,description,path);
  return {...metadata,alternates:{canonical:origin+path,
    ...(slug==='dubai'?{}:{languages:marketLanguages})}};
