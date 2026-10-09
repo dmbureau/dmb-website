@@ -154,3 +154,10 @@
 .hybrid-photo>img{filter:saturate(.72) contrast(.96);object-fit:cover}
 .hybrid-photo::before{content:'';position:absolute;inset:0 0 auto;width:100%;aspect-ratio:3/2;pointer-events:none;background:#dce9cc;mix-blend-mode:soft-light;opacity:.18;z-index:1}
 .visual-story{background:linear-gradient(120deg,#f7f8f0,#eaf1e4)}
+
+/* Clean cards, without decorative arrows or numbered visual instructions. */
+:is(.service-card,.industry-card,.insight-card,.blog-card,.division-card,.industry-ticker-card) :is(.card-bottom svg,.insight-copy>svg),.industry-card>.card-bottom>svg,.division-card>span>svg,.industry-ticker-card>svg{display:none}
+.industry-carousel{overflow:hidden}
+.industry-carousel .industry-slide{animation:dmb-industry-slide-in .65s cubic-bezier(.2,.7,.3,1) both}
+@keyframes dmb-industry-slide-in{from{transform:translateX(12%)}to{transform:translateX(0)}}
+@media(prefers-reduced-motion:reduce){.industry-carousel .industry-slide{animation:none}}
