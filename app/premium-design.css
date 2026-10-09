@@ -86,3 +86,10 @@
 @media(max-width:760px){.dmb-footer{padding-top:24px}.dmb-footer .footer-contact-band{margin:0 5% 24px;padding:25px 22px;border-radius:16px;flex-direction:column;align-items:flex-start}.dmb-footer .footer-contact-band h2{font-size:29px}.dmb-footer .footer-connect{gap:12px}.dmb-footer .footer-directory{grid-template-columns:repeat(2,minmax(0,1fr));padding:36px 6%;gap:32px 22px}.dmb-footer .footer-directory nav h3{font-size:18px}.dmb-footer .footer-directory nav a{font-size:16px}.dmb-footer .footer-end{flex-wrap:wrap;gap:12px 22px}.dmb-footer .footer-end>span{flex-basis:100%}}
 @media(max-width:390px){.dmb-footer .footer-connect .social-links a,.dmb-footer .footer-contact-icons a{width:40px;height:40px}.dmb-footer .footer-connect .social-links{gap:8px}}
 @media(prefers-reduced-motion:reduce){.dmb-footer .footer-contact-band .text-link,.dmb-footer .footer-connect .social-links a,.dmb-footer .footer-contact-icons a{transition:none}.dmb-footer .footer-contact-band .text-link:hover,.dmb-footer .footer-connect .social-links a:hover,.dmb-footer .footer-contact-icons a:hover{transform:none}}
+
+/* Visible from first paint, with a gentle headline entrance and accent sweep. */
+.brew-hero-copy>h1{animation:dmb-headline-arrive 1s cubic-bezier(.2,.7,.3,1) both!important;opacity:1}
+.brew-hero-copy>h1>span{background-image:linear-gradient(90deg,transparent,#98e36580,transparent);background-repeat:no-repeat;background-size:45% 3px;background-position:-90% 100%;padding-bottom:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone;animation:dmb-headline-accent 5s ease-in-out 1s infinite}
+@keyframes dmb-headline-arrive{from{transform:translateY(8px)}to{transform:translateY(0)}}
+@keyframes dmb-headline-accent{0%,15%{background-position:-90% 100%}65%,100%{background-position:190% 100%}}
+@media(prefers-reduced-motion:reduce){.brew-hero-copy>h1,.brew-hero-copy>h1>span{animation:none!important;transform:none}.brew-hero-copy>h1>span{background-image:none}}
