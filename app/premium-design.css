@@ -176,3 +176,17 @@
 .goal-preview-copy ul{margin:17px 0;gap:9px}
 .goal-preview-copy li{font-size:15px}
 @media(max-width:760px){.goal-explorer{grid-template-columns:1fr;gap:20px}.goal-choices{grid-template-rows:none;gap:9px}.goal-choices button{min-height:60px;padding:16px 18px;font-size:17px}.goal-preview .hybrid-visual,.goal-preview .hybrid-visual>img{height:135px!important;max-height:135px}.goal-preview-copy{padding:22px}.goal-preview-copy h3{font-size:25px}}
+
+/* Balanced homepage challenge columns, with a small supporting image. */
+.goal-section .goal-explorer{grid-template-columns:1fr 1fr!important;align-items:stretch!important;gap:28px}
+.goal-section .goal-choices{display:grid;grid-template-rows:repeat(4,1fr);gap:12px;height:100%}
+.goal-section .goal-choices button{min-height:94px;padding:22px;text-align:left;align-items:center}
+.goal-section .goal-choices button>.goal-choice-text{display:block!important;color:#173e35;font-size:18px}
+.goal-choice-text strong{display:block;font-size:18px;font-weight:700;line-height:1.4}
+.goal-choice-text small{display:block;font-size:14px;font-weight:400;line-height:1.6;color:#526b5b;margin-top:7px}
+.goal-section .goal-preview{display:flex!important;flex-direction:column;min-width:0;height:100%}
+.goal-section .goal-preview .hybrid-visual{flex:0 0 120px!important;height:120px!important;min-height:0!important;max-height:120px!important;aspect-ratio:auto!important;overflow:hidden}
+.goal-section .goal-preview .hybrid-visual>img{height:120px!important;max-height:120px!important;width:100%!important;aspect-ratio:auto!important;object-fit:cover!important}
+.goal-section .goal-preview-copy{padding:23px 26px;flex:1}
+.goal-section .goal-preview-copy h3{font-size:25px}
+@media(max-width:760px){.goal-section .goal-explorer{grid-template-columns:1fr!important}.goal-section .goal-choices{height:auto;grid-template-rows:none}.goal-section .goal-choices button{min-height:82px;padding:17px 19px}.goal-section .goal-preview .hybrid-visual,.goal-section .goal-preview .hybrid-visual>img{height:110px!important;max-height:110px!important;flex-basis:110px!important}}
