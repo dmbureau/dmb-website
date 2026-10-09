@@ -146,3 +146,11 @@
 .goal-preview-copy ul{list-style:none;padding:0;margin:20px 0;display:grid;gap:12px}.goal-preview-copy li{display:flex;gap:10px;font-size:14px;line-height:1.6;color:#365a43}.goal-preview-copy li svg{margin-top:3px;color:#49873e}
 .goal-preview-copy .text-link{display:inline-flex;gap:12px;align-items:center;font-weight:700;color:#285f42}
 @media(max-width:760px){.goal-explorer{grid-template-columns:1fr;gap:22px}.goal-choices button{padding:18px;font-size:17px}.goal-preview-copy{padding:23px}.goal-preview-copy h3{font-size:26px}}
+
+.photograph-compact:has(.hybrid-visual){aspect-ratio:auto;height:auto}.photograph-compact .hybrid-visual>img{height:auto;aspect-ratio:3/2;object-fit:cover}
+
+/* Natural editorial photos, harmonised with DMB's cream and sage palette. */
+.hybrid-photo{background:#edf3e8}
+.hybrid-photo>img{filter:saturate(.72) contrast(.96);object-fit:cover}
+.hybrid-photo::before{content:'';position:absolute;inset:0 0 auto;width:100%;aspect-ratio:3/2;pointer-events:none;background:#dce9cc;mix-blend-mode:soft-light;opacity:.18;z-index:1}
+.visual-story{background:linear-gradient(120deg,#f7f8f0,#eaf1e4)}
