@@ -2,6 +2,7 @@ import {Search,Target,MousePointer2,Filter,LayoutTemplate,SlidersHorizontal,Work
 import type {LucideIcon} from 'lucide-react';
 type Scene={title:string;tag:string;steps:[string,string,string];icon:LucideIcon;kind:string};
 const scenes:Record<string,Scene>={
+ 'online-reputation-management':{title:'Respond with clarity and care',tag:'Reputation / Customer feedback',steps:['Listen to feedback','Agree a response','Follow up clearly'],icon:MessagesSquare,kind:'social'},
  'home-plan':{title:'A plan built around your business',tag:'DMB / Growth planning',steps:['Customer priorities','Connected channels','Clear next step'],icon:Layers3,kind:'network'},
  'home-priority':{title:'Choose the right next improvement',tag:'DMB / Website experience',steps:['Useful offer','Clear service pages','Enquiry journey'],icon:LayoutTemplate,kind:'page'},
 

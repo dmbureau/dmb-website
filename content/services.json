@@ -380,7 +380,8 @@
       "related": [
         "google-business-profile",
         "on-page-seo",
-        "conversion-tracking-setup"
+        "conversion-tracking-setup",
+        "online-reputation-management"
       ],
       "industries": [
         "home-services",
@@ -420,7 +421,8 @@
       "related": [
         "local-seo",
         "landing-page-design",
-        "analytics-dashboards"
+        "analytics-dashboards",
+        "online-reputation-management"
       ],
       "industries": [
         "hospitality",
@@ -1016,7 +1018,8 @@
       "related": [
         "content-strategy",
         "paid-social-advertising",
-        "landing-page-design"
+        "landing-page-design",
+        "online-reputation-management"
       ],
       "number": "26",
       "slug": "social-profile-setup",
@@ -1090,6 +1093,63 @@
         }
       ],
       "metaDescription": "Manage agreed content planning, drafts, approvals, publishing and meaningful reporting."
+    },
+    {
+      "slug": "online-reputation-management",
+      "name": "Online Reputation Management Services",
+      "group": "Social media",
+      "headline": "Online Reputation Management Services",
+      "summary": "Need a clear plan for online reviews, customer feedback and your brand reputation?",
+      "body": "DMB helps businesses manage how they respond to customer reviews and present accurate information online. We review your public profiles, agree the platforms and brand mentions to monitor, and build a practical response process for positive and negative feedback. Online reputation management (ORM) connects review management, brand reputation monitoring and customer follow-up. We help your team explain concerns professionally, escalate sensitive complaints and keep business details consistent. Where a review appears to violate a platform’s rules, we can help document the concern and use its reporting process. Platforms decide whether a review is removed; we do not promise removal or improved ratings.",
+      "fit": "Service businesses, clinics, hotels, travel companies, property businesses and growing brands that need a consistent way to handle public feedback.",
+      "deliverables": [
+        "Review of agreed business profiles, reviews and public brand mentions",
+        "Monitoring plan for agreed platforms, keywords and review frequency",
+        "Response guidelines and drafts for positive, neutral and negative reviews",
+        "Complaint escalation workflow and customer follow-up recommendations",
+        "Genuine customer review request process without fabricated reviews or selective requests for positive ratings",
+        "Monthly reputation summary with feedback themes and agreed next steps"
+      ],
+      "inputs": "Your website, public profile links, platforms to cover, examples of customer feedback and a team contact who can approve responses and investigate complaints.",
+      "measure": "We review response times, unanswered reviews, recurring customer concerns and completed follow-up actions. Rating trends and review sentiment provide context; we do not guarantee a rating, rankings or review removal.",
+      "related": [
+        "google-business-profile",
+        "local-seo",
+        "social-profile-setup",
+        "social-media-content-management"
+      ],
+      "industries": [
+        "hospitality",
+        "healthcare",
+        "real-estate",
+        "travel",
+        "professional-services",
+        "home-services"
+      ],
+      "faq": [
+        {
+          "q": "What is included in online reputation management?",
+          "a": "The agreed scope can include profile reviews, monitoring public feedback and brand mentions, drafting review responses, complaint escalation and reporting. We confirm platforms, monitoring frequency and approval responsibilities before starting."
+        },
+        {
+          "q": "Can you remove negative Google reviews?",
+          "a": "We can help assess and report reviews that appear to violate the platform’s policies. Google makes the removal decision. A negative opinion alone does not guarantee removal, and we cannot delete another person’s review."
+        },
+        {
+          "q": "Do you create reviews or guarantee five-star ratings?",
+          "a": "No. We support requests for genuine customer feedback and clear responses. We do not create fake reviews, guarantee ratings or offer rewards for favourable reviews."
+        },
+        {
+          "q": "Will you publish responses without our approval?",
+          "a": "We agree an approval process first. Responses involving disputed facts, personal information or sensitive complaints are escalated to your team before publication."
+        },
+        {
+          "q": "How much do ORM services cost?",
+          "a": "Pricing depends on the number of profiles, platforms, review volume and monitoring frequency. Share your requirements and we will explain the work, fee and timeline."
+        }
+      ],
+      "number": "28",
+      "metaDescription": "Manage online reviews, brand mentions and customer feedback with DMB’s ORM services. Get a clear response process and reputation management plan."
     }
   ]
 }

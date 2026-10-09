@@ -384,7 +384,8 @@
     "paid-media-strategy": "card-paid-media-strategy",
     "social-media-strategy": "card-social-media-strategy",
     "social-profile-setup": "card-social-profile-setup",
-    "social-media-content-management": "card-social-media-content-management"
+    "social-media-content-management": "card-social-media-content-management",
+    "online-reputation-management": "card-online-reputation-management"
   },
   "features": {
     "google-ads-audit": "feature-service-google-ads-audit",
@@ -413,7 +414,8 @@
     "paid-media-strategy": "feature-service-paid-media-strategy",
     "social-media-strategy": "feature-service-social-media-strategy",
     "social-profile-setup": "feature-service-social-profile-setup",
-    "social-media-content-management": "feature-service-social-media-content-management"
+    "social-media-content-management": "feature-service-social-media-content-management",
+    "online-reputation-management": "feature-service-online-reputation-management"
   },
   "industries": {
     "Real Estate": "feature-industry-real-estate",
