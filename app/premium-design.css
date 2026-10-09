@@ -56,3 +56,33 @@
 @media(min-width:901px) and (max-width:1200px){.header .nav{font-size:18px;gap:16px}.header>a:first-child{margin-right:0}.header .header-cta{font-size:13px;padding-inline:11px}.header .search-btn{display:none}}
 @media(max-width:900px){.header .nav.mobile-open{font-size:23px}.header .mega{max-height:none;overflow:visible}.header .mega-links a{font-size:18px}.header .country-menu-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.header .country-menu-links{grid-template-columns:1fr}}
+
+/* A calm branded footer with a distinct invitation and readable directory. */
+.dmb-footer{background:linear-gradient(145deg,#f8faf4 0%,#edf4ee 65%,#e6f0e8 100%);color:#173e35;border-top:4px solid #98e365;padding-top:36px}
+.dmb-footer .footer-contact-band{margin:0 5% 32px;padding:32px 36px;background:linear-gradient(120deg,#e1efdc,#f7f9ef);border:1px solid #cbdcc6;border-radius:20px;box-shadow:0 12px 30px #173e3508;gap:28px}
+.dmb-footer .footer-contact-band h2{font-size:clamp(28px,3vw,40px);font-weight:700;line-height:1.2;letter-spacing:-.8px;color:#173e35;margin-bottom:18px}
+.dmb-footer .footer-contact-band .text-link{background:#98e365;color:#08323d;border:1px solid #8dd75e;border-radius:9px;padding:13px 20px;font-size:17px;line-height:1.5;text-decoration:none;transition:background .2s,transform .2s}
+.dmb-footer .footer-contact-band .text-link:hover{background:#88d754;transform:translateY(-2px)}
+.dmb-footer .footer-connect{gap:16px;flex-wrap:wrap}
+.dmb-footer .footer-contact-icons{border:0;padding-right:0;gap:10px}
+.dmb-footer .footer-connect .social-links{gap:10px}
+.dmb-footer .footer-connect .social-links a,.dmb-footer .footer-contact-icons a{width:46px;height:46px;background:#ffffffb8;border:1px solid #c7d8ca;border-radius:12px;color:#214c42;box-shadow:0 3px 8px #173e3505;transition:background .2s,transform .2s}
+.dmb-footer .footer-connect .social-links a:hover,.dmb-footer .footer-contact-icons a:hover{background:#d6edc6;color:#08323d;transform:translateY(-3px)}
+.dmb-footer .footer-market-row{background:#e4eee6;border-block:1px solid #d1dfd4;padding-block:25px;gap:18px}
+.dmb-footer .footer-market-row>span{font-size:12px;letter-spacing:1.8px;font-weight:700;color:#436751}
+.dmb-footer .market-marquee-group>a{background:#f9fcf7;border-color:#cadbcd;color:#214c42;font-size:15px;padding:11px 17px;border-radius:999px;text-decoration:none}
+.dmb-footer .market-marquee-group>a:hover{background:#d9efcb;border-color:#9ec68a}
+.dmb-footer .footer-directory{padding:52px 5%;gap:46px;grid-template-columns:1.45fr repeat(3,1fr)}
+.dmb-footer .footer-brand-block p{font-size:16px;line-height:1.8;max-width:330px;color:#4c6657}
+.dmb-footer .footer-brand-link{font-size:16px;font-weight:700;display:inline-flex;align-items:center;gap:12px;border-bottom:2px solid #98e365;padding-bottom:7px}
+.dmb-footer .footer-directory nav h3{font-size:18px;font-weight:750;color:#173e35;margin-bottom:12px;line-height:1.4}
+.dmb-footer .footer-directory nav h3::after{content:'';display:block;width:30px;height:3px;background:#98e365;border-radius:3px;margin-top:12px}
+.dmb-footer .footer-directory nav{gap:13px}
+.dmb-footer .footer-directory nav a{font-size:16px;line-height:1.65;color:#4c6657}
+.dmb-footer .footer-directory nav a:hover{color:#173e35}
+.dmb-footer .footer-end{background:#e4eee6;border-top:1px solid #ceded1;font-size:13px;line-height:1.6;padding-block:22px;color:#486252;gap:20px}
+.dmb-footer a:focus-visible{outline:2px solid #397445;outline-offset:4px;border-radius:4px}
+@media(max-width:1000px){.dmb-footer .footer-directory{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.dmb-footer .footer-brand-block{grid-column:1/-1}}
+@media(max-width:760px){.dmb-footer{padding-top:24px}.dmb-footer .footer-contact-band{margin:0 5% 24px;padding:25px 22px;border-radius:16px;flex-direction:column;align-items:flex-start}.dmb-footer .footer-contact-band h2{font-size:29px}.dmb-footer .footer-connect{gap:12px}.dmb-footer .footer-directory{grid-template-columns:repeat(2,minmax(0,1fr));padding:36px 6%;gap:32px 22px}.dmb-footer .footer-directory nav h3{font-size:18px}.dmb-footer .footer-directory nav a{font-size:16px}.dmb-footer .footer-end{flex-wrap:wrap;gap:12px 22px}.dmb-footer .footer-end>span{flex-basis:100%}}
+@media(max-width:390px){.dmb-footer .footer-connect .social-links a,.dmb-footer .footer-contact-icons a{width:40px;height:40px}.dmb-footer .footer-connect .social-links{gap:8px}}
+@media(prefers-reduced-motion:reduce){.dmb-footer .footer-contact-band .text-link,.dmb-footer .footer-connect .social-links a,.dmb-footer .footer-contact-icons a{transition:none}.dmb-footer .footer-contact-band .text-link:hover,.dmb-footer .footer-connect .social-links a:hover,.dmb-footer .footer-contact-icons a:hover{transform:none}}
