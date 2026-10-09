@@ -201,3 +201,16 @@
 .goal-section .goal-preview-copy h3{font-size:27px;line-height:1.25}
 @media(max-width:1000px){.goal-preview-thumbnail{width:130px;margin-left:16px}.goal-section .goal-preview-copy h3{font-size:24px}}
 @media(max-width:480px){.goal-preview-thumbnail{float:none;width:150px;margin:0 0 20px}.goal-section .goal-preview-copy{padding:23px}.goal-section .goal-preview-copy>p{padding-top:0}}
+
+/* Comfortable reading size on service and industry detail pages. */
+.detail-layout .content-section>p,.detail-layout .numbered-steps p{font-size:20px;line-height:1.8;color:#425d50}
+.detail-layout .content-section h3{font-size:27px;line-height:1.35;margin-top:30px}
+.detail-layout .content-section h2{font-size:clamp(31px,2.8vw,40px);line-height:1.25}
+.detail-layout .check-list li,.detail-layout .faq-list p{font-size:18px;line-height:1.75}
+.detail-layout .faq-list summary{font-size:19px;line-height:1.5}
+.detail-layout aside p{font-size:18px;line-height:1.75}
+.detail-layout aside .check-list li{font-size:17px;line-height:1.65}
+.detail-layout aside .button,.detail-layout aside .text-link{font-size:17px}
+.detail-layout .eyebrow{font-size:13px;line-height:1.5;letter-spacing:1.1px}
+.detail-layout .scope-note,.detail-layout aside .small-note{font-size:15px;line-height:1.7}
+@media(max-width:760px){.detail-layout .content-section>p,.detail-layout .numbered-steps p{font-size:18px;line-height:1.75}.detail-layout .content-section h3{font-size:24px}.detail-layout .check-list li,.detail-layout .faq-list p{font-size:17px}}
