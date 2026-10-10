@@ -9,6 +9,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import './initial-paint.css';
 import './premium-design.css';
+import './layout-refinement.css';
 import { Header, Footer } from '@/components/site-shell';
 import { Schema } from '@/components/blocks';
 import {PageMotion} from '@/components/page-motion';

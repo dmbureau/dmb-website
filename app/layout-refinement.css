@@ -1,0 +1,35 @@
+/* Shared editorial layout: visible content, consistent scale and restrained brand color. */
+:root{--dmb-ink:#173e35;--dmb-muted:#52685e;--dmb-paper:#fffef9;--dmb-sage:#edf3eb;--dmb-line:#dce6dc}
+body{background:var(--dmb-paper);color:var(--dmb-ink)}
+main{overflow-wrap:break-word}
+main .section,main .page-intro{max-width:1280px;margin-inline:auto;padding-inline:clamp(22px,5vw,72px)}
+main .section{padding-block:clamp(42px,5vw,72px)}
+main .page-intro{padding-block:clamp(36px,5vw,68px)}
+main h1{line-height:1.12;letter-spacing:-.035em;text-wrap:balance}
+main h2{font-size:clamp(28px,3vw,42px);line-height:1.2;letter-spacing:-.025em;text-wrap:balance}
+main h3{font-size:clamp(21px,2vw,26px);line-height:1.3}
+main p{color:var(--dmb-muted);line-height:1.75}
+main .page-intro p,main .content-section p,main .section-heading p{font-size:18px;max-width:68ch}
+main .content-section{padding-block:30px;border-bottom:1px solid var(--dmb-line);margin-block:0}
+main .content-section:first-child{padding-top:0}
+main .content-section h2{margin:12px 0 20px}
+main .content-section h3{margin:26px 0 12px}
+main .detail-layout{gap:48px;grid-template-columns:minmax(0,1fr) minmax(260px,320px)}
+main .scope-aside{background:var(--dmb-sage);border:1px solid var(--dmb-line);border-radius:18px;padding:28px;box-shadow:none}
+main .service-page-nav{display:flex;flex-wrap:wrap;gap:10px;max-width:1136px;margin:0 auto;padding:18px 24px;border-block:1px solid var(--dmb-line);background:var(--dmb-paper)}
+main .service-page-nav a{font-size:16px;padding:10px 16px;border-radius:24px;background:var(--dmb-sage);color:var(--dmb-ink)}
+main .service-grid{gap:22px;border:0}
+main :is(.service-card,.industry-card,.blog-card){border:1px solid var(--dmb-line);border-radius:16px;background:#fff;padding:24px;box-shadow:0 5px 22px #173e3505}
+main :is(.service-card,.industry-card,.blog-card) p{font-size:17px;line-height:1.65}
+main .detail-title{align-items:center;gap:40px}
+main .service-visual .photograph-feature{max-height:340px;aspect-ratio:3/2;overflow:hidden;border-radius:18px}
+main .bureau-visual{max-width:720px;margin:32px auto 0}
+main .check-list li,main .faq-list p,main .numbered-steps p{font-size:17px;line-height:1.7}
+main .faq-list details{background:#fff;border:1px solid var(--dmb-line);border-radius:12px;margin-bottom:12px;padding:20px 24px}
+main .faq-list summary{font-size:19px;line-height:1.5}
+main .brew-hero{background:linear-gradient(115deg,#f8f8ee,#edf3e9);padding-block:clamp(48px,6vw,84px)}
+main .brew-hero-copy>p{font-size:18px;line-height:1.75}
+.reveal-pending,.motion-heading,.motion-card{opacity:1!important;visibility:visible!important;transform:none!important}
+@media(min-width:901px){main .detail-title{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+@media(max-width:900px){main .detail-layout{grid-template-columns:1fr;gap:28px}main .scope-aside{position:static}main .detail-title{grid-template-columns:1fr}main .service-visual{max-width:600px;width:100%;justify-self:start}}
+@media(max-width:600px){main .section{padding-block:40px}main .page-intro p,main .content-section p,main .brew-hero-copy>p{font-size:17px}main .service-page-nav{padding-inline:22px}main .service-page-nav a{font-size:15px;padding:9px 12px}main .faq-list details{padding:18px}main .service-visual .photograph-feature{max-height:260px}}
