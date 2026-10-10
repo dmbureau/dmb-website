@@ -1,3 +1,4 @@
+import marpixelRoutes from '@/content/marpixel-routes.json';
 import marpixelHome from '@/content/marpixel-home.json';
 import handler from "vinext/server/fetch-handler";
 import {services,industries} from "@/lib/content";
@@ -9,6 +10,16 @@ export default {
  async fetch(request:Request,env:Cloudflare.Env,ctx:ExecutionContext){
   const url=new URL(request.url);
   if(url.protocol==='http:'||url.hostname==='www.dmbureau.cloud'){url.protocol='https:';if(url.hostname==='www.dmbureau.cloud')url.hostname='dmbureau.cloud';return Response.redirect(url.toString(),308)}
+  if(request.method==='GET'||request.method==='HEAD'){
+   const assets=(env as unknown as {ASSETS:{fetch(r:Request):Promise<Response>}}).ASSETS;
+   const path=url.pathname.replace(/\/+$/,'')||'/';
+   if((marpixelRoutes as string[]).includes(path)||path.startsWith('/theme/')||path.startsWith('/images/')||['/robots.txt','/sitemap.xml','/favicon.png','/dmb-logo.svg','/dmb-full-logo.png','/dmb-full-logo-white.png'].includes(path)){
+    const assetUrl=new URL(url);assetUrl.pathname='/marpixel'+((marpixelRoutes as string[]).includes(path)?(path==='/'?'/index.html':path+'/index.html'):path);
+    const response=await assets.fetch(new Request(assetUrl,{method:request.method}));
+    const headers=new Headers(response.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Cache-Control',assetUrl.pathname.endsWith('.html')?'public, max-age=0, must-revalidate':'public, max-age=3600');
+    return new Response(response.body,{status:response.status,headers});
+   }
+  }
   if(request.method==='GET'||request.method==='HEAD'){
    const originalPath=url.pathname;
    const toolRedirects:Record<string,string>={"/tools/ads-audit":"/services/google-ads-management","/tools/seo-audit":"/services/technical-seo-audit","/tools/social-media-audit":"/services/social-media-content-management","/tools/local-seo-audit":"/services/local-seo"};

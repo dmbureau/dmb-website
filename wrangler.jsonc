@@ -29,5 +29,11 @@
       "pattern": "www.dmbureau.cloud/*",
       "zone_name": "dmbureau.cloud"
     }
-  ]
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none"
+  }
 }
