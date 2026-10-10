@@ -75,3 +75,13 @@ body.dmb-theme-site .theme-service-page .theme-page-hero{padding-bottom:65px}.th
 
 .marpixel-about-visual>.premium-visual{height:520px!important;max-height:none!important;border-radius:120px 24px 24px 24px!important;overflow:hidden}.marpixel-about-visual>.premium-visual img{width:100%;height:100%;object-fit:cover}
 @media(max-width:800px){.marpixel-about-visual>.premium-visual{height:380px!important}}
+
+/* Market links live in the footer, outside the primary desktop/mobile navigation. */
+.theme-shell-footer .dmb-footer-market-directory{max-width:1200px;margin:28px auto 20px;padding:28px 24px;border-top:1px solid rgba(255,255,255,.18)}
+.theme-shell-footer .dmb-footer-market-directory h3{font-size:20px;line-height:1.3;margin:0 0 18px;color:inherit}
+.theme-shell-footer .dmb-footer-market-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px 24px}
+.theme-shell-footer .dmb-footer-market-grid a,.theme-shell-footer .dmb-footer-all-markets{display:inline-block;line-height:1.6;text-decoration:none;color:inherit;opacity:.82}
+.theme-shell-footer .dmb-footer-market-grid a:hover,.theme-shell-footer .dmb-footer-market-grid a:focus-visible,.theme-shell-footer .dmb-footer-all-markets:hover{opacity:1;text-decoration:underline;text-underline-offset:4px}
+.theme-shell-footer .dmb-footer-all-markets{margin-top:20px;font-weight:600;opacity:1}
+@media(max-width:900px){.theme-shell-footer .dmb-footer-market-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:540px){.theme-shell-footer .dmb-footer-market-directory{padding:25px 18px}.theme-shell-footer .dmb-footer-market-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
