@@ -3,13 +3,16 @@ import {services,industries} from "@/lib/content";
 import {markets} from "@/lib/markets";
 import {articles} from "@/lib/articles";
 import {marketTranslations} from "@/lib/market-locales";
-const canonicalPages=new Set(["/","/services","/industries","/markets","/blog","/about","/contact","/privacy","/dmb-audit","/performance-marketing","/organic-marketing","/seo-bureau","/ppc-bureau","/smm-bureau","/tools","/tools/seo-audit","/tools/ads-audit","/tools/social-media-audit","/tools/local-seo-audit",...services.map(s=>"/services/"+s.slug),...industries.map(i=>"/industries/"+i.slug),...markets.map(m=>"/markets/"+m.slug),...articles.map(a=>"/blog/"+a.slug),...marketTranslations.map(p=>"/markets/"+p.slug+"/"+p.language)]);
+const canonicalPages=new Set(["/","/services","/industries","/markets","/blog","/about","/contact","/privacy","/dmb-audit","/performance-marketing","/organic-marketing","/seo-bureau","/ppc-bureau","/smm-bureau","/tools",...services.map(s=>"/services/"+s.slug),...industries.map(i=>"/industries/"+i.slug),...markets.map(m=>"/markets/"+m.slug),...articles.map(a=>"/blog/"+a.slug),...marketTranslations.map(p=>"/markets/"+p.slug+"/"+p.language)]);
 export default {
  async fetch(request:Request,env:Cloudflare.Env,ctx:ExecutionContext){
   const url=new URL(request.url);
   if(url.protocol==='http:'||url.hostname==='www.dmbureau.cloud'){url.protocol='https:';if(url.hostname==='www.dmbureau.cloud')url.hostname='dmbureau.cloud';return Response.redirect(url.toString(),308)}
   if(request.method==='GET'||request.method==='HEAD'){
    const originalPath=url.pathname;
+   const toolRedirects:Record<string,string>={"/tools/ads-audit":"/services/google-ads-management","/tools/seo-audit":"/services/technical-seo-audit","/tools/social-media-audit":"/services/social-media-content-management","/tools/local-seo-audit":"/services/local-seo"};
+   const toolDestination=toolRedirects[url.pathname.replace(/\/+$/,'')];if(toolDestination){url.pathname=toolDestination;url.hash='service-audit';return Response.redirect(url.toString(),301)}
+
    const serviceRedirects:Record<string,string>={"/services/google-ads-audit":"/services/google-ads-management","/services/google-business-profile":"/services/local-seo","/services/conversion-rate-audit":"/services/conversion-optimization","/services/conversion-tracking-setup":"/services/conversion-optimization","/services/social-media-strategy":"/services/social-media-content-management","/services/social-profile-setup":"/services/social-media-content-management","/services/seo-second-opinion":"/services/technical-seo-audit","/services/email-lead-nurturing":"/services/marketing-automation","/services/lead-quality-optimization":"/services/conversion-optimization","/services/content-strategy":"/services/on-page-seo","/services/retargeting-campaigns":"/services/paid-media-strategy"};
    const destination=serviceRedirects[url.pathname.replace(/\/+$/,'')];if(destination){url.pathname=destination;return Response.redirect(url.toString(),301)}
 
@@ -30,7 +33,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-audit-channel-discovery-27');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-service-embedded-tools-28');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);

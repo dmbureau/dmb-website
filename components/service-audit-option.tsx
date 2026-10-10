@@ -1,7 +1,13 @@
-import Link from '@/components/navigation-link';
+import {Schema} from '@/components/blocks';
+import {origin} from '@/lib/site';
+import {HeroAudit} from '@/components/hero-audit';
+import {AdsAuditWorkspace} from '@/components/ads-audit-workspace';
+import {SocialAuditWorkspace} from '@/components/social-audit-workspace';
+import {LocalAuditWorkspace} from '@/components/local-audit-workspace';
 import {auditForService} from '@/lib/audit-tools';
 import styles from './service-audit-option.module.css';
-export function ServiceAuditOption({slug}:{slug:string}){const audit=auditForService(slug);return <section className={styles.option}><div><span>CHECK BEFORE YOU PLAN</span><h2>Start with an audit.</h2><p>Review the relevant website signals or supply account evidence in the tool. Use the findings to choose the work you need.</p></div><Link className="button" href={audit.href+'?service='+encodeURIComponent(slug)}>{audit.label} →</Link></section>}
+export function ServiceAuditOption({slug}:{slug:string}){const audit=auditForService(slug);const kind=slug==='local-seo'?'local':/social|reputation/.test(slug)&&slug!=='paid-social-advertising'?'social':/ads|advertising|paid|retarget/.test(slug)?'ads':/seo|search|content/.test(slug)?'seo':'all';const primary=['google-ads-management','technical-seo-audit','social-media-content-management','local-seo'].includes(slug);return <section id="service-audit" className={styles.embedded}><details open={primary}><summary><span>FREE AUDIT &amp; OPTIMIZATION</span><h2>{audit.label}</h2><p>Use the tool here, then choose the service scope you need.</p></summary><div className={styles.workspace}>{kind==='local'?<LocalAuditWorkspace/>:kind==='ads'?<AdsAuditWorkspace initialPlatform={slug==='paid-social-advertising'?'meta':slug==='linkedin-advertising'?'linkedin':'google'}/>:kind==='social'?<SocialAuditWorkspace/>:<HeroAudit fullPage auditKind={kind}/>}</div></details><Schema data={{'@context':'https://schema.org','@type':'WebApplication',name:audit.label,url:origin+'/services/'+slug+'#service-audit',applicationCategory:'BusinessApplication',operatingSystem:'Web browser',offers:{'@type':'Offer',price:0,priceCurrency:'USD'},publisher:{'@id':origin+'/#organization'}}}/></section>}
+
 const sections:Record<string,{title:string;body:string}[]>={
  'google-ads-management':[{title:'Google Ads audit',body:'Review account evidence, search terms, campaign settings, budget use and conversion measurement. Choose an audit-only scope if you want priorities before ongoing work.'},{title:'Campaign setup and ongoing management',body:'Build or improve campaigns, refine ad messages and queries, and review useful inquiries. Advertising spend and the management fee are agreed separately.'}],
  'local-seo':[{title:'Local website and search optimization',body:'Align genuine service areas, useful local pages and consistent business details with customer searches.'},{title:'Google Business Profile optimization',body:'Review eligibility, categories, services, approved photos, contact links and review response processes. This can be booked as a focused scope.'}],
