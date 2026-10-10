@@ -55,15 +55,15 @@
     "keywordServices": [
       {
         "label": "SEO Beratung",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO Audit",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "lokale SEO",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "Google Ads Betreuung",
@@ -75,7 +75,7 @@
       },
       {
         "label": "KI-Sichtbarkeit",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -135,11 +135,11 @@
     "keywordServices": [
       {
         "label": "audit SEO",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO local",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "gestion Google Ads",
@@ -151,11 +151,11 @@
       },
       {
         "label": "marketing digital",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "visibilité dans les recherches avec IA",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -215,15 +215,15 @@
     "keywordServices": [
       {
         "label": "SEO advies",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO audit",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "lokale SEO",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "Google Ads beheer",
@@ -235,7 +235,7 @@
       },
       {
         "label": "AI vindbaarheid",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -295,11 +295,11 @@
     "keywordServices": [
       {
         "label": "auditoría SEO",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO local",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "gestión Google Ads",
@@ -307,7 +307,7 @@
       },
       {
         "label": "marketing digital",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "optimización de conversiones",
@@ -315,7 +315,7 @@
       },
       {
         "label": "visibilidad en búsquedas con IA",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -375,15 +375,15 @@
     "keywordServices": [
       {
         "label": "consulenza SEO",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "audit SEO",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO locale",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "gestione Google Ads",
@@ -395,7 +395,7 @@
       },
       {
         "label": "visibilità nelle ricerche con IA",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -455,11 +455,11 @@
     "keywordServices": [
       {
         "label": "SEO analys",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "lokal SEO",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "Google Ads hantering",
@@ -467,7 +467,7 @@
       },
       {
         "label": "digital marknadsföring",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "konverteringsoptimering",
@@ -475,7 +475,7 @@
       },
       {
         "label": "synlighet i AI-sökningar",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -535,11 +535,11 @@
     "keywordServices": [
       {
         "label": "SEO analyse",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "lokal SEO",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "Google Ads administration",
@@ -547,7 +547,7 @@
       },
       {
         "label": "digital markedsføring",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "konverteringsoptimering",
@@ -555,7 +555,7 @@
       },
       {
         "label": "synlighed i AI-søgninger",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -615,11 +615,11 @@
     "keywordServices": [
       {
         "label": "SEO analyse",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "lokal SEO",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "Google Ads administrasjon",
@@ -627,7 +627,7 @@
       },
       {
         "label": "digital markedsføring",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "konverteringsoptimalisering",
@@ -635,7 +635,7 @@
       },
       {
         "label": "synlighet i KI-søk",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -695,11 +695,11 @@
     "keywordServices": [
       {
         "label": "audyt SEO",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "pozycjonowanie lokalne",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "prowadzenie Google Ads",
@@ -707,7 +707,7 @@
       },
       {
         "label": "marketing internetowy",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "optymalizacja konwersji",
@@ -715,7 +715,7 @@
       },
       {
         "label": "widoczność w wyszukiwaniu z AI",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -775,15 +775,15 @@
     "keywordServices": [
       {
         "label": "SEO Beratung",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO Audit",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "lokale SEO",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "Google Ads Betreuung",
@@ -795,7 +795,7 @@
       },
       {
         "label": "KI-Sichtbarkeit",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -855,11 +855,11 @@
     "keywordServices": [
       {
         "label": "audit SEO",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO local",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "gestion Google Ads",
@@ -871,11 +871,11 @@
       },
       {
         "label": "marketing digital",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "visibilité dans les recherches avec IA",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   },
@@ -935,15 +935,15 @@
     "keywordServices": [
       {
         "label": "consulenza SEO",
-        "slug": "on-page-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "audit SEO",
-        "slug": "technical-seo-audit"
+        "slug": "seo-bureau"
       },
       {
         "label": "SEO locale",
-        "slug": "local-seo"
+        "slug": "seo-bureau"
       },
       {
         "label": "gestione Google Ads",
@@ -955,7 +955,7 @@
       },
       {
         "label": "visibilità nelle ricerche con IA",
-        "slug": "ai-search-visibility"
+        "slug": "seo-bureau"
       }
     ]
   }

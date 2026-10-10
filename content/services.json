@@ -186,30 +186,27 @@
       "metaDescription": "Review conversion journeys, lead quality and GA4 tracking. Improve forms and landing-page decisions, then measure successful customer actions."
     },
     {
-      "slug": "technical-seo-audit",
-      "name": "Technical SEO Audit & Independent Review",
+      "slug": "seo-bureau",
+      "name": "SEO Bureau Services",
       "group": "Google search & content",
-      "headline": "Technical SEO Audit & Independent Review Services",
-      "summary": "Find technical search problems and get an independent review of your current SEO recommendations.",
-      "body": "We examine important business pages, crawlability, indexing, canonical URLs, redirects and site structure. Each finding explains the affected URLs, available evidence, priority and recommended fix. If you need a second opinion, we also review your existing SEO reports and proposed tasks against your goals. The independent review distinguishes supported recommendations from questions that need more evidence. Choose an audit, a review of existing advice, or both; implementation is scoped separately.",
-      "fit": "Websites with missing search results, broken links or technical problems that need investigation.",
+      "headline": "SEO Services for Search, Local & AI Visibility",
+      "summary": "Technical, on-page, off-page and local SEO, content strategy and AI visibility in one connected service.",
+      "body": "SEO Bureau brings together the work needed to make your business discoverable and useful to customers. We audit technical issues, improve important service pages and plan supporting content. Local search connects genuine service areas with an eligible Google Business Profile. Off-page work focuses on relevant publisher outreach, accurate citations and useful brand mentions. Migration support, traffic recovery and AI search visibility can be included when they match your needs. Choose a focused scope or a connected SEO plan.",
+      "fit": "Businesses needing a focused SEO task or a connected organic search plan.",
       "deliverables": [
-        "Check of whether search engines can read important pages",
-        "Review of page addresses, redirects and sitemap",
-        "Checks of page links and website templates",
-        "A clear fix list for you and your developer",
-        "Priorities, responsibilities and a clear next-step recommendation",
-        "Review of your current plan and reports",
-        "Check of important service pages",
-        "Explanation of gaps and unclear claims",
-        "Independent recommendations and questions for your provider"
+        "Technical audit and prioritized fixes",
+        "On-page SEO and content planning",
+        "Relevant outreach and business citations",
+        "Local SEO and Google Business Profile optimization",
+        "Migration and recovery support where needed",
+        "AI SEO, AEO and GEO review"
       ],
-      "inputs": "Your website, available Search Console access, recent changes and existing SEO reports or recommendations you want reviewed.",
-      "measure": "We review whether intended pages can be found and included in search results, using the available reports.",
+      "inputs": "Your website, customer locations, accurate business information, available Search Console access and details of existing SEO work.",
+      "measure": "Review available indexing, relevant search visits, inquiries and completed improvements. Rankings and AI mentions are not guaranteed.",
       "related": [
-        "on-page-seo",
-        "seo-migration-support",
-        "organic-traffic-recovery"
+        "landing-page-design",
+        "website-speed-optimization",
+        "conversion-optimization"
       ],
       "industries": [
         "ecommerce",
@@ -217,241 +214,23 @@
         "travel",
         "professional-services",
         "real-estate",
-        "education"
-      ],
-      "faq": [
-        {
-          "q": "Will you implement the technical SEO fixes?",
-          "a": "Implementation can be included as a separate agreed task or handled by your developers. The audit provides specific recommendations and checks for validating completed fixes."
-        },
-        {
-          "q": "How do I get a quote for Technical SEO Audit & Independent Review?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        },
-        {
-          "q": "Do I need to change my SEO agency?",
-          "a": "No. The review can help you ask better questions and agree clearer priorities with your current provider. Any implementation or ongoing support is a separate decision."
-        }
-      ],
-      "number": "05",
-      "metaDescription": "Audit crawling, indexing, redirects and canonicals, or get an independent review of your SEO plan. Receive evidence and clear implementation priorities."
-    },
-    {
-      "slug": "on-page-seo",
-      "name": "On-page SEO & Content Strategy",
-      "group": "Google search & content",
-      "headline": "On-page SEO & Content Strategy Services",
-      "summary": "Connect customer searches with useful service pages, clear content briefs and a practical publishing plan.",
-      "body": "We map customer problems, commercial searches and comparison questions to suitable pages. The plan identifies where to improve existing service pages and where supporting content is useful. On-page work covers titles, headings, descriptions, useful copy and internal links. Content strategy sets priorities, briefs and routes from guides to the relevant service. Choose planning, optimization of agreed pages, or both; full article production is agreed separately. Keywords support accurate buying information and are used naturally.",
-      "fit": "Businesses whose service pages are unclear or attract people looking for something else.",
-      "deliverables": [
-        "Research of customer questions and search phrases",
-        "Improved page titles, headings and descriptions",
-        "Clearer service content on the agreed pages",
-        "Useful links between related pages",
-        "Priorities, responsibilities and a clear next-step recommendation",
-        "Research of customer problems and buying questions",
-        "Plan for useful service pages and articles",
-        "Writing instructions for the agreed content",
-        "Links and contact options to include"
-      ],
-      "inputs": "Your services, customer locations, accurate business information, existing content and website access for the agreed work.",
-      "measure": "We review relevant search visits and enquiries from the agreed pages where tracking is available.",
-      "related": [
-        "technical-seo-audit",
-        "local-seo",
-        "ai-search-visibility",
-        "b2b-lead-generation"
-      ],
-      "industries": [
-        "professional-services",
+        "education",
         "healthcare",
-        "real-estate",
-        "travel"
-      ],
-      "faq": [
-        {
-          "q": "Do you optimise for leads or keyword rankings?",
-          "a": "We connect relevant keywords to pages that can help customers buy. Rankings and traffic are supporting indicators; enquiry quality is reviewed when your tracking and sales information allow it."
-        },
-        {
-          "q": "How do I get a quote for On-page SEO & Content Strategy?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        },
-        {
-          "q": "Will every keyword need a new page?",
-          "a": "No. Similar searches can often be answered on one strong page. We recommend separate pages when the offer, audience or buying decision is meaningfully different."
-        }
-      ],
-      "number": "06",
-      "metaDescription": "Improve service pages, titles, headings and internal links. Plan SEO content briefs around customer questions, commercial intent and useful next steps."
-    },
-    {
-      "slug": "local-seo",
-      "name": "Local SEO & Google Business Profile Services",
-      "group": "Google search & content",
-      "headline": "Local SEO & Google Business Profile Services",
-      "summary": "Help nearby customers find you through local search, Google Maps and accurate business profiles.",
-      "body": "Local SEO connects your genuine service areas, website service pages and an eligible Google Business Profile. We review local searches, business details, categories, services, photos, website links and contact paths. Work follows where you operate and the business details you can substantiate.",
-      "fit": "Businesses serving genuine towns, cities or local service areas.",
-      "deliverables": [
-        "Review of local searches and nearby competitors",
-        "Improvements to agreed location and service pages",
-        "Check of consistent business details online",
-        "Recommendations for tracking calls and enquiries",
-        "Priorities, responsibilities and a clear next-step recommendation",
-        "Check of business listing information and eligibility",
-        "Recommendations for categories and services",
-        "Plan for useful photos, updates and review replies",
-        "Check of website, contact and booking links"
-      ],
-      "inputs": "Your real business locations, service areas, approved contact details and profile access.",
-      "measure": "We review local enquiries, calls and bookings alongside available search visibility reports.",
-      "related": [
-        "on-page-seo",
-        "conversion-optimization",
-        "online-reputation-management"
-      ],
-      "industries": [
         "home-services",
-        "healthcare",
         "hospitality"
       ],
       "faq": [
         {
-          "q": "Can you help my business appear on Google Maps?",
-          "a": "We can improve eligible profiles, consistency and supporting website content. Google determines Maps visibility; proximity, relevance and other factors mean positions cannot be guaranteed."
+          "q": "Can I book one SEO task rather than a full plan?",
+          "a": "Yes. Choose an audit, on-page work, local search, outreach or another agreed scope from this page."
         },
         {
-          "q": "Is Google Business Profile different from Local SEO?",
-          "a": "Your profile is one part of Local SEO. Website service pages, accurate business information and genuine local relevance also help customers understand and choose your business."
-        },
-        {
-          "q": "Can I choose Business Profile work only?",
-          "a": "Yes. Business Profile optimization is available as a focused scope within our Local SEO service. We agree the profile tasks, access, deliverables and fees before work starts."
+          "q": "Are rankings or AI citations guaranteed?",
+          "a": "No. Search engines, publishers and AI tools decide what to show. We agree the work and review available evidence."
         }
       ],
-      "number": "07",
-      "metaDescription": "Local SEO and Google Business Profile support for genuine service areas, useful local pages and clear contact options."
-    },
-    {
-      "slug": "seo-migration-support",
-      "name": "SEO Website Migration Services",
-      "group": "Google search & content",
-      "headline": "SEO Website Migration Services",
-      "summary": "Changing your website without losing useful search traffic?",
-      "body": "We identify valuable existing URLs, map suitable replacements and review the proposed site before launch. After launch, checks cover redirects, indexing signals and internal links so problems can be addressed promptly. SEO migration support preserves the connection between old URLs and their suitable replacements. Redirect mapping, canonical URLs and indexability checks help search engines understand the new website structure.",
-      "fit": "Businesses changing their domain, website platform, design or page structure.",
-      "deliverables": [
-        "List matching important old pages to new pages",
-        "Plan to send old links to the correct new pages",
-        "Checks before launch",
-        "Checks after launch and a list of issues",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Old and new website information, access where needed, your launch date and planned changes.",
-      "measure": "We check that important old links reach the right pages and monitor available search reports after launch.",
-      "related": [
-        "technical-seo-audit",
-        "organic-traffic-recovery",
-        "on-page-seo"
-      ],
-      "industries": [
-        "ecommerce",
-        "saas",
-        "professional-services"
-      ],
-      "faq": [
-        {
-          "q": "When should SEO migration planning start?",
-          "a": "Before URLs, templates and launch plans are finalised. Early planning makes it easier to preserve useful content and avoid discovering missing redirects after the new website goes live."
-        },
-        {
-          "q": "How do I get a quote for SEO Website Migration?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "08",
-      "metaDescription": "Plan URL mappings, redirects and launch checks when your domain, CMS or website structure changes."
-    },
-    {
-      "slug": "organic-traffic-recovery",
-      "name": "Organic Traffic Recovery Services",
-      "group": "Google search & content",
-      "headline": "Organic Traffic Recovery Services",
-      "summary": "Has your traffic from Google dropped?",
-      "body": "We compare the timing and scope of the decline using available Search Console and analytics data. Technical changes, lost pages and changes in customer demand are examined before recommending a recovery plan. Organic traffic recovery starts by separating indexing, content, migration and measurement problems. Search Console and website evidence guide the investigation before a recovery plan is proposed.",
-      "fit": "Businesses that have seen a clear drop in visitors or enquiries from search results.",
-      "deliverables": [
-        "Review of search and website visitor reports",
-        "Investigation of website and content changes",
-        "Identification of affected pages and searches",
-        "Recommended next steps in order of importance",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Historical reports, dates of website changes and details of previous SEO work.",
-      "measure": "We review affected pages and useful search enquiries over an agreed period.",
-      "related": [
-        "technical-seo-audit",
-        "seo-migration-support",
-        "on-page-seo"
-      ],
-      "industries": [
-        "travel",
-        "ecommerce",
-        "saas"
-      ],
-      "faq": [
-        {
-          "q": "Can you guarantee that lost rankings will return?",
-          "a": "No. Recovery depends on the cause and wider search conditions. We explain the evidence, prioritise controllable issues and monitor relevant pages after agreed fixes."
-        },
-        {
-          "q": "How do I get a quote for Organic Traffic Recovery?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "09",
-      "metaDescription": "Investigate search traffic drops using available Search Console data, analytics and website change history."
-    },
-    {
-      "slug": "ai-search-visibility",
-      "name": "AI SEO, AEO & GEO Services",
-      "group": "Google search & content",
-      "headline": "AI SEO, AEO & GEO Services",
-      "summary": "Want your business information to be clearer for AI search?",
-      "body": "We review whether your pages answer real customer questions, explain your expertise and can be accessed by relevant search systems. Clear answers and consistent business details support the work. AI tools choose their sources, so citations are not promised. AI search optimisation, answer engine optimisation (AEO) and generative engine optimisation (GEO) focus on clear, accessible and consistent business information. We review entity definitions, structured data and answer content without promising AI citations.",
-      "fit": "Businesses wanting a clearer explanation of how their website supports Google and AI search.",
-      "deliverables": [
-        "Review of business and service information",
-        "Check of accessible content and clear answers",
-        "Recommendations for supporting evidence",
-        "An agreed way to observe available search and AI results",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Your website, accurate business information, approved supporting material and common customer questions.",
-      "measure": "We review available mentions, visits and enquiries alongside normal search reports. AI results can vary between questions and users.",
-      "related": [
-        "on-page-seo",
-        "technical-seo-audit"
-      ],
-      "industries": [
-        "saas",
-        "professional-services",
-        "healthcare"
-      ],
-      "faq": [
-        {
-          "q": "Do AI SEO and GEO replace normal SEO?",
-          "a": "No. Useful content and sound technical SEO remain important. We plan overlapping improvements together and review available visibility evidence without treating AI mentions as guaranteed outcomes."
-        },
-        {
-          "q": "How do I get a quote for AI SEO, AEO & GEO?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "10",
-      "metaDescription": "AI SEO, AEO and GEO work focused on accessible pages, direct answers and consistent business information."
+      "number": "05",
+      "metaDescription": "Technical, on-page, off-page and local SEO, content strategy, migration support and AI search visibility. Audit your website with DMB SEO Bureau."
     },
     {
       "slug": "b2b-lead-generation",
@@ -490,7 +269,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "11",
+      "number": "06",
       "metaDescription": "Define suitable companies and buying roles, connect a relevant offer and organise qualification and sales handover."
     },
     {
@@ -529,7 +308,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "12",
+      "number": "07",
       "metaDescription": "LinkedIn Ads planning and management around relevant roles, company profiles and business needs."
     },
     {
@@ -568,7 +347,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "13",
+      "number": "08",
       "metaDescription": "Connect available marketing data into clear reports for enquiries, lead quality and outcomes where tracked."
     },
     {
@@ -589,7 +368,7 @@
       "inputs": "Website and hosting access, important page addresses and a list of tools the site needs.",
       "measure": "We compare loading and response measurements before and after the work, including visitor data where available.",
       "related": [
-        "technical-seo-audit",
+        "seo-bureau",
         "conversion-optimization",
         "landing-page-design"
       ],
@@ -608,7 +387,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "14",
+      "number": "09",
       "metaDescription": "Diagnose loading, interaction and layout issues. Improve performance and review Core Web Vitals where data is available."
     },
     {
@@ -658,7 +437,7 @@
           "a": "Yes, subject to supported access and agreed integrations. We review contact permissions, list quality and the current follow-up process before recommending a sequence."
         }
       ],
-      "number": "15",
+      "number": "10",
       "metaDescription": "Connect inquiry routing, CRM handoff and email nurturing. Set up approved follow-up sequences, tested integrations and clear team responsibilities."
     },
     {
@@ -710,7 +489,7 @@
           "a": "No. Eligibility depends on consent, platform policies, tagging and audience size. We check the available audience before recommending a campaign."
         }
       ],
-      "number": "16",
+      "number": "11",
       "metaDescription": "Plan paid channels and budgets, then build relevant retargeting audiences, messages and exclusions. Choose strategy or remarketing implementation."
     },
     {
@@ -724,12 +503,12 @@
         "professional-services"
       ],
       "related": [
-        "on-page-seo",
+        "seo-bureau",
         "paid-social-advertising",
         "landing-page-design",
         "online-reputation-management"
       ],
-      "number": "17",
+      "number": "12",
       "slug": "social-media-content-management",
       "name": "Social Media Marketing & Management",
       "headline": "Social Media Marketing & Management Services",
@@ -795,7 +574,7 @@
       "inputs": "Your website, public profile links, platforms to cover, examples of customer feedback and a team contact who can approve responses and investigate complaints.",
       "measure": "We review response times, unanswered reviews, recurring customer concerns and completed follow-up actions. Rating trends and review sentiment provide context; we do not guarantee a rating, rankings or review removal.",
       "related": [
-        "local-seo",
+        "seo-bureau",
         "social-media-content-management"
       ],
       "industries": [
@@ -828,7 +607,7 @@
           "a": "Pricing depends on the number of profiles, platforms, review volume and monitoring frequency. Share your requirements and we will explain the work, fee and timeline."
         }
       ],
-      "number": "18",
+      "number": "13",
       "metaDescription": "Manage online reviews, brand mentions and customer feedback with DMB’s ORM services. Get a clear response process and reputation management plan."
     }
   ]

@@ -361,12 +361,6 @@
     "google-ads-management": "card-google-ads-management",
     "paid-social-advertising": "card-paid-social-advertising",
     "landing-page-design": "card-landing-page-design",
-    "technical-seo-audit": "card-technical-seo-audit",
-    "on-page-seo": "card-on-page-seo",
-    "local-seo": "card-local-seo",
-    "seo-migration-support": "card-seo-migration-support",
-    "organic-traffic-recovery": "card-organic-traffic-recovery",
-    "ai-search-visibility": "card-ai-search-visibility",
     "b2b-lead-generation": "card-b2b-lead-generation",
     "linkedin-advertising": "card-linkedin-advertising",
     "analytics-dashboards": "card-analytics-dashboards",
@@ -375,18 +369,13 @@
     "paid-media-strategy": "card-paid-media-strategy",
     "social-media-content-management": "card-social-media-content-management",
     "online-reputation-management": "card-online-reputation-management",
-    "conversion-optimization": "card-conversion-rate-audit"
+    "conversion-optimization": "card-conversion-rate-audit",
+    "seo-bureau": "card-on-page-seo"
   },
   "features": {
     "google-ads-management": "feature-service-google-ads-management",
     "paid-social-advertising": "feature-service-paid-social-advertising",
     "landing-page-design": "feature-service-landing-page-design",
-    "technical-seo-audit": "feature-service-technical-seo-audit",
-    "on-page-seo": "feature-service-on-page-seo",
-    "local-seo": "feature-service-local-seo",
-    "seo-migration-support": "feature-service-seo-migration-support",
-    "organic-traffic-recovery": "feature-service-organic-traffic-recovery",
-    "ai-search-visibility": "feature-service-ai-search-visibility",
     "b2b-lead-generation": "feature-service-b2b-lead-generation",
     "linkedin-advertising": "feature-service-linkedin-advertising",
     "analytics-dashboards": "feature-service-analytics-dashboards",
@@ -395,7 +384,8 @@
     "paid-media-strategy": "feature-service-paid-media-strategy",
     "social-media-content-management": "feature-service-social-media-content-management",
     "online-reputation-management": "feature-service-online-reputation-management",
-    "conversion-optimization": "feature-service-conversion-rate-audit"
+    "conversion-optimization": "feature-service-conversion-rate-audit",
+    "seo-bureau": "feature-service-on-page-seo"
   },
   "industries": {
     "Real Estate": "feature-industry-real-estate",

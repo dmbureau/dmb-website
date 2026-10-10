@@ -15,12 +15,12 @@
 - [Blog](https://dmbureau.cloud/blog): practical marketing guides.
 - [Contact](https://dmbureau.cloud/contact): request a tailored plan.
 ## Service topics
-- [Local SEO](https://dmbureau.cloud/services/local-seo)
-- [Google Business Profile](https://dmbureau.cloud/services/local-seo)
+- [Local SEO](https://dmbureau.cloud/seo-bureau)
+- [Google Business Profile](https://dmbureau.cloud/seo-bureau)
 - [Google Ads](https://dmbureau.cloud/services/google-ads-management)
 - [Social media](https://dmbureau.cloud/smm-bureau)
-- [AI SEO, AEO and GEO](https://dmbureau.cloud/services/ai-search-visibility)
-- [Technical SEO](https://dmbureau.cloud/services/technical-seo-audit)
+- [AI SEO, AEO and GEO](https://dmbureau.cloud/seo-bureau)
+- [Technical SEO](https://dmbureau.cloud/seo-bureau)
 - [DMB Audit](https://dmbureau.cloud/dmb-audit): run website checks and read the audit methodology.
 - [Privacy](https://dmbureau.cloud/privacy): website audit and enquiry data handling.
 ## Discovery

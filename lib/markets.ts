@@ -11,7 +11,7 @@ export const markets = [
       "Explain your services clearly and make it easy to contact you",
       "Track useful inquiries, not just website visits"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","social-media-content-management","conversion-optimization","on-page-seo"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","social-media-content-management","conversion-optimization"],
     "industrySlugs": ["real-estate","healthcare","hospitality","ecommerce","professional-services"],
     "approach": "Tell us what you sell, where you work and your budget. We review your website and recommend a starting point. You receive a clear list of tasks and fees. US English content is the starting point; Hindi or other languages are included only when agreed.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
@@ -30,7 +30,7 @@ export const markets = [
       "Explain your services clearly and make it easy to contact you",
       "Track useful inquiries, not just website visits"
     ],
-    "serviceSlugs": ["google-ads-management","local-seo","conversion-optimization"],
+    "serviceSlugs": ["google-ads-management","seo-bureau","conversion-optimization"],
     "industrySlugs": ["real-estate","saas","home-services","healthcare"],
     "approach": "Start with the cities or states you serve. We review your service pages, Google Ads and inquiry forms. Conversion tracking shows when someone calls, sends a form or completes another useful action. You choose the work that fits your goal and budget.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
@@ -49,7 +49,7 @@ export const markets = [
       "Explain your services clearly and make it easy to contact you",
       "Track useful enquiries, not just website visits"
     ],
-    "serviceSlugs": ["on-page-seo","conversion-optimization","google-ads-management","marketing-automation"],
+    "serviceSlugs": ["seo-bureau","conversion-optimization","google-ads-management","marketing-automation"],
     "industrySlugs": ["professional-services","hospitality","recruitment","travel"],
     "approach": "We review your website and ads, then explain what is stopping visitors from contacting you. A technical SEO audit checks website problems that affect search. A Google Ads audit checks how your ads are set up. We agree which changes to make first and how to measure them.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
@@ -68,7 +68,7 @@ export const markets = [
       "Explain your services clearly and make it easy to contact you",
       "Track useful enquiries, not just website visits"
     ],
-    "serviceSlugs": ["conversion-optimization","paid-social-advertising","landing-page-design","local-seo"],
+    "serviceSlugs": ["conversion-optimization","paid-social-advertising","landing-page-design","seo-bureau"],
     "industrySlugs": ["real-estate","hospitality","logistics","professional-services"],
     "approach": "Tell us which emirates you serve and who your customers are. We plan clear service pages, ads and contact forms around that information. English content is the starting point. Arabic content needs a separately agreed translation and review process.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
@@ -106,7 +106,7 @@ export const markets = [
       "Explain your services clearly and make it easy to contact you",
       "Track useful enquiries, not just website visits"
     ],
-    "serviceSlugs": ["paid-media-strategy","on-page-seo","conversion-optimization","b2b-lead-generation"],
+    "serviceSlugs": ["paid-media-strategy","seo-bureau","conversion-optimization","b2b-lead-generation"],
     "industrySlugs": ["professional-services","logistics","ecommerce","healthcare"],
     "approach": "We review your service pages, ads and contact steps. On-page SEO improves the information on each page. Conversion tracking shows when visitors take a useful action, such as sending an enquiry. We explain the changes, cost and language requirements before you decide.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
@@ -125,7 +125,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -144,7 +144,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -163,7 +163,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -182,7 +182,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -201,7 +201,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -220,7 +220,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -239,7 +239,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -258,7 +258,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -277,7 +277,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -296,7 +296,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -315,7 +315,7 @@ export const markets = [
       "Choose the page and project languages before starting",
       "Make contacting your team easy and track useful enquiries"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["professional-services","saas","hospitality"],
     "approach": "Send us your website, the places you serve and your goal. We review the pages and ads, explain what needs work and give you a quote. You choose which tasks to proceed with. No ranking or AI citation is guaranteed.",
     "coordination": "DMB is based in India and works remotely. We agree project languages, translation review, price, payment currency and update times before starting. Ad spend and paid tools are separate unless your quote includes them.",
@@ -334,7 +334,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","landing-page-design","conversion-optimization"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","landing-page-design","conversion-optimization"],
     "industrySlugs": ["home-services","professional-services","healthcare","saas"],
     "approach": "Separate local service enquiries from nationwide demand; connect calls and forms to the right province. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -353,7 +353,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","conversion-optimization"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["home-services","hospitality","real-estate","healthcare"],
     "approach": "Review service areas, enquiry forms and the handoff from marketing to your team before increasing advertising spend. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -372,7 +372,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","conversion-optimization","on-page-seo"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["travel","hospitality","home-services","professional-services"],
     "approach": "Connect the searches your customers use with a clear service page and an enquiry your team can act on. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -391,7 +391,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","b2b-lead-generation","linkedin-advertising"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","b2b-lead-generation","linkedin-advertising"],
     "industrySlugs": ["saas","professional-services","education","logistics"],
     "approach": "Explain the buyer problem clearly, separate consumer and business campaigns, and assess lead quality with your sales team. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -410,7 +410,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","paid-social-advertising","landing-page-design"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","paid-social-advertising","landing-page-design"],
     "industrySlugs": ["real-estate","hospitality","professional-services","logistics"],
     "approach": "Match campaign geography and content language to the customers you can serve; qualify enquiries before handing them to sales. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -429,7 +429,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["on-page-seo","local-seo","google-ads-management","landing-page-design"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","landing-page-design"],
     "industrySlugs": ["hospitality","real-estate","healthcare","professional-services"],
     "approach": "Build clear service pages, remove enquiry barriers and separate suitable requests from those outside your service coverage. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -448,7 +448,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","social-media-content-management","conversion-optimization"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","social-media-content-management","conversion-optimization"],
     "industrySlugs": ["hospitality","travel","logistics","home-services"],
     "approach": "Align service coverage, page content and advertising, then measure the enquiries your team can fulfil. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -467,7 +467,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","social-media-content-management","conversion-optimization"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","social-media-content-management","conversion-optimization"],
     "industrySlugs": ["professional-services","real-estate","hospitality","ecommerce"],
     "approach": "Agree the audience, content language and criteria for a useful enquiry before selecting campaign channels. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -486,7 +486,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["local-seo","google-ads-management","conversion-optimization","ai-search-visibility"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","conversion-optimization"],
     "industrySlugs": ["home-services","professional-services","travel","ecommerce"],
     "approach": "Review local discovery, landing pages and enquiry measurement together; choose project languages and responsibilities before work starts. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
@@ -505,7 +505,7 @@ export const markets = [
       "Match service pages and ads to the buyer’s next step",
       "Measure useful enquiries with agreed conversion tracking"
     ],
-    "serviceSlugs": ["on-page-seo","google-ads-management","paid-social-advertising","landing-page-design"],
+    "serviceSlugs": ["seo-bureau","google-ads-management","paid-social-advertising","landing-page-design"],
     "industrySlugs": ["ecommerce","education","hospitality","saas"],
     "approach": "Connect service searches and paid campaigns to clear product or service pages, and measure enquiries or sales actions your tools can support. Start by sharing your website, goal and existing results. We explain the recommended tasks, dependencies, fee and timeline before you decide.",
     "coordination": "Digital Marketing Bureau (DMB) is based in India and works remotely with your team. We agree content languages, translation review, communication times and payment currency before starting. Advertising budgets and paid tools are separate unless included in your quote.",
