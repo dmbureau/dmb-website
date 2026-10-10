@@ -144,7 +144,7 @@ export default {
   const routedRequest=new Request(request,{headers:requestHeaders});
   const response=url.pathname==='/'&&request.method==='GET'&&!request.headers.has('rsc')&&!(request.headers.get('accept')||'').includes('text/x-component')?new Response(liveHomepageHtml,{headers:{'Content-Type':'text/html; charset=utf-8'}}):await handler.fetch(routedRequest,env,ctx);
   const isHtml=(response.headers.get('content-type')||'').includes('text/html');
-  const secured=isHtml&&response.ok?new Response(withPageFaq(await response.text(),url.pathname.replace(/\\/+$/,'')||'/'),response):new Response(response.body,response);
+  const secured=isHtml&&response.ok?new Response(withPageFaq(await response.text(),url.pathname.replace(/\/+$/,'')||'/'),response):new Response(response.body,response);
   secured.headers.set('X-Content-Type-Options','nosniff');
   secured.headers.set('Referrer-Policy','strict-origin-when-cross-origin');
   secured.headers.set('Content-Security-Policy',"base-uri 'self'; object-src 'none'; frame-ancestors 'self'");
