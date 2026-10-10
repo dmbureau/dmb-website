@@ -44,6 +44,7 @@ export const marketLanguages: Record<string,string> = {
 export function marketMeta(title:string,description:string,slug?:string,language?:string):Metadata {
  const path=slug?'/markets/'+slug+(language?'/'+language:''):'/markets';
  const metadata=pageMeta(title,description,path);
- return {...metadata,alternates:{canonical:origin+path,
+ const locale=language?marketTranslations.find(p=>p.slug===slug&&p.language===language)?.locale.replace('-','_'):slug==='india'||slug==='united-states'?'en_US':undefined;
+ return {...metadata,openGraph:{...metadata.openGraph,...(locale?{locale}:{})},alternates:{canonical:origin+path,
    ...(slug==='dubai'?{}:{languages:marketLanguages})}};
 }

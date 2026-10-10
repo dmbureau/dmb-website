@@ -1,0 +1,2 @@
+export const usesUSEnglish=(slug:string)=>slug==='india'||slug==='united-states';
+export function usEnglish(text:string){return text.replace(/enquiries/g,'inquiries').replace(/Enquiries/g,'Inquiries').replace(/enquiry/g,'inquiry').replace(/Enquiry/g,'Inquiry').replace(/optimisation/g,'optimization').replace(/optimise/g,'optimize').replace(/organisations/g,'organizations').replace(/personalised/g,'personalized').replace(/analyse/g,'analyze');}

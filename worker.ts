@@ -7,7 +7,7 @@ const canonicalPages=new Set(["/","/services","/industries","/markets","/blog","
 export default {
  async fetch(request:Request,env:Cloudflare.Env,ctx:ExecutionContext){
   const url=new URL(request.url);
-  if(url.protocol==='http:'){url.protocol='https:';return Response.redirect(url.toString(),308)}
+  if(url.protocol==='http:'||url.hostname==='www.dmbureau.cloud'){url.protocol='https:';if(url.hostname==='www.dmbureau.cloud')url.hostname='dmbureau.cloud';return Response.redirect(url.toString(),308)}
   if(request.method==='GET'||request.method==='HEAD'){
    const originalPath=url.pathname;
    // Legacy AMP-shaped URLs resolve to the existing responsive document.
@@ -25,7 +25,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-audit-fixes-16');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-regional-english-17');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);

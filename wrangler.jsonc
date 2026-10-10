@@ -19,5 +19,15 @@
       "binding": "DMB_PUBLIC_SITE",
       "service": "dmb-website"
     }
+  ],
+  "routes": [
+    {
+      "pattern": "dmbureau.cloud/*",
+      "zone_name": "dmbureau.cloud"
+    },
+    {
+      "pattern": "www.dmbureau.cloud/*",
+      "zone_name": "dmbureau.cloud"
+    }
   ]
 }

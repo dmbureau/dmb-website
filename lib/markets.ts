@@ -5,11 +5,11 @@ export const markets = [
     "short": "India",
     "headline": "SEO & Digital Marketing Services for India",
     "summary": "SEO and digital marketing services for businesses in India. Help more customers find you, improve your ads and make it easier to contact your team.",
-    "context": "Our SEO services in India cover technical SEO audits, local SEO and clear service content. Performance marketing connects Google Ads management with relevant landing pages and conversion tracking, so your team can distinguish useful enquiries from clicks. Start with the cities, customers and services you can genuinely support.",
+    "context": "Our SEO services in India cover technical SEO audits, local SEO and clear service content. Performance marketing connects Google Ads management with relevant landing pages and conversion tracking, so your team can distinguish useful inquiries from clicks. Start with the cities, customers and services you can genuinely support.",
     "priorities": [
       "Focus on the places where you can serve customers",
       "Explain your services clearly and make it easy to contact you",
-      "Track useful enquiries, not just website visits"
+      "Track useful inquiries, not just website visits"
     ],
     "serviceSlugs": [
       "local-seo",
@@ -25,22 +25,22 @@ export const markets = [
       "ecommerce",
       "professional-services"
     ],
-    "approach": "Tell us what you sell, where you work and your budget. We review your website and recommend a starting point. You receive a clear list of tasks and fees. English content is the starting point; Hindi or other languages are included only when agreed.",
+    "approach": "Tell us what you sell, where you work and your budget. We review your website and recommend a starting point. You receive a clear list of tasks and fees. US English content is the starting point; Hindi or other languages are included only when agreed.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Do you work with small businesses in India?",
-    "answer": "Yes. You can ask about one service or a combination. We recommend work based on your needs and budget; sending an enquiry does not commit you to buying."
+    "answer": "Yes. You can ask about one service or a combination. We recommend work based on your needs and budget; sending an inquiry does not commit you to buying."
   },
   {
     "slug": "united-states",
     "name": "United States",
     "short": "US",
-    "headline": "SEO & Digital Marketing Services for United States",
+    "headline": "SEO & Digital Marketing Services for the United States",
     "summary": "SEO and digital marketing services for businesses in the US. Help more customers find you, improve your ads and make it easier to contact your team.",
     "context": "Our digital marketing services for US businesses connect SEO, local SEO and PPC management to the cities or states you serve. Google Business Profile optimization supports eligible local businesses. Landing page design and conversion rate optimization help turn relevant visits into calls, forms or booking requests.",
     "priorities": [
       "Focus on the places where you can serve customers",
       "Explain your services clearly and make it easy to contact you",
-      "Track useful enquiries, not just website visits"
+      "Track useful inquiries, not just website visits"
     ],
     "serviceSlugs": [
       "google-ads-management",
@@ -54,7 +54,7 @@ export const markets = [
       "home-services",
       "healthcare"
     ],
-    "approach": "Start with the cities or states you serve. We review your service pages, Google Ads and enquiry forms. Conversion tracking shows when someone calls, sends a form or completes another useful action. You choose the work that fits your goal and budget.",
+    "approach": "Start with the cities or states you serve. We review your service pages, Google Ads and inquiry forms. Conversion tracking shows when someone calls, sends a form or completes another useful action. You choose the work that fits your goal and budget.",
     "coordination": "DMB is based in India and works remotely with your team. Before starting, we agree the work, price, payment currency and times for updates. Ad spend and paid tools are separate unless your quote includes them.",
     "faq": "Do you have an office in the United States?",
     "answer": "DMB is based in India and provides services remotely. This page describes our service approach for US businesses; it does not represent a US office."
