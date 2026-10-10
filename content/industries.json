@@ -4,7 +4,7 @@
       "slug": "real-estate",
       "name": "Real Estate",
       "headline": "Digital Marketing for Real Estate Businesses",
-      "summary": "Real Estate marketing: Budget and location mismatch in enquiries? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Real estate SEO and PPC that focus on buyers in your actual locations and price ranges—not just more property enquiries.",
       "body": "A high enquiry count can hide buyers outside your location, price range or property type. We align listings, advertising and follow-up with the inventory you actually sell. Real estate SEO and paid advertising should match property location, buyer budget and listing availability. Landing pages and viewing forms help separate suitable buyers from enquiries your team cannot serve.",
       "problems": [
         "Budget and location mismatch in enquiries",
@@ -26,7 +26,7 @@
       "slug": "hospitality",
       "name": "Hospitality",
       "headline": "Digital Marketing for Hospitality Businesses",
-      "summary": "Hospitality marketing: Website visits that do not reach the booking engine? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Hospitality marketing that connects local searches and paid campaigns to room, table or experience bookings.",
       "body": "Guests compare location, experience, availability and value before booking. An attractive website still needs a clear offer and a reliable route to reserve or enquire. Hospitality SEO and hotel advertising connect room information, guest needs and booking availability. A clear direct-booking or stay-enquiry path supports the decision after discovery.",
       "problems": [
         "Website visits that do not reach the booking engine",
@@ -48,7 +48,7 @@
       "slug": "healthcare",
       "name": "Healthcare",
       "headline": "Digital Marketing for Healthcare Businesses",
-      "summary": "Healthcare marketing: Service pages that do not explain appointment suitability? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Healthcare SEO and advertising built around accurate service information, suitable patients and clear appointment paths.",
       "body": "Patients need trustworthy information about services, locations and appointments. Marketing should make access easier while keeping claims accurate and protecting personal information. Healthcare SEO and appointment-focused landing pages should explain the actual services, location and contact process. We use verified provider information and avoid unsupported treatment or outcome claims.",
       "problems": [
         "Service pages that do not explain appointment suitability",
@@ -68,7 +68,7 @@
       "slug": "travel",
       "name": "Travel & Tourism",
       "headline": "Digital Marketing for Travel & Tourism Businesses",
-      "summary": "Travel & Tourism marketing: Destination traffic with little package interest? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Travel agency SEO and PPC designed around destination searches, package details and genuine booking enquiries.",
       "body": "A destination attracts curiosity as well as buyers. Your pages need to answer dates, inclusions, suitability and booking questions so qualified travellers can move forward. Travel agency SEO and paid campaigns should match destination, departure dates and traveller needs. Trip enquiry forms collect the details your team needs to recommend a suitable option.",
       "problems": [
         "Destination traffic with little package interest",
@@ -89,7 +89,7 @@
       "slug": "saas",
       "name": "SaaS & Technology",
       "headline": "Digital Marketing for SaaS & Technology Businesses",
-      "summary": "SaaS & Technology marketing: Paid campaigns generating poor-fit demos? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "SaaS marketing that connects use-case SEO, paid acquisition and landing pages to better-fit demo requests.",
       "body": "A signup only matters when the user fits your product and reaches value. We align use-case pages, paid acquisition and measurement with the buyers and accounts you can serve. SaaS marketing connects product search intent with use-case content, demo requests and trial journeys. B2B lead generation considers the buyer role and the product problem being evaluated.",
       "problems": [
         "Paid campaigns generating poor-fit demos",
@@ -110,7 +110,7 @@
       "slug": "ecommerce",
       "name": "Ecommerce",
       "headline": "Digital Marketing for Ecommerce Businesses",
-      "summary": "Ecommerce marketing: Product visits that do not reach checkout? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Ecommerce marketing that looks beyond store visits to product relevance, checkout friction and purchase tracking.",
       "body": "Paid traffic cannot repair a confusing product page or unreliable checkout. We review acquisition, merchandising journeys and measurement together before scaling spend. Ecommerce SEO and paid advertising should connect product discovery with clear categories, product information and checkout. Conversion tracking is reviewed against the purchase actions your platform can confirm.",
       "problems": [
         "Product visits that do not reach checkout",
@@ -130,7 +130,7 @@
       "slug": "professional-services",
       "name": "Professional Services",
       "headline": "Digital Marketing for Professional Service Businesses",
-      "summary": "SEO, paid advertising and website improvements for professional services. Focus on suitable enquiries and clear buying information.",
+      "summary": "SEO and PPC for professional service firms that need the right clients to understand their expertise before enquiring.",
       "body": "Buyers need to understand fit, expertise and work included before making an enquiry. Broad service lists rarely answer the specific problem that brought them to your website. Professional services SEO and B2B lead generation explain expertise, scope and customer fit. Service pages answer evaluation questions before inviting a business enquiry.",
       "problems": [
         "Generic service pages with unclear work you receive",
@@ -151,7 +151,7 @@
       "slug": "home-services",
       "name": "Home Services",
       "headline": "Digital Marketing for Home Services Businesses",
-      "summary": "Home Services marketing: Calls from outside the service area? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Local SEO and Google Ads for home-service businesses—focused on real service areas, useful calls and job enquiries.",
       "body": "Local demand is highly specific. Location, urgency and service type must line up with your ads, profile and pages so your team receives jobs it can actually take. Home services marketing connects local SEO and Google Ads with real service coverage. Quote forms should establish the job, location and scheduling requirements before follow-up.",
       "problems": [
         "Calls from outside the service area",
@@ -172,7 +172,7 @@
       "slug": "education",
       "name": "Education & Training",
       "headline": "Digital Marketing for Education & Training Businesses",
-      "summary": "Education & Training marketing: Course traffic without suitable applications? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Education marketing that helps prospective learners compare course requirements, schedules and application steps.",
       "body": "Prospective learners compare entry requirements, format, costs and outcomes. Clear course pages help them assess suitability before applying. Education marketing connects course search intent with accurate admissions information. Enquiry pages explain eligibility, study format and the next step using details supplied by your institution.",
       "problems": [
         "Course traffic without suitable applications",
@@ -192,7 +192,7 @@
       "slug": "recruitment",
       "name": "Recruitment & Staffing",
       "headline": "Digital Marketing for Recruitment & Staffing Businesses",
-      "summary": "Recruitment & Staffing marketing: Employer campaigns attracting candidate enquiries? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Recruitment marketing that separates employer enquiries from candidate applications so both audiences find the right page.",
       "body": "Employer buyers and job seekers have different needs. Campaigns and website journeys must distinguish hiring services from job applications. Recruitment marketing separates employer enquiries from candidate applications. SEO pages and paid campaigns need clear audience targeting and different forms for each customer journey.",
       "problems": [
         "Employer campaigns attracting candidate enquiries",
@@ -213,7 +213,7 @@
       "slug": "logistics",
       "name": "Logistics & Supply Chain",
       "headline": "Digital Marketing for Logistics & Supply Chain Businesses",
-      "summary": "Logistics & Supply Chain marketing: Quote requests outside supported routes? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "B2B logistics marketing focused on supported routes, service capabilities and qualified quote requests.",
       "body": "A logistics enquiry needs to fit your geography, cargo requirements and service capacity. Broad traffic can create work without viable opportunities. Logistics SEO and B2B advertising explain routes, service coverage and shipment requirements. Quote enquiries collect the information your team needs to assess a suitable job.",
       "problems": [
         "Quote requests outside supported routes",
@@ -234,7 +234,7 @@
       "slug": "solar-energy",
       "name": "Solar & Energy Services",
       "headline": "Digital Marketing for Solar & Energy Services Businesses",
-      "summary": "Solar & Energy Services marketing: Enquiries outside installation coverage? Explore SEO, paid ads and website improvements built around your customers.",
+      "summary": "Solar marketing that sets clear installation areas and requirements before prospects request a quote.",
       "body": "Interested customers may fall outside your service area or installation criteria. Clear offers and practical qualification help your team spend time on suitable enquiries. Solar marketing connects local search and paid campaigns with property suitability and installation enquiries. Pages use your verified service coverage and explain the assessment process without unsupported savings claims.",
       "problems": [
         "Enquiries outside installation coverage",
