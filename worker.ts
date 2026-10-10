@@ -62,6 +62,33 @@ function refreshRegionalText(html:string,path:string){
  }
  return html;
 }
+function refreshAboutPage(html:string){
+ const marker='<div class="body-bg-1 bg-default">';
+ if(!html.includes(marker))return html;
+ const about=`
+ <style>
+ .dmb-about-story{padding:76px 0;background:#fff;color:#173e35}.dmb-about-story .dmb-about-wrap{max-width:1110px;margin:auto;padding:0 24px}.dmb-about-story h2{font-size:clamp(28px,3vw,42px);line-height:1.2;margin:10px 0 18px}.dmb-about-story h3{font-size:22px;margin:0 0 12px}.dmb-about-story p{font-size:17px;line-height:1.75;max-width:920px;margin-bottom:18px;color:#354943}.dmb-about-story .dmb-eyebrow{text-transform:uppercase;font-size:13px;letter-spacing:.12em;font-weight:700}.dmb-about-story .dmb-about-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:30px 0}.dmb-about-story .dmb-about-card{padding:26px;border:1px solid #d4dfd8;border-radius:14px;background:#f6faf6}.dmb-about-story a{color:#116e53;text-decoration:underline;text-underline-offset:4px}@media(max-width:760px){.dmb-about-story{padding:46px 0}.dmb-about-story .dmb-about-grid{grid-template-columns:1fr}}
+ </style>
+ <section class="dmb-about-story" aria-labelledby="dmb-about-story-title"><div class="dmb-about-wrap">
+ <span class="dmb-eyebrow">Digital Marketing Bureau · Established 2025</span>
+ <h2 id="dmb-about-story-title">An India-based performance marketing agency working across borders.</h2>
+ <p>Digital Marketing Bureau (DMB) was founded in India in 2025 by Parmjeet Singh. We started with a simple goal: help businesses understand where their marketing can improve, agree on practical work and see what that work achieves. We support international clients through SEO, paid advertising, social media marketing and conversion-focused website improvements.</p>
+ <h2>500+ international projects reported in our first year</h2>
+ <p>As DMB marks its first year in 2026, the agency reports completing more than 500 projects for clients internationally. This is a company-reported milestone, not an independently audited measure of client results. For us, the next priority is the same as the first: clear communication, work delivered to an agreed scope and honest reporting about progress.</p>
+ <h2>Specialist services that work together</h2><div class="dmb-about-grid">
+ <article class="dmb-about-card"><h3><a href="/seo-bureau">SEO Bureau</a></h3><p>Technical and on-page SEO, local SEO, Google Business Profile optimisation, content strategy, search recovery and AI search visibility (AEO and GEO).</p></article>
+ <article class="dmb-about-card"><h3><a href="/ppc-bureau">PPC Bureau</a></h3><p>Google Ads, Meta and LinkedIn advertising, paid media planning, landing pages and conversion tracking focused on relevant enquiries.</p></article>
+ <article class="dmb-about-card"><h3><a href="/smm-bureau">SMM Bureau</a></h3><p>Social media strategy, profile improvements, planned content, community communication and online reputation support.</p></article></div>
+ <p>We also provide <a href="/services/b2b-lead-generation">B2B lead generation</a>, <a href="/services/conversion-optimization">conversion rate optimisation</a>, <a href="/services/analytics-dashboards">analytics and reporting</a>, <a href="/services/marketing-automation">marketing automation</a> and <a href="/services/website-speed-optimization">website performance improvements</a>.</p>
+ <h2>Different markets. Different customer decisions.</h2>
+ <p>We work remotely from India with businesses targeting the <a href="/markets/united-states">US</a>, <a href="/markets/united-kingdom">UK</a>, <a href="/markets/uae">UAE</a>, <a href="/markets/canada">Canada</a>, <a href="/markets/australia">Australia</a> and other markets. Our market pages describe where we can support businesses, not claims of local offices.</p>
+ <p>Our work spans <a href="/industries/real-estate">real estate</a>, <a href="/industries/healthcare">healthcare</a>, <a href="/industries/hospitality">hospitality</a>, <a href="/industries/travel">travel</a>, SaaS, ecommerce and professional services. An effective plan starts with the buying questions, service locations and lead-quality challenges specific to each business.</p>
+ <h2>How we work</h2><p>We review the website, existing campaigns and audience first. Then we agree the deliverables, timeline, fee and responsibilities before starting. Performance reviews look at useful enquiries and measurable actions where the data supports them. We do not promise guaranteed rankings, sales or AI citations.</p>
+ <p><a href="/contact">Tell us about your business and what you want to improve →</a></p>
+ </div></section>`;
+ return html.replace(marker,about+marker);
+}
+
 function refreshHomepageCopy(html:string){
  return html.replace('Digital Marketing Bureau is an India-based SEO and performance marketing agency serving businesses worldwide. Tell us what you want to improve; we will explain the scope and next step.','Digital Marketing Bureau helps businesses get found, turn ad clicks into useful conversations and make their services easier to understand. Tell us who you want to reach and what is not working; we will review the next practical step.');
 }
@@ -79,7 +106,7 @@ export default {
     const assetUrl=new URL(url);assetUrl.pathname='/marpixel'+((marpixelRoutes as string[]).includes(path)?(path==='/'?'/index.html':path+'/index.html'):path);
     const response=await assets.fetch(new Request(assetUrl,{method:request.method}));
     const headers=new Headers(response.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Cache-Control',assetUrl.pathname.endsWith('.html')?'public, max-age=0, must-revalidate':'public, max-age=3600');
-    if(assetUrl.pathname.endsWith('.html')&&response.ok){const updated=optimizeStaticSeo(refreshRegionalText(refreshServiceText(refreshPublicNavigation(await response.text()),path),path),path);headers.delete('Content-Length');return new Response(updated,{status:response.status,headers})}
+    if(assetUrl.pathname.endsWith('.html')&&response.ok){const updated=optimizeStaticSeo(path==='/about'?refreshAboutPage(refreshPublicNavigation(await response.text())):refreshRegionalText(refreshServiceText(refreshPublicNavigation(await response.text()),path),path),path);headers.delete('Content-Length');return new Response(updated,{status:response.status,headers})}
     return new Response(response.body,{status:response.status,headers});
    }
   }
@@ -108,7 +135,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-editorial-content-50');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-about-story-51');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);
