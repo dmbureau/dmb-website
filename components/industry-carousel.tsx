@@ -5,7 +5,7 @@ import Link from '@/components/navigation-link';
 import {ArrowUpRight,Check} from 'lucide-react';
 import {industries} from '@/lib/client-content';
 
-const slides=industries.filter(i=>['real-estate','hospitality','healthcare','travel','saas','ecommerce'].includes(i.slug));
+const slides=industries.filter(i=>["real-estate","hospitality","healthcare","travel","saas","ecommerce"].includes(i.slug));
 const captions:Record<string,string>={'real-estate':'Help buyers take the next step.','hospitality':'Turn interest into stay enquiries.','healthcare':'Make it easier to find your care.','travel':'Help travellers choose their next trip.','saas':'Explain your product. Build interest.','ecommerce':'Help shoppers find your products.'};
 export function IndustryCarousel(){const [active,setActive]=useState(0),[focus,setFocus]=useState(false),[visible,setVisible]=useState(false),[hidden,setHidden]=useState(false),[reduced,setReduced]=useState(false);const root=useRef<HTMLDivElement>(null),touch=useRef<{x:number;y:number}|null>(null);const slide=slides[active];const running=!focus&&visible&&!hidden&&!reduced;
 useEffect(()=>{const media=window.matchMedia('(prefers-reduced-motion: reduce)');const update=()=>setReduced(media.matches),visibility=()=>setHidden(document.hidden);update();visibility();media.addEventListener('change',update);document.addEventListener('visibilitychange',visibility);const observer='IntersectionObserver' in window?new IntersectionObserver(entries=>setVisible(entries[0]?.isIntersecting??false),{threshold:.2}):null;if(observer&&root.current)observer.observe(root.current);else setVisible(true);return()=>{observer?.disconnect();media.removeEventListener('change',update);document.removeEventListener('visibilitychange',visibility)}},[]);

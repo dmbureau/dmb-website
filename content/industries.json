@@ -12,10 +12,10 @@
         "Slow follow-up after forms and brochure downloads"
       ],
       "related": [
-        "lead-quality-optimization",
+        "conversion-optimization",
         "google-ads-management",
         "landing-page-design",
-        "email-lead-nurturing",
+        "marketing-automation",
         "online-reputation-management"
       ],
       "approach": "Create project or listing pages with location, property type, price context where approved, availability and a specific viewing or enquiry action. Qualification questions should help your team respond with the right property.",
@@ -77,10 +77,9 @@
         "Enquiries that stall while travellers compare options"
       ],
       "related": [
-        "content-strategy",
         "on-page-seo",
         "paid-social-advertising",
-        "email-lead-nurturing",
+        "marketing-automation",
         "online-reputation-management"
       ],
       "approach": "Connect destination guides to actual tours and packages. Commercial pages should explain the experience, inclusions, schedule, suitability and enquiry process with approved terms.",
@@ -122,7 +121,7 @@
       "related": [
         "conversion-optimization",
         "paid-social-advertising",
-        "retargeting-campaigns"
+        "paid-media-strategy"
       ],
       "approach": "Prioritise product information, delivery and return clarity, mobile purchasing and event accuracy. Tests should reflect your available traffic and margins rather than chase a generic conversion target.",
       "measure": "Purchase conversion rate, customer acquisition cost and contribution after advertising where data is available.",
@@ -141,7 +140,6 @@
       ],
       "related": [
         "on-page-seo",
-        "content-strategy",
         "b2b-lead-generation",
         "linkedin-advertising",
         "online-reputation-management"
@@ -183,10 +181,9 @@
         "Enquiries that stall before enrolment"
       ],
       "related": [
-        "content-strategy",
         "on-page-seo",
         "landing-page-design",
-        "email-lead-nurturing"
+        "marketing-automation"
       ],
       "approach": "Build accurate course and programme pages with approved requirements, study format and application steps. Separate student and institutional journeys when their buying decisions differ.",
       "measure": "Qualified course enquiries, application progression and enrolment contribution where tracked.",
@@ -227,7 +224,7 @@
       "related": [
         "b2b-lead-generation",
         "on-page-seo",
-        "lead-quality-optimization",
+        "conversion-optimization",
         "marketing-automation"
       ],
       "approach": "Organise commercial pages by actual logistics capabilities and coverage. Quote forms should collect enough business context to route the request without creating excessive friction.",
@@ -246,7 +243,7 @@
         "Forms missing essential project suitability information"
       ],
       "related": [
-        "lead-quality-optimization",
+        "conversion-optimization",
         "google-ads-management",
         "local-seo",
         "paid-media-strategy"

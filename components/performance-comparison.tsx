@@ -3,7 +3,7 @@ import {useEffect,useState,useRef} from 'react';
 import {ArrowUpRight,LoaderCircle} from 'lucide-react';
 import {coreWebVitalsStatus,type PerformanceResult,type PerformanceComparisonResult} from '@/lib/audit-performance';
 import styles from './performance-comparison.module.css';
-const devices=['mobile','desktop'] as const;
+const devices=["mobile","desktop"] as const;
 const number=(v:number|null|undefined,unit:string)=>v==null?'No data':unit==='s'?(v/1000).toFixed(2)+' s':unit==='cls'?v.toFixed(3):Math.round(v)+' ms';
 const tone=(v:number|null|undefined,good:number,poor:number)=>v==null?'neutral':v<=good?'good':v<=poor?'review':'critical';
 export function PerformanceComparison({url,onResult}:{url:string;onResult?:(result:PerformanceComparisonResult)=>void}){

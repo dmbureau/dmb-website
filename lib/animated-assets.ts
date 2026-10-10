@@ -1,4 +1,4 @@
-export const motionThemes = ['strategy','search','advertising','social','conversion','analytics','global','real-estate','hospitality','healthcare','travel','saas','ecommerce','professional','education','recruitment','logistics','energy'] as const;
+export const motionThemes = ["strategy","search","advertising","social","conversion","analytics","global","real-estate","hospitality","healthcare","travel","saas","ecommerce","professional","education","recruitment","logistics","energy"] as const;
 export type MotionTheme = typeof motionThemes[number];
 export function motionTheme(name:string):MotionTheme {
  const n=name.toLowerCase();

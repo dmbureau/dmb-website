@@ -44,7 +44,7 @@
           "a": "Yes. Choose a focused audit or ongoing campaign management on this page. We confirm the scope and fees separately. A website-only tool reviews destination and tracking signals; an account audit needs an authorized account export or access."
         }
       ],
-      "number": "02",
+      "number": "01",
       "metaDescription": "Google Ads audits and campaign management covering search terms, budgets, ad copy, landing pages and conversion measurement."
     },
     {
@@ -65,8 +65,8 @@
       "inputs": "Your ad account access, logo, approved photos or videos, offer details and customer information.",
       "measure": "We review useful enquiries and their cost. Views and likes are considered alongside these results.",
       "related": [
-        "lead-quality-optimization",
-        "retargeting-campaigns",
+        "conversion-optimization",
+        "paid-media-strategy",
         "landing-page-design"
       ],
       "industries": [
@@ -84,48 +84,8 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "03",
+      "number": "02",
       "metaDescription": "Meta Ads planning, creative testing and campaign management for relevant audiences and clearer enquiries."
-    },
-    {
-      "slug": "lead-quality-optimization",
-      "name": "Lead Quality Optimisation Services",
-      "group": "Website improvements",
-      "headline": "Lead Quality Optimisation Services",
-      "summary": "Getting enquiries from people who cannot buy?",
-      "body": "We define a useful lead with your team, trace poor-fit enquiries to their source and review the promises made in ads and pages. Clear service criteria and carefully chosen form questions help visitors decide whether your offer is suitable. Lead qualification starts with your definition of a suitable customer. We compare campaign sources, form responses and sales feedback to identify where irrelevant enquiries enter the journey.",
-      "fit": "Businesses getting enquiries from people outside their service area, budget or customer needs.",
-      "deliverables": [
-        "Review of enquiry sources and sales feedback",
-        "Check of who sees your ads and pages",
-        "Recommendations for clearer messages and form questions",
-        "Plan for sharing useful feedback with your marketing team",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Examples of suitable and unsuitable enquiries with personal details removed, and an explanation of who you can serve.",
-      "measure": "We review how many enquiries your team can use and what those enquiries cost.",
-      "related": [
-        "google-ads-management",
-        "conversion-optimization",
-        "email-lead-nurturing"
-      ],
-      "industries": [
-        "real-estate",
-        "saas",
-        "professional-services"
-      ],
-      "faq": [
-        {
-          "q": "How do you decide whether a lead is qualified?",
-          "a": "We agree practical criteria such as service need, location, budget and buying stage. Your sales feedback is needed to check whether marketing enquiries become useful conversations."
-        },
-        {
-          "q": "How do I get a quote for Lead Quality Optimisation?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "04",
-      "metaDescription": "Improve targeting, page messages and enquiry questions so your team spends less time on poor-fit leads."
     },
     {
       "slug": "landing-page-design",
@@ -163,7 +123,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "05",
+      "number": "03",
       "metaDescription": "Focused landing pages with a clear offer, relevant proof, mobile-friendly forms and agreed tracking."
     },
     {
@@ -171,8 +131,8 @@
       "name": "Conversion Optimization & Tracking",
       "group": "Website improvements",
       "headline": "Conversion Optimization & Tracking Services",
-      "summary": "Improve the inquiry journey and measure successful customer actions with GA4 and conversion tracking.",
-      "body": "We review how visitors understand your offer, find answers and contact you, then recommend changes worth testing. Conversion tracking gives the review a reliable measurement path: define useful actions, configure agreed events and test successful submissions separately from button clicks or form errors. CRO and tracking are distinct workstreams within one connected service.",
+      "summary": "Improve conversion journeys, qualify inquiries and measure successful customer actions with GA4 and tracking.",
+      "body": "We review how visitors understand your offer, find answers and contact you, then recommend changes worth testing. Conversion tracking gives the review a reliable measurement path: define useful actions, configure agreed events and test successful submissions separately from button clicks or form errors. CRO and tracking are distinct workstreams within one connected service. Lead quality is part of the review: agree who can buy, trace poor-fit inquiries to their source and test clearer service criteria or form questions. Sales feedback helps judge useful inquiries alongside conversion counts.",
       "fit": "Businesses with website visitors who rarely enquire or buy.",
       "deliverables": [
         "Review of important pages and contact steps",
@@ -183,18 +143,26 @@
         "Agreement on the actions to record",
         "Setup of agreed tracking in your website tools",
         "Connections to agreed advertising reports",
-        "Testing and a guide explaining the setup"
+        "Testing and a guide explaining the setup",
+        "Review of enquiry sources and sales feedback",
+        "Check of who sees your ads and pages",
+        "Recommendations for clearer messages and form questions",
+        "Plan for sharing useful feedback with your marketing team"
       ],
       "inputs": "Your website address, access to visitor reports where available and the action you want people to take. Website, GA4, tag-management and relevant advertising account access are needed for implementation.",
       "measure": "We test whether agreed customer actions are recorded accurately, then review completion and qualified inquiries using the data available.",
       "related": [
         "landing-page-design",
-        "analytics-dashboards"
+        "analytics-dashboards",
+        "google-ads-management",
+        "marketing-automation"
       ],
       "industries": [
         "hospitality",
         "ecommerce",
-        "professional-services"
+        "professional-services",
+        "real-estate",
+        "saas"
       ],
       "faq": [
         {
@@ -208,27 +176,35 @@
         {
           "q": "Can I choose only tracking setup or only a CRO review?",
           "a": "Yes. Choose either workstream or combine them. We agree the tracking events, website changes, test plan and fee before starting."
+        },
+        {
+          "q": "How do you decide whether a lead is qualified?",
+          "a": "We agree practical criteria such as service need, location, budget and buying stage. Your sales feedback is needed to check whether marketing enquiries become useful conversations."
         }
       ],
-      "number": "06",
-      "metaDescription": "Conversion optimization, GA4 and conversion tracking in one service. Review website friction, test real inquiry events and measure useful actions."
+      "number": "04",
+      "metaDescription": "Review conversion journeys, lead quality and GA4 tracking. Improve forms and landing-page decisions, then measure successful customer actions."
     },
     {
       "slug": "technical-seo-audit",
-      "name": "Technical SEO Audit Services",
+      "name": "Technical SEO Audit & Independent Review",
       "group": "Google search & content",
-      "headline": "Technical SEO Audit Services",
-      "summary": "Is Google struggling to find or read your website?",
-      "body": "We examine important business pages and how search engines reach them. The report explains affected URLs, likely impact and recommended fixes, separating urgent indexing problems from improvements that can be planned later. A technical SEO audit reviews crawlability, indexing, canonical URLs and site structure. Each recommendation identifies the affected page or pattern and the implementation priority.",
+      "headline": "Technical SEO Audit & Independent Review Services",
+      "summary": "Find technical search problems and get an independent review of your current SEO recommendations.",
+      "body": "We examine important business pages, crawlability, indexing, canonical URLs, redirects and site structure. Each finding explains the affected URLs, available evidence, priority and recommended fix. If you need a second opinion, we also review your existing SEO reports and proposed tasks against your goals. The independent review distinguishes supported recommendations from questions that need more evidence. Choose an audit, a review of existing advice, or both; implementation is scoped separately.",
       "fit": "Websites with missing search results, broken links or technical problems that need investigation.",
       "deliverables": [
         "Check of whether search engines can read important pages",
         "Review of page addresses, redirects and sitemap",
         "Checks of page links and website templates",
         "A clear fix list for you and your developer",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Review of your current plan and reports",
+        "Check of important service pages",
+        "Explanation of gaps and unclear claims",
+        "Independent recommendations and questions for your provider"
       ],
-      "inputs": "Your website address, access to Google Search Console if available and details of recent website changes.",
+      "inputs": "Your website, available Search Console access, recent changes and existing SEO reports or recommendations you want reviewed.",
       "measure": "We review whether intended pages can be found and included in search results, using the available reports.",
       "related": [
         "on-page-seo",
@@ -238,7 +214,10 @@
       "industries": [
         "ecommerce",
         "saas",
-        "travel"
+        "travel",
+        "professional-services",
+        "real-estate",
+        "education"
       ],
       "faq": [
         {
@@ -246,39 +225,49 @@
           "a": "Implementation can be included as a separate agreed task or handled by your developers. The audit provides specific recommendations and checks for validating completed fixes."
         },
         {
-          "q": "How do I get a quote for Technical SEO Audit?",
+          "q": "How do I get a quote for Technical SEO Audit & Independent Review?",
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+        },
+        {
+          "q": "Do I need to change my SEO agency?",
+          "a": "No. The review can help you ask better questions and agree clearer priorities with your current provider. Any implementation or ongoing support is a separate decision."
         }
       ],
-      "number": "08",
-      "metaDescription": "Check crawling, indexing, redirects and canonical signals on important pages. Get an actionable technical SEO report."
+      "number": "05",
+      "metaDescription": "Audit crawling, indexing, redirects and canonicals, or get an independent review of your SEO plan. Receive evidence and clear implementation priorities."
     },
     {
       "slug": "on-page-seo",
-      "name": "On-page SEO Services",
+      "name": "On-page SEO & Content Strategy",
       "group": "Google search & content",
-      "headline": "On-page SEO Services",
-      "summary": "Want your service pages to answer the right searches?",
-      "body": "We map each important page to a distinct customer need, then improve the explanation of your offer, scope and next step. Keywords support useful copy; they do not replace the information buyers need to decide whether to contact you. On-page SEO connects search intent, headings, page copy and internal links. The focus is a useful service explanation that both customers and search engines can understand.",
+      "headline": "On-page SEO & Content Strategy Services",
+      "summary": "Connect customer searches with useful service pages, clear content briefs and a practical publishing plan.",
+      "body": "We map customer problems, commercial searches and comparison questions to suitable pages. The plan identifies where to improve existing service pages and where supporting content is useful. On-page work covers titles, headings, descriptions, useful copy and internal links. Content strategy sets priorities, briefs and routes from guides to the relevant service. Choose planning, optimization of agreed pages, or both; full article production is agreed separately. Keywords support accurate buying information and are used naturally.",
       "fit": "Businesses whose service pages are unclear or attract people looking for something else.",
       "deliverables": [
         "Research of customer questions and search phrases",
         "Improved page titles, headings and descriptions",
         "Clearer service content on the agreed pages",
         "Useful links between related pages",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Research of customer problems and buying questions",
+        "Plan for useful service pages and articles",
+        "Writing instructions for the agreed content",
+        "Links and contact options to include"
       ],
-      "inputs": "Your services, customer locations, website access and accurate information about what you offer.",
+      "inputs": "Your services, customer locations, accurate business information, existing content and website access for the agreed work.",
       "measure": "We review relevant search visits and enquiries from the agreed pages where tracking is available.",
       "related": [
-        "content-strategy",
         "technical-seo-audit",
-        "local-seo"
+        "local-seo",
+        "ai-search-visibility",
+        "b2b-lead-generation"
       ],
       "industries": [
         "professional-services",
         "healthcare",
-        "real-estate"
+        "real-estate",
+        "travel"
       ],
       "faq": [
         {
@@ -286,12 +275,16 @@
           "a": "We connect relevant keywords to pages that can help customers buy. Rankings and traffic are supporting indicators; enquiry quality is reviewed when your tracking and sales information allow it."
         },
         {
-          "q": "How do I get a quote for On-page SEO?",
+          "q": "How do I get a quote for On-page SEO & Content Strategy?",
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+        },
+        {
+          "q": "Will every keyword need a new page?",
+          "a": "No. Similar searches can often be answered on one strong page. We recommend separate pages when the offer, audience or buying decision is meaningfully different."
         }
       ],
-      "number": "09",
-      "metaDescription": "Improve page intent, headings, service copy and internal links for relevant searches and easier buying decisions."
+      "number": "06",
+      "metaDescription": "Improve service pages, titles, headings and internal links. Plan SEO content briefs around customer questions, commercial intent and useful next steps."
     },
     {
       "slug": "local-seo",
@@ -338,7 +331,7 @@
           "a": "Yes. Business Profile optimization is available as a focused scope within our Local SEO service. We agree the profile tasks, access, deliverables and fees before work starts."
         }
       ],
-      "number": "10",
+      "number": "07",
       "metaDescription": "Local SEO and Google Business Profile support for genuine service areas, useful local pages and clear contact options."
     },
     {
@@ -378,7 +371,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "12",
+      "number": "08",
       "metaDescription": "Plan URL mappings, redirects and launch checks when your domain, CMS or website structure changes."
     },
     {
@@ -401,7 +394,7 @@
       "related": [
         "technical-seo-audit",
         "seo-migration-support",
-        "content-strategy"
+        "on-page-seo"
       ],
       "industries": [
         "travel",
@@ -418,48 +411,8 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "13",
+      "number": "09",
       "metaDescription": "Investigate search traffic drops using available Search Console data, analytics and website change history."
-    },
-    {
-      "slug": "content-strategy",
-      "name": "SEO & Organic Content Strategy",
-      "group": "Google search & content",
-      "headline": "SEO & Organic Content Strategy",
-      "summary": "Not sure what to write on your website?",
-      "body": "We map customer problems, comparison questions and service searches to the right pages. Each brief defines the audience, intent, useful answers and internal links. The plan gives business pages priority rather than publishing articles without a route to enquiry. SEO content strategy assigns a clear customer question and search intent to each page. Commercial service pages and supporting guides work together through relevant internal links.",
-      "fit": "Businesses publishing content but struggling to connect it with customer questions and services.",
-      "deliverables": [
-        "Research of customer problems and buying questions",
-        "Plan for useful service pages and articles",
-        "Writing instructions for the agreed content",
-        "Links and contact options to include",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Your offer, common customer questions and the concerns people raise before buying.",
-      "measure": "We review visits to useful pages and enquiries supported by the content where data is available.",
-      "related": [
-        "on-page-seo",
-        "ai-search-visibility",
-        "b2b-lead-generation"
-      ],
-      "industries": [
-        "real-estate",
-        "travel",
-        "professional-services"
-      ],
-      "faq": [
-        {
-          "q": "Will every keyword need a new page?",
-          "a": "No. Similar searches can often be answered on one strong page. We recommend separate pages when the offer, audience or buying decision is meaningfully different."
-        },
-        {
-          "q": "How do I get a quote for SEO & Organic Content Strategy?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "14",
-      "metaDescription": "Prioritise buying-intent topics and useful service pages. Get content briefs with clear audiences and internal links."
     },
     {
       "slug": "ai-search-visibility",
@@ -479,9 +432,8 @@
       "inputs": "Your website, accurate business information, approved supporting material and common customer questions.",
       "measure": "We review available mentions, visits and enquiries alongside normal search reports. AI results can vary between questions and users.",
       "related": [
-        "content-strategy",
-        "technical-seo-audit",
-        "on-page-seo"
+        "on-page-seo",
+        "technical-seo-audit"
       ],
       "industries": [
         "saas",
@@ -498,7 +450,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "15",
+      "number": "10",
       "metaDescription": "AI SEO, AEO and GEO work focused on accessible pages, direct answers and consistent business information."
     },
     {
@@ -520,8 +472,8 @@
       "measure": "We review suitable sales conversations and progress recorded by your team.",
       "related": [
         "linkedin-advertising",
-        "email-lead-nurturing",
-        "lead-quality-optimization"
+        "marketing-automation",
+        "conversion-optimization"
       ],
       "industries": [
         "saas",
@@ -538,7 +490,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "16",
+      "number": "11",
       "metaDescription": "Define suitable companies and buying roles, connect a relevant offer and organise qualification and sales handover."
     },
     {
@@ -561,7 +513,7 @@
       "related": [
         "b2b-lead-generation",
         "landing-page-design",
-        "email-lead-nurturing"
+        "marketing-automation"
       ],
       "industries": [
         "saas",
@@ -577,88 +529,8 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "17",
+      "number": "12",
       "metaDescription": "LinkedIn Ads planning and management around relevant roles, company profiles and business needs."
-    },
-    {
-      "slug": "retargeting-campaigns",
-      "name": "Retargeting & Remarketing Services",
-      "group": "Online advertising",
-      "headline": "Retargeting & Remarketing Services",
-      "summary": "Want interested visitors to come back?",
-      "body": "We organise audiences around meaningful website activity, create relevant follow-up messages and review frequency and exclusions. Consent settings, platform requirements and enough eligible audience data are needed before campaigns can run. Retargeting campaigns revisit an agreed audience with a relevant next message. Audience definitions, exclusions and conversion tracking are checked against your existing data and consent setup.",
-      "fit": "Businesses with existing interested visitors who may need more time before deciding.",
-      "deliverables": [
-        "Plan for eligible audiences and people to exclude",
-        "Messages suited to what people have already seen",
-        "Setup of agreed campaigns",
-        "Review of ad repetition and available enquiry results",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Ad account access, visitor information, consent settings and approved ad material.",
-      "measure": "We review returning visitors and useful enquiries where the available tools can measure them.",
-      "related": [
-        "paid-social-advertising",
-        "google-ads-management",
-        "conversion-optimization"
-      ],
-      "industries": [
-        "ecommerce",
-        "travel",
-        "real-estate"
-      ],
-      "faq": [
-        {
-          "q": "Can you retarget every visitor?",
-          "a": "No. Eligibility depends on consent, platform policies, tagging and audience size. We check the available audience before recommending a campaign."
-        },
-        {
-          "q": "How do I get a quote for Retargeting & Remarketing?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "18",
-      "metaDescription": "Plan relevant follow-up ads for eligible audiences, with consent settings, exclusions and frequency review."
-    },
-    {
-      "slug": "email-lead-nurturing",
-      "name": "Email Lead Nurturing Services",
-      "group": "Business enquiries & follow-up",
-      "headline": "Email Lead Nurturing Services",
-      "summary": "People enquire, then stop replying?",
-      "body": "We plan messages around why people enquired and what they still need to know. Agreed sequences can explain scope, answer objections and support handover to your team, with review of delivery and meaningful responses. Email lead nurturing gives an existing enquiry useful information for its next decision. Messages, triggers and sales handoff are scoped around your approved contact data and customer journey.",
-      "fit": "Businesses with contacts who have agreed to hear from them and need helpful follow-up.",
-      "deliverables": [
-        "Plan for follow-up messages and timing",
-        "Writing for the agreed email sequence",
-        "Agreed setup in your email or customer management tool",
-        "Rules for passing interested replies to your team",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Your email tool access, permission-based contact sources, sales steps and approved offer details.",
-      "measure": "We review replies and useful sales conversations, where your tools provide reliable information.",
-      "related": [
-        "b2b-lead-generation",
-        "lead-quality-optimization",
-        "analytics-dashboards"
-      ],
-      "industries": [
-        "real-estate",
-        "saas",
-        "travel"
-      ],
-      "faq": [
-        {
-          "q": "Can you work with our existing email platform?",
-          "a": "Yes, subject to supported access and agreed integrations. We review contact permissions, list quality and the current follow-up process before recommending a sequence."
-        },
-        {
-          "q": "How do I get a quote for Email Lead Nurturing?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "19",
-      "metaDescription": "Build agreed email sequences that answer buying questions and support timely follow-up."
     },
     {
       "slug": "analytics-dashboards",
@@ -679,7 +551,6 @@
       "measure": "We check that the information is consistent and explain what is missing or cannot be connected.",
       "related": [
         "conversion-optimization",
-        "lead-quality-optimization",
         "google-ads-management"
       ],
       "industries": [
@@ -697,7 +568,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "20",
+      "number": "13",
       "metaDescription": "Connect available marketing data into clear reports for enquiries, lead quality and outcomes where tracked."
     },
     {
@@ -737,75 +608,41 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "number": "21",
+      "number": "14",
       "metaDescription": "Diagnose loading, interaction and layout issues. Improve performance and review Core Web Vitals where data is available."
     },
     {
-      "slug": "seo-second-opinion",
-      "name": "Independent SEO Review Services",
-      "group": "Google search & content",
-      "headline": "Independent SEO Review Services",
-      "summary": "Not sure whether your current SEO work is helping?",
-      "body": "We review the available reports, important pages and current work against your business goals. You receive an explanation of what appears useful, what needs evidence and which priorities deserve clarification with your existing team. An SEO second opinion reviews the evidence behind an existing recommendation. We explain priorities, dependencies and questions to resolve before you commit to further work.",
-      "fit": "Businesses unsure whether their current SEO work is addressing the right problems.",
-      "deliverables": [
-        "Review of your current plan and reports",
-        "Check of important service pages",
-        "Explanation of gaps and unclear claims",
-        "Independent recommendations and questions for your provider",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Your reports, the work agreed with your provider, website details and business goals.",
-      "measure": "We explain which priorities have supporting evidence and what your reports say about useful enquiries.",
-      "related": [
-        "technical-seo-audit",
-        "content-strategy",
-        "on-page-seo"
-      ],
-      "industries": [
-        "professional-services",
-        "real-estate",
-        "education"
-      ],
-      "faq": [
-        {
-          "q": "Do I need to change my SEO agency?",
-          "a": "No. The review can help you ask better questions and agree clearer priorities with your current provider. Any implementation or ongoing support is a separate decision."
-        },
-        {
-          "q": "How do I get a quote for Independent SEO Review?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "22",
-      "metaDescription": "Review current SEO work, reports and commercial pages. Get a clear view of useful work and missing evidence."
-    },
-    {
       "slug": "marketing-automation",
-      "name": "Marketing Automation Services",
+      "name": "Marketing Automation & Email Nurturing",
       "group": "Business enquiries & follow-up",
-      "headline": "Marketing Automation Services",
-      "summary": "Losing enquiries because follow-up takes too long?",
-      "body": "We map what should happen after a customer enquires and identify where manual handovers break down. Agreed workflows are configured and tested with failure handling, ownership and clear records for your team. Marketing automation connects enquiry capture, routing and follow-up through agreed workflows. Triggers and failure handling are tested so that the process is understandable to your team.",
+      "headline": "Marketing Automation & Email Nurturing Services",
+      "summary": "Route inquiries to the right person and follow up with useful, approved email sequences.",
+      "body": "We map what happens after a customer inquires, then agree routing, confirmations, assignments and reminders. Email nurturing answers the questions that remain before a buying decision. Messages, triggers, timing and sales handoff are planned around approved contact data and your existing tools. Supported integrations and failure handling are tested, with ownership and records your team can understand. Choose workflow setup, email sequence planning or a combined scope.",
       "fit": "Businesses where enquiries are passed manually between tools or follow-up is often missed.",
       "deliverables": [
         "Review of how enquiries move through your tools",
         "Plan for confirmations, assignments and reminders",
         "Setup of the agreed tool connections",
         "Checks and a simple guide for your team",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Plan for follow-up messages and timing",
+        "Writing for the agreed email sequence",
+        "Agreed setup in your email or customer management tool",
+        "Rules for passing interested replies to your team"
       ],
       "inputs": "Access to relevant tools, team responsibilities, enquiry stages and approved message templates.",
       "measure": "We check that enquiries reach the right people and that agreed reminders and confirmations work.",
       "related": [
-        "email-lead-nurturing",
         "b2b-lead-generation",
-        "conversion-optimization"
+        "conversion-optimization",
+        "analytics-dashboards"
       ],
       "industries": [
         "recruitment",
         "real-estate",
-        "logistics"
+        "logistics",
+        "saas",
+        "travel"
       ],
       "faq": [
         {
@@ -813,39 +650,51 @@
           "a": "We review your existing CRM, forms and email platform first. Supported integrations, access requirements and third-party costs are confirmed before the workflow is agreed."
         },
         {
-          "q": "How do I get a quote for Marketing Automation?",
+          "q": "How do I get a quote for Marketing Automation & Email Nurturing?",
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+        },
+        {
+          "q": "Can you work with our existing email platform?",
+          "a": "Yes, subject to supported access and agreed integrations. We review contact permissions, list quality and the current follow-up process before recommending a sequence."
         }
       ],
-      "number": "23",
-      "metaDescription": "Set up and test enquiry routing, follow-up workflows and failure handling using your agreed tools."
+      "number": "15",
+      "metaDescription": "Connect inquiry routing, CRM handoff and email nurturing. Set up approved follow-up sequences, tested integrations and clear team responsibilities."
     },
     {
       "slug": "paid-media-strategy",
-      "name": "Performance Marketing Strategy Services",
+      "name": "Paid Media Strategy & Retargeting",
       "group": "Online advertising",
-      "headline": "Performance Marketing Strategy Services",
-      "summary": "Not sure where to spend your advertising budget?",
-      "body": "We assess demand, audience fit and the information buyers need before enquiring. The plan sets out channel roles, launch requirements and review criteria, including what needs to be fixed on the website or tracking first. Paid media strategy assigns a role to search ads, paid social and retargeting. Budget decisions follow the customer journey, measurement quality and the business outcome you want to improve.",
+      "headline": "Paid Media Strategy & Retargeting Services",
+      "summary": "Choose suitable advertising channels and bring interested visitors back with relevant remarketing.",
+      "body": "We assess demand, audience fit, the offer and measurement before recommending channel roles and test budgets. The strategy explains what search ads, paid social and retargeting should contribute. Retargeting work defines eligible audiences, exclusions, useful follow-up messages and frequency reviews. Campaigns depend on consent settings, platform requirements and sufficient audience data. Choose a strategy-only engagement or agreed retargeting setup and management; channel-specific ongoing management is available through our Google, Meta and LinkedIn services.",
       "fit": "Businesses choosing where to advertise or reconsidering ads that are not working.",
       "deliverables": [
         "Review of your customers and offer",
         "Recommendations for suitable platforms and budgets",
         "What your ads and website need before testing",
         "A plan for reviewing results and deciding what to do next",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Plan for eligible audiences and people to exclude",
+        "Messages suited to what people have already seen",
+        "Setup of agreed campaigns",
+        "Review of ad repetition and available enquiry results"
       ],
       "inputs": "Customer locations, offer and pricing details, existing results and the budget available for tests.",
       "measure": "We review what each test can tell you about useful enquiries and spending.",
       "related": [
         "google-ads-management",
         "paid-social-advertising",
-        "linkedin-advertising"
+        "linkedin-advertising",
+        "conversion-optimization"
       ],
       "industries": [
         "solar-energy",
         "recruitment",
-        "saas"
+        "saas",
+        "ecommerce",
+        "travel",
+        "real-estate"
       ],
       "faq": [
         {
@@ -853,56 +702,16 @@
           "a": "The strategy defines the plan and priorities. Campaign setup and ongoing management can be scoped separately or included in an agreed combined engagement."
         },
         {
-          "q": "How do I get a quote for Performance Marketing Strategy?",
+          "q": "How do I get a quote for Paid Media Strategy & Retargeting?",
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "24",
-      "metaDescription": "Choose suitable paid channels, define the offer and agree launch requirements, budgets and review criteria."
-    },
-    {
-      "group": "Social media",
-      "industries": [
-        "real-estate",
-        "hospitality",
-        "healthcare",
-        "travel",
-        "ecommerce",
-        "professional-services"
-      ],
-      "related": [
-        "content-strategy",
-        "paid-social-advertising",
-        "landing-page-design"
-      ],
-      "number": "25",
-      "slug": "social-media-strategy",
-      "name": "Social Media Marketing Strategy",
-      "headline": "Social Media Marketing Strategy",
-      "summary": "Posting on social media without a clear plan?",
-      "body": "We connect your offer and customer questions with suitable content formats. The plan explains what to publish, which next actions to include and how organic social differs from paid advertising. Social media strategy connects audience needs, useful content and a realistic publishing plan. We agree the role of each channel and the actions that matter to your business.",
-      "fit": "For businesses starting social media or posting without a clear direction.",
-      "deliverables": [
-        "Review of your current social profiles",
-        "Recommended platforms based on your customers",
-        "Post topics that explain your services and answer questions",
-        "An agreed posting schedule and sample ideas",
-        "Recommendations for profile links and contact options",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Share your social profile links, products or services, customer locations and available photos. Tell us what you want people to do after seeing a post.",
-      "measure": "We agree useful measures such as visits to your profile, clicks to your website and relevant messages. Likes alone do not show that people are buying.",
-      "faq": [
-        {
-          "q": "Does social media marketing include paid ads?",
-          "a": "This service plans organic social content. Meta Ads and other paid campaigns can be added through a separate agreed advertising scope."
         },
         {
-          "q": "How do I get a quote for Social Media Marketing Strategy?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+          "q": "Can you retarget every visitor?",
+          "a": "No. Eligibility depends on consent, platform policies, tagging and audience size. We check the available audience before recommending a campaign."
         }
       ],
-      "metaDescription": "Plan social platforms, content themes and next steps around your offer and real customer questions."
+      "number": "16",
+      "metaDescription": "Plan paid channels and budgets, then build relevant retargeting audiences, messages and exclusions. Choose strategy or remarketing implementation."
     },
     {
       "group": "Social media",
@@ -915,60 +724,17 @@
         "professional-services"
       ],
       "related": [
-        "content-strategy",
+        "on-page-seo",
         "paid-social-advertising",
         "landing-page-design",
         "online-reputation-management"
       ],
-      "number": "26",
-      "slug": "social-profile-setup",
-      "name": "Social Media SEO & Profile Optimization",
-      "headline": "Instagram, Facebook & YouTube SEO Services",
-      "summary": "Make your Instagram, Facebook and YouTube profiles easier to understand, discover and contact.",
-      "body": "We optimize approved profile names, biographies, business descriptions, contact links and platform-appropriate content. Instagram and Facebook work connects clear service language with useful posts and accurate profile information. YouTube work reviews channel descriptions, video titles, descriptions and the next step for viewers. Platform search visibility is reviewed without promising rankings or followers.",
-      "fit": "For new businesses or businesses with incomplete, outdated or inconsistent profiles.",
-      "deliverables": [
-        "Profile identity, service language and contact-link review",
-        "Instagram bio, content-topic and profile optimization",
-        "Facebook page information, services and content planning",
-        "YouTube channel, video-title and description recommendations",
-        "A platform-specific action list and agreed implementation scope"
-      ],
-      "inputs": "Provide authorised access to the profiles, your business details, logo and approved contact information. You keep ownership of your accounts.",
-      "measure": "We check the agreed information and links, and review profile actions where the platform provides them.",
-      "faq": [
-        {
-          "q": "Can you improve profiles we already have?",
-          "a": "Yes. We can review and update existing profiles with the right access. New profile creation depends on platform requirements and your business’s approved information."
-        },
-        {
-          "q": "How do I get a quote for Social Media Profile Setup?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "metaDescription": "Instagram, Facebook and YouTube SEO with clear profile information, content topics, video titles and useful contact paths."
-    },
-    {
-      "group": "Social media",
-      "industries": [
-        "real-estate",
-        "hospitality",
-        "healthcare",
-        "travel",
-        "ecommerce",
-        "professional-services"
-      ],
-      "related": [
-        "content-strategy",
-        "paid-social-advertising",
-        "landing-page-design"
-      ],
-      "number": "27",
+      "number": "17",
       "slug": "social-media-content-management",
-      "name": "Social Media Management Services",
-      "headline": "Social Media Management Services",
-      "summary": "Need useful social posts without doing everything yourself?",
-      "body": "We build the content plan around your offer, useful advice and approved business information. Drafts, revisions and posting schedules are agreed in advance. Reporting reviews meaningful engagement and available website or enquiry activity. Social media content management turns an agreed strategy into reviewed posts and a publishing schedule. Content explains the offer, answers customer questions and supports relevant conversations.",
+      "name": "Social Media Marketing & Management",
+      "headline": "Social Media Marketing & Management Services",
+      "summary": "Plan your social content, optimize Instagram, Facebook and YouTube, and manage approved publishing in one service.",
+      "body": "We connect your offer and customer questions with suitable platforms, profile information and content. Start with a social media audit or strategy, improve approved biographies and search copy, then agree formats, posting schedules and an approval process. Instagram and Facebook work includes clear business details and contact paths; YouTube SEO covers channel information and relevant video titles and descriptions. Ongoing management reviews useful engagement and inquiries where evidence is available. You can book strategy, profile optimization or content management separately within this service.",
       "fit": "For businesses that need regular social content but do not have the time or team to create it consistently.",
       "deliverables": [
         "An agreed monthly content calendar",
@@ -976,21 +742,39 @@
         "Your review and approval before publishing",
         "Scheduling or publishing where agreed access allows it",
         "A simple review of available post and profile results",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Review of your current social profiles",
+        "Recommended platforms based on your customers",
+        "Post topics that explain your services and answer questions",
+        "An agreed posting schedule and sample ideas",
+        "Recommendations for profile links and contact options",
+        "Profile identity, service language and contact-link review",
+        "Instagram bio, content-topic and profile optimization",
+        "Facebook page information, services and content planning",
+        "YouTube channel, video-title and description recommendations",
+        "A platform-specific action list and agreed implementation scope"
       ],
-      "inputs": "Share approved business information, your logo, available photos, offers and profile access where publishing is included. Tell us who approves content.",
-      "measure": "We review relevant profile visits, website clicks and messages alongside post activity. Followers, enquiries and sales are not guaranteed.",
+      "inputs": "Your social profile links, target customers, approved brand assets, services, posting permissions and any available platform insights.",
+      "measure": "We review the agreed publishing work, profile improvements and available engagement or inquiry evidence. Search visibility, followers and sales are not guaranteed.",
       "faq": [
         {
           "q": "How many posts are included?",
           "a": "Post counts, formats, platforms, revisions and approval timings are agreed in your scope. Community management, video production and paid ads are included only when specified."
         },
         {
-          "q": "How do I get a quote for Social Media Management?",
+          "q": "How do I get a quote for Social Media Marketing & Management?",
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+        },
+        {
+          "q": "Does social media marketing include paid ads?",
+          "a": "This service plans organic social content. Meta Ads and other paid campaigns can be added through a separate agreed advertising scope."
+        },
+        {
+          "q": "Can you improve profiles we already have?",
+          "a": "Yes. We can review and update existing profiles with the right access. New profile creation depends on platform requirements and your business’s approved information."
         }
       ],
-      "metaDescription": "Manage agreed content planning, drafts, approvals, publishing and meaningful reporting."
+      "metaDescription": "Social media strategy, Instagram and Facebook optimization, YouTube SEO and content management. Choose a focused scope or ongoing support."
     },
     {
       "slug": "online-reputation-management",
@@ -1012,7 +796,6 @@
       "measure": "We review response times, unanswered reviews, recurring customer concerns and completed follow-up actions. Rating trends and review sentiment provide context; we do not guarantee a rating, rankings or review removal.",
       "related": [
         "local-seo",
-        "social-profile-setup",
         "social-media-content-management"
       ],
       "industries": [
@@ -1045,7 +828,7 @@
           "a": "Pricing depends on the number of profiles, platforms, review volume and monitoring frequency. Share your requirements and we will explain the work, fee and timeline."
         }
       ],
-      "number": "28",
+      "number": "18",
       "metaDescription": "Manage online reviews, brand mentions and customer feedback with DMB’s ORM services. Get a clear response process and reputation management plan."
     }
   ]

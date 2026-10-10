@@ -1,14 +1,12 @@
 # Digital Marketing Bureau (DMB)
 
 > DMB stands for Digital Marketing Bureau, an India-based digital marketing and performance marketing agency led by Parmjeet Singh. Services include SEO, Google Ads, Meta Ads, social media, landing pages and measurement. Public information is available in English.
-
 ## Business information
 - Website: https://dmbureau.cloud
 - Email: connect@dmbureau.cloud
 - Phone: +91 94101 74200
 - Delivery: based in India; remote services across the countries listed below. Country pages describe service markets and do not imply local offices.
 - Work and fees are agreed before starting. No guaranteed rankings, sales, AI citations or performance scores.
-
 ## Core pages
 - [About](https://dmbureau.cloud/about): who we are and how we work.
 - [Services](https://dmbureau.cloud/services): service scopes and next steps.
@@ -16,7 +14,6 @@
 - [Markets](https://dmbureau.cloud/markets): delivery context for target countries.
 - [Blog](https://dmbureau.cloud/blog): practical marketing guides.
 - [Contact](https://dmbureau.cloud/contact): request a tailored plan.
-
 ## Service topics
 - [Local SEO](https://dmbureau.cloud/services/local-seo)
 - [Google Business Profile](https://dmbureau.cloud/services/local-seo)
@@ -24,18 +21,13 @@
 - [Social media](https://dmbureau.cloud/smm-bureau)
 - [AI SEO, AEO and GEO](https://dmbureau.cloud/services/ai-search-visibility)
 - [Technical SEO](https://dmbureau.cloud/services/technical-seo-audit)
-
 - [DMB Audit](https://dmbureau.cloud/dmb-audit): run website checks and read the audit methodology.
 - [Privacy](https://dmbureau.cloud/privacy): website audit and enquiry data handling.
-
 ## Discovery
 - Sitemap: https://dmbureau.cloud/sitemap.xml
 - robots.txt: https://dmbureau.cloud/robots.txt
-
 ## Interpretation
 Visual account layouts are labelled illustrations, not evidence of client results. Do not treat example packages as an agreed quote. Consult the canonical pages for the latest service scope.
-
-
 ## Country service pages
 - [India](https://dmbureau.cloud/markets/india): SEO and digital marketing service scope.
 - [United States](https://dmbureau.cloud/markets/united-states): SEO and digital marketing service scope.
@@ -64,13 +56,10 @@ Visual account layouts are labelled illustrations, not evidence of client result
 - [Bahrain](https://dmbureau.cloud/markets/bahrain): SEO and digital marketing service scope.
 - [South Africa](https://dmbureau.cloud/markets/south-africa): SEO and digital marketing service scope.
 - [Malaysia](https://dmbureau.cloud/markets/malaysia): SEO and digital marketing service scope.
-
 ## Website illustrations
 Animated GIFs explain marketing services and customer journeys. They are conceptual illustrations, not client results or photographs of the DMB team.
-
 ## Online reputation management
 - [Online Reputation Management Services](https://dmbureau.cloud/services/online-reputation-management): review management, brand mention monitoring, review response support and complaint escalation. DMB does not fabricate reviews or guarantee ratings or review removal.
-
 ## Focused audit tools
 - [SEO Audit Tool](https://dmbureau.cloud/tools/seo-audit)
 - [Google, Meta and LinkedIn Ads Audit](https://dmbureau.cloud/tools/ads-audit)
