@@ -9,17 +9,15 @@ import {marketTranslations} from "@/lib/market-locales";
 // The public Marpixel HTML is served directly for many URLs, bypassing the
 // React site shell. Keep its desktop/mobile navigation aligned with the site.
 function refreshPublicNavigation(html:string){
- // Static Marpixel menus have trailing-slash hrefs, unlike the React shell.
- // Limit edits to menu LI groups; preserve country URLs elsewhere in content.
- const countries=/<li class="dropdown"><a href="\\/markets\\/?">Countries<\\/a><ul class="dropdown-menu clearfix">[\\s\\S]*?<\\/ul><\\/li>/g;
- const oldServices=/<li class="dropdown"><a href="\\/services\\/?">Services<\\/a><ul class="dropdown-menu clearfix">[\\s\\S]*?<\\/ul><\\/li>/g;
+ const countries=/<li class="dropdown"><a href="\/markets\/?">Countries<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g;
+ const oldServices=/<li class="dropdown"><a href="\/services\/?">Services<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g;
  const servicesMenu='<li class="dropdown"><a href="/services">Services</a><ul class="dropdown-menu clearfix"><li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li><li><a href="/services">All Services</a></li></ul></li>';
  html=html.replace(countries,'').replace(oldServices,servicesMenu);
  const primary='<li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li>';
  html=html.replace(/(<ul id="(?:main-nav|m-main-nav)"[^>]*>)/g,'$1'+primary);
  if(!html.includes('dmb-footer-market-directory')){
   const links=markets.map(m=>'<a href="/markets/'+m.slug+'">'+m.name+'</a>').join(' ');
-  html=html.replace(/<\\/footer>/i,'<nav class="dmb-footer-market-directory" aria-label="Our markets"><h3>Our Markets</h3><div class="dmb-footer-market-grid">'+links+'</div><a href="/markets">All markets</a></nav></footer>');
+  html=html.replace(/<\/footer>/i,'<nav class="dmb-footer-market-directory" aria-label="Our markets"><h3>Our Markets</h3><div class="dmb-footer-market-grid">'+links+'</div><a href="/markets">All markets</a></nav></footer>');
  }
  return html;
 }
