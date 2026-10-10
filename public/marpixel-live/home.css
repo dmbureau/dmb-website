@@ -6132,3 +6132,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 } .dmb-gallery{max-width:90vw;max-height:90vh;padding:18px;border:0;border-radius:16px}.dmb-gallery::backdrop{background:#000a}.dmb-gallery img{display:block;max-width:80vw;max-height:75vh;object-fit:contain}.dmb-gallery button{display:block;margin:0 0 12px auto;border:0;padding:8px 16px;cursor:pointer;background:#0b1822;color:white}
+/* Restore Home 1 motion surfaces and Swiper layout. */
+.ax-hero1-img{transform:none;transition:none}.ax-hero1-img img{animation:none}.ax-cs-slider{overflow:hidden}.ax-cs-slider .swiper-wrapper{overflow:visible;scroll-snap-type:none;gap:0;scrollbar-width:none}.ax-cs-slider .swiper-slide{flex:0 0 auto;scroll-snap-align:none}.dmb-theme-motion .scene [data-depth]{will-change:transform}
+
+.ax-hero1-text .hero_text_left .dmb-original-home-h1{font-size:clamp(36px,5vw,76px);line-height:1.08;max-width:850px;letter-spacing:-.03em}.ax-hero1-text .hero_text_left .dmb-home-services{font-size:clamp(16px,2vw,25px);line-height:1.5;margin-top:22px;white-space:normal}
