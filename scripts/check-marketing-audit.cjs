@@ -1,0 +1,21 @@
+const fs=require('node:fs'),path=require('node:path'),Module=require('node:module'),assert=require('node:assert/strict'),ts=require('typescript');
+const root=process.cwd(),cache=new Map(),original=Module._load;
+function load(file){if(cache.has(file))return cache.get(file).exports;const m=new Module(file,module);m.filename=file;m.paths=Module._nodeModulePaths(path.dirname(file));cache.set(file,m);m._compile(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,file);return m.exports}
+Module._load=function(request,parent,isMain){if(request.endsWith('.css'))return {__esModule:true,default:new Proxy({},{get:(_,key)=>String(key)})};const stem=request.startsWith('@/')?path.join(root,request.slice(2)):request.startsWith('.')&&parent?.filename.startsWith(root)?path.resolve(path.dirname(parent.filename),request):null;if(stem){for(const ext of ['.ts','.tsx'])if(fs.existsSync(stem+ext))return load(stem+ext)}return original.apply(this,arguments)};
+const {expertReport}=load(path.join(root,'lib/audit-expert.ts'));
+const {marketingSignals}=load(path.join(root,'lib/audit-marketing.ts'));
+const url='https://example.com/';
+const fixture=`<html lang="en"><head><title>Property SEO and Advertising Services</title><meta name="description" content="Discover useful SEO and advertising services for local property businesses and improve your inquiry journey."><meta property="og:title" content="Property marketing"><meta property="og:description" content="Practical property marketing"><meta property="og:image" content="https://example.com/share.webp"><link rel="canonical" href="https://example.com/"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Example"}</script><script>fbq('init', '123');</script></head><body><h3>Navigation label</h3><main><h1>Property SEO services</h1><p>SEO for property advertising and SEO service pages.</p><a href="https://www.instagram.com/example/">Instagram</a><a href="https://facebook.com/sharer/sharer.php">Share</a><a href="https://instagram.com.evil.test/example/">Fake host</a><a href="/contact">Contact us</a><a href="/privacy">Privacy</a></main></body></html>`;
+const report=expertReport(fixture,url,new Headers());
+assert.equal(report.marketing.profiles.length,1);assert.equal(report.marketing.profiles[0].platform,'Instagram');
+assert(report.marketing.tracking.find(t=>t.name==='Meta Pixel').found);
+assert(report.checks.find(c=>c.id==='heading-order').status==='review');
+assert(report.structuredData.types.includes('Organization'));assert.equal(report.structuredData.invalid,0);
+assert(report.keywords.some(k=>k.term==='seo'&&k.title&&k.headings));
+const noTracking=expertReport(fixture.replace(/<script>fbq[\s\S]*?<\/script>/,''),url,new Headers());
+assert.equal(noTracking.checks.find(c=>c.id==='ads-tags').status,'unavailable');
+assert.equal(noTracking.checks.find(c=>c.id==='profile-facebook').status,'unavailable');
+assert.equal(marketingSignals('<a href="javascript:alert(1)">bad</a>',url).profiles.length,0);
+const invalid=expertReport(fixture.replace('"@type":"Organization"','"@type":bad'),url,new Headers());assert.equal(invalid.structuredData.invalid,1);assert.equal(invalid.checks.find(c=>c.id==='schema-json').status,'review');
+const React=require('react'),{renderToStaticMarkup}=require('react-dom/server');const {MarketingAuditReport}=load(path.join(root,'components/marketing-audit-report.tsx'));const html=renderToStaticMarkup(React.createElement(MarketingAuditReport,{report:{...report,checkedAt:new Date().toISOString()},performance:{},ads:null}));assert(html.includes('Ads readiness'));assert(html.includes('Social media'));assert(html.includes('Structured data inventory'));assert(!/ download=|blob:/.test(html));
+console.log('Passed: public social/tracking discovery, unavailable-data scoring, heading order, invalid schema JSON, keyword evidence and report rendering without a free export.');
