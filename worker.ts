@@ -18,8 +18,14 @@ function refreshPublicNavigation(html:string){
  html=html.replace(/(<ul id="(?:main-nav|m-main-nav)"[^>]*>)/g,'$1'+primary);
 
  const company='<li class="dropdown"><a href="/about">Company</a><ul class="dropdown-menu clearfix"><li><a href="/about">About Us</a></li><li><a href="/blog">Blog</a></li><li><a href="/industries">Industries</a></li><li><a href="/markets">Markets</a></li></ul></li>';
- html=html.replace(/<li><a href="\/(?:blog|about)\/?">(?:Blog|About DMB|About Us)<\/a><\/li>/g,'');
- html=html.replace(/(<li><a href="\/contact\/?">Contact<\/a><\/li>)/g,company+'$1');
+ // Many Marpixel pages have no Contact item in the navigation. Modify each
+ // header nav as a whole and insert Company before the outer closing </ul>.
+ html=html.replace(/<nav\b[^>]*class="[^"]*(?:main-navigation|mobile-main-navigation)[^"]*"[^>]*>[\s\S]*?<\/nav>/g,nav=>{
+  nav=nav.replace(/<li(?: class="")?><a href="\/(?:blog|about)\/?">(?:Blog|About|About DMB|About Us)<\/a><\/li>/g,'');
+  nav=nav.replace(/<li class="dropdown"><a href="\/about\/?">Company<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g,'');
+  const last=nav.lastIndexOf('</ul>');
+  return last===-1?nav:nav.slice(0,last)+company+nav.slice(last);
+ });
 
  if(!html.includes('dmb-footer-market-directory')){
   const links=markets.map(m=>'<a href="/markets/'+m.slug+'">'+m.name+'</a>').join(' ');
@@ -69,7 +75,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-bureau-links-45');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-company-menu-46');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);
