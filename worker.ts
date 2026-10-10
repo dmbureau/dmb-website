@@ -1,3 +1,4 @@
+import {serviceTextUpdates} from '@/lib/service-text-updates';
 import {optimizeStaticSeo} from '@/lib/keyword-targets';
 import marpixelRoutes from '@/content/marpixel-routes.json';
 import marpixelHome from '@/content/marpixel-home.json';
@@ -34,6 +35,19 @@ function refreshPublicNavigation(html:string){
  }
  return html;
 }
+
+function refreshServiceText(html:string,path:string){
+ const slug=path.match(/^\/services\/([^/]+)$/)?.[1];if(!slug)return html;
+ const updates=serviceTextUpdates[slug];if(!updates)return html;
+ const encode=(s:string)=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+ for(const {from,to} of updates){
+  // Static pages contain encoded text in HTML; replace only exact source copy.
+  const alternatives=[from,encode(from),encode(from).replace(/&#39;/g,'&#x27;')];
+  for(const value of alternatives)if(html.includes(value))html=html.split(value).join(encode(to));
+ }
+ return html;
+}
+
 const liveHomepageHtml=optimizeStaticSeo(refreshPublicNavigation(marpixelHome.html),'/');
 const canonicalPages=new Set(["/","/services","/industries","/markets","/blog","/about","/contact","/privacy","/dmb-audit","/performance-marketing","/organic-marketing","/seo-bureau","/ppc-bureau","/smm-bureau","/tools",...services.filter(s=>s.slug!=='seo-bureau').map(s=>"/services/"+s.slug),...industries.map(i=>"/industries/"+i.slug),...markets.map(m=>"/markets/"+m.slug),...articles.map(a=>"/blog/"+a.slug),...marketTranslations.map(p=>"/markets/"+p.slug+"/"+p.language)]);
 export default {
@@ -47,7 +61,7 @@ export default {
     const assetUrl=new URL(url);assetUrl.pathname='/marpixel'+((marpixelRoutes as string[]).includes(path)?(path==='/'?'/index.html':path+'/index.html'):path);
     const response=await assets.fetch(new Request(assetUrl,{method:request.method}));
     const headers=new Headers(response.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Cache-Control',assetUrl.pathname.endsWith('.html')?'public, max-age=0, must-revalidate':'public, max-age=3600');
-    if(assetUrl.pathname.endsWith('.html')&&response.ok){const updated=optimizeStaticSeo(refreshPublicNavigation(await response.text()),path);headers.delete('Content-Length');return new Response(updated,{status:response.status,headers})}
+    if(assetUrl.pathname.endsWith('.html')&&response.ok){const updated=optimizeStaticSeo(refreshServiceText(refreshPublicNavigation(await response.text()),path),path);headers.delete('Content-Length');return new Response(updated,{status:response.status,headers})}
     return new Response(response.body,{status:response.status,headers});
    }
   }
@@ -76,7 +90,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-keyword-mapping-47');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-editorial-services-48');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);
