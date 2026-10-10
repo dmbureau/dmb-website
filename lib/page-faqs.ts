@@ -5,6 +5,11 @@ import {articles} from '@/lib/articles';
 type QA={q:string;a:string};
 const clean=(s:string)=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 function questions(path:string):QA[]{
+ if(path==='/social-bureau')path='/smm-bureau';
+ if(path==='/free-seo-audit')path='/dmb-audit';
+ if(path.startsWith('/resources/'))path='/blog/'+path.split('/').pop();
+ const localePath=path.match(/^\/markets\/([^/]+)\/[^/]+$/);
+ if(localePath)path='/markets/'+localePath[1];
  const service=services.find(s=>path==='/services/'+s.slug);
  if(service)return [
   {q:'What does '+service.name+' include?',a:service.body},
@@ -68,7 +73,25 @@ function questions(path:string):QA[]{
   '/privacy':[{q:'Where can I ask a privacy question?',a:'Use the contact page to ask DMB about the information submitted through website forms or the handling of your enquiry.'}],
   '/tools':[{q:'What are DMB marketing tools for?',a:'They help identify potential website, SEO or advertising issues and suggest areas for closer review.'},{q:'Are automated tool results final recommendations?',a:'No. They are starting points and should be checked against your business objectives and available evidence.'}]
  };
- return keyed[path]||[];
+ if(keyed[path])return keyed[path];
+ if(path==='/404')return [];
+ if(path==='/faq')return []; // Dedicated FAQ page already holds its own answers.
+ if(path==='/service'||path==='/single-service')return keyed['/services'];
+ if(path==='/pricing-table'||path==='/packages')return [
+  {q:'How are DMB marketing services priced?',a:'Pricing depends on the work agreed, access requirements and the level of ongoing support. We discuss the fee and deliverables before work begins.'},
+  {q:'Can I choose a smaller scope before committing to ongoing work?',a:'We can review a specific issue or discuss a defined project scope before recommending a longer engagement.'}
+ ];
+ if(path==='/team'||path==='/single-team')return [
+  {q:'Who leads Digital Marketing Bureau?',a:'Digital Marketing Bureau was founded in 2025 by Parmjeet Singh.'},
+  {q:'Who will be responsible for my project?',a:'We discuss project responsibilities, deliverables and communication as part of agreeing the scope.'}
+ ];
+ if(path==='/project'||path==='/single-project')return [
+  {q:'How does DMB approach client projects?',a:'We start with the business objective, agree the work and track the outcomes that can be measured with available data.'},
+  {q:'Are the examples on this website guaranteed results?',a:'No. Examples illustrate possible approaches; marketing results vary by website, market, competition and client follow-up.'}
+ ];
+ if(path==='/blog-details'||path==='/resources')return keyed['/blog'];
+ if(path.startsWith('/tools/'))return keyed['/tools'];
+ return [];
 }
 export function withPageFaq(html:string,path:string):string{
  if(!html.includes('</body>')||html.includes('id="dmb-page-faq"'))return html;
