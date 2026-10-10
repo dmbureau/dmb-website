@@ -3,6 +3,11 @@ import settings from '@/content/settings.json';
 import {markets} from '@/lib/markets';
 const escape=(s:string)=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 function navigation(html:string){
+
+ const company='<li class="dropdown"><a href="/about">Company</a><ul class="dropdown-menu clearfix"><li><a href="/about">About Us</a></li><li><a href="/blog">Blog</a></li><li><a href="/industries">Industries</a></li><li><a href="/markets">Markets</a></li></ul></li>';
+ html=html.replace(/<li><a href="\/(?:blog|about)\/?">(?:Blog|About DMB|About Us)<\/a><\/li>/g,'');
+ html=html.replace(/(<li><a href="\/contact\/?">Contact<\/a><\/li>)/g,company+'$1');
+
  // Country and market destinations are available from the footer, not the main menus.
  html=html.replace(/<li class="dropdown"><a href="\/markets">Countries<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g,'');
  // Make the three core bureau pages directly accessible in desktop and mobile menus.
