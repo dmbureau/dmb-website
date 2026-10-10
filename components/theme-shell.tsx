@@ -6,7 +6,6 @@ function navigation(html:string){
  // Country and market destinations are available from the footer, not the main menus.
  html=html.replace(/<li class="dropdown"><a href="\/markets">Countries<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g,'');
  // Make the three core bureau pages directly accessible in desktop and mobile menus.
- const primaryBureaus='<li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li>';
  html=html.replace(/<li class="dropdown"><a href="\/industries\/?">Industries<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g,'');
  // Consolidated services remain discoverable through the SEO/PPC hubs and service pages.
  html=html.replace(/<li><a href="\/services\/(?:linkedin-advertising|b2b-lead-generation|conversion-optimization|landing-page-design)">[^<]*<\/a><\/li>/g,'');for(const [path,items] of [['markets',markets.map(m=>({name:m.name,url:'/markets/'+m.slug}))],['services',[{name:'SEO Bureau',url:'/seo-bureau'},{name:'PPC Bureau',url:'/ppc-bureau'},{name:'Social Media Marketing Bureau',url:'/smm-bureau'}]]] as const){const links=items.map(i=>'<li><a href="'+escape(i.url)+'">'+escape(i.name)+'</a></li>').join('');html=html.replace(new RegExp('(<a href="/'+path+'">[^<]*</a><ul[^>]*>)[\\s\\S]*?(</ul>)','g'),'$1'+links+'<li><a href="/'+path+'">Explore all</a></li>$2')}return html.replace(/<h([2-6])\b([^>]*)>/g,'<p class="theme-sidebar-title"$2>').replace(/<\/h[2-6]>/g,'</p>')}
