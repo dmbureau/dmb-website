@@ -25,9 +25,9 @@
         }
       ],
       "related": [
-        "google-ads-audit",
+        "google-ads-management",
         "landing-page-design",
-        "conversion-tracking-setup"
+        "conversion-optimization"
       ],
       "source": {
         "label": "Google Ads: About conversion tracking",
@@ -59,7 +59,7 @@
         }
       ],
       "related": [
-        "conversion-rate-audit",
+        "conversion-optimization",
         "landing-page-design",
         "analytics-dashboards"
       ],
@@ -94,7 +94,7 @@
       ],
       "related": [
         "lead-quality-optimization",
-        "conversion-tracking-setup",
+        "conversion-optimization",
         "analytics-dashboards"
       ],
       "source": {

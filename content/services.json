@@ -1,66 +1,29 @@
 {
   "services": [
     {
-      "slug": "google-ads-audit",
-      "name": "Google Ads Audit Services",
+      "slug": "google-ads-management",
+      "name": "Google Ads Management & Audit Services",
       "group": "Online advertising",
-      "headline": "Google Ads Audit Services",
-      "summary": "Spending on Google Ads but getting few enquiries?",
-      "body": "We compare paid searches with what you sell, check whether conversions represent genuine enquiries and review the page customers reach. The audit separates wasted spend, missing measurement and website friction, with a prioritised action plan. A PPC audit checks whether search terms, advertising settings and conversion tracking support the same business goal. Findings are tied to account evidence and a prioritised action plan.",
-      "fit": "Already running Google Ads, but unsure why spending is high or enquiries are low.",
+      "headline": "Google Ads Management & Audit Services",
+      "summary": "Audit, manage and optimize Google Ads around relevant searches and useful inquiries.",
+      "body": "Start with a review of your search terms, campaign settings, conversion measurement and landing pages. Then build or improve campaigns around your services, locations and buying intent. Search terms, negative keywords, ads and budgets are reviewed together. Your feedback on qualified inquiries guides ongoing management.",
+      "fit": "Businesses with a clear offer, an advertising budget and someone ready to respond to enquiries.",
       "deliverables": [
         "Review of the searches you pay for",
         "Check of ads, budgets and campaign settings",
         "Checks of tracking and the pages your ads open",
         "A list of problems and recommended fixes",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Google Ads access, recent results and examples of enquiries your team considers useful.",
-      "measure": "We review spending, useful enquiries and how much those enquiries cost, where your data supports it.",
-      "related": [
-        "google-ads-management",
-        "lead-quality-optimization",
-        "conversion-tracking-setup"
-      ],
-      "industries": [
-        "real-estate",
-        "healthcare",
-        "home-services"
-      ],
-      "faq": [
-        {
-          "q": "Can an audit explain clicks but no leads?",
-          "a": "It can identify mismatched searches, misleading conversion counts and barriers on your landing page. We review the available account data and distinguish evidence from issues that need further testing."
-        },
-        {
-          "q": "How do I get a quote for Google Ads Audit?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "01",
-      "metaDescription": "Review search terms, budget use, conversion tracking and landing pages. Get prioritised fixes before spending more."
-    },
-    {
-      "slug": "google-ads-management",
-      "name": "Google Ads Management Services",
-      "group": "Online advertising",
-      "headline": "Google Ads Management Services",
-      "summary": "Want to reach customers already searching for your service?",
-      "body": "We build campaigns around your services, locations and buying intent. Search terms, negative keywords, ad messages and budgets are reviewed together. Your feedback on accepted enquiries helps guide improvements beyond the number of form submissions. Google Ads management includes paid search targeting, ad messages and the landing page after the click. PPC management should be assessed against useful enquiries and the quality of your available conversion data.",
-      "fit": "Businesses with a clear offer, an advertising budget and someone ready to respond to enquiries.",
-      "deliverables": [
+        "Priorities, responsibilities and a clear next-step recommendation",
         "Plan for your ads and relevant customer searches",
         "Writing and management of agreed ads",
         "Review of budgets and the pages visitors reach",
-        "Regular checks, updates and recommended next steps",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Regular checks, updates and recommended next steps"
       ],
       "inputs": "Your Google Ads access, service areas, monthly ad budget and examples of suitable customers.",
       "measure": "We review the cost of useful enquiries and sales information your team can reliably provide.",
       "related": [
-        "google-ads-audit",
         "landing-page-design",
-        "conversion-tracking-setup"
+        "conversion-optimization"
       ],
       "industries": [
         "real-estate",
@@ -73,12 +36,16 @@
           "a": "The agreed scope can include campaign setup, search-term reviews, ad copy, budget adjustments and reporting. Advertising spend is separate from our management fee."
         },
         {
-          "q": "How do I get a quote for Google Ads Management?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+          "q": "Can an audit explain clicks but no leads?",
+          "a": "It can identify mismatched searches, misleading conversion counts and barriers on your landing page. We review the available account data and distinguish evidence from issues that need further testing."
+        },
+        {
+          "q": "Can I book an audit without ongoing management?",
+          "a": "Yes. Choose a focused audit or ongoing campaign management on this page. We confirm the scope and fees separately. A website-only tool reviews destination and tracking signals; an account audit needs an authorized account export or access."
         }
       ],
       "number": "02",
-      "metaDescription": "Google Ads campaign setup and management built around your services, locations and useful enquiries."
+      "metaDescription": "Google Ads audits and campaign management covering search terms, budgets, ad copy, landing pages and conversion measurement."
     },
     {
       "slug": "paid-social-advertising",
@@ -138,8 +105,8 @@
       "inputs": "Examples of suitable and unsuitable enquiries with personal details removed, and an explanation of who you can serve.",
       "measure": "We review how many enquiries your team can use and what those enquiries cost.",
       "related": [
-        "google-ads-audit",
-        "conversion-tracking-setup",
+        "google-ads-management",
+        "conversion-optimization",
         "email-lead-nurturing"
       ],
       "industries": [
@@ -178,9 +145,8 @@
       "inputs": "Your offer, logo, approved images, supporting information, website platform and form requirements.",
       "measure": "Once people visit the page, we can review completed enquiries and their usefulness where tracking is available.",
       "related": [
-        "conversion-rate-audit",
-        "google-ads-management",
-        "conversion-tracking-setup"
+        "conversion-optimization",
+        "google-ads-management"
       ],
       "industries": [
         "hospitality",
@@ -201,26 +167,29 @@
       "metaDescription": "Focused landing pages with a clear offer, relevant proof, mobile-friendly forms and agreed tracking."
     },
     {
-      "slug": "conversion-rate-audit",
-      "name": "Conversion Rate Optimisation Audit",
+      "slug": "conversion-optimization",
+      "name": "Conversion Optimization & Tracking",
       "group": "Website improvements",
-      "headline": "Conversion Rate Optimisation Audit",
-      "summary": "Visitors come to your website but do not contact you?",
-      "body": "We follow the route from entry page to enquiry, looking for unanswered questions, unclear buttons and friction. Analytics and recordings, where access is available, support the review. Recommendations explain what to change and how to evaluate it. Conversion rate optimisation begins with evidence about where visitors hesitate or leave. The audit examines page clarity, mobile usability and enquiry steps, then separates observed barriers from changes that need testing.",
+      "headline": "Conversion Optimization & Tracking Services",
+      "summary": "Improve the inquiry journey and measure successful customer actions with GA4 and conversion tracking.",
+      "body": "We review how visitors understand your offer, find answers and contact you, then recommend changes worth testing. Conversion tracking gives the review a reliable measurement path: define useful actions, configure agreed events and test successful submissions separately from button clicks or form errors. CRO and tracking are distinct workstreams within one connected service.",
       "fit": "Businesses with website visitors who rarely enquire or buy.",
       "deliverables": [
         "Review of important pages and contact steps",
         "Mobile, button and form checks",
         "Review of available visitor data",
         "Recommended improvements in order of importance",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Agreement on the actions to record",
+        "Setup of agreed tracking in your website tools",
+        "Connections to agreed advertising reports",
+        "Testing and a guide explaining the setup"
       ],
-      "inputs": "Your website address, access to visitor reports where available and the action you want people to take.",
-      "measure": "We review form completion and useful enquiries using the available data.",
+      "inputs": "Your website address, access to visitor reports where available and the action you want people to take. Website, GA4, tag-management and relevant advertising account access are needed for implementation.",
+      "measure": "We test whether agreed customer actions are recorded accurately, then review completion and qualified inquiries using the data available.",
       "related": [
         "landing-page-design",
-        "analytics-dashboards",
-        "conversion-tracking-setup"
+        "analytics-dashboards"
       ],
       "industries": [
         "hospitality",
@@ -233,52 +202,16 @@
           "a": "We check both the suitability of visitors and the experience they receive. If buying-intent visitors struggle to understand the offer or submit a form, website improvements may deserve priority."
         },
         {
-          "q": "How do I get a quote for Conversion Rate Optimisation Audit?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "06",
-      "metaDescription": "Review your website journey, unanswered buying questions and form friction. Get practical conversion recommendations."
-    },
-    {
-      "slug": "conversion-tracking-setup",
-      "name": "GA4 & Conversion Tracking Setup",
-      "group": "Tracking & reports",
-      "headline": "GA4 & Conversion Tracking Setup",
-      "summary": "Not sure which ads bring phone calls and enquiries?",
-      "body": "We define the actions that matter, review your current tags and configure the agreed events. Successful submissions must be distinguished from button clicks or form errors. Testing and a documented event map help your team understand what is being counted. Conversion tracking setup connects enquiry forms, calls or other agreed customer actions with analytics and advertising reports. We test the measurement path and explain which actions can be confirmed.",
-      "fit": "Businesses unsure whether forms, bookings, purchases or call clicks are recorded correctly.",
-      "deliverables": [
-        "Agreement on the actions to record",
-        "Setup of agreed tracking in your website tools",
-        "Connections to agreed advertising reports",
-        "Testing and a guide explaining the setup",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Your website and tracking account access, form details and a list of actions you want recorded.",
-      "measure": "We check that agreed actions are recorded correctly and avoid being counted twice.",
-      "related": [
-        "google-ads-audit",
-        "analytics-dashboards",
-        "lead-quality-optimization"
-      ],
-      "industries": [
-        "healthcare",
-        "ecommerce",
-        "home-services"
-      ],
-      "faq": [
-        {
           "q": "Will tracking show every sale?",
           "a": "Only where the website, consent settings and connected sales systems support it. We document what is tracked and what remains unmeasured, including offline activity that has not been connected."
         },
         {
-          "q": "How do I get a quote for GA4 & Conversion Tracking Setup?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+          "q": "Can I choose only tracking setup or only a CRO review?",
+          "a": "Yes. Choose either workstream or combine them. We agree the tracking events, website changes, test plan and fee before starting."
         }
       ],
-      "number": "07",
-      "metaDescription": "GA4 and Google Tag Manager setup for verified enquiry events, with testing and a clear event map."
+      "number": "06",
+      "metaDescription": "Conversion optimization, GA4 and conversion tracking in one service. Review website friction, test real inquiry events and measure useful actions."
     },
     {
       "slug": "technical-seo-audit",
@@ -362,25 +295,28 @@
     },
     {
       "slug": "local-seo",
-      "name": "Local SEO Services",
+      "name": "Local SEO & Google Business Profile Services",
       "group": "Google search & content",
-      "headline": "Local SEO Services",
-      "summary": "Want nearby customers to find your business?",
-      "body": "We check your genuine service areas, business information, local pages and Google Business Profile. The plan focuses on relevant local demand and clear contact options, without inventing locations or producing identical city pages. Local SEO connects your genuine service area, eligible Google Business Profile and relevant website pages. Location targeting follows where you operate and can serve customers.",
+      "headline": "Local SEO & Google Business Profile Services",
+      "summary": "Help nearby customers find you through local search, Google Maps and accurate business profiles.",
+      "body": "Local SEO connects your genuine service areas, website service pages and an eligible Google Business Profile. We review local searches, business details, categories, services, photos, website links and contact paths. Work follows where you operate and the business details you can substantiate.",
       "fit": "Businesses serving genuine towns, cities or local service areas.",
       "deliverables": [
         "Review of local searches and nearby competitors",
         "Improvements to agreed location and service pages",
         "Check of consistent business details online",
         "Recommendations for tracking calls and enquiries",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Priorities, responsibilities and a clear next-step recommendation",
+        "Check of business listing information and eligibility",
+        "Recommendations for categories and services",
+        "Plan for useful photos, updates and review replies",
+        "Check of website, contact and booking links"
       ],
       "inputs": "Your real business locations, service areas, approved contact details and profile access.",
       "measure": "We review local enquiries, calls and bookings alongside available search visibility reports.",
       "related": [
-        "google-business-profile",
         "on-page-seo",
-        "conversion-tracking-setup",
+        "conversion-optimization",
         "online-reputation-management"
       ],
       "industries": [
@@ -394,53 +330,16 @@
           "a": "We can improve eligible profiles, consistency and supporting website content. Google determines Maps visibility; proximity, relevance and other factors mean positions cannot be guaranteed."
         },
         {
-          "q": "How do I get a quote for Local SEO?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
-        }
-      ],
-      "number": "10",
-      "metaDescription": "Local SEO and Google Business Profile support for genuine service areas, useful local pages and clear contact options."
-    },
-    {
-      "slug": "google-business-profile",
-      "name": "Google Business Profile Optimisation",
-      "group": "Google search & content",
-      "headline": "Google Business Profile Optimisation",
-      "summary": "Need help with your Google Business Profile?",
-      "body": "We review profile eligibility, approved business details, categories, services and images. Website and booking links are checked so interested customers can reach the right next step. Recommendations cover gaps and ongoing maintenance. Google Business Profile optimisation focuses on accurate business information, relevant categories and useful customer actions. Access, eligibility and the business details you can substantiate are reviewed before changes.",
-      "fit": "Local businesses with incomplete or outdated Google business listings.",
-      "deliverables": [
-        "Check of business listing information and eligibility",
-        "Recommendations for categories and services",
-        "Plan for useful photos, updates and review replies",
-        "Check of website, contact and booking links",
-        "Priorities, responsibilities and a clear next-step recommendation"
-      ],
-      "inputs": "Access to your Google Business Profile and correct business information.",
-      "measure": "We review relevant calls, website visits and bookings where Google provides that information.",
-      "related": [
-        "local-seo",
-        "landing-page-design",
-        "analytics-dashboards",
-        "online-reputation-management"
-      ],
-      "industries": [
-        "hospitality",
-        "healthcare",
-        "home-services"
-      ],
-      "faq": [
-        {
           "q": "Is Google Business Profile different from Local SEO?",
           "a": "Your profile is one part of Local SEO. Website service pages, accurate business information and genuine local relevance also help customers understand and choose your business."
         },
         {
-          "q": "How do I get a quote for Google Business Profile Optimisation?",
-          "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
+          "q": "Can I choose Business Profile work only?",
+          "a": "Yes. Business Profile optimization is available as a focused scope within our Local SEO service. We agree the profile tasks, access, deliverables and fees before work starts."
         }
       ],
-      "number": "11",
-      "metaDescription": "Improve approved business information, categories, services, photos and website links on Google Business Profile."
+      "number": "10",
+      "metaDescription": "Local SEO and Google Business Profile support for genuine service areas, useful local pages and clear contact options."
     },
     {
       "slug": "seo-migration-support",
@@ -701,7 +600,7 @@
       "related": [
         "paid-social-advertising",
         "google-ads-management",
-        "conversion-rate-audit"
+        "conversion-optimization"
       ],
       "industries": [
         "ecommerce",
@@ -779,9 +678,9 @@
       "inputs": "Access to the agreed reports, your goals and definitions of a useful enquiry and a sale.",
       "measure": "We check that the information is consistent and explain what is missing or cannot be connected.",
       "related": [
-        "conversion-tracking-setup",
+        "conversion-optimization",
         "lead-quality-optimization",
-        "google-ads-audit"
+        "google-ads-management"
       ],
       "industries": [
         "hospitality",
@@ -820,7 +719,7 @@
       "measure": "We compare loading and response measurements before and after the work, including visitor data where available.",
       "related": [
         "technical-seo-audit",
-        "conversion-rate-audit",
+        "conversion-optimization",
         "landing-page-design"
       ],
       "industries": [
@@ -901,7 +800,7 @@
       "related": [
         "email-lead-nurturing",
         "b2b-lead-generation",
-        "conversion-tracking-setup"
+        "conversion-optimization"
       ],
       "industries": [
         "recruitment",
@@ -1023,18 +922,17 @@
       ],
       "number": "26",
       "slug": "social-profile-setup",
-      "name": "Social Media Profile Setup Services",
-      "headline": "Social Media Profile Setup Services",
-      "summary": "Need business profiles that look complete and professional?",
-      "body": "We check who owns each profile, organise approved brand assets and improve the information customers see first. Links and enquiry options are tested so visitors can reach the correct website or contact route. Social media profile setup aligns your business name, offer, links and contact details across agreed channels. Consistent information helps visitors recognise the brand and choose a next step.",
+      "name": "Social Media SEO & Profile Optimization",
+      "headline": "Instagram, Facebook & YouTube SEO Services",
+      "summary": "Make your Instagram, Facebook and YouTube profiles easier to understand, discover and contact.",
+      "body": "We optimize approved profile names, biographies, business descriptions, contact links and platform-appropriate content. Instagram and Facebook work connects clear service language with useful posts and accurate profile information. YouTube work reviews channel descriptions, video titles, descriptions and the next step for viewers. Platform search visibility is reviewed without promising rankings or followers.",
       "fit": "For new businesses or businesses with incomplete, outdated or inconsistent profiles.",
       "deliverables": [
-        "Review or setup of the agreed business profiles",
-        "Clear profile descriptions and service information",
-        "Correct contact details and website links",
-        "Recommendations for profile and cover images",
-        "A checklist explaining changes and remaining tasks",
-        "Priorities, responsibilities and a clear next-step recommendation"
+        "Profile identity, service language and contact-link review",
+        "Instagram bio, content-topic and profile optimization",
+        "Facebook page information, services and content planning",
+        "YouTube channel, video-title and description recommendations",
+        "A platform-specific action list and agreed implementation scope"
       ],
       "inputs": "Provide authorised access to the profiles, your business details, logo and approved contact information. You keep ownership of your accounts.",
       "measure": "We check the agreed information and links, and review profile actions where the platform provides them.",
@@ -1048,7 +946,7 @@
           "a": "Share your website, target customers and the problem you want to solve. We review the requirements and explain deliverables, dependencies, timing and fees before work starts."
         }
       ],
-      "metaDescription": "Organise approved brand assets, business information and working contact links across agreed social profiles."
+      "metaDescription": "Instagram, Facebook and YouTube SEO with clear profile information, content topics, video titles and useful contact paths."
     },
     {
       "group": "Social media",
@@ -1113,7 +1011,6 @@
       "inputs": "Your website, public profile links, platforms to cover, examples of customer feedback and a team contact who can approve responses and investigate complaints.",
       "measure": "We review response times, unanswered reviews, recurring customer concerns and completed follow-up actions. Rating trends and review sentiment provide context; we do not guarantee a rating, rankings or review removal.",
       "related": [
-        "google-business-profile",
         "local-seo",
         "social-profile-setup",
         "social-media-content-management"

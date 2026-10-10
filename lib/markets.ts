@@ -15,7 +15,7 @@ export const markets = [
       "local-seo",
       "google-ads-management",
       "social-media-strategy",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "on-page-seo"
     ],
     "industrySlugs": [
@@ -46,7 +46,7 @@ export const markets = [
       "google-ads-management",
       "local-seo",
       "lead-quality-optimization",
-      "conversion-tracking-setup"
+      "conversion-optimization"
     ],
     "industrySlugs": [
       "real-estate",
@@ -73,8 +73,8 @@ export const markets = [
     ],
     "serviceSlugs": [
       "on-page-seo",
-      "conversion-rate-audit",
-      "google-ads-audit",
+      "conversion-optimization",
+      "google-ads-management",
       "email-lead-nurturing"
     ],
     "industrySlugs": [
@@ -161,7 +161,7 @@ export const markets = [
     "serviceSlugs": [
       "paid-media-strategy",
       "on-page-seo",
-      "conversion-tracking-setup",
+      "conversion-optimization",
       "b2b-lead-generation"
     ],
     "industrySlugs": [
@@ -190,7 +190,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -218,7 +218,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -246,7 +246,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -274,7 +274,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -302,7 +302,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -330,7 +330,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -358,7 +358,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -386,7 +386,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -414,7 +414,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -442,7 +442,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -470,7 +470,7 @@ export const markets = [
     "serviceSlugs": [
       "on-page-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [
@@ -499,7 +499,7 @@ export const markets = [
       "local-seo",
       "google-ads-management",
       "landing-page-design",
-      "conversion-tracking-setup"
+      "conversion-optimization"
     ],
     "industrySlugs": [
       "home-services",
@@ -526,9 +526,8 @@ export const markets = [
     ],
     "serviceSlugs": [
       "local-seo",
-      "google-business-profile",
       "google-ads-management",
-      "conversion-rate-audit"
+      "conversion-optimization"
     ],
     "industrySlugs": [
       "home-services",
@@ -556,7 +555,7 @@ export const markets = [
     "serviceSlugs": [
       "local-seo",
       "google-ads-management",
-      "conversion-tracking-setup",
+      "conversion-optimization",
       "content-strategy"
     ],
     "industrySlugs": [
@@ -673,7 +672,7 @@ export const markets = [
       "local-seo",
       "google-ads-management",
       "social-media-strategy",
-      "conversion-tracking-setup"
+      "conversion-optimization"
     ],
     "industrySlugs": [
       "hospitality",
@@ -730,7 +729,7 @@ export const markets = [
     "serviceSlugs": [
       "local-seo",
       "google-ads-management",
-      "conversion-rate-audit",
+      "conversion-optimization",
       "ai-search-visibility"
     ],
     "industrySlugs": [

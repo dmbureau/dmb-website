@@ -19,7 +19,7 @@
 
 ## Service topics
 - [Local SEO](https://dmbureau.cloud/services/local-seo)
-- [Google Business Profile](https://dmbureau.cloud/services/google-business-profile)
+- [Google Business Profile](https://dmbureau.cloud/services/local-seo)
 - [Google Ads](https://dmbureau.cloud/services/google-ads-management)
 - [Social media](https://dmbureau.cloud/smm-bureau)
 - [AI SEO, AEO and GEO](https://dmbureau.cloud/services/ai-search-visibility)
@@ -70,3 +70,8 @@ Animated GIFs explain marketing services and customer journeys. They are concept
 
 ## Online reputation management
 - [Online Reputation Management Services](https://dmbureau.cloud/services/online-reputation-management): review management, brand mention monitoring, review response support and complaint escalation. DMB does not fabricate reviews or guarantee ratings or review removal.
+
+## Focused audit tools
+- [SEO Audit Tool](https://dmbureau.cloud/tools/seo-audit)
+- [Google, Meta and LinkedIn Ads Audit](https://dmbureau.cloud/tools/ads-audit)
+- [Instagram, Facebook and YouTube Audit](https://dmbureau.cloud/tools/social-media-audit)

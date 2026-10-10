@@ -358,17 +358,13 @@
     }
   },
   "cards": {
-    "google-ads-audit": "card-google-ads-audit",
     "google-ads-management": "card-google-ads-management",
     "paid-social-advertising": "card-paid-social-advertising",
     "lead-quality-optimization": "card-lead-quality-optimization",
     "landing-page-design": "card-landing-page-design",
-    "conversion-rate-audit": "card-conversion-rate-audit",
-    "conversion-tracking-setup": "card-conversion-tracking-setup",
     "technical-seo-audit": "card-technical-seo-audit",
     "on-page-seo": "card-on-page-seo",
     "local-seo": "card-local-seo",
-    "google-business-profile": "card-google-business-profile",
     "seo-migration-support": "card-seo-migration-support",
     "organic-traffic-recovery": "card-organic-traffic-recovery",
     "content-strategy": "card-content-strategy",
@@ -385,20 +381,17 @@
     "social-media-strategy": "card-social-media-strategy",
     "social-profile-setup": "card-social-profile-setup",
     "social-media-content-management": "card-social-media-content-management",
-    "online-reputation-management": "card-online-reputation-management"
+    "online-reputation-management": "card-online-reputation-management",
+    "conversion-optimization": "card-conversion-rate-audit"
   },
   "features": {
-    "google-ads-audit": "feature-service-google-ads-audit",
     "google-ads-management": "feature-service-google-ads-management",
     "paid-social-advertising": "feature-service-paid-social-advertising",
     "lead-quality-optimization": "feature-service-lead-quality-optimization",
     "landing-page-design": "feature-service-landing-page-design",
-    "conversion-rate-audit": "feature-service-conversion-rate-audit",
-    "conversion-tracking-setup": "feature-service-conversion-tracking-setup",
     "technical-seo-audit": "feature-service-technical-seo-audit",
     "on-page-seo": "feature-service-on-page-seo",
     "local-seo": "feature-service-local-seo",
-    "google-business-profile": "feature-service-google-business-profile",
     "seo-migration-support": "feature-service-seo-migration-support",
     "organic-traffic-recovery": "feature-service-organic-traffic-recovery",
     "content-strategy": "feature-service-content-strategy",
@@ -415,7 +408,8 @@
     "social-media-strategy": "feature-service-social-media-strategy",
     "social-profile-setup": "feature-service-social-profile-setup",
     "social-media-content-management": "feature-service-social-media-content-management",
-    "online-reputation-management": "feature-service-online-reputation-management"
+    "online-reputation-management": "feature-service-online-reputation-management",
+    "conversion-optimization": "feature-service-conversion-rate-audit"
   },
   "industries": {
     "Real Estate": "feature-industry-real-estate",

@@ -606,5 +606,13 @@
   "smm-bureau": {
     "image": "social-media-strategy",
     "alt": "Planning social content themes and publishing schedules"
+  },
+  "conversion-optimization": {
+    "image": "conversion-rate-audit",
+    "alt": "Reviewing a website heatmap and inquiry journey"
+  },
+  "solar-energy-industry": {
+    "image": "industry-solar",
+    "alt": "Marketing specialist reviewing solar consultation campaigns and quote inquiry pages"
   }
 }

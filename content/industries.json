@@ -34,7 +34,7 @@
         "Local profiles with incomplete booking information"
       ],
       "related": [
-        "conversion-rate-audit",
+        "conversion-optimization",
         "local-seo",
         "google-ads-management",
         "analytics-dashboards",
@@ -58,8 +58,7 @@
       "related": [
         "local-seo",
         "on-page-seo",
-        "google-business-profile",
-        "conversion-tracking-setup",
+        "conversion-optimization",
         "online-reputation-management"
       ],
       "approach": "Build accurate service and location pages using provider-approved information. Keep appointment forms simple and avoid collecting medical details in advertising or analytics events. Content approval and platform eligibility are checked before campaigns.",
@@ -121,8 +120,7 @@
         "Campaign reporting disconnected from store revenue"
       ],
       "related": [
-        "conversion-rate-audit",
-        "conversion-tracking-setup",
+        "conversion-optimization",
         "paid-social-advertising",
         "retargeting-campaigns"
       ],
@@ -165,9 +163,8 @@
       ],
       "related": [
         "local-seo",
-        "google-business-profile",
         "google-ads-management",
-        "conversion-tracking-setup",
+        "conversion-optimization",
         "online-reputation-management"
       ],
       "approach": "Organise pages around real services and coverage. Make contact actions easy on mobile, use accurate availability information and review enquiry quality by location and job type.",
