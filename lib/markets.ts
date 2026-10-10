@@ -4,7 +4,7 @@ export const markets = [
     "name": "India",
     "short": "India",
     "headline": "SEO & Digital Marketing Services for India",
-    "summary": "SEO and digital marketing services for businesses in India. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "summary": "SEO and Google Ads for businesses targeting Indian customers. Define the cities and services you cover, improve your most useful pages and track enquiries that fit.",
     "context": "Our SEO services in India cover technical SEO audits, local SEO and clear service content. Performance marketing connects Google Ads management with relevant landing pages and conversion tracking, so your team can distinguish useful inquiries from clicks. Start with the cities, customers and services you can genuinely support.",
     "priorities": [
       "Focus on the places where you can serve customers",
@@ -23,7 +23,7 @@ export const markets = [
     "name": "United States",
     "short": "US",
     "headline": "SEO & Digital Marketing Services for the United States",
-    "summary": "SEO and digital marketing services for businesses in the US. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "summary": "Digital marketing support for US businesses, from state-specific SEO and local search to Google Ads campaigns linked to clear service pages.",
     "context": "Our digital marketing services for US businesses connect SEO, local SEO and PPC management to the cities or states you serve. Google Business Profile optimization supports eligible local businesses. Landing page design and conversion rate optimization help turn relevant visits into calls, forms or booking requests.",
     "priorities": [
       "Focus on the places where you can serve customers",
@@ -42,7 +42,7 @@ export const markets = [
     "name": "United Kingdom",
     "short": "UK",
     "headline": "SEO & Digital Marketing Services for United Kingdom",
-    "summary": "SEO and digital marketing services for businesses in the UK. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "summary": "SEO and PPC for UK businesses that want to reach the right local or national audience with useful pages, relevant searches and clearer enquiries.",
     "context": "Our SEO services for UK businesses combine technical SEO audits, clear service content and local visibility where relevant. PPC management and Google Ads audits check how search intent, advertising and landing pages fit together. Conversion rate optimisation and B2B lead generation focus on enquiries your team can act on.",
     "priorities": [
       "Focus on the places where you can serve customers",
@@ -61,7 +61,7 @@ export const markets = [
     "name": "United Arab Emirates",
     "short": "UAE",
     "headline": "SEO & Digital Marketing Services for United Arab Emirates",
-    "summary": "SEO and digital marketing services for businesses in the UAE. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "summary": "SEO and performance marketing for UAE businesses. Match your service locations, customer languages and paid campaigns to the areas you really serve.",
     "context": "Digital marketing services for UAE businesses should reflect the emirates, customers and languages you serve. Our local SEO, Google Ads management and paid social advertising connect to relevant landing page design. Lead generation and qualification help distinguish useful requests from budget or location mismatches.",
     "priorities": [
       "Focus on the places where you can serve customers",
@@ -80,7 +80,7 @@ export const markets = [
     "name": "Dubai",
     "short": "Dubai",
     "headline": "SEO & Digital Marketing Services for Dubai",
-    "summary": "SEO and digital marketing services for businesses in Dubai. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "summary": "Digital marketing for Dubai businesses, bringing local SEO, Google Ads and relevant landing pages together around genuine customer demand.",
     "context": "For businesses targeting Dubai, SEO and local search should explain the actual areas and services available. Google Ads management and paid social advertising use landing pages matched to the offer. Lead generation, enquiry qualification and conversion tracking help your team assess property, hospitality or business-service requests.",
     "priorities": [
       "Focus on the places where you can serve customers",
@@ -99,7 +99,7 @@ export const markets = [
     "name": "Kuwait",
     "short": "Kuwait",
     "headline": "SEO & Digital Marketing Services for Kuwait",
-    "summary": "SEO and digital marketing services for businesses in Kuwait. Help more customers find you, improve your ads and make it easier to contact your team.",
+    "summary": "SEO and Google Ads support for businesses serving Kuwait, with clear service information, relevant search terms and a straightforward route to enquire.",
     "context": "Our SEO services for Kuwait businesses include on-page SEO, clear service content and relevant local search work. PPC management and landing page optimisation connect advertising to the buyer’s next step. B2B lead generation and conversion tracking help assess whether enquiries match your services and sales process.",
     "priorities": [
       "Focus on the places where you can serve customers",
@@ -118,7 +118,7 @@ export const markets = [
     "name": "Germany",
     "short": "Germany",
     "headline": "SEO & Digital Marketing Services for Germany",
-    "summary": "SEO and digital marketing services for businesses in Germany. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and PPC for businesses targeting Germany, with attention to service regions, German-language searches and landing pages people can understand.",
     "context": "For businesses in Germany, we agree whether you serve one region or customers nationwide. German search terms and English enquiries may need different pages. We plan content language and review before writing. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -137,7 +137,7 @@ export const markets = [
     "name": "France",
     "short": "France",
     "headline": "SEO & Digital Marketing Services for France",
-    "summary": "SEO and digital marketing services for businesses in France. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "Digital marketing for businesses serving France, connecting French-language service content, relevant Google Ads and clear contact options.",
     "context": "For businesses in France, we start with the services and areas you cover. French service pages help visitors understand the offer. English-speaking customers can use a separate version without automatic redirects. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -156,7 +156,7 @@ export const markets = [
     "name": "Netherlands",
     "short": "Netherlands",
     "headline": "SEO & Digital Marketing Services for Netherlands",
-    "summary": "SEO and digital marketing services for businesses in Netherlands. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and paid advertising for businesses in the Netherlands, tailored to Dutch search intent, service coverage and conversion paths.",
     "context": "For businesses in the Netherlands, we separate local demand from wider coverage. Dutch content explains your services to local buyers; English pages can help international buyers where relevant. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -175,7 +175,7 @@ export const markets = [
     "name": "Ireland",
     "short": "Ireland",
     "headline": "SEO & Digital Marketing Services for Ireland",
-    "summary": "SEO and digital marketing services for businesses in Ireland. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and PPC support for businesses in Ireland, whether customers come from one county or across the country.",
     "context": "For businesses in Ireland, we agree whether you serve one county or customers nationwide. Local SEO and Google Ads should reflect that coverage. This page uses English; Irish-language project content is separately scoped. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -194,7 +194,7 @@ export const markets = [
     "name": "Spain",
     "short": "Spain",
     "headline": "SEO & Digital Marketing Services for Spain",
-    "summary": "SEO and digital marketing services for businesses in Spain. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and Google Ads for businesses targeting Spain, with locally relevant service pages and Spanish-language content where needed.",
     "context": "For businesses in Spain, we agree whether you serve a city, several provinces or the whole country. This page has a Spanish version. Catalan, Basque and Galician project content requires an agreed scope and language review. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -213,7 +213,7 @@ export const markets = [
     "name": "Italy",
     "short": "Italy",
     "headline": "SEO & Digital Marketing Services for Italy",
-    "summary": "SEO and digital marketing services for businesses in Italy. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "Digital marketing support for businesses in Italy, connecting Italian search intent with relevant service content and measurable enquiry paths.",
     "context": "For businesses in Italy, we align service pages with the places you can actually serve. Italian copy explains your offer to local customers. Google Ads and contact forms are checked against the same customer needs. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -232,7 +232,7 @@ export const markets = [
     "name": "Switzerland",
     "short": "Switzerland",
     "headline": "SEO & Digital Marketing Services for Switzerland",
-    "summary": "SEO and digital marketing services for businesses in Switzerland. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and PPC for businesses serving Switzerland, with attention to regional coverage and German, French or Italian language needs.",
     "context": "For businesses in Switzerland, language region matters as well as geography. German, French and Italian landing-page versions are available. We agree the cantons, customers and project languages before delivery. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -251,7 +251,7 @@ export const markets = [
     "name": "Sweden",
     "short": "Sweden",
     "headline": "SEO & Digital Marketing Services for Sweden",
-    "summary": "SEO and digital marketing services for businesses in Sweden. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and Google Ads for Sweden-based audiences, connecting Swedish service content with useful landing pages and clear next steps.",
     "context": "For businesses in Sweden, we separate nearby customers from national demand. Swedish content and clear contact steps help visitors understand your offer. Campaigns follow your genuine service coverage. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -270,7 +270,7 @@ export const markets = [
     "name": "Denmark",
     "short": "Denmark",
     "headline": "SEO & Digital Marketing Services for Denmark",
-    "summary": "SEO and digital marketing services for businesses in Denmark. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "Digital marketing for businesses targeting Denmark, from Danish-language service pages to location-aware paid campaigns.",
     "context": "For businesses in Denmark, we plan Danish content around the areas you serve. Local enquiries and nationwide campaigns need different targeting. We agree which customer actions to measure. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -289,7 +289,7 @@ export const markets = [
     "name": "Norway",
     "short": "Norway",
     "headline": "SEO & Digital Marketing Services for Norway",
-    "summary": "SEO and digital marketing services for businesses in Norway. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "SEO and PPC for businesses serving Norway, with clear service areas, relevant Norwegian search content and measurable customer enquiries.",
     "context": "For businesses in Norway, we plan around your actual service areas. A Norwegian Bokmål page is available. Nynorsk and other project languages are agreed separately, with a suitable review process. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -308,7 +308,7 @@ export const markets = [
     "name": "Poland",
     "short": "Poland",
     "headline": "SEO & Digital Marketing Services for Poland",
-    "summary": "SEO and digital marketing services for businesses in Poland. Explore Google Ads, local SEO and conversion optimisation with India-based DMB.",
+    "summary": "Digital marketing for businesses in Poland, connecting local and national search demand with useful Polish-language pages and Google Ads.",
     "context": "For businesses in Poland, we separate local and national searches. Polish service content explains what you offer and where you work. We connect website and advertising changes to useful enquiries. SEO services, local SEO, Google Ads management and conversion rate optimisation are scoped around these customer needs. Technical SEO audits and AI search visibility work use the same service information and agreed language review.",
     "priorities": [
       "Agree the locations and customers you can serve",
@@ -327,7 +327,7 @@ export const markets = [
     "name": "Canada",
     "short": "Canada",
     "headline": "SEO & Digital Marketing Services for Canada",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Canada. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO and Google Ads for businesses targeting Canada. Match city and province coverage to your actual services and lead qualification process.",
     "context": "Plan city and province coverage before expanding your campaigns. A business serving Toronto needs different local landing pages from one selling across Canada. English and French content, including any Quebec targeting, are scoped and reviewed separately.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -346,7 +346,7 @@ export const markets = [
     "name": "Australia",
     "short": "Australia",
     "headline": "SEO & Digital Marketing Services for Australia",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Australia. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO and PPC for Australian businesses, with local service-area pages, relevant campaigns and customer enquiries worth following up.",
     "context": "Start with the suburbs, cities or states your team can actually serve. Local SEO and Google Business Profile optimisation support nearby demand; Google Ads management and dedicated landing pages help distinguish enquiries from customers outside your coverage.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -365,7 +365,7 @@ export const markets = [
     "name": "New Zealand",
     "short": "New Zealand",
     "headline": "SEO & Digital Marketing Services for New Zealand",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in New Zealand. India-based remote delivery with a clear scope and fee.",
+    "summary": "Digital marketing for New Zealand businesses, focusing on the regions you serve, search intent and a clearer route from visit to enquiry.",
     "context": "Define whether you serve one town, several regions or customers across both islands. Service-area SEO, Google Ads management and conversion tracking should use the same coverage. Tourism enquiries and local trade enquiries need different pages and follow-up steps.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -384,7 +384,7 @@ export const markets = [
     "name": "Singapore",
     "short": "Singapore",
     "headline": "SEO & Digital Marketing Services for Singapore",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Singapore. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO, Google Ads and LinkedIn marketing for businesses targeting Singapore, with clear distinctions between local and regional customers.",
     "context": "Separate enquiries from customers in Singapore from regional B2B opportunities. SEO service pages, Google Ads management and LinkedIn advertising should describe the intended buyer, decision process and geography. Content languages and any regional expansion are agreed before delivery.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -403,7 +403,7 @@ export const markets = [
     "name": "Saudi Arabia",
     "short": "Saudi Arabia",
     "headline": "SEO & Digital Marketing Services for Saudi Arabia",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Saudi Arabia. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO and performance marketing for businesses targeting Saudi Arabia, with city-level relevance and English or Arabic search needs considered.",
     "context": "Agree whether your campaign serves Riyadh, Jeddah, another city or buyers across Saudi Arabia. English and Arabic search intent should be reviewed separately. Local SEO, Google Ads management and paid social advertising need relevant pages and an agreed translation review.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -422,7 +422,7 @@ export const markets = [
     "name": "Qatar",
     "short": "Qatar",
     "headline": "SEO & Digital Marketing Services for Qatar",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Qatar. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO and PPC for businesses serving Qatar, with Doha-area targeting, relevant service pages and clear enquiry measurement.",
     "context": "Define the Doha service areas or nationwide coverage that matter to your business. SEO, PPC management and landing page optimisation should explain availability, eligibility and the next step. Arabic or other language content is separately scoped and reviewed.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -441,7 +441,7 @@ export const markets = [
     "name": "Oman",
     "short": "Oman",
     "headline": "SEO & Digital Marketing Services for Oman",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Oman. India-based remote delivery with a clear scope and fee.",
+    "summary": "Digital marketing for businesses in Oman, aligning SEO and Google Ads with locations such as Muscat and the customers you can serve.",
     "context": "Plan around the locations you can serve, whether Muscat, Salalah, Sohar or another area. Local SEO and Google Ads management should lead to pages that explain coverage and response steps. Hospitality bookings, home-service requests and logistics quotes require different enquiry forms.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -460,7 +460,7 @@ export const markets = [
     "name": "Bahrain",
     "short": "Bahrain",
     "headline": "SEO & Digital Marketing Services for Bahrain",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Bahrain. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO, Google Ads and social media support for Bahrain businesses, separating local customer demand from wider GCC enquiries.",
     "context": "Separate Bahrain customer enquiries from any wider GCC sales activity. SEO, Google Ads and social media marketing should reflect the actual places and languages you serve. We review contact forms and lead handoff so that a campaign has a clear destination.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -479,7 +479,7 @@ export const markets = [
     "name": "South Africa",
     "short": "South Africa",
     "headline": "SEO & Digital Marketing Services for South Africa",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in South Africa. India-based remote delivery with a clear scope and fee.",
+    "summary": "SEO and PPC for South African businesses, focusing on the cities you serve and the quality of leads from search and paid campaigns.",
     "context": "Distinguish customers in Johannesburg, Cape Town, Durban or other service areas from a nationwide audience. Local SEO, PPC management and conversion rate optimisation should follow your actual coverage. Mobile enquiry journeys and clear follow-up are reviewed alongside traffic.",
     "priorities": [
       "Target the locations and customers your business can serve",
@@ -498,7 +498,7 @@ export const markets = [
     "name": "Malaysia",
     "short": "Malaysia",
     "headline": "SEO & Digital Marketing Services for Malaysia",
-    "summary": "DMB provides SEO, Google Ads and digital marketing services for businesses in Malaysia. India-based remote delivery with a clear scope and fee.",
+    "summary": "Digital marketing for Malaysia businesses, connecting local service coverage, Google Ads targeting and landing pages that answer buyer questions.",
     "context": "Define whether you serve a local area, several states or customers nationwide. SEO and Google Ads management need landing pages that match both the service and the audience. English, Malay and Chinese content requirements are scoped separately with an agreed review process.",
     "priorities": [
       "Target the locations and customers your business can serve",
