@@ -15,7 +15,7 @@ const primary:Record<string,Target>={
  '/markets':{title:'International Digital Marketing Agency | DMB Markets',description:'Explore international SEO services, PPC management and digital marketing support for businesses across the US, UK, India, UAE and other markets.'},
  '/industries':{title:'Digital Marketing Services by Industry | DMB',description:'Explore SEO, PPC and social media marketing for real estate, healthcare, hospitality, travel, SaaS and other industries.'},
  '/blog':{title:'SEO, PPC & Performance Marketing Insights | DMB',description:'Practical SEO, Google Ads, lead generation and conversion optimization insights from Digital Marketing Bureau.'},
- '/about':{title:'About Digital Marketing Bureau | DMB Agency',description:'Learn about Digital Marketing Bureau, an India-based performance marketing agency serving businesses worldwide with SEO, PPC and social media services.'},
+ '/about':{title:'About DMB | Performance Marketing Agency in India',description:'Founded in 2025 by Parmjeet Singh, Digital Marketing Bureau reports 500+ international projects in its first year. Explore our SEO, PPC and social media services.'},
  '/contact':{title:'Contact Digital Marketing Bureau | SEO & PPC',description:'Talk to Digital Marketing Bureau about SEO, Google Ads, social media marketing, website conversion and performance marketing services.'}
 };
 const serviceTitles:Record<string,string>={
