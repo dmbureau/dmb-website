@@ -93,13 +93,48 @@ function questions(path:string):QA[]{
  if(path.startsWith('/tools/'))return keyed['/tools'];
  return [];
 }
+function replaceExistingAccordion(html:string,items:QA[]):string{
+ const faqStart=html.indexOf('id="ax-faq1"');
+ if(faqStart<0)return html;
+ const faqEnd=Math.min(html.length,faqStart+25000);
+ const part=html.slice(faqStart,faqEnd);
+ const accordionMatch=/<div class="accordion" id="([^"]+)">/.exec(part);
+ if(!accordionMatch)return html;
+ const start=faqStart+accordionMatch.index+accordionMatch[0].length;
+ // Find the corresponding closing div, retaining the original yellow design and wrappers.
+ const tag=/<\/?div\b[^>]*>/g;
+ tag.lastIndex=start;
+ let depth=1, end=-1, match:RegExpExecArray|null;
+ while((match=tag.exec(html))!==null){
+  if(match[0].startsWith('</div'))depth--;
+  else depth++;
+  if(depth===0){end=match.index;break;}
+ }
+ if(end<0)return html;
+ const id=accordionMatch[1];
+ const entries=items.map(({q,a},i)=>{
+  const heading='dmb-faq-heading-'+i;
+  const answer='dmb-faq-answer-'+i;
+  return '<div class="accordion-item wow fadeInUp"><h3 class="accordion-header" id="'+heading+'"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#'+answer+'" aria-expanded="false" aria-controls="'+answer+'">'+clean(q)+'</button></h3><div id="'+answer+'" class="accordion-collapse collapse" aria-labelledby="'+heading+'" data-bs-parent="#'+id+'"><div class="accordion-body"><div class="bi-faq-text">'+clean(a)+'</div></div></div></div>';
+ }).join('');
+ let updated=html.slice(0,start)+entries+html.slice(end);
+ // Correct old wording without changing other page headings.
+ const first=updated.indexOf('id="ax-faq1"');
+ const headEnd=updated.indexOf('class="ax-faq1-content"',first);
+ if(headEnd>first){
+  const head=updated.slice(first,headEnd).replace('Frequently Asked Answered','Frequently Asked Questions').replace('Popular Question','Popular Questions');
+  updated=updated.slice(0,first)+head+updated.slice(headEnd);
+ }
+ return updated;
+}
 export function withPageFaq(html:string,path:string):string{
- // Homepage has a themed FAQ accordion with its own unique Q&As.
- // Do not insert a second FAQ block on this route.
+ // The homepage uses its own updated yellow accordion; do not add a second one.
  if(path==='/'||!html.includes('</body>')||html.includes('id="dmb-page-faq"'))return html;
  const items=questions(path);
  if(!items.length)return html;
+ if(html.includes('id="ax-faq1"'))return replaceExistingAccordion(html,items);
  const rows=items.map(({q,a})=>'<details class="dmb-faq-item"><summary>'+clean(q)+'</summary><p>'+clean(a)+'</p></details>').join('');
- const block='<style id="dmb-faq-style">#dmb-page-faq{background:#f7f9f7;color:#173b35;padding:72px 22px}#dmb-page-faq .dmb-faq-inner{max-width:960px;margin:0 auto}#dmb-page-faq h2{font-size:clamp(28px,3vw,40px);line-height:1.25;margin:0 0 25px;color:#173b35}#dmb-page-faq .dmb-faq-item{margin:10px 0;border:1px solid #dbe4df;border-radius:12px;background:#fff;padding:0 22px}#dmb-page-faq summary{cursor:pointer;font-weight:650;font-size:18px;line-height:1.5;padding:20px 6px;list-style-position:outside}#dmb-page-faq p{font-size:16px;line-height:1.75;margin:0 0 20px;color:#344941}#dmb-page-faq details[open]{border-color:#a0c4b4}</style><section id="dmb-page-faq" aria-label="Frequently asked questions"><div class="dmb-faq-inner"><h2>Frequently Asked Questions</h2>'+rows+'</div></section>';
+ // Use the same warm-yellow visual language as the existing homepage FAQ.
+ const block='<style id="dmb-faq-style">#dmb-page-faq{background:#ffedc9;color:#0e2033;padding:90px 22px}#dmb-page-faq .dmb-faq-inner{max-width:1085px;margin:0 auto}#dmb-page-faq .dmb-faq-kicker{display:block;text-align:center;font-weight:650;color:#14263a;margin:0 auto 20px}#dmb-page-faq h2{font-size:clamp(30px,3.5vw,48px);line-height:1.2;margin:0 0 38px;text-align:center;color:#0e2033}#dmb-page-faq .dmb-faq-item{border:0;border-top:1px solid #d2c4aa;background:transparent;margin:0;padding:0 10px}#dmb-page-faq .dmb-faq-item:last-child{border-bottom:1px solid #d2c4aa}#dmb-page-faq summary{cursor:pointer;font-size:clamp(18px,2vw,26px);font-weight:500;line-height:1.45;list-style:none;padding:29px 50px 29px 12px;position:relative}#dmb-page-faq summary::-webkit-details-marker{display:none}#dmb-page-faq summary:after{content:"+";position:absolute;right:5px;top:25px;border-radius:10px;background:#f2dfba;font-size:30px;line-height:40px;text-align:center;width:44px;height:44px}#dmb-page-faq details[open] summary:after{content:"−"}#dmb-page-faq p{font-size:17px;line-height:1.75;margin:0 10px 25px;color:#35413d}#dmb-page-faq summary:focus-visible{outline:3px solid #e96b4d;outline-offset:4px}@media(max-width:600px){#dmb-page-faq{padding:50px 16px}#dmb-page-faq summary{padding:22px 48px 22px 8px}#dmb-page-faq summary:after{top:19px}}</style><section id="dmb-page-faq" aria-label="Frequently asked questions"><div class="dmb-faq-inner"><span class="dmb-faq-kicker">Popular Questions</span><h2>Frequently Asked Questions</h2>'+rows+'</div></section>';
  return html.includes('<footer')?html.replace(/<footer\b/i,block+'<footer'):html.replace('</body>',block+'</body>');
 }
