@@ -32,10 +32,8 @@ function refreshPublicNavigation(html:string){
   return last===-1?nav:nav.slice(0,last)+company+nav.slice(last);
  });
 
- if(!html.includes('dmb-footer-market-directory')){
-  const links=markets.map(m=>'<a href="/markets/'+m.slug+'">'+m.name+'</a>').join(' ');
-  html=html.replace(/<\/footer>/i,'<nav class="dmb-footer-market-directory" aria-label="Our markets"><h3>Our Markets</h3><div class="dmb-footer-market-grid">'+links+'</div><a href="/markets">All markets</a></nav></footer>');
- }
+ // Keep market links on /markets and relevant content pages, not in the global footer.
+ html=html.replace(/<nav\b[^>]*class="[^"]*dmb-footer-market-directory[^"]*"[^>]*>[\s\S]*?<\/nav>/gi,'');
  return html;
 }
 
