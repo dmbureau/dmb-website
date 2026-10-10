@@ -9,19 +9,19 @@
       "sections": [
         {
           "title": "A click is not proof of buying intent",
-          "body": "Start with the searches or audiences that brought the visitors. Are they looking for your exact service in a location you can serve? Separate commercial requests from research, job searches and unrelated interpretations of your offer. A high click-through rate can still hide a mismatch."
+          "body": "Not every Google Ads click comes from someone ready to buy. Open the search terms report and look for research queries, job searches or locations you do not cover. A campaign can have an impressive click-through rate while sending the wrong visitors to your site. Start by checking whether the searches match what your business actually sells."
         },
         {
           "title": "Check what people see after clicking your ad",
-          "body": "The page should deliver what the ad promised. Review the offer, service area, suitability and next action. If an ad describes a specific service but opens a broad homepage, visitors have to find their own route. A focused page can make the decision easier."
+          "body": "Imagine clicking an ad for a particular service and arriving on a homepage that asks you to explore everything. That extra work often loses people. The landing page should confirm the service, who it is for, where it is offered and how to ask a question or request a quote."
         },
         {
           "title": "Test the enquiry before judging the campaign",
-          "body": "Submit a test form on mobile and desktop. Confirm that the enquiry reaches the right inbox or CRM (customer management system), the visitor receives a clear acknowledgement and the tracking records the action once. Do not infer the absence of leads only from an advertising dashboard."
+          "body": "Before you turn up your Google Ads budget, send a test enquiry from your phone and a desktop browser. Did the form submit? Did the sales team receive it? Was the conversion counted once, rather than when someone simply clicked the button? Missing enquiries can be a website or tracking problem, not an advertising problem."
         },
         {
           "title": "Choose the fix that matches the problem",
-          "body": "If the issue is intent, review targeting and search terms. If the journey is unclear, improve the page. If the event is unreliable, repair tracking. Keep a record of changes and review enquiries from suitable potential customers after a suitable observation period. Change the part supported by evidence rather than everything at once."
+          "body": "Fix the problem you have evidence for. Tighten search targeting if intent is wrong; clarify the landing page if visitors are confused; repair event tracking if submissions are not counted properly. Make one meaningful change at a time, then check whether more enquiries are from people you can actually help."
         }
       ],
       "related": [
@@ -43,19 +43,19 @@
       "sections": [
         {
           "title": "Check who visits before changing the design",
-          "body": "Compare pages about your products and services and ways visitors find you. Visitors reading a broad guide may have a different intention from someone reviewing your service price. Assess whether the pages attracting traffic serve buyers you can help."
+          "body": "A visit from someone looking for general advice is different from a visit from someone comparing service providers. Review which pages attract visitors and the searches or links that bring them in. You may find that traffic has grown around a topic that does not naturally lead to your services."
         },
         {
           "title": "Answer the questions before the form",
-          "body": "A buyer should understand what you do, who the service suits, what is included and what happens next. Show evidence you can verify. If the scope or process is unclear, a prominent button alone may not resolve the uncertainty."
+          "body": "People rarely enquire when they cannot tell whether a service is right for them. Explain who you work with, what is included, what happens after an enquiry and any limitations you can share. A real example or clearly described process can help more than another brightly coloured button."
         },
         {
           "title": "Make it easier to contact you",
-          "body": "Review mobile usability, broken links, form errors and unnecessary required fields. Ask for enough information to qualify an enquiry without demanding details the buyer cannot reasonably provide yet. Explain the next step after submission."
+          "body": "Try contacting your own business on a phone. Look for confusing navigation, forms that reject valid inputs, contact details that are hard to find and questions that appear too early. Collect only what you need to respond properly, and tell visitors what they can expect next."
         },
         {
           "title": "Make changes you can evaluate",
-          "body": "Prioritise a small set of improvements tied to the observed problem. Review enquiry rate and quality together. Formal A/B testing needs enough suitable traffic; where it is insufficient, use usability evidence and careful observation without claiming statistical certainty."
+          "body": "Choose a few changes linked to the problem you found. If traffic is modest, a formal A/B test may never reach a useful sample size. In that case, use customer feedback, usability checks and sensible before-and-after monitoring—without claiming proof you do not have."
         }
       ],
       "related": [
@@ -77,19 +77,19 @@
       "sections": [
         {
           "title": "Decide what makes an enquiry suitable",
-          "body": "Agree the basic fit criteria with sales: service need, location, company or customer profile and readiness. Keep the definition practical enough for consistent use. A property enquiry and a software demo need different qualification rules."
+          "body": "A lead is useful only when it matches the work your team can deliver. Agree a simple definition with sales: service need, location, budget or business fit, and whether the person is ready for a conversation. A travel enquiry and a B2B software demo will need different criteria."
         },
         {
           "title": "Count enquiries and check whether they are useful",
-          "body": "Record enquiries, accepted leads, opportunities and sales as distinct stages. Review quality by source and campaign where tracking allows. A channel with fewer enquiries may be more useful if a larger share reaches a serious sales conversation."
+          "body": "Keep a record of how many enquiries arrive, how many your team accepts and how many turn into serious opportunities. Look at the source where tracking allows. Ten well-matched leads may be worth more than a hundred forms from people outside your service area."
         },
         {
           "title": "Feed the learning back into acquisition",
-          "body": "Use common rejection reasons to improve targeting, copy and qualification. Advertising platforms may support offline conversion imports, subject to account configuration and consent requirements. Confirm the technical setup before treating CRM (customer management system) outcomes as campaign signals."
+          "body": "Ask sales why leads are rejected. If a Google Ads campaign attracts the wrong location or company size, that feedback can guide targeting and landing-page copy. Offline conversion imports may help when they are configured correctly and the relevant privacy and consent requirements are met."
         },
         {
           "title": "Respect measurement limits",
-          "body": "Attribution does not capture every influence on a purchase. Missing integrations, duplicate records and delayed sales can distort the view. Document data gaps and review a suitable sales-cycle window before comparing channels."
+          "body": "No dashboard sees every interaction before someone buys. CRM gaps, duplicate leads and long sales cycles can distort channel comparisons. Make those limits clear in your reporting and evaluate campaigns over a window that reflects your actual buying process."
         }
       ],
       "related": [
@@ -110,19 +110,19 @@
       "sections": [
         {
           "title": "Start with the market you can actually serve",
-          "body": "Be explicit about service delivery, language, time zones and commercial arrangements. Your website should not imply a local office or presence that does not exist. A clear global offer can be more useful than dozens of interchangeable country pages."
+          "body": "Before building a page for another country, check what your business can actually deliver there. Visitors need to know about remote support, working hours, languages and relevant commercial terms. Do not imply that you have an office or local team where you do not."
         },
         {
           "title": "Create a regional page when the offer changes",
-          "body": "A distinct page is useful when pricing, availability, terminology, evidence or delivery differs meaningfully by market. Copying a page and replacing a country name adds little value for the buyer. Build a page around the actual differences."
+          "body": "A useful market page should have a reason to exist beyond the country name in its title. Perhaps the service areas, language, regulatory information or customer questions differ. Explain those real differences; otherwise a strong international service page may be more helpful."
         },
         {
           "title": "Keep the technical signals aligned",
-          "body": "Each distinct page needs a stable URL, a clear title and a canonical that reflects the intended version. If genuine language or regional equivalents exist, hreflang can describe those relationships. It is not a replacement for relevant local content."
+          "body": "Give each genuine regional page its own accurate title, canonical and internal links. Where you offer real language or regional equivalents, hreflang can help describe the relationship. It cannot make identical translated-looking pages useful to local customers by itself."
         },
         {
           "title": "Measure the enquiries that fit",
-          "body": "Review business enquiries by operating market where the visitor shares that information. Use those signals to prioritise localisation. Do not expand the site only because a country has impressions; confirm the offer can serve that buyer well."
+          "body": "Judge a market by whether the enquiries fit the service you can provide, not by impressions alone. Review questions from prospective customers and update the page to answer them. Expand into another country only when your delivery and content genuinely justify it."
         }
       ],
       "related": [
