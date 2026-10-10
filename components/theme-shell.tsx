@@ -1,10 +1,8 @@
-import {bureauNavigationHtml} from '@/lib/bureau-navigation';
 import shell from '@/content/theme-shell.json';
 import settings from '@/content/settings.json';
 import {markets} from '@/lib/markets';
 const escape=(s:string)=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 function navigation(html:string){
- html=html.replace(/(<ul id="(?:main-nav|m-main-nav)"[^>]*>)/g,'$1'+bureauNavigationHtml());
 
  const company='<li class="dropdown"><a href="/about">Company</a><ul class="dropdown-menu clearfix"><li><a href="/about">About Us</a></li><li><a href="/blog">Blog</a></li><li><a href="/industries">Industries</a></li><li><a href="/markets">Markets</a></li></ul></li>';
  html=html.replace(/<li><a href="\/(?:blog|about)\/?">(?:Blog|About DMB|About Us)<\/a><\/li>/g,'');
