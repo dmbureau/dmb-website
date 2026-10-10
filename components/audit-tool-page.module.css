@@ -1,1 +1,3 @@
 .intro{text-align:center;max-width:1020px;margin:35px auto 40px}.intro>span{font-size:13px;color:#607b66;letter-spacing:.12em}.intro h1{font-size:clamp(36px,4.6vw,60px);letter-spacing:-.035em;line-height:1.18;color:#08323d;margin:22px 0}.intro p{max-width:720px;margin:auto;font-size:19px;line-height:1.7;color:#54705a}@media(max-width:600px){.intro{margin:24px auto 30px}.intro p{font-size:17px}}
+
+.toolNav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px}.toolNav a{padding:11px 16px;border:1px solid #c6d9ca;border-radius:8px;color:#214d3c;background:#fff;font-size:15px}.toolNav a[aria-current=page]{background:#dceecf;border-color:#88b877}
