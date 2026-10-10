@@ -1,0 +1,8 @@
+import shell from '@/content/theme-shell.json';
+import settings from '@/content/settings.json';
+import {markets} from '@/lib/markets';
+import {industries,services} from '@/lib/content';
+const escape=(s:string)=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+function navigation(html:string){for(const [path,items] of [['industries',industries.map(i=>({name:i.name,url:'/industries/'+i.slug}))],['markets',markets.map(m=>({name:m.name,url:'/markets/'+m.slug}))],['services',services.filter(s=>s.slug!=='seo-bureau').map(s=>({name:s.name,url:'/services/'+s.slug})).concat([{name:'SEO Bureau',url:'/seo-bureau'},{name:'PPC Bureau',url:'/ppc-bureau'},{name:'Social Media Marketing Bureau',url:'/smm-bureau'}])]] as const){const links=items.map(i=>'<li><a href="'+escape(i.url)+'">'+escape(i.name)+'</a></li>').join('');html=html.replace(new RegExp('(<a href="/'+path+'">[^<]*</a><ul[^>]*>)[\\s\\S]*?(</ul>)','g'),'$1'+links+'<li><a href="/'+path+'">Explore all</a></li>$2')}return html.replace(/<h([2-6])\b([^>]*)>/g,'<p class="theme-sidebar-title"$2>').replace(/<\/h[2-6]>/g,'</p>')}
+export function Header(){return <div className="theme-shell theme-shell-header elementor-page-7" data-theme-shell="home-1-header" dangerouslySetInnerHTML={{__html:navigation(shell.header)}}/>}
+export function Footer(){return <div className="theme-shell theme-shell-footer elementor-page-7" data-theme-shell="home-1-footer"><div dangerouslySetInnerHTML={{__html:shell.footer}}/><div className="theme-shell-contact"><a href={'mailto:'+settings.email}>{settings.email}</a><a href={'tel:'+settings.phone}>{settings.phoneLabel}</a></div></div>}

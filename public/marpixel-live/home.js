@@ -8,8 +8,8 @@ $$('[data-bs-toggle="tab"]').forEach(e=>{e.setAttribute('role','tab');e.tabIndex
 $$('[data-bs-toggle="collapse"]').forEach(e=>e.addEventListener('click',()=>{const t=$(e.dataset.bsTarget);if(!t)return;const open=t.classList.toggle('show');e.classList.toggle('collapsed',!open);e.setAttribute('aria-expanded',String(open));e.closest('.accordion-item')?.classList.toggle('faq_active',open)}));
 const mobile=$('.mobile_menu_wrap')||$('.mobile-menu');
 $$('.open_mobile_menu').forEach(e=>{const button=e.matches('button')?e:$('button',e)||e;button.setAttribute('aria-label','Open navigation');button.setAttribute('aria-expanded','false');button.addEventListener('click',()=>{const open=document.body.classList.toggle('dmb-menu-open');button.setAttribute('aria-expanded',String(open));if(mobile)mobile.classList.toggle('mobile_menu_on',open)})});
-$$('.mobile_menu_close,.mobile_menu_overlay,.close_mobile_menu').forEach(e=>e.addEventListener('click',()=>document.body.classList.remove('dmb-menu-open')));
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.body.classList.remove('dmb-menu-open');$$('.open_mobile_menu button').forEach(b=>b.setAttribute('aria-expanded','false'))}});
+const closeMobile=()=>{document.body.classList.remove('dmb-menu-open');mobile?.classList.remove('mobile_menu_on');$$('.open_mobile_menu button').forEach(b=>b.setAttribute('aria-expanded','false'))};$$('.mobile_menu_close,.mobile_menu_overlay,.close_mobile_menu').forEach(e=>e.addEventListener('click',closeMobile));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMobile();$$('.open_mobile_menu button').forEach(b=>b.setAttribute('aria-expanded','false'))}});
 $$('#m-main-nav>.dropdown>a').forEach(a=>a.addEventListener('click',e=>{if(innerWidth<1024){e.preventDefault();a.parentElement.classList.toggle('dmb-sub-open')}}));
 $$('.txa_sticky_header').forEach(header=>{let scheduled=false;addEventListener('scroll',()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{header.classList.toggle('dmb-header-scrolled',scrollY>100);scheduled=false})},{passive:true})});
 // Public evidence comes from the existing DMB audit API, not simulated scores.
