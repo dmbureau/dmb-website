@@ -245,3 +245,9 @@
 @keyframes dmb-image-zoom-out{from{transform:scale(1.065)}to{transform:scale(1.01)}}
 @keyframes dmb-image-diagonal{from{transform:scale(1.055) translate(-.7%,.7%)}to{transform:scale(1.055) translate(.7%,-.7%)}}
 @media(prefers-reduced-motion:reduce){.industry-carousel .industry-slide,.industry-carousel .industry-slide .hybrid-visual>img{animation:none!important;transform:none!important}}
+
+/* One consistent, locally hosted typeface at the requested light weight. */
+@font-face{font-family:Inter;src:url('/fonts/inter-300-latin.woff') format('woff');font-style:normal;font-weight:300;font-display:swap}
+:root{--font-sans:Inter,Arial,Helvetica,sans-serif;--serif:Inter,Arial,Helvetica,sans-serif}
+body{font-family:Inter,Arial,Helvetica,sans-serif!important;font-weight:300!important;font-synthesis:none}
+body :is(h1,h2,h3,h4,h5,h6,p,a,span,strong,b,button,input,select,textarea,label,summary,li,th,td,small){font-family:Inter,Arial,Helvetica,sans-serif!important;font-weight:300!important}
