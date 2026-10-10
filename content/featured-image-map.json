@@ -1,0 +1,610 @@
+{
+  "google-ads-audit": {
+    "image": "google-ads-audit",
+    "alt": "Paid search terms and campaign audit checklist under review"
+  },
+  "card-google-ads-audit": {
+    "image": "google-ads-audit",
+    "alt": "Paid search terms and campaign audit checklist under review"
+  },
+  "feature-service-google-ads-audit": {
+    "image": "google-ads-audit",
+    "alt": "Paid search terms and campaign audit checklist under review"
+  },
+  "google-ads-management": {
+    "image": "google-ads-management",
+    "alt": "Search campaign and keyword group optimization on a marketing dashboard"
+  },
+  "card-google-ads-management": {
+    "image": "google-ads-management",
+    "alt": "Search campaign and keyword group optimization on a marketing dashboard"
+  },
+  "feature-service-google-ads-management": {
+    "image": "google-ads-management",
+    "alt": "Search campaign and keyword group optimization on a marketing dashboard"
+  },
+  "paid-social-advertising": {
+    "image": "paid-social-advertising",
+    "alt": "Reviewing social ad creatives and audience settings"
+  },
+  "card-paid-social-advertising": {
+    "image": "paid-social-advertising",
+    "alt": "Reviewing social ad creatives and audience settings"
+  },
+  "feature-service-paid-social-advertising": {
+    "image": "paid-social-advertising",
+    "alt": "Reviewing social ad creatives and audience settings"
+  },
+  "lead-quality-optimization": {
+    "image": "lead-quality-optimization",
+    "alt": "Reviewing CRM inquiries and lead qualification criteria"
+  },
+  "card-lead-quality-optimization": {
+    "image": "lead-quality-optimization",
+    "alt": "Reviewing CRM inquiries and lead qualification criteria"
+  },
+  "feature-service-lead-quality-optimization": {
+    "image": "lead-quality-optimization",
+    "alt": "Reviewing CRM inquiries and lead qualification criteria"
+  },
+  "landing-page-design": {
+    "image": "landing-page-design",
+    "alt": "Designing a service landing page and contact journey"
+  },
+  "card-landing-page-design": {
+    "image": "landing-page-design",
+    "alt": "Designing a service landing page and contact journey"
+  },
+  "feature-service-landing-page-design": {
+    "image": "landing-page-design",
+    "alt": "Designing a service landing page and contact journey"
+  },
+  "conversion-rate-audit": {
+    "image": "conversion-rate-audit",
+    "alt": "Reviewing a website heatmap and inquiry journey"
+  },
+  "card-conversion-rate-audit": {
+    "image": "conversion-rate-audit",
+    "alt": "Reviewing a website heatmap and inquiry journey"
+  },
+  "feature-service-conversion-rate-audit": {
+    "image": "conversion-rate-audit",
+    "alt": "Reviewing a website heatmap and inquiry journey"
+  },
+  "conversion-tracking-setup": {
+    "image": "conversion-tracking-setup",
+    "alt": "Testing website conversion events and a contact form"
+  },
+  "card-conversion-tracking-setup": {
+    "image": "conversion-tracking-setup",
+    "alt": "Testing website conversion events and a contact form"
+  },
+  "feature-service-conversion-tracking-setup": {
+    "image": "conversion-tracking-setup",
+    "alt": "Testing website conversion events and a contact form"
+  },
+  "technical-seo-audit": {
+    "image": "technical-seo-audit",
+    "alt": "Reviewing website crawl issues and indexability"
+  },
+  "card-technical-seo-audit": {
+    "image": "technical-seo-audit",
+    "alt": "Reviewing website crawl issues and indexability"
+  },
+  "feature-service-technical-seo-audit": {
+    "image": "technical-seo-audit",
+    "alt": "Reviewing website crawl issues and indexability"
+  },
+  "on-page-seo": {
+    "image": "on-page-seo",
+    "alt": "Editing service-page headings, content and search snippets"
+  },
+  "card-on-page-seo": {
+    "image": "on-page-seo",
+    "alt": "Editing service-page headings, content and search snippets"
+  },
+  "feature-service-on-page-seo": {
+    "image": "on-page-seo",
+    "alt": "Editing service-page headings, content and search snippets"
+  },
+  "local-seo": {
+    "image": "local-seo",
+    "alt": "Reviewing local map listings and service-area information"
+  },
+  "card-local-seo": {
+    "image": "local-seo",
+    "alt": "Reviewing local map listings and service-area information"
+  },
+  "feature-service-local-seo": {
+    "image": "local-seo",
+    "alt": "Reviewing local map listings and service-area information"
+  },
+  "google-business-profile": {
+    "image": "google-business-profile",
+    "alt": "Updating business profile services, contact details and opening hours"
+  },
+  "card-google-business-profile": {
+    "image": "google-business-profile",
+    "alt": "Updating business profile services, contact details and opening hours"
+  },
+  "feature-service-google-business-profile": {
+    "image": "google-business-profile",
+    "alt": "Updating business profile services, contact details and opening hours"
+  },
+  "seo-migration-support": {
+    "image": "seo-migration-support",
+    "alt": "Reviewing old and new website pages with a redirect mapping checklist"
+  },
+  "card-seo-migration-support": {
+    "image": "seo-migration-support",
+    "alt": "Reviewing old and new website pages with a redirect mapping checklist"
+  },
+  "feature-service-seo-migration-support": {
+    "image": "seo-migration-support",
+    "alt": "Reviewing old and new website pages with a redirect mapping checklist"
+  },
+  "organic-traffic-recovery": {
+    "image": "organic-traffic-recovery",
+    "alt": "Investigating website traffic trends and search query changes"
+  },
+  "card-organic-traffic-recovery": {
+    "image": "organic-traffic-recovery",
+    "alt": "Investigating website traffic trends and search query changes"
+  },
+  "feature-service-organic-traffic-recovery": {
+    "image": "organic-traffic-recovery",
+    "alt": "Investigating website traffic trends and search query changes"
+  },
+  "content-strategy": {
+    "image": "content-strategy",
+    "alt": "Organizing customer questions and an editorial content calendar"
+  },
+  "card-content-strategy": {
+    "image": "content-strategy",
+    "alt": "Organizing customer questions and an editorial content calendar"
+  },
+  "feature-service-content-strategy": {
+    "image": "content-strategy",
+    "alt": "Organizing customer questions and an editorial content calendar"
+  },
+  "ai-search-visibility": {
+    "image": "ai-search-visibility",
+    "alt": "AI search answer and source review alongside a structured content checklist"
+  },
+  "card-ai-search-visibility": {
+    "image": "ai-search-visibility",
+    "alt": "AI search answer and source review alongside a structured content checklist"
+  },
+  "feature-service-ai-search-visibility": {
+    "image": "ai-search-visibility",
+    "alt": "AI search answer and source review alongside a structured content checklist"
+  },
+  "b2b-lead-generation": {
+    "image": "b2b-lead-generation",
+    "alt": "Researching business prospects and relevant service offers"
+  },
+  "card-b2b-lead-generation": {
+    "image": "b2b-lead-generation",
+    "alt": "Researching business prospects and relevant service offers"
+  },
+  "feature-service-b2b-lead-generation": {
+    "image": "b2b-lead-generation",
+    "alt": "Researching business prospects and relevant service offers"
+  },
+  "linkedin-advertising": {
+    "image": "linkedin-advertising",
+    "alt": "Planning professional-network ads and job-role audiences"
+  },
+  "card-linkedin-advertising": {
+    "image": "linkedin-advertising",
+    "alt": "Planning professional-network ads and job-role audiences"
+  },
+  "feature-service-linkedin-advertising": {
+    "image": "linkedin-advertising",
+    "alt": "Planning professional-network ads and job-role audiences"
+  },
+  "retargeting-campaigns": {
+    "image": "retargeting-campaigns",
+    "alt": "Reviewing website visitor segments and retargeting creatives"
+  },
+  "card-retargeting-campaigns": {
+    "image": "retargeting-campaigns",
+    "alt": "Reviewing website visitor segments and retargeting creatives"
+  },
+  "feature-service-retargeting-campaigns": {
+    "image": "retargeting-campaigns",
+    "alt": "Reviewing website visitor segments and retargeting creatives"
+  },
+  "email-lead-nurturing": {
+    "image": "email-lead-nurturing",
+    "alt": "Preparing useful inquiry follow-up emails and sequences"
+  },
+  "card-email-lead-nurturing": {
+    "image": "email-lead-nurturing",
+    "alt": "Preparing useful inquiry follow-up emails and sequences"
+  },
+  "feature-service-email-lead-nurturing": {
+    "image": "email-lead-nurturing",
+    "alt": "Preparing useful inquiry follow-up emails and sequences"
+  },
+  "analytics-dashboards": {
+    "image": "analytics-dashboards",
+    "alt": "Comparing marketing sources and inquiry quality in dashboards"
+  },
+  "card-analytics-dashboards": {
+    "image": "analytics-dashboards",
+    "alt": "Comparing marketing sources and inquiry quality in dashboards"
+  },
+  "feature-service-analytics-dashboards": {
+    "image": "analytics-dashboards",
+    "alt": "Comparing marketing sources and inquiry quality in dashboards"
+  },
+  "website-speed-optimization": {
+    "image": "website-speed-optimization",
+    "alt": "Reviewing loading diagnostics and a mobile website experience"
+  },
+  "card-website-speed-optimization": {
+    "image": "website-speed-optimization",
+    "alt": "Reviewing loading diagnostics and a mobile website experience"
+  },
+  "feature-service-website-speed-optimization": {
+    "image": "website-speed-optimization",
+    "alt": "Reviewing loading diagnostics and a mobile website experience"
+  },
+  "seo-second-opinion": {
+    "image": "seo-second-opinion",
+    "alt": "Independent review of SEO evidence and audit recommendations"
+  },
+  "card-seo-second-opinion": {
+    "image": "seo-second-opinion",
+    "alt": "Independent review of SEO evidence and audit recommendations"
+  },
+  "feature-service-seo-second-opinion": {
+    "image": "seo-second-opinion",
+    "alt": "Independent review of SEO evidence and audit recommendations"
+  },
+  "marketing-automation": {
+    "image": "marketing-automation",
+    "alt": "Reviewing inquiry routing and follow-up automation"
+  },
+  "card-marketing-automation": {
+    "image": "marketing-automation",
+    "alt": "Reviewing inquiry routing and follow-up automation"
+  },
+  "feature-service-marketing-automation": {
+    "image": "marketing-automation",
+    "alt": "Reviewing inquiry routing and follow-up automation"
+  },
+  "paid-media-strategy": {
+    "image": "paid-media-strategy",
+    "alt": "Planning audiences and budget allocation across paid media"
+  },
+  "card-paid-media-strategy": {
+    "image": "paid-media-strategy",
+    "alt": "Planning audiences and budget allocation across paid media"
+  },
+  "feature-service-paid-media-strategy": {
+    "image": "paid-media-strategy",
+    "alt": "Planning audiences and budget allocation across paid media"
+  },
+  "social-media-strategy": {
+    "image": "social-media-strategy",
+    "alt": "Planning social content themes and publishing schedules"
+  },
+  "card-social-media-strategy": {
+    "image": "social-media-strategy",
+    "alt": "Planning social content themes and publishing schedules"
+  },
+  "feature-service-social-media-strategy": {
+    "image": "social-media-strategy",
+    "alt": "Planning social content themes and publishing schedules"
+  },
+  "social-profile-setup": {
+    "image": "social-profile-setup",
+    "alt": "Updating a business social profile and contact fields"
+  },
+  "card-social-profile-setup": {
+    "image": "social-profile-setup",
+    "alt": "Updating a business social profile and contact fields"
+  },
+  "feature-service-social-profile-setup": {
+    "image": "social-profile-setup",
+    "alt": "Updating a business social profile and contact fields"
+  },
+  "social-media-content-management": {
+    "image": "social-media-content-management",
+    "alt": "Creating and editing social media campaign content"
+  },
+  "card-social-media-content-management": {
+    "image": "social-media-content-management",
+    "alt": "Creating and editing social media campaign content"
+  },
+  "feature-service-social-media-content-management": {
+    "image": "social-media-content-management",
+    "alt": "Creating and editing social media campaign content"
+  },
+  "online-reputation-management": {
+    "image": "online-reputation-management",
+    "alt": "Reviewing customer feedback and drafting helpful responses"
+  },
+  "card-online-reputation-management": {
+    "image": "online-reputation-management",
+    "alt": "Reviewing customer feedback and drafting helpful responses"
+  },
+  "feature-service-online-reputation-management": {
+    "image": "online-reputation-management",
+    "alt": "Reviewing customer feedback and drafting helpful responses"
+  },
+  "industry-real-estate": {
+    "image": "industry-real-estate",
+    "alt": "Marketing specialist reviewing property viewing inquiry campaigns and landing pages"
+  },
+  "real-estate-industry": {
+    "image": "industry-real-estate",
+    "alt": "Marketing specialist reviewing property viewing inquiry campaigns and landing pages"
+  },
+  "carousel-real-estate": {
+    "image": "industry-real-estate",
+    "alt": "Marketing specialist reviewing property viewing inquiry campaigns and landing pages"
+  },
+  "industry-hospitality": {
+    "image": "industry-hospitality",
+    "alt": "Marketing specialist reviewing hotel booking campaigns and landing pages"
+  },
+  "hospitality-industry": {
+    "image": "industry-hospitality",
+    "alt": "Marketing specialist reviewing hotel booking campaigns and landing pages"
+  },
+  "carousel-hospitality": {
+    "image": "industry-hospitality",
+    "alt": "Marketing specialist reviewing hotel booking campaigns and landing pages"
+  },
+  "industry-healthcare": {
+    "image": "industry-healthcare",
+    "alt": "Marketing specialist reviewing medical service content and appointment inquiry paths"
+  },
+  "healthcare-industry": {
+    "image": "industry-healthcare",
+    "alt": "Marketing specialist reviewing medical service content and appointment inquiry paths"
+  },
+  "carousel-healthcare": {
+    "image": "industry-healthcare",
+    "alt": "Marketing specialist reviewing medical service content and appointment inquiry paths"
+  },
+  "industry-travel": {
+    "image": "industry-travel",
+    "alt": "Marketing specialist reviewing travel campaign creatives and trip inquiry pages"
+  },
+  "travel-industry": {
+    "image": "industry-travel",
+    "alt": "Marketing specialist reviewing travel campaign creatives and trip inquiry pages"
+  },
+  "carousel-travel": {
+    "image": "industry-travel",
+    "alt": "Marketing specialist reviewing travel campaign creatives and trip inquiry pages"
+  },
+  "industry-saas": {
+    "image": "industry-saas",
+    "alt": "Marketing specialist reviewing software demo messaging and signup journeys"
+  },
+  "saas-industry": {
+    "image": "industry-saas",
+    "alt": "Marketing specialist reviewing software demo messaging and signup journeys"
+  },
+  "carousel-saas": {
+    "image": "industry-saas",
+    "alt": "Marketing specialist reviewing software demo messaging and signup journeys"
+  },
+  "industry-ecommerce": {
+    "image": "industry-ecommerce",
+    "alt": "Marketing specialist reviewing product campaign creatives and checkout paths"
+  },
+  "ecommerce-industry": {
+    "image": "industry-ecommerce",
+    "alt": "Marketing specialist reviewing product campaign creatives and checkout paths"
+  },
+  "carousel-ecommerce": {
+    "image": "industry-ecommerce",
+    "alt": "Marketing specialist reviewing product campaign creatives and checkout paths"
+  },
+  "industry-professional-services": {
+    "image": "industry-professional-services",
+    "alt": "Marketing specialist reviewing expertise content and consultation inquiry pages"
+  },
+  "professional-services-industry": {
+    "image": "industry-professional-services",
+    "alt": "Marketing specialist reviewing expertise content and consultation inquiry pages"
+  },
+  "carousel-professional-services": {
+    "image": "industry-professional-services",
+    "alt": "Marketing specialist reviewing expertise content and consultation inquiry pages"
+  },
+  "industry-home-services": {
+    "image": "industry-home-services",
+    "alt": "Marketing specialist reviewing local service campaigns and quote inquiry pages"
+  },
+  "home-services-industry": {
+    "image": "industry-home-services",
+    "alt": "Marketing specialist reviewing local service campaigns and quote inquiry pages"
+  },
+  "carousel-home-services": {
+    "image": "industry-home-services",
+    "alt": "Marketing specialist reviewing local service campaigns and quote inquiry pages"
+  },
+  "industry-education": {
+    "image": "industry-education",
+    "alt": "Marketing specialist reviewing course campaign creatives and enrollment inquiry paths"
+  },
+  "education-industry": {
+    "image": "industry-education",
+    "alt": "Marketing specialist reviewing course campaign creatives and enrollment inquiry paths"
+  },
+  "carousel-education": {
+    "image": "industry-education",
+    "alt": "Marketing specialist reviewing course campaign creatives and enrollment inquiry paths"
+  },
+  "industry-recruitment": {
+    "image": "industry-recruitment",
+    "alt": "Marketing specialist reviewing candidate acquisition campaigns and job-role audiences"
+  },
+  "recruitment-industry": {
+    "image": "industry-recruitment",
+    "alt": "Marketing specialist reviewing candidate acquisition campaigns and job-role audiences"
+  },
+  "carousel-recruitment": {
+    "image": "industry-recruitment",
+    "alt": "Marketing specialist reviewing candidate acquisition campaigns and job-role audiences"
+  },
+  "industry-logistics": {
+    "image": "industry-logistics",
+    "alt": "Marketing specialist reviewing B2B shipping content and quote inquiry campaigns"
+  },
+  "logistics-industry": {
+    "image": "industry-logistics",
+    "alt": "Marketing specialist reviewing B2B shipping content and quote inquiry campaigns"
+  },
+  "carousel-logistics": {
+    "image": "industry-logistics",
+    "alt": "Marketing specialist reviewing B2B shipping content and quote inquiry campaigns"
+  },
+  "industry-solar": {
+    "image": "industry-solar",
+    "alt": "Marketing specialist reviewing solar consultation campaigns and quote inquiry pages"
+  },
+  "solar-industry": {
+    "image": "industry-solar",
+    "alt": "Marketing specialist reviewing solar consultation campaigns and quote inquiry pages"
+  },
+  "carousel-solar": {
+    "image": "industry-solar",
+    "alt": "Marketing specialist reviewing solar consultation campaigns and quote inquiry pages"
+  },
+  "feature-industry-real-estate": {
+    "image": "industry-real-estate",
+    "alt": "Marketing specialist reviewing property viewing inquiry campaigns and landing pages"
+  },
+  "feature-industry-hospitality": {
+    "image": "industry-hospitality",
+    "alt": "Marketing specialist reviewing hotel booking campaigns and landing pages"
+  },
+  "feature-industry-healthcare": {
+    "image": "industry-healthcare",
+    "alt": "Marketing specialist reviewing medical service content and appointment inquiry paths"
+  },
+  "feature-industry-travel-&-tourism": {
+    "image": "industry-travel",
+    "alt": "Marketing specialist reviewing travel campaign creatives and trip inquiry pages"
+  },
+  "feature-industry-saas-&-technology": {
+    "image": "industry-saas",
+    "alt": "Marketing specialist reviewing software demo messaging and signup journeys"
+  },
+  "feature-industry-ecommerce": {
+    "image": "industry-ecommerce",
+    "alt": "Marketing specialist reviewing product campaign creatives and checkout paths"
+  },
+  "feature-industry-professional-services": {
+    "image": "industry-professional-services",
+    "alt": "Marketing specialist reviewing expertise content and consultation inquiry pages"
+  },
+  "feature-industry-home-services": {
+    "image": "industry-home-services",
+    "alt": "Marketing specialist reviewing local service campaigns and quote inquiry pages"
+  },
+  "feature-industry-education-&-training": {
+    "image": "industry-education",
+    "alt": "Marketing specialist reviewing course campaign creatives and enrollment inquiry paths"
+  },
+  "feature-industry-recruitment-&-staffing": {
+    "image": "industry-recruitment",
+    "alt": "Marketing specialist reviewing candidate acquisition campaigns and job-role audiences"
+  },
+  "feature-industry-logistics-&-supply-chain": {
+    "image": "industry-logistics",
+    "alt": "Marketing specialist reviewing B2B shipping content and quote inquiry campaigns"
+  },
+  "feature-industry-solar-&-energy-services": {
+    "image": "industry-solar",
+    "alt": "Marketing specialist reviewing solar consultation campaigns and quote inquiry pages"
+  },
+  "seo-bureau": {
+    "image": "on-page-seo",
+    "alt": "Editing service-page headings, content and search snippets"
+  },
+  "ppc-bureau": {
+    "image": "google-ads-management",
+    "alt": "Search campaign and keyword group optimization on a marketing dashboard"
+  },
+  "social-bureau": {
+    "image": "social-media-strategy",
+    "alt": "Planning social content themes and publishing schedules"
+  },
+  "organic-marketing": {
+    "image": "content-strategy",
+    "alt": "Organizing customer questions and an editorial content calendar"
+  },
+  "performance-marketing": {
+    "image": "paid-media-strategy",
+    "alt": "Planning audiences and budget allocation across paid media"
+  },
+  "goal-search-discovery": {
+    "image": "local-seo",
+    "alt": "Reviewing local map listings and service-area information"
+  },
+  "global": {
+    "image": "global-marketing",
+    "alt": "Remote collaboration on international marketing campaigns"
+  },
+  "about": {
+    "image": "about-team",
+    "alt": "Illustrative collaboration on website audits and marketing plans"
+  },
+  "blog": {
+    "image": "blog-marketing",
+    "alt": "Researching practical marketing articles and customer questions"
+  },
+  "home-priority": {
+    "image": "home-priority",
+    "alt": "Reviewing a website offer and customer inquiry journey"
+  },
+  "home-plan": {
+    "image": "home-plan",
+    "alt": "Organizing a connected marketing work plan"
+  },
+  "article-clicks-but-no-leads": {
+    "image": "article-clicks-but-no-leads",
+    "alt": "Paid search terms and campaign audit checklist under review"
+  },
+  "guide-card-clicks-but-no-leads": {
+    "image": "article-clicks-but-no-leads",
+    "alt": "Paid search terms and campaign audit checklist under review"
+  },
+  "article-traffic-but-no-enquiries": {
+    "image": "article-traffic-but-no-enquiries",
+    "alt": "Reviewing a website heatmap and inquiry journey"
+  },
+  "guide-card-traffic-but-no-enquiries": {
+    "image": "article-traffic-but-no-enquiries",
+    "alt": "Reviewing a website heatmap and inquiry journey"
+  },
+  "article-measure-qualified-leads": {
+    "image": "article-measure-qualified-leads",
+    "alt": "Reviewing CRM inquiries and lead qualification criteria"
+  },
+  "guide-card-measure-qualified-leads": {
+    "image": "article-measure-qualified-leads",
+    "alt": "Reviewing CRM inquiries and lead qualification criteria"
+  },
+  "article-international-service-pages": {
+    "image": "article-international-service-pages",
+    "alt": "Reviewing regional service content and international search questions"
+  },
+  "guide-card-international-service-pages": {
+    "image": "article-international-service-pages",
+    "alt": "Reviewing regional service content and international search questions"
+  },
+  "smm-bureau": {
+    "image": "social-media-strategy",
+    "alt": "Planning social content themes and publishing schedules"
+  }
+}
