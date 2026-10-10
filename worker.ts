@@ -9,17 +9,17 @@ import {marketTranslations} from "@/lib/market-locales";
 // The public Marpixel HTML is served directly for many URLs, bypassing the
 // React site shell. Keep its desktop/mobile navigation aligned with the site.
 function refreshPublicNavigation(html:string){
- const countries=/<li class="dropdown"><a href="\/markets">Countries<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g;
- const oldServices=/<li class="dropdown"><a href="\/services">Services<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g;
+ // Static Marpixel menus have trailing-slash hrefs, unlike the React shell.
+ // Limit edits to menu LI groups; preserve country URLs elsewhere in content.
+ const countries=/<li class="dropdown"><a href="\\/markets\\/?">Countries<\\/a><ul class="dropdown-menu clearfix">[\\s\\S]*?<\\/ul><\\/li>/g;
+ const oldServices=/<li class="dropdown"><a href="\\/services\\/?">Services<\\/a><ul class="dropdown-menu clearfix">[\\s\\S]*?<\\/ul><\\/li>/g;
  const servicesMenu='<li class="dropdown"><a href="/services">Services</a><ul class="dropdown-menu clearfix"><li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li><li><a href="/services">All Services</a></li></ul></li>';
  html=html.replace(countries,'').replace(oldServices,servicesMenu);
- // Make primary bureaus available without opening the dropdown.
  const primary='<li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li>';
- html=html.replace(/(<ul id="(?:main-nav|m-main-nav)"[^>]*><li><a href="\/">Home<\/a><\/li>)/g,'$1'+primary);
- // The market directory remains crawlable and usable when country menus vanish.
+ html=html.replace(/(<ul id="(?:main-nav|m-main-nav)"[^>]*>)/g,'$1'+primary);
  if(!html.includes('dmb-footer-market-directory')){
   const links=markets.map(m=>'<a href="/markets/'+m.slug+'">'+m.name+'</a>').join(' ');
-  html=html.replace(/<\/footer>/i,'<nav class="dmb-footer-market-directory" aria-label="Our markets"><h3>Our Markets</h3><div class="dmb-footer-market-grid">'+links+'</div><a href="/markets">All markets</a></nav></footer>');
+  html=html.replace(/<\\/footer>/i,'<nav class="dmb-footer-market-directory" aria-label="Our markets"><h3>Our Markets</h3><div class="dmb-footer-market-grid">'+links+'</div><a href="/markets">All markets</a></nav></footer>');
  }
  return html;
 }
@@ -65,7 +65,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-navigation-source-40');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-navigation-source-41');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);
