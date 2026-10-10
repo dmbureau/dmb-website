@@ -27,6 +27,7 @@ async function start(){
  const liquid=one('#ax_liquid_img');if(liquid&&matchMedia('(pointer:fine)').matches)restoreLiquid(liquid,g);
  all('.dmb-theme-site main .service-card,.dmb-theme-site main .industry-card,.dmb-theme-site main .blog-card,.dmb-theme-site main .process-card,.theme-journey-card').forEach(el=>g.from(el,{y:50,opacity:0,duration:.8,ease:'power2.out',immediateRender:false,scrollTrigger:{trigger:el,start:'top 92%',once:true}}));
  all('.dmb-theme-site main .photograph-feature img').forEach(el=>g.fromTo(el,{scale:1.08},{scale:1,ease:'none',immediateRender:false,scrollTrigger:{trigger:el,start:'top bottom',end:'bottom top',scrub:1}}));
+ all('.marpixel-about-visual,.marpixel-contact-art,.marpixel-blog-post,.marpixel-about-purpose article,.marpixel-contact-points article').forEach(el=>g.from(el,{y:35,opacity:0,duration:.8,ease:'power2.out',immediateRender:false,scrollTrigger:{trigger:el,start:'top 92%',once:true}}));
  all('.theme-hero-art').forEach(el=>g.fromTo(el,{clipPath:'inset(10% 10% 10% 10% round 40px)',y:40},{clipPath:'inset(0% 0% 0% 0% round 0px)',y:0,duration:1.3,ease:'power2.out',immediateRender:false}));
  document.fonts.ready.then(()=>ScrollTrigger.refresh());
 }
