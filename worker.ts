@@ -1,3 +1,4 @@
+import {editorialSectionUpdates} from '@/lib/editorial-section-updates';
 import {regionalEditorialUpdates} from '@/lib/regional-editorial-updates';
 import {serviceTextUpdates} from '@/lib/service-text-updates';
 import {optimizeStaticSeo} from '@/lib/keyword-targets';
@@ -51,7 +52,7 @@ function refreshServiceText(html:string,path:string){
 
 
 function refreshRegionalText(html:string,path:string){
- const updates=regionalEditorialUpdates[path];
+ const updates=[...(regionalEditorialUpdates[path]||[]),...(editorialSectionUpdates[path]||[])];
  if(!updates)return html;
  const encode=(s:string)=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
  for(const {from,to} of updates){
@@ -107,7 +108,7 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-human-content-49');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-editorial-content-50');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);
