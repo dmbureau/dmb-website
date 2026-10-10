@@ -214,3 +214,34 @@
 .detail-layout .eyebrow{font-size:13px;line-height:1.5;letter-spacing:1.1px}
 .detail-layout .scope-note,.detail-layout aside .small-note{font-size:15px;line-height:1.7}
 @media(max-width:760px){.detail-layout .content-section>p,.detail-layout .numbered-steps p{font-size:18px;line-height:1.75}.detail-layout .content-section h3{font-size:24px}.detail-layout .check-list li,.detail-layout .faq-list p{font-size:17px}}
+
+/* A readable pace and a distinct, restrained motion for each industry. */
+@media(prefers-reduced-motion:no-preference){
+.industry-carousel .industry-slide{animation-duration:.75s;animation-timing-function:cubic-bezier(.2,.7,.3,1)}
+.industry-slide[data-industry="real-estate"]{animation-name:dmb-property-enter}
+.industry-slide[data-industry="hospitality"]{animation-name:dmb-stay-enter}
+.industry-slide[data-industry="healthcare"]{animation-name:dmb-care-enter}
+.industry-slide[data-industry="travel"]{animation-name:dmb-travel-enter}
+.industry-slide[data-industry="saas"]{animation-name:dmb-product-enter}
+.industry-slide[data-industry="ecommerce"]{animation-name:dmb-shop-enter}
+.industry-slide .hybrid-visual>img{animation-duration:5.5s;animation-timing-function:ease-in-out;animation-iteration-count:1;animation-fill-mode:both}
+.industry-slide[data-industry="real-estate"] .hybrid-visual>img{animation-name:dmb-image-zoom-in}
+.industry-slide[data-industry="hospitality"] .hybrid-visual>img{animation-name:dmb-image-pan-left}
+.industry-slide[data-industry="healthcare"] .hybrid-visual>img{animation-name:dmb-image-rise}
+.industry-slide[data-industry="travel"] .hybrid-visual>img{animation-name:dmb-image-pan-right}
+.industry-slide[data-industry="saas"] .hybrid-visual>img{animation-name:dmb-image-zoom-out}
+.industry-slide[data-industry="ecommerce"] .hybrid-visual>img{animation-name:dmb-image-diagonal}
+}
+@keyframes dmb-property-enter{from{transform:translateX(6%)}to{transform:translateX(0)}}
+@keyframes dmb-stay-enter{from{transform:translateX(-5%)}to{transform:translateX(0)}}
+@keyframes dmb-care-enter{from{transform:translateY(18px)}to{transform:translateY(0)}}
+@keyframes dmb-travel-enter{from{transform:translateX(8%)}to{transform:translateX(0)}}
+@keyframes dmb-product-enter{from{transform:scale(.97)}to{transform:scale(1)}}
+@keyframes dmb-shop-enter{from{transform:translateY(-16px)}to{transform:translateY(0)}}
+@keyframes dmb-image-zoom-in{from{transform:scale(1)}to{transform:scale(1.055)}}
+@keyframes dmb-image-pan-left{from{transform:scale(1.06) translateX(1%)}to{transform:scale(1.06) translateX(-1%)}}
+@keyframes dmb-image-rise{from{transform:scale(1.04) translateY(1%)}to{transform:scale(1.04) translateY(-1%)}}
+@keyframes dmb-image-pan-right{from{transform:scale(1.06) translateX(-1%)}to{transform:scale(1.06) translateX(1%)}}
+@keyframes dmb-image-zoom-out{from{transform:scale(1.065)}to{transform:scale(1.01)}}
+@keyframes dmb-image-diagonal{from{transform:scale(1.055) translate(-.7%,.7%)}to{transform:scale(1.055) translate(.7%,-.7%)}}
+@media(prefers-reduced-motion:reduce){.industry-carousel .industry-slide,.industry-carousel .industry-slide .hybrid-visual>img{animation:none!important;transform:none!important}}
