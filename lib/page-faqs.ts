@@ -94,7 +94,9 @@ function questions(path:string):QA[]{
  return [];
 }
 export function withPageFaq(html:string,path:string):string{
- if(!html.includes('</body>')||html.includes('id="dmb-page-faq"'))return html;
+ // Homepage has a themed FAQ accordion with its own unique Q&As.
+ // Do not insert a second FAQ block on this route.
+ if(path==='/'||!html.includes('</body>')||html.includes('id="dmb-page-faq"'))return html;
  const items=questions(path);
  if(!items.length)return html;
  const rows=items.map(({q,a})=>'<details class="dmb-faq-item"><summary>'+clean(q)+'</summary><p>'+clean(a)+'</p></details>').join('');
