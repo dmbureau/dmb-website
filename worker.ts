@@ -5,6 +5,25 @@ import {services,industries} from "@/lib/content";
 import {markets} from "@/lib/markets";
 import {articles} from "@/lib/articles";
 import {marketTranslations} from "@/lib/market-locales";
+
+// The public Marpixel HTML is served directly for many URLs, bypassing the
+// React site shell. Keep its desktop/mobile navigation aligned with the site.
+function refreshPublicNavigation(html:string){
+ const countries=/<li class="dropdown"><a href="\/markets">Countries<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g;
+ const oldServices=/<li class="dropdown"><a href="\/services">Services<\/a><ul class="dropdown-menu clearfix">[\s\S]*?<\/ul><\/li>/g;
+ const servicesMenu='<li class="dropdown"><a href="/services">Services</a><ul class="dropdown-menu clearfix"><li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li><li><a href="/services">All Services</a></li></ul></li>';
+ html=html.replace(countries,'').replace(oldServices,servicesMenu);
+ // Make primary bureaus available without opening the dropdown.
+ const primary='<li><a href="/seo-bureau">SEO Bureau</a></li><li><a href="/ppc-bureau">PPC Bureau</a></li><li><a href="/smm-bureau">SMM Bureau</a></li>';
+ html=html.replace(/(<ul id="(?:main-nav|m-main-nav)"[^>]*><li><a href="\/">Home<\/a><\/li>)/g,'$1'+primary);
+ // The market directory remains crawlable and usable when country menus vanish.
+ if(!html.includes('dmb-footer-market-directory')){
+  const links=markets.map(m=>'<a href="/markets/'+m.slug+'">'+m.name+'</a>').join(' ');
+  html=html.replace(/<\/footer>/i,'<nav class="dmb-footer-market-directory" aria-label="Our markets"><h3>Our Markets</h3><div class="dmb-footer-market-grid">'+links+'</div><a href="/markets">All markets</a></nav></footer>');
+ }
+ return html;
+}
+const liveHomepageHtml=refreshPublicNavigation(marpixelHome.html);
 const canonicalPages=new Set(["/","/services","/industries","/markets","/blog","/about","/contact","/privacy","/dmb-audit","/performance-marketing","/organic-marketing","/seo-bureau","/ppc-bureau","/smm-bureau","/tools",...services.filter(s=>s.slug!=='seo-bureau').map(s=>"/services/"+s.slug),...industries.map(i=>"/industries/"+i.slug),...markets.map(m=>"/markets/"+m.slug),...articles.map(a=>"/blog/"+a.slug),...marketTranslations.map(p=>"/markets/"+p.slug+"/"+p.language)]);
 export default {
  async fetch(request:Request,env:Cloudflare.Env,ctx:ExecutionContext){
@@ -17,6 +36,7 @@ export default {
     const assetUrl=new URL(url);assetUrl.pathname='/marpixel'+((marpixelRoutes as string[]).includes(path)?(path==='/'?'/index.html':path+'/index.html'):path);
     const response=await assets.fetch(new Request(assetUrl,{method:request.method}));
     const headers=new Headers(response.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Cache-Control',assetUrl.pathname.endsWith('.html')?'public, max-age=0, must-revalidate':'public, max-age=3600');
+    if(assetUrl.pathname.endsWith('.html')&&response.ok){const updated=refreshPublicNavigation(await response.text());headers.delete('Content-Length');return new Response(updated,{status:response.status,headers})}
     return new Response(response.body,{status:response.status,headers});
    }
   }
@@ -45,13 +65,13 @@ export default {
   const publicPath=url.pathname==='/'||/^\/(services|industries|markets|blog)(\/|$)/.test(url.pathname)||['/about','/contact'].includes(url.pathname);
   const isDocument=request.method==='GET'&&publicPath&&!url.search&&!request.headers.has('cookie')&&!request.headers.has('authorization')&&!(request.headers.get('accept')||'').includes('text/x-component')&&!Array.from(request.headers.keys()).some(key=>key==='rsc'||key.startsWith('next-router-')||key==='next-url'||key.startsWith('x-vinext-'));
   const edgeCache=typeof caches==='undefined'?undefined:(caches as CacheStorage & {default:Cache}).default;
-  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-marpixel-pages-39');
+  const cacheKey=new Request(url.origin+url.pathname+'?dmb-document-cache=20261010-navigation-source-40');
   if(isDocument&&edgeCache){const cached=await edgeCache.match(cacheKey);if(cached){const hit=new Response(cached.body,cached);hit.headers.set('Cache-Control','public, max-age=0, must-revalidate');hit.headers.set('X-DMB-Cache','HIT');return hit}}
   // Override client input so the document language follows the actual route.
   const requestHeaders=new Headers(request.headers);
   requestHeaders.set('x-dmb-pathname',url.pathname);
   const routedRequest=new Request(request,{headers:requestHeaders});
-  const response=url.pathname==='/'&&request.method==='GET'&&!request.headers.has('rsc')&&!(request.headers.get('accept')||'').includes('text/x-component')?new Response(marpixelHome.html,{headers:{'Content-Type':'text/html; charset=utf-8'}}):await handler.fetch(routedRequest,env,ctx);
+  const response=url.pathname==='/'&&request.method==='GET'&&!request.headers.has('rsc')&&!(request.headers.get('accept')||'').includes('text/x-component')?new Response(liveHomepageHtml,{headers:{'Content-Type':'text/html; charset=utf-8'}}):await handler.fetch(routedRequest,env,ctx);
   const secured=new Response(response.body,response);
   secured.headers.set('X-Content-Type-Options','nosniff');
   secured.headers.set('Referrer-Policy','strict-origin-when-cross-origin');
